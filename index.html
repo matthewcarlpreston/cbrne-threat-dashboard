@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CBRN-E &amp; Novel Weapons OSINT Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-title">
+      <h1>CBRN-E &amp; Novel Weapons OSINT Dashboard</h1>
+      <p class="subtitle">Open-source signal detection over publicly reported CBRN-E and novel-weapons news coverage</p>
+    </div>
+    <div class="header-meta">
+      <span id="last-updated" class="pill">Loading…</span>
+      <span id="total-items" class="pill pill-accent"></span>
+    </div>
+  </div>
+  <div class="scope-banner">
+    <strong>Scope guardrail:</strong> this dashboard aggregates and classifies <em>publicly reported news coverage</em>
+    of CBRN-E and novel-weapons events — proliferation, seizures, incidents, policy actions, sanctions. It does not
+    collect, generate, or reference any technical weapons information (synthesis routes, device design, targeting
+    data, etc.). It is an OSINT signal-detection tool, not a weapons reference. See
+    <a href="https://github.com/" id="readme-link">README</a> for methodology.
+  </div>
+</header>
+
+<main class="layout">
+
+  <section class="panel filters" aria-label="Filters">
+    <div class="filter-group" id="category-filters">
+      <span class="filter-label">Category</span>
+      <div class="chip-row" id="category-chips"></div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">Time range</span>
+      <div class="chip-row" id="range-chips">
+        <button class="chip" data-range="1">Last 24h</button>
+        <button class="chip" data-range="7">Last 7 days</button>
+        <button class="chip is-active" data-range="14">Last 14 days</button>
+        <button class="chip" data-range="all">All retained</button>
+      </div>
+    </div>
+    <div class="filter-group search-group">
+      <span class="filter-label">Search</span>
+      <input type="search" id="search-input" placeholder="Filter by keyword, source, or country…">
+    </div>
+  </section>
+
+  <section class="panel stat-tiles" aria-label="Summary">
+    <div class="stat-tile">
+      <div class="stat-value" id="stat-total">–</div>
+      <div class="stat-label">Items shown</div>
+    </div>
+    <div class="stat-tile">
+      <div class="stat-value" id="stat-countries">–</div>
+      <div class="stat-label">Countries reporting</div>
+    </div>
+    <div class="stat-tile">
+      <div class="stat-value" id="stat-top-category">–</div>
+      <div class="stat-label">Leading category</div>
+    </div>
+    <div class="stat-tile">
+      <div class="stat-value" id="stat-window">–</div>
+      <div class="stat-label">Retention window</div>
+    </div>
+  </section>
+
+  <section class="panel chart-panel" aria-label="Category breakdown">
+    <h2>Coverage by category</h2>
+    <div class="chart-wrap">
+      <canvas id="category-chart" height="220"></canvas>
+    </div>
+  </section>
+
+  <section class="panel chart-panel" aria-label="Geographic breakdown">
+    <h2>Top reporting countries</h2>
+    <div id="country-list" class="country-list"></div>
+  </section>
+
+  <section class="panel feed-panel" aria-label="Item feed">
+    <h2>Feed <span id="feed-count" class="feed-count"></span></h2>
+    <div id="feed-list" class="feed-list"></div>
+    <p id="feed-empty" class="feed-empty" hidden>No items match the current filters.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>
+    Sources: <a href="https://api.gdeltproject.org/api/v2/doc/doc" target="_blank" rel="noopener">GDELT DOC 2.0 API</a>
+    (theme:WMD + targeted keyword queries), IAEA, OPCW, and NTI RSS feeds. Refreshed automatically via GitHub
+    Actions. Classification is keyword/regex-based against public headlines only — see
+    <code>scripts/classify.py</code>.
+  </p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

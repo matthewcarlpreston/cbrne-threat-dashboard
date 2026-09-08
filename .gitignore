@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw_gdelt.json
+data/raw_rss.json
+.DS_Store

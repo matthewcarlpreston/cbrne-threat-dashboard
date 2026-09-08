@@ -1,0 +1,264 @@
+{
+  "generated_at": "2026-09-08T21:37:40.447292+00:00",
+  "retention_days": 14,
+  "lookback_hours": 24,
+  "total_items": 15,
+  "category_labels": {
+    "chemical": "Chemical",
+    "biological": "Biological",
+    "radiological_nuclear": "Radiological/Nuclear",
+    "explosives": "Explosives",
+    "autonomous_weapons": "Autonomous Weapons",
+    "directed_energy": "Directed Energy Weapons"
+  },
+  "category_counts": {
+    "chemical": 3,
+    "biological": 0,
+    "radiological_nuclear": 10,
+    "explosives": 1,
+    "autonomous_weapons": 0,
+    "directed_energy": 1
+  },
+  "country_counts": {
+    "United States": 2,
+    "India": 1,
+    "South Korea": 2,
+    "China": 2,
+    "Austria": 7,
+    "Netherlands": 1
+  },
+  "items": [
+    {
+      "title": "Roseville police investigate suspected explosive device found during traffic stop",
+      "url": "https://www.cbsnews.com/sacramento/news/roseville-police-suspected-explosive-device-traffic-stop/",
+      "source_domain": "cbsnews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T05:00:00+00:00",
+      "language": "English",
+      "image_url": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/01/14/202b1b5c-802d-4eb8-898a-8362eccd5465/thumbnail/1200x630/570835063a903f71880eae3e40757ad6/gettyimages-1480290188.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Beyond Surya : DRDO Eyes 500 kW - Class Laser Weapon After 300 kW Programme , Sources",
+      "url": "https://idrw.org/beyond-surya-drdo-eyes-500-kw-class-laser-weapon-after-300-kw-programme-sources/",
+      "source_domain": "idrw.org",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T04:00:00+00:00",
+      "language": "English",
+      "image_url": "https://i.ibb.co/MxTqgTnC/1bc631ba-d5af-4bd7-89fa-0f2cee153834.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "directed_energy"
+      ]
+    },
+    {
+      "title": "IAEA says Korea notifies intent to consult on safeguards arrangement for nuclear - powered subs",
+      "url": "https://www.koreatimes.co.kr/foreignaffairs/20260908/iaea-says-korea-notifies-intent-to-consult-on-safeguards-arrangement-for-nuclear-powered-subs",
+      "source_domain": "koreatimes.co.kr",
+      "source_country": "South Korea",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T04:00:00+00:00",
+      "language": "English",
+      "image_url": "https://newsimg.koreatimes.co.kr/2026/09/08/158cd951-d989-421d-9d4f-a1c513ea8a7a.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Japan urged to thoroughly destroy its chemical weapons abandoned in China : spokesperson",
+      "url": "http://europe.chinadaily.com.cn/a/202609/07/WS6a9ec497e4b06d4aa055ccb5.html",
+      "source_domain": "europe.chinadaily.com.cn",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T02:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Japan urged to thoroughly destroy its chemical weapons abandoned in China : spokesperson",
+      "url": "http://global.chinadaily.com.cn/a/202609/07/WS6a9ec497e4b06d4aa055ccb5.html",
+      "source_domain": "global.chinadaily.com.cn",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T02:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "IAEA says S . Korea notifies intent to consult on safeguards arrangement for nuclear - powered subs",
+      "url": "https://www.koreaherald.com/article/10866075",
+      "source_domain": "koreaherald.com",
+      "source_country": "South Korea",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T02:00:00+00:00",
+      "language": "English",
+      "image_url": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.925e4945e9e94d088dc8ee6bd158d389_T1.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Assad - Era Syrian Reactor Was Configured For Nuclear Weapons , IAEA Chief Says",
+      "url": "https://www.theyeshivaworld.com/news/general/2595126/assad-era-syrian-reactor-was-configured-for-nuclear-weapons-iaea-chief-says.html",
+      "source_domain": "theyeshivaworld.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T00:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.theyeshivaworld.com/wp-content/uploads/2026/09/AP26230556938439.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Hosts Workshop for International Financial Institutions on Nuclear Financing",
+      "url": "http://www.iaea.org/newscenter/news/iaea-hosts-workshop-for-international-financial-institutions-on-nuclear-financing",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-08T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+      "url": "http://www.iaea.org/newscenter/statements/iaea-director-generals-introductory-statement-to-the-board-of-governors-7-september-2026",
+      "summary": "(As prepared for delivery)\nLadies and gentlemen,\nIn a fragmented world, the IAEA is more indispensable than ever. Our impartial and expert work is part of some of the most sensitive and consequential international efforts of our time.",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-07T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Update 365 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-365-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-05T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Reviews Finland's Nuclear and Radiological Emergency Preparedness and Response",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-finlands-nuclear-and-radiological-emergency-preparedness-and-response",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-03T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
+      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-23rd-batch-of-alps-treated-water-iaea-confirms",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-08-31T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Update 364 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-364-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-08-29T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "OPCW Director-General Sabrina Dallafior on official visit to France",
+      "url": "https://www.opcw.org/media-centre/news/2026/08/opcw-director-general-sabrina-dallafior-official-visit-france",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior on official visit to France</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW Director-General Sabrina Dallafior (left) meets with Jean-Noël Barrot, Minister for Europe and Foreign Affairs of France, during her official visit to Paris, France, on 26 August 2026.\" src=\"https://w",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-08-27T08:16:57+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-launches-atlas-as-countries-explore-nuclear-power-for-shipping-and-offshore-energy",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-08-26T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    }
+  ]
+}

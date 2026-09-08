@@ -1,0 +1,45 @@
+name: Update CBRN-E OSINT data
+
+on:
+  schedule:
+    # Every 6 hours. GDELT's DOC 2.0 API is free/keyless -- this cadence is
+    # intentionally conservative (see README "reasonable-use" note).
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}  # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: python scripts/build_json.py --hours 24 --retention-days 14
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Automated data update: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            git push
+          fi
