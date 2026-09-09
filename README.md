@@ -21,8 +21,7 @@ published, and no full article bodies are stored. This is an open-source-intelli
 
 ## Live dashboard
 
-Once deployed to GitHub Pages, the dashboard is available at:
-`https://<your-username>.github.io/<repo-name>/`
+**https://matthewcarlpreston.github.io/cbrne-threat-dashboard/**
 
 ## Architecture
 
