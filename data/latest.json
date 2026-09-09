@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T21:37:40.447292+00:00",
+  "generated_at": "2026-09-09T22:01:04.426293+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 15,
+  "total_items": 16,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -12,7 +12,7 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 3,
+    "chemical": 4,
     "biological": 0,
     "radiological_nuclear": 10,
     "explosives": 1,
@@ -20,14 +20,44 @@
     "directed_energy": 1
   },
   "country_counts": {
+    "Netherlands": 2,
+    "Austria": 7,
     "United States": 2,
     "India": 1,
     "South Korea": 2,
-    "China": 2,
-    "Austria": 7,
-    "Netherlands": 1
+    "China": 2
   },
   "items": [
+    {
+      "title": "Sweden provides voluntary funding to support OPCW’s work",
+      "url": "https://www.opcw.org/media-centre/news/2026/09/sweden-provides-voluntary-funding-support-opcws-work",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T07:29:49+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Ukrainian NPP Workers’ Children Meet with DG, Tour IAEA HQ as Part of Summer Camp Programme Hosted by Austria",
+      "url": "http://www.iaea.org/newscenter/news/ukrainian-npp-workers-children-meet-with-dg-tour-iaea-hq-as-part-of-summer-camp-programme-hosted-by-austria",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
     {
       "title": "Roseville police investigate suspected explosive device found during traffic stop",
       "url": "https://www.cbsnews.com/sacramento/news/roseville-police-suspected-explosive-device-traffic-stop/",
@@ -233,7 +263,7 @@
     {
       "title": "OPCW Director-General Sabrina Dallafior on official visit to France",
       "url": "https://www.opcw.org/media-centre/news/2026/08/opcw-director-general-sabrina-dallafior-official-visit-france",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior on official visit to France</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW Director-General Sabrina Dallafior (left) meets with Jean-Noël Barrot, Minister for Europe and Foreign Affairs of France, during her official visit to Paris, France, on 26 August 2026.\" src=\"https://w",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior on official visit to France</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General Sabrina Dallafior (left) meets with Jean-Noël Barrot, Minister for Europe and Foreign Affairs of France, during her official visit to Paris, France, on 26 August 2026.\" src",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -244,21 +274,15 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "IAEA Launches ATLAS as Countries Explore Nuclear Power for Shipping and Offshore Energy",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-launches-atlas-as-countries-explore-nuclear-power-for-shipping-and-offshore-energy",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-08-26T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "radiological_nuclear"
-      ]
     }
-  ]
+  ],
+  "twitter_signal": [],
+  "twitter_category_totals": {
+    "chemical": 0,
+    "biological": 0,
+    "radiological_nuclear": 0,
+    "explosives": 0,
+    "autonomous_weapons": 0,
+    "directed_energy": 0
+  }
 }

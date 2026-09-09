@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 data/raw_gdelt.json
 data/raw_rss.json
+data/raw_twitter.json
 .DS_Store

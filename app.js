@@ -24,6 +24,7 @@
     rangeDays: 14,
     searchTerm: "",
     chart: null,
+    twitterChart: null,
   };
 
   const el = (id) => document.getElementById(id);
@@ -138,6 +139,60 @@
             maxBarThickness: 46,
           },
         ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: { color: getComputedStyle(document.documentElement).getPropertyValue("--text-secondary") },
+          },
+          y: {
+            beginAtZero: true,
+            ticks: {
+              precision: 0,
+              color: getComputedStyle(document.documentElement).getPropertyValue("--text-muted"),
+            },
+            grid: { color: getComputedStyle(document.documentElement).getPropertyValue("--gridline") },
+          },
+        },
+      },
+    });
+  }
+
+  function renderTwitterChart(data) {
+    const panel = el("twitter-panel");
+    const canvas = el("twitter-chart");
+    const empty = el("twitter-empty");
+    const totals = data.twitter_category_totals || {};
+    const hasSignal = Object.values(totals).some((n) => n > 0);
+
+    if (!hasSignal) {
+      canvas.hidden = true;
+      empty.hidden = false;
+      if (state.twitterChart) {
+        state.twitterChart.destroy();
+        state.twitterChart = null;
+      }
+      return;
+    }
+    canvas.hidden = false;
+    empty.hidden = true;
+
+    const labels = data.category_labels || CATEGORY_FALLBACK_LABELS;
+    const counts = CATEGORY_ORDER.map((cat) => totals[cat] || 0);
+    const colors = CATEGORY_ORDER.map(categoryColor);
+    const displayLabels = CATEGORY_ORDER.map((c) => labels[c] || CATEGORY_FALLBACK_LABELS[c]);
+
+    const ctx = canvas.getContext("2d");
+    if (state.twitterChart) state.twitterChart.destroy();
+    state.twitterChart = new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: displayLabels,
+        datasets: [{ data: counts, backgroundColor: colors, borderRadius: 4, maxBarThickness: 46 }],
       },
       options: {
         responsive: true,
@@ -289,6 +344,7 @@
       state.data = data;
       renderHeader(data);
       buildCategoryChips(data.category_labels || CATEGORY_FALLBACK_LABELS);
+      renderTwitterChart(data);
       render();
     } catch (err) {
       el("last-updated").textContent = "Failed to load data";

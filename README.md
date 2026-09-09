@@ -56,6 +56,7 @@ cbrne-threat-dashboard/
 ├── scripts/
 │   ├── fetch_gdelt.py                  # GDELT DOC 2.0 API queries
 │   ├── fetch_rss.py                    # IAEA / OPCW / NTI RSS feeds
+│   ├── fetch_twitter.py                # X/Twitter aggregate keyword-volume counts (optional)
 │   ├── classify.py                     # keyword/regex domain classification
 │   └── build_json.py                   # orchestrates fetch → classify → merge → write
 ├── data/
@@ -96,9 +97,35 @@ starts silently returning zero items, verify the URL still resolves before assum
 there's no news (a genuinely empty feed happens too — NTI's has returned zero `<item>`
 entries during testing while still being a valid, reachable feed).
 
-**X/Twitter**: evaluated and intentionally excluded. X discontinued free API read access
-in Feb 2026; there's no working free tier for new access, and this project didn't spend
-money on API access for a portfolio piece.
+**X/Twitter** (optional, aggregate-counts only — `scripts/fetch_twitter.py`)
+- X discontinued free API read access in Feb 2026; there is no working free tier, so this
+  source is opt-in and requires a `TWITTER_BEARER_TOKEN` (see Secrets below). Without it,
+  `fetch_twitter.py` no-ops — one log line, empty result, rest of the pipeline unaffected.
+- Uses the v2 recent-search endpoint (`tweets/search/recent`) with one short keyword query
+  per taxonomy category (e.g. chemical: `sarin OR "nerve agent" OR "chemical weapon" OR
+  "chemical attack" OR novichok`), `-is:retweet lang:en` to cut noise/double-counting.
+- **Deliberately aggregate-only by construction, not just by convention.** The script reads
+  only `len(data)`/`meta.result_count` and the latest `created_at` from each response, then
+  lets the raw tweet objects (which always include `id` + `text`) go out of scope —
+  nothing with tweet text, a handle, or a user ID is ever assigned to a value that reaches
+  a log line, `data/latest.json`, or the dashboard. This follows the same two-provision
+  read of X's Developer Agreement that motivated the design: [display requirements](https://docs.x.com/developer-terms/agreement)
+  (attribution, no content alteration, no iframe embedding of X content as of the April 2026
+  agreement) apply to *showing* X content, while [aggregate analysis that retains no personal
+  identifiers](https://developer.x.com/developer-terms/more-on-restricted-use-cases) is
+  explicitly permitted — this pipeline only ever does the latter. Per the same terms, this
+  project will never infer a user's political affiliation, religion, health, or other
+  protected characteristic from post content; the pipeline has no mechanism to do so (it
+  counts keyword matches per category, it does not read or retain author-level data).
+- **Cost**: pay-per-use, ~$0.005/read, no free tier ([source](https://twitterapi.io/blog/x-api-cost-breakdown-2026)).
+  At the default `--twitter-max-results 10` (the API's minimum) across 6 categories on the
+  pipeline's 6-hour cadence, that's ~240 reads/day ≈ **$1.20/day**. Lower the cron frequency
+  in `update-data.yml` or drop the `TWITTER_BEARER_TOKEN` secret entirely to cut spend to
+  zero. Confirm your key's actual access tier/billing status in the X developer portal
+  before enabling this in a scheduled workflow.
+- Dashboard shows this as a single "X/Twitter keyword volume" bar chart of aggregate counts
+  per category over the retention window — no post list, because there is no post-level
+  data to list.
 
 ## Classification
 
@@ -134,6 +161,8 @@ Static HTML/CSS/JS, no build step, reads `data/latest.json` via `fetch()`:
 - Summary stat tiles (items shown, countries reporting, leading category, retention window)
 - Category breakdown bar chart (Chart.js)
 - Top reporting countries
+- X/Twitter keyword-volume chart (aggregate counts only; shows an empty state if the
+  source isn't configured for a given deployment)
 - Filterable/searchable item feed, newest first
 
 ## Build phases (as executed)
@@ -154,6 +183,18 @@ Static HTML/CSS/JS, no build step, reads `data/latest.json` via `fetch()`:
 - The GitHub Action runs every 6 hours. GDELT's free API has no published hard quota but
   publishes rate-limit guidance (~1 req/5s/IP) and asks high-volume users to switch to
   their bulk datasets — a 6-hour cadence across 4 queries is well inside reasonable use.
+
+## Secrets
+
+`TWITTER_BEARER_TOKEN` (optional) — only needed to enable the X/Twitter signal.
+1. GitHub repo → Settings → Secrets and variables → Actions → New repository secret,
+   name it `TWITTER_BEARER_TOKEN`, paste the bearer token value there.
+2. `.github/workflows/update-data.yml` passes it to the pipeline as an env var
+   (`${{ secrets.TWITTER_BEARER_TOKEN }}`) — never committed, never logged.
+3. To test locally, set it as a local environment variable in your own shell before
+   running `build_json.py`/`fetch_twitter.py` — don't put it in a file that gets committed.
+4. Removing the secret (or never adding it) simply turns this source off; nothing else
+   in the pipeline depends on it.
 
 ## Running locally
 
@@ -177,9 +218,15 @@ Then open `http://localhost:8080`.
   geography.
 - Duplicate coverage of the same story by different outlets is expected and shown as
   separate items (dedup is by exact URL only).
+- X/Twitter counts are a volume **proxy**, not an exhaustive match count: each category
+  query reads one page of up to `--twitter-max-results` (default 10) recent posts per run,
+  by design, to control cost — it is not the true total number of matching posts on X.
 
 ## Attribution
 
 - [GDELT DOC 2.0 API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/)
 - [IAEA](https://www.iaea.org/), [OPCW](https://www.opcw.org/), [NTI](https://www.nti.org/) news feeds
+- [X Developer Agreement](https://docs.x.com/developer-terms/agreement) /
+  [X restricted use cases](https://developer.x.com/developer-terms/more-on-restricted-use-cases) /
+  [X API pricing](https://twitterapi.io/blog/x-api-cost-breakdown-2026)
 - [Chart.js](https://www.chartjs.org/)

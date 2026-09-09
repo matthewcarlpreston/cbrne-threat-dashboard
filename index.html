@@ -81,6 +81,19 @@
     <div id="country-list" class="country-list"></div>
   </section>
 
+  <section class="panel chart-panel twitter-panel" aria-label="X/Twitter aggregate signal" id="twitter-panel">
+    <h2>X/Twitter keyword volume <span class="panel-note">(aggregate counts only)</span></h2>
+    <div class="chart-wrap">
+      <canvas id="twitter-chart" height="220"></canvas>
+    </div>
+    <p id="twitter-empty" class="feed-empty" hidden>X/Twitter signal not configured for this deployment.</p>
+    <p class="twitter-disclosure">
+      Counts of keyword-matching posts per category from X's recent-search API, read at build time and discarded —
+      no post text, handles, or user IDs are stored or shown here. See
+      <a href="https://github.com/" id="readme-link-2">README</a> for the data-handling rationale.
+    </p>
+  </section>
+
   <section class="panel feed-panel" aria-label="Item feed">
     <h2>Feed <span id="feed-count" class="feed-count"></span></h2>
     <div id="feed-list" class="feed-list"></div>
@@ -92,9 +105,10 @@
 <footer class="site-footer">
   <p>
     Sources: <a href="https://api.gdeltproject.org/api/v2/doc/doc" target="_blank" rel="noopener">GDELT DOC 2.0 API</a>
-    (theme:WMD + targeted keyword queries), IAEA, OPCW, and NTI RSS feeds. Refreshed automatically via GitHub
-    Actions. Classification is keyword/regex-based against public headlines only — see
-    <code>scripts/classify.py</code>.
+    (theme:WMD + targeted keyword queries), IAEA, OPCW, and NTI RSS feeds, and (where configured) aggregate
+    keyword-volume counts from X's recent-search API — no X post content, handles, or user IDs are collected.
+    Refreshed automatically via GitHub Actions. Classification is keyword/regex-based against public headlines
+    only — see <code>scripts/classify.py</code>.
   </p>
 </footer>
 

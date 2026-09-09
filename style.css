@@ -190,6 +190,10 @@ a { color: var(--accent); }
 .country-bar-fill { background: var(--accent); height: 100%; border-radius: 4px; }
 .country-count { text-align: right; color: var(--text-muted); font-variant-numeric: tabular-nums; }
 
+.twitter-panel { grid-column: 1 / -1; }
+.panel-note { font-weight: 400; font-size: 0.78rem; color: var(--text-muted); }
+.twitter-disclosure { margin: 10px 0 0; font-size: 0.78rem; color: var(--text-muted); }
+
 .feed-panel { grid-column: 1 / -1; }
 .feed-count { color: var(--text-muted); font-weight: 400; font-size: 0.85rem; }
 .feed-list { display: flex; flex-direction: column; }
