@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T00:20:04.579320+00:00",
+  "generated_at": "2026-09-10T06:20:14.024937+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 33,
+  "total_items": 34,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -16,7 +16,7 @@
     "biological": 0,
     "radiological_nuclear": 21,
     "explosives": 4,
-    "autonomous_weapons": 0,
+    "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
@@ -25,10 +25,10 @@
     "Pakistan": 2,
     "India": 4,
     "Canada": 1,
+    "United States": 5,
     "Unknown": 1,
     "Singapore": 2,
     "United Kingdom": 2,
-    "United States": 4,
     "Netherlands": 2,
     "Austria": 7,
     "South Korea": 2,
@@ -161,6 +161,22 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "US Air Force seeks  rapidly deployable  drone swarms for base security",
+      "url": "https://www.militarytimes.com/news/your-military/2026/09/09/us-air-force-seeks-rapidly-deployable-drone-swarms-for-base-security/",
+      "source_domain": "militarytimes.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T16:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.armytimes.com/resizer/v2/GUEJFNLVQRFCHKSTORACPXKZWE.jpeg?&auth=245b1cca045b9109ded1b8553aa187fda187eee51243a14782d6d55651978658",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
       ]
     },
     {
@@ -559,6 +575,48 @@
     {
       "category": "directed_energy",
       "result_count": 10,
+      "latest_created_at": "2026-09-10T05:22:59.000Z",
+      "fetched_at": "2026-09-10T06:20:14.023733+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T06:01:10.000Z",
+      "fetched_at": "2026-09-10T06:20:12.336898+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "explosives",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T06:05:28.000Z",
+      "fetched_at": "2026-09-10T06:20:10.653483+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "radiological_nuclear",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T06:19:06.000Z",
+      "fetched_at": "2026-09-10T06:20:08.977153+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "biological",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T06:14:15.000Z",
+      "fetched_at": "2026-09-10T06:20:07.295542+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "chemical",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T06:11:56.000Z",
+      "fetched_at": "2026-09-10T06:20:05.599462+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "directed_energy",
+      "result_count": 10,
       "latest_created_at": "2026-09-09T23:44:30.000Z",
       "fetched_at": "2026-09-10T00:20:04.578143+00:00",
       "source": "twitter"
@@ -600,11 +658,11 @@
     }
   ],
   "twitter_category_totals": {
-    "chemical": 10,
-    "biological": 10,
-    "radiological_nuclear": 10,
-    "explosives": 10,
-    "autonomous_weapons": 10,
-    "directed_energy": 10
+    "chemical": 20,
+    "biological": 20,
+    "radiological_nuclear": 20,
+    "explosives": 20,
+    "autonomous_weapons": 20,
+    "directed_energy": 20
   }
 }
