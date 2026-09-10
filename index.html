@@ -82,14 +82,15 @@
   </section>
 
   <section class="panel chart-panel twitter-panel" aria-label="X/Twitter aggregate signal" id="twitter-panel">
-    <h2>X/Twitter keyword volume <span class="panel-note">(aggregate counts only)</span></h2>
+    <h2>X/Twitter keyword volume <span class="panel-note">(current 24h count per category)</span></h2>
     <div class="chart-wrap">
       <canvas id="twitter-chart" height="220"></canvas>
     </div>
     <p id="twitter-empty" class="feed-empty" hidden>X/Twitter signal not configured for this deployment.</p>
     <p class="twitter-disclosure">
-      Counts of keyword-matching posts per category from X's recent-search API, read at build time and discarded —
-      no post text, handles, or user IDs are stored or shown here. See
+      Real match counts (not a sample) from X's recent tweet-counts API, read at build time — no tweet text,
+      handles, or user IDs are ever returned by this endpoint, let alone stored or shown here. Each bar is the
+      most recent 24h reading per category, not a running total. See
       <a href="https://github.com/matthewcarlpreston/cbrne-threat-dashboard#readme" id="readme-link-2">README</a> for the data-handling rationale.
     </p>
   </section>
@@ -106,7 +107,7 @@
   <p>
     Sources: <a href="https://api.gdeltproject.org/api/v2/doc/doc" target="_blank" rel="noopener">GDELT DOC 2.0 API</a>
     (theme:WMD + targeted keyword queries), IAEA, OPCW, and NTI RSS feeds, and (where configured) aggregate
-    keyword-volume counts from X's recent-search API — no X post content, handles, or user IDs are collected.
+    keyword-volume counts from X's recent tweet-counts API — no X post content, handles, or user IDs are collected.
     Refreshed automatically via GitHub Actions. Classification is keyword/regex-based against public headlines
     only — see <code>scripts/classify.py</code>.
   </p>

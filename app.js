@@ -4,7 +4,8 @@
   const CATEGORY_ORDER = [
     "chemical",
     "biological",
-    "radiological_nuclear",
+    "nuclear",
+    "radiological",
     "explosives",
     "autonomous_weapons",
     "directed_energy",
@@ -12,7 +13,8 @@
   const CATEGORY_FALLBACK_LABELS = {
     chemical: "Chemical",
     biological: "Biological",
-    radiological_nuclear: "Radiological/Nuclear",
+    nuclear: "Nuclear",
+    radiological: "Radiological",
     explosives: "Explosives",
     autonomous_weapons: "Autonomous Weapons",
     directed_energy: "Directed Energy Weapons",
@@ -166,8 +168,8 @@
     const panel = el("twitter-panel");
     const canvas = el("twitter-chart");
     const empty = el("twitter-empty");
-    const totals = data.twitter_category_totals || {};
-    const hasSignal = Object.values(totals).some((n) => n > 0);
+    const latest = data.twitter_category_latest || {};
+    const hasSignal = Object.values(latest).some((n) => n > 0);
 
     if (!hasSignal) {
       canvas.hidden = true;
@@ -182,7 +184,7 @@
     empty.hidden = true;
 
     const labels = data.category_labels || CATEGORY_FALLBACK_LABELS;
-    const counts = CATEGORY_ORDER.map((cat) => totals[cat] || 0);
+    const counts = CATEGORY_ORDER.map((cat) => latest[cat] || 0);
     const colors = CATEGORY_ORDER.map(categoryColor);
     const displayLabels = CATEGORY_ORDER.map((c) => labels[c] || CATEGORY_FALLBACK_LABELS[c]);
 

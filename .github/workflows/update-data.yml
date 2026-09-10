@@ -32,11 +32,10 @@ jobs:
       - name: Run pipeline
         env:
           # Optional. If unset, scripts/fetch_twitter.py no-ops (see its module
-          # docstring) and the rest of the pipeline is unaffected. X's API has
-          # no free tier -- each run reads up to 6 categories x --twitter-max-results
-          # (default 10, the API minimum) billed posts. At this workflow's 6h
-          # cadence that's ~240 reads/day (~$1.20/day at $0.005/read); lower the
-          # cron frequency above or remove this secret if that's too much spend.
+          # docstring) and the rest of the pipeline is unaffected. Uses the
+          # counts/recent endpoint (7 categories x $0.005/request, flat --
+          # not per-post) -- at this workflow's 6h cadence that's ~$0.14/day.
+          # Lower the cron frequency above or remove this secret to cut spend.
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
         run: python scripts/build_json.py --hours 24 --retention-days 14
 

@@ -1,7 +1,7 @@
 # CBRN-E & Novel Weapons OSINT Dashboard
 
 A static, automatically-refreshing dashboard that aggregates and classifies **publicly
-reported news coverage** of CBRN-E (Chemical, Biological, Radiological/Nuclear, Explosives)
+reported news coverage** of CBRN-E (Chemical, Biological, Radiological, Nuclear, Explosives)
 and novel-weapons (autonomous systems, directed-energy) events — proliferation, seizures,
 incidents, policy actions, and sanctions.
 
@@ -100,49 +100,80 @@ entries during testing while still being a valid, reachable feed).
 - X discontinued free API read access in Feb 2026; there is no working free tier, so this
   source is opt-in and requires a `TWITTER_BEARER_TOKEN` (see Secrets below). Without it,
   `fetch_twitter.py` no-ops — one log line, empty result, rest of the pipeline unaffected.
-- Uses the v2 recent-search endpoint (`tweets/search/recent`) with one short keyword query
-  per taxonomy category (e.g. chemical: `sarin OR "nerve agent" OR "chemical weapon" OR
-  "chemical attack" OR novichok`), `-is:retweet lang:en` to cut noise/double-counting.
-- **Deliberately aggregate-only by construction, not just by convention.** The script reads
-  only `len(data)`/`meta.result_count` and the latest `created_at` from each response, then
-  lets the raw tweet objects (which always include `id` + `text`) go out of scope —
-  nothing with tweet text, a handle, or a user ID is ever assigned to a value that reaches
-  a log line, `data/latest.json`, or the dashboard. This follows the same two-provision
-  read of X's Developer Agreement that motivated the design: [display requirements](https://docs.x.com/developer-terms/agreement)
-  (attribution, no content alteration, no iframe embedding of X content as of the April 2026
-  agreement) apply to *showing* X content, while [aggregate analysis that retains no personal
+- Uses the v2 **recent tweet-counts endpoint** (`tweets/counts/recent`), not the search
+  endpoint, with one short keyword query per taxonomy category (e.g. chemical: `sarin OR
+  "nerve agent" OR "chemical weapon" OR "chemical attack" OR novichok`), `-is:retweet lang:en`
+  to cut noise/double-counting.
+- **This was a deliberate correction, not the original design.** The first version used
+  `tweets/search/recent` and read `meta.result_count` as a volume signal. In practice every
+  category saturated the requested page size (10/10/10/10/10/10, run after run) because
+  `result_count` on that endpoint is "how many posts came back on this page," capped at
+  `max_results` — not "how many posts matched." That made every category's number identical
+  and meaningless the moment true volume exceeded 10 in a run, which it did for all six.
+  Switching to `tweets/counts/recent` fixed it: it returns `meta.total_tweet_count`, the real
+  uncapped match volume for the query window, with no page-size ceiling.
+- **Deliberately aggregate-only by construction, not just by convention** — and more strongly
+  so after the endpoint switch. `tweets/counts/recent` never returns a tweet object at all;
+  its response is just `{start, end, tweet_count}` buckets, so there is no tweet text, handle,
+  or user ID in the response to discard in the first place (the search endpoint would have
+  required discarding it after the fact, which the original version did). This follows the
+  same two-provision read of X's Developer Agreement that motivated the design:
+  [display requirements](https://docs.x.com/developer-terms/agreement) (attribution, no
+  content alteration, no iframe embedding of X content as of the April 2026 agreement) apply
+  to *showing* X content, while [aggregate analysis that retains no personal
   identifiers](https://developer.x.com/developer-terms/more-on-restricted-use-cases) is
   explicitly permitted — this pipeline only ever does the latter. Per the same terms, this
   project will never infer a user's political affiliation, religion, health, or other
   protected characteristic from post content; the pipeline has no mechanism to do so (it
-  counts keyword matches per category, it does not read or retain author-level data).
-- **Cost**: pay-per-use, ~$0.005/read, no free tier ([source](https://twitterapi.io/blog/x-api-cost-breakdown-2026)).
-  At the default `--twitter-max-results 10` (the API's minimum) across 6 categories on the
-  pipeline's 6-hour cadence, that's ~240 reads/day ≈ **$1.20/day**. Lower the cron frequency
-  in `update-data.yml` or drop the `TWITTER_BEARER_TOKEN` secret entirely to cut spend to
-  zero. Confirm your key's actual access tier/billing status in the X developer portal
-  before enabling this in a scheduled workflow.
-- Dashboard shows this as a single "X/Twitter keyword volume" bar chart of aggregate counts
-  per category over the retention window — no post list, because there is no post-level
-  data to list.
+  counts keyword matches per category, it does not read or retain author-level data, and the
+  counts endpoint couldn't support that even if asked to).
+- **Cost**: pay-per-use, no free tier. `tweets/counts/recent` is billed **$0.005 per request,
+  flat**, regardless of the count returned — a separate line item from the $0.005/post-read
+  the search endpoint would have billed ([source](https://docs.x.com/x-api/getting-started/pricing)).
+  At 7 categories on the pipeline's 6-hour cadence that's ~28 requests/day ≈ **$0.14/day**
+  (~$4/month) — about a tenth of the original search-endpoint estimate, and it doesn't
+  consume the separate per-account post-read cap either. Lower the cron frequency in
+  `update-data.yml` or drop the `TWITTER_BEARER_TOKEN` secret entirely to cut spend to zero.
+  Confirm your key's actual access tier/billing status in the X developer portal before
+  enabling this in a scheduled workflow.
+- Dashboard shows this as a single "X/Twitter keyword volume" bar chart — the **most recent**
+  reading per category, not a running total. `fetch_twitter.py` asks for a 24h count on every
+  run but the workflow runs every 6h, so those windows overlap; summing them would
+  quadruple-count the same posts. `data/latest.json` still retains the full `twitter_signal`
+  history (one row per category per run, 14-day window) if you want the raw time series.
 
 ## Classification
 
-Six categories, MVP implementation as keyword/regex matching against each item's
+Seven categories, MVP implementation as keyword/regex matching against each item's
 headline (`scripts/classify.py`):
 
 - Chemical
 - Biological
-- Radiological/Nuclear
+- Nuclear
+- Radiological
 - Explosives
 - Autonomous Weapons
 - Directed Energy Weapons
+
+**Nuclear and Radiological are separate categories, not a combined "Radiological/Nuclear"
+bucket.** A nuclear weapon, fissile material, or an IAEA safeguards story is not the same
+threat picture as a dirty bomb or a loose/orphan radioactive source, and folding them
+together obscured that distinction. Nuclear covers weapons, fuel-cycle material, and the
+nonproliferation regime around them (warheads, enriched uranium, IAEA, nuclear
+proliferation/tests/smuggling); Radiological covers dispersal devices and
+contamination/exposure incidents (dirty bombs, orphan sources, radiation leaks) — see the
+comments in `classify.py` for the exact split and reasoning.
 
 An item can match multiple categories. Items matching **zero** categories are dropped
 before publishing — this is what keeps GDELT's broad `theme:WMD` net from flooding the
 dashboard with unrelated news. A couple of vocabulary collisions (e.g. the band
 "Anthrax") are handled with small negative-context guards; see the comments in
 `classify.py`.
+
+Existing stored items are **re-classified on every pipeline run**, not just new ones — so
+when the taxonomy itself changes (as it did with this split), already-published items pick
+up the new categories immediately instead of carrying a stale/unknown category key for up
+to `retention_days` until they age out.
 
 This is an intentional starting point. An embeddings- or LLM-based classifier could
 replace or augment the keyword pass later without changing the output schema (each
@@ -160,8 +191,8 @@ Static HTML/CSS/JS, no build step, reads `data/latest.json` via `fetch()`:
 - Summary stat tiles (items shown, countries reporting, leading category, retention window)
 - Category breakdown bar chart (Chart.js)
 - Top reporting countries
-- X/Twitter keyword-volume chart (aggregate counts only; shows an empty state if the
-  source isn't configured for a given deployment)
+- X/Twitter keyword-volume chart (current per-category count, aggregate only; shows an
+  empty state if the source isn't configured for a given deployment)
 - Filterable/searchable item feed, newest first
 
 ## Build phases (as executed)
@@ -217,9 +248,12 @@ Then open `http://localhost:8080`.
   geography.
 - Duplicate coverage of the same story by different outlets is expected and shown as
   separate items (dedup is by exact URL only).
-- X/Twitter counts are a volume **proxy**, not an exhaustive match count: each category
-  query reads one page of up to `--twitter-max-results` (default 10) recent posts per run,
-  by design, to control cost — it is not the true total number of matching posts on X.
+- X/Twitter counts are keyword-match volume, not verified relevance — a post matching
+  "nuclear weapon" isn't necessarily *about* nuclear weapons policy the way a classified
+  news headline is. Treat the X chart as a rough attention signal, not an equivalent to
+  the item feed's precision.
+- The X chart shows a point-in-time snapshot (most recent run), not a cumulative total —
+  see the X/Twitter data-source notes above for why summing across runs would double-count.
 
 ## Attribution
 
@@ -227,5 +261,5 @@ Then open `http://localhost:8080`.
 - [IAEA](https://www.iaea.org/), [OPCW](https://www.opcw.org/), [NTI](https://www.nti.org/) news feeds
 - [X Developer Agreement](https://docs.x.com/developer-terms/agreement) /
   [X restricted use cases](https://developer.x.com/developer-terms/more-on-restricted-use-cases) /
-  [X API pricing](https://twitterapi.io/blog/x-api-cost-breakdown-2026)
+  [X API pricing](https://docs.x.com/x-api/getting-started/pricing)
 - [Chart.js](https://www.chartjs.org/)

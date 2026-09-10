@@ -35,12 +35,25 @@ _TAXONOMY_PATTERNS: dict[str, list[str]] = {
         r"bacillus anthracis", r"smallpox weapon", r"plague weapon",
         r"biological warfare", r"biological weapons convention", r"\bbwc\b",
     ],
-    "radiological_nuclear": [
-        r"nuclear weapon", r"dirty bomb", r"radiological (device|material|threat|dispersal)",
-        r"uranium enrichment", r"\bplutonium\b", r"\biaea\b", r"nuclear proliferation",
-        r"nuclear test", r"radioactive material", r"nuclear facility",
+    # Nuclear: weapons, fuel-cycle material, and the state-level nonproliferation
+    # regime around them (IAEA, safeguards). Deliberately excludes dirty
+    # bombs/radiological dispersal and loose radioactive material -- those are
+    # "radiological" below, since a radiological incident doesn't imply a
+    # nuclear weapon or fissile material is involved.
+    "nuclear": [
+        r"nuclear weapon", r"uranium enrichment", r"\bplutonium\b", r"\biaea\b",
+        r"nuclear proliferation", r"nuclear test", r"nuclear facility",
         r"\bwarhead", r"fissile material", r"nuclear smuggling",
-        r"radioactive source", r"nuclear safeguards", r"enriched uranium",
+        r"nuclear safeguards", r"enriched uranium", r"nuclear reactor",
+    ],
+    # Radiological: dispersal devices, loose/orphan radioactive sources, and
+    # contamination/exposure incidents -- distinct from a nuclear weapon or
+    # its fuel cycle, and often the more likely real-world scenario (this was
+    # your EOD/CBRN-E domain area, worth keeping separate for that reason).
+    "radiological": [
+        r"dirty bomb", r"radiological (device|material|threat|dispersal|emergency|incident)",
+        r"radioactive material", r"radioactive source", r"orphan source",
+        r"radiation leak", r"radiation exposure", r"radiological contamination",
     ],
     "explosives": [
         r"\bied\b", r"improvised explosive device", r"bomb plot",
@@ -83,7 +96,8 @@ _NEGATIVE_CONTEXT: dict[str, re.Pattern] = {
 CATEGORY_LABELS: dict[str, str] = {
     "chemical": "Chemical",
     "biological": "Biological",
-    "radiological_nuclear": "Radiological/Nuclear",
+    "nuclear": "Nuclear",
+    "radiological": "Radiological",
     "explosives": "Explosives",
     "autonomous_weapons": "Autonomous Weapons",
     "directed_energy": "Directed Energy Weapons",

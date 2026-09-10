@@ -25,7 +25,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from classify import annotate_items, CATEGORY_LABELS  # noqa: E402
 from fetch_gdelt import fetch_gdelt_items  # noqa: E402
 from fetch_rss import fetch_rss_items  # noqa: E402
-from fetch_twitter import fetch_twitter_signal, MIN_RESULTS as TWITTER_MIN_RESULTS  # noqa: E402
+from fetch_twitter import fetch_twitter_signal, METRIC_VERSION as TWITTER_METRIC_VERSION  # noqa: E402
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 LATEST_PATH = DATA_DIR / "latest.json"
@@ -74,7 +74,7 @@ def _load_existing() -> dict[str, Any]:
         return {}
 
 
-def build(hours: int, retention_days: int, twitter_max_results: int) -> dict[str, Any]:
+def build(hours: int, retention_days: int) -> dict[str, Any]:
     print(f"[build_json] Fetching GDELT items (lookback {hours}h)...", file=sys.stderr)
     gdelt_items = fetch_gdelt_items(hours=hours)
     print(f"[build_json] Got {len(gdelt_items)} GDELT items", file=sys.stderr)
@@ -83,22 +83,31 @@ def build(hours: int, retention_days: int, twitter_max_results: int) -> dict[str
     rss_items = fetch_rss_items()
     print(f"[build_json] Got {len(rss_items)} RSS items", file=sys.stderr)
 
-    new_items = gdelt_items + rss_items
-    classified_new = annotate_items(new_items, drop_unmatched=True)
-    print(f"[build_json] {len(classified_new)} / {len(new_items)} new items matched the taxonomy", file=sys.stderr)
-
     print("[build_json] Fetching X/Twitter signal (aggregate counts only)...", file=sys.stderr)
-    twitter_rows = fetch_twitter_signal(max_results=twitter_max_results)
+    twitter_rows = fetch_twitter_signal(hours=hours)
     print(f"[build_json] Got {len(twitter_rows)} X/Twitter category rows", file=sys.stderr)
 
     existing = _load_existing()
     existing_items = existing.get("items", [])
     existing_signal = existing.get("twitter_signal", [])
 
-    merged = _dedupe_by_url(classified_new + existing_items)
+    new_items = gdelt_items + rss_items
+    # Re-classify existing items too, not just new ones -- this is what keeps
+    # already-stored items in sync when the taxonomy itself changes (e.g. the
+    # nuclear/radiological split), instead of carrying a now-unknown category
+    # key for up to `retention_days` until they age out. Cheap: it's a regex
+    # pass over headlines already in memory.
+    combined = new_items + existing_items
+    classified = annotate_items(combined, drop_unmatched=True)
+    print(f"[build_json] {len(classified)} / {len(combined)} items match the current taxonomy", file=sys.stderr)
+
+    merged = _dedupe_by_url(classified)
     retained = _apply_retention(merged, retention_days)
     retained.sort(key=lambda i: i.get("published_date", ""), reverse=True)
 
+    # Drop signal rows from a prior counting method instead of summing
+    # incompatible numbers together -- see METRIC_VERSION in fetch_twitter.py.
+    existing_signal = [r for r in existing_signal if r.get("metric") == TWITTER_METRIC_VERSION]
     merged_signal = twitter_rows + existing_signal
     retained_signal = _apply_retention(merged_signal, retention_days, date_field="fetched_at")
     retained_signal.sort(key=lambda r: r.get("fetched_at", ""), reverse=True)
@@ -112,14 +121,20 @@ def build(hours: int, retention_days: int, twitter_max_results: int) -> dict[str
         if country:
             country_counts[country] = country_counts.get(country, 0) + 1
 
-    # Sum of aggregate X result_counts per category over the retained window --
-    # a volume proxy, not an item list. No tweet content/handles/IDs ever
-    # reach this structure; see scripts/fetch_twitter.py.
-    twitter_category_totals: dict[str, int] = {cat: 0 for cat in CATEGORY_LABELS}
-    for row in retained_signal:
+    # Most recent reading per category -- NOT a sum across retained_signal.
+    # Each row already reports X's own rolling `window_hours`-hour count
+    # (currently 24h); the pipeline runs every ~6h, so those windows overlap
+    # heavily and summing them would multiply-count the same posts. Taking
+    # only the latest row per category gives a current volume snapshot
+    # instead. No tweet content/handles/IDs ever reach this structure; see
+    # scripts/fetch_twitter.py.
+    twitter_category_latest: dict[str, int] = {cat: 0 for cat in CATEGORY_LABELS}
+    seen_categories: set[str] = set()
+    for row in retained_signal:  # already sorted newest-first
         cat = row.get("category")
-        if cat in twitter_category_totals:
-            twitter_category_totals[cat] += row.get("result_count", 0)
+        if cat in twitter_category_latest and cat not in seen_categories:
+            twitter_category_latest[cat] = row.get("result_count", 0)
+            seen_categories.add(cat)
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -131,7 +146,7 @@ def build(hours: int, retention_days: int, twitter_max_results: int) -> dict[str
         "country_counts": country_counts,
         "items": retained,
         "twitter_signal": retained_signal,
-        "twitter_category_totals": twitter_category_totals,
+        "twitter_category_latest": twitter_category_latest,
     }
 
 
@@ -139,13 +154,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build data/latest.json for the CBRN-E OSINT dashboard")
     parser.add_argument("--hours", type=int, default=24, help="GDELT lookback window in hours")
     parser.add_argument("--retention-days", type=int, default=14, help="How many days of items to retain")
-    parser.add_argument(
-        "--twitter-max-results", type=int, default=TWITTER_MIN_RESULTS,
-        help="X/Twitter results read per category per run (each is a billed read -- keep low)",
-    )
     args = parser.parse_args()
 
-    result = build(hours=args.hours, retention_days=args.retention_days, twitter_max_results=args.twitter_max_results)
+    result = build(hours=args.hours, retention_days=args.retention_days)
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     LATEST_PATH.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")

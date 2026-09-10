@@ -10,13 +10,14 @@
   --border: rgba(11,11,11,0.10);
   --accent: #2a78d6;
 
-  /* categorical slots, fixed order per taxonomy */
+  /* categorical slots, fixed order per taxonomy (7 slots -> palette slots 1-7) */
   --cat-chemical: #2a78d6;
   --cat-biological: #eb6834;
-  --cat-radiological_nuclear: #1baf7a;
-  --cat-explosives: #eda100;
-  --cat-autonomous_weapons: #e87ba4;
-  --cat-directed_energy: #008300;
+  --cat-nuclear: #1baf7a;
+  --cat-radiological: #eda100;
+  --cat-explosives: #e87ba4;
+  --cat-autonomous_weapons: #008300;
+  --cat-directed_energy: #4a3aa7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,10 +35,11 @@
 
     --cat-chemical: #3987e5;
     --cat-biological: #d95926;
-    --cat-radiological_nuclear: #199e70;
-    --cat-explosives: #c98500;
-    --cat-autonomous_weapons: #d55181;
-    --cat-directed_energy: #008300;
+    --cat-nuclear: #199e70;
+    --cat-radiological: #c98500;
+    --cat-explosives: #d55181;
+    --cat-autonomous_weapons: #008300;
+    --cat-directed_energy: #9085e9;
   }
 }
 :root[data-theme="dark"] {
@@ -54,10 +56,11 @@
 
   --cat-chemical: #3987e5;
   --cat-biological: #d95926;
-  --cat-radiological_nuclear: #199e70;
-  --cat-explosives: #c98500;
-  --cat-autonomous_weapons: #d55181;
-  --cat-directed_energy: #008300;
+  --cat-nuclear: #199e70;
+  --cat-radiological: #c98500;
+  --cat-explosives: #d55181;
+  --cat-autonomous_weapons: #008300;
+  --cat-directed_energy: #9085e9;
 }
 
 * { box-sizing: border-box; }
