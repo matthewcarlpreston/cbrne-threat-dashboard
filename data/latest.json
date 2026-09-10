@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T22:01:04.426293+00:00",
+  "generated_at": "2026-09-10T00:20:04.579320+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 16,
+  "total_items": 33,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -12,22 +12,285 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 4,
+    "chemical": 7,
     "biological": 0,
-    "radiological_nuclear": 10,
-    "explosives": 1,
+    "radiological_nuclear": 21,
+    "explosives": 4,
     "autonomous_weapons": 0,
     "directed_energy": 1
   },
   "country_counts": {
+    "Malaysia": 1,
+    "Israel": 3,
+    "Pakistan": 2,
+    "India": 4,
+    "Canada": 1,
+    "Unknown": 1,
+    "Singapore": 2,
+    "United Kingdom": 2,
+    "United States": 4,
     "Netherlands": 2,
     "Austria": 7,
-    "United States": 2,
-    "India": 1,
     "South Korea": 2,
     "China": 2
   },
   "items": [
+    {
+      "title": "IAEA board refers Iran to UN Security Council",
+      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/10/iaea-board-refers-iran-to-un-security-council",
+      "source_domain": "freemalaysiatoday.com",
+      "source_country": "Malaysia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T23:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/e982bc8c-14045369_cropped_1-1.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA board passes resolution reporting Iran to UNSC",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-908151",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T22:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/736498",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA board passes resolution reporting Iran to UN Security Council",
+      "url": "https://thefrontierpost.com/iaea-board-passes-resolution-reporting-iran-to-un-security-council/",
+      "source_domain": "thefrontierpost.com",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://jetpack.com/redirect/?source=sigenerate&query=t%3DeyJpbWciOiJodHRwczpcL1wvdGhlZnJvbnRpZXJwb3N0LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNlwvMDlcL2UxYzMwOWM4LWExNjQtNDg4NS1hYzliLWExZTIxNzBlMmQzZS0xMDI0eDY4My53ZWJwIiwidHh0IjoiSUFFQSBib2FyZCBwYXNzZXMgcmVzb2x1dGlvbiByZXBvcnRpbmcgSXJhbiB0byBVTiBTZWN1cml0eSBDb3VuY2lsIiwidGVtcGxhdGUiOiJoaWdod2F5IiwiZm9udCI6IiIsImJsb2dfaWQiOjEzNzU4MjM0M30.OAtH3YKTc-ght2z5jdyZUPSrunyQ0VmHrQZooQ2FgmcMQ",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Nabi detonated Red Fort car bomb : NIA in chargesheet",
+      "url": "https://www.tribuneindia.com/news/top-headlines/nabi-detonated-red-fort-car-bomb-nia-in-chargesheet/",
+      "source_domain": "tribuneindia.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T21:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWQxN2U1ZGEwLWFjOGEtMTFmMS05YjIwLTgzZThkYzhhYjE2YS5qcGc=",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "IAEA 35 - nation Board of Governors reportes Iran to UNSC",
+      "url": "https://www.pakistantoday.com.pk/2026/09/10/iaea-board-passes-resolution-reporting-iran-to-un-security-council",
+      "source_domain": "pakistantoday.com.pk",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T20:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.pakistantoday.com.pk/uploads/IAEA-Iran-nuclear-1788982163582-5e0syt.jfif",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA board passes resolution reporting Iran to UN Security Council",
+      "url": "https://www.al-monitor.com/originals/2026/09/iaea-board-passes-resolution-reporting-iran-un-security-council",
+      "source_domain": "al-monitor.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T18:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA board refers Iran to UN Security Council",
+      "url": "https://www.al-monitor.com/originals/2026/09/iaea-board-refers-iran-un-security-council",
+      "source_domain": "al-monitor.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T18:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA board reports Iran to the UN Security Council for the first time in 20 years",
+      "url": "https://www.theglobeandmail.com/world/article-un-nuclear-watchdog-board-iran-security-council-uranium/",
+      "source_domain": "theglobeandmail.com",
+      "source_country": "Canada",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T17:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.theglobeandmail.com/resizer/v2/5BPPC6SJIRAEPH7V43A5UXRLKE.JPG?auth=b1b61fe6721deba81c8268efb7266358317c6cf151a811bf151a18b45d19b24a&quality=80&smart=true",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Former watchdog officials further reveal Sudan Armed Force use of chemical weapons",
+      "url": "https://www.thenationalnews.com/news/mena/2026/09/09/former-watchdog-officials-further-reveal-sudan-armed-forces-use-of-chemical-weapons/",
+      "source_domain": "thenationalnews.com",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T15:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.thenationalnews.com/resizer/v2/JEJJJTVNENGZJCEBT3ED6MKQZI.jpg?auth=59c0435f70de777bf17e1383462d0e1f8db8ec2868a806502ca0f0f3b71a981f&smart=true",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Red Fort blast : NIA charge sheet names suicide bomber Umer Un Nabi  operational in - charge  of terror module | Delhi News",
+      "url": "https://timesofindia.indiatimes.com/city/delhi/red-fort-blast-nia-chargesheet-names-umer-un-nabi-operational-in-charge-of-terror-module-procured-arms/articleshow/133965074.cms",
+      "source_domain": "timesofindia.indiatimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T12:45:00+00:00",
+      "language": "English",
+      "image_url": "https://static.toiimg.com/thumb/msid-133967796,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "North Korea builds new Yongbyon uranium enrichment facility , IAEA says",
+      "url": "https://www.asiaone.com/asia/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says",
+      "source_domain": "asiaone.com",
+      "source_country": "Singapore",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T12:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Sep2026/uranium%20facilioty.JPG?itok=cmVn_ytM",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Belfast women claimed she  came into contact with Novichok  sparking major emergency response",
+      "url": "https://www.lbc.co.uk/article/belfast-noivchok-emergency-services-firefighters-5HjdhBm_2/",
+      "source_domain": "lbc.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T12:00:00+00:00",
+      "language": "English",
+      "image_url": "https://images.globalplayer.com/images/840704?crop=16_9&signature=mbsNsjdC3qD0ZS54OPQe1ToL3BM=",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Indian nuclear weapons , 2026",
+      "url": "https://thebulletin.org/premium/2026-09/indian-nuclear-weapons-2026/",
+      "source_domain": "thebulletin.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T11:00:00+00:00",
+      "language": "English",
+      "image_url": "https://thebulletin.org/wp-content/uploads/2026/09/INS_Arihant_SSBN-modified.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "North Korea builds new Yongbyon uranium enrichment facility , IAEA says",
+      "url": "https://www.asiaone.com:443/asia/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says",
+      "source_domain": "asiaone.com",
+      "source_country": "Singapore",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T10:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Sep2026/uranium%20facilioty.JPG?itok=cmVn_ytM",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "North Korea builds new Yongbyon uranium enrichment facility : IAEA",
+      "url": "https://www.thehindubusinessline.com/news/world/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea/article71445910.ece",
+      "source_domain": "thehindubusinessline.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T08:00:00+00:00",
+      "language": "English",
+      "image_url": "https://bl-i.thgim.com/public/incoming/s2bzek/article71446169.ece/alternates/LANDSCAPE_1200/2026-09-09T054003Z_856407033_RC2UKGASEDV0_RTRMADP_3_NORTHKOREA-NUCLEAR-IAEA.JPG",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Craig Murray : Nonsense Drones & Novichok",
+      "url": "https://consortiumnews.com/2026/09/09/craig-murray-nonsense-drones-novichok/",
+      "source_domain": "consortiumnews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T08:00:00+00:00",
+      "language": "English",
+      "image_url": "https://consortiumnews.com/wp-content/uploads/2026/09/Ursula_von_der_Leyen_Volodymyr_Zelensky_Mark_Rutte__Antonio_Costa_-_2025_2-e1788871058265.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Sweden provides voluntary funding to support OPCW’s work",
       "url": "https://www.opcw.org/media-centre/news/2026/09/sweden-provides-voluntary-funding-support-opcws-work",
@@ -41,6 +304,22 @@
       "rss_feed_name": "OPCW",
       "categories": [
         "chemical"
+      ]
+    },
+    {
+      "title": "Tyneside bomb hoaxer threatened to blow up illegal immigrants and made fake improvised explosive device",
+      "url": "https://www.chroniclelive.co.uk/news/north-east-news/tyneside-bomb-hoaxer-threatened-blow-34584301",
+      "source_domain": "chroniclelive.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-09T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://i2-prod.chroniclelive.co.uk/article34584857.ece/ALTERNATES/s1200d/2_Sean-McCrystal.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -276,13 +555,56 @@
       ]
     }
   ],
-  "twitter_signal": [],
+  "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 10,
+      "latest_created_at": "2026-09-09T23:44:30.000Z",
+      "fetched_at": "2026-09-10T00:20:04.578143+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 10,
+      "latest_created_at": "2026-09-09T23:51:22.000Z",
+      "fetched_at": "2026-09-10T00:20:02.883875+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "explosives",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T00:05:03.000Z",
+      "fetched_at": "2026-09-10T00:20:01.098661+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "radiological_nuclear",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T00:19:24.000Z",
+      "fetched_at": "2026-09-10T00:19:59.428390+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "biological",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T00:18:59.000Z",
+      "fetched_at": "2026-09-10T00:19:57.540843+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "chemical",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T00:14:18.000Z",
+      "fetched_at": "2026-09-10T00:19:55.830468+00:00",
+      "source": "twitter"
+    }
+  ],
   "twitter_category_totals": {
-    "chemical": 0,
-    "biological": 0,
-    "radiological_nuclear": 0,
-    "explosives": 0,
-    "autonomous_weapons": 0,
-    "directed_energy": 0
+    "chemical": 10,
+    "biological": 10,
+    "radiological_nuclear": 10,
+    "explosives": 10,
+    "autonomous_weapons": 10,
+    "directed_energy": 10
   }
 }
