@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T06:20:14.024937+00:00",
+  "generated_at": "2026-09-10T12:18:18.614815+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 34,
+  "total_items": 44,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -12,29 +12,205 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 7,
-    "biological": 0,
-    "radiological_nuclear": 21,
-    "explosives": 4,
+    "chemical": 6,
+    "biological": 1,
+    "radiological_nuclear": 30,
+    "explosives": 5,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "India": 8,
+    "Unknown": 2,
+    "United States": 11,
     "Malaysia": 1,
     "Israel": 3,
     "Pakistan": 2,
-    "India": 4,
     "Canada": 1,
-    "United States": 5,
-    "Unknown": 1,
     "Singapore": 2,
     "United Kingdom": 2,
-    "Netherlands": 2,
+    "Netherlands": 1,
     "Austria": 7,
     "South Korea": 2,
     "China": 2
   },
   "items": [
+    {
+      "title": "India nuclear arsenal estimated at 190 warheads : report",
+      "url": "https://www.rediff.com/news/report/indias-nuclear-arsenal-estimated-at-190-warheads-report/20260910.htm",
+      "source_domain": "rediff.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T11:00:00+00:00",
+      "language": "English",
+      "image_url": "https://im.rediff.com/1200-630/news/2026/sep/10missile.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "Holy See warns of lasting nuclear weapons testing effects at UN",
+      "url": "https://thecatholicherald.com/article/holy-see-warns-of-lasting-nuclear-weapons-testing-effects-at-un",
+      "source_domain": "thecatholicherald.com",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T10:15:00+00:00",
+      "language": "English",
+      "image_url": "https://cdn.prod.website-files.com/683ed37ff077394405011c9f/6a99f894e6b5baa23f33bf22_united-nations.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA board reports Iran to UN council | The Arkansas Democrat - Gazette",
+      "url": "https://www.arkansasonline.com/news/2026/sep/10/iaea-board-reports-iran-to-un-council/",
+      "source_domain": "arkansasonline.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T10:15:00+00:00",
+      "language": "English",
+      "image_url": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/213619542_213617091-2959ffdf225840e3bb2b6ae3c9b597a6_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "India has 190 nuclear warheads , continues to modernise them : US think tank",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/india-has-190-nuclear-warheads-continues-to-modernise-them-us-think-tank-126091000413_1.html",
+      "source_domain": "business-standard.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T08:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-04/28/thumb/fitandfill/1200X628/1745813571-7148.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "India has 190 nuclear warheads with potential to produce upto 225 : Report",
+      "url": "https://economictimes.indiatimes.com/news/defence/india-has-190-nuclear-warheads-with-potential-to-produce-upto-225-report/articleshow/133998466.cms",
+      "source_domain": "economictimes.indiatimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T08:30:00+00:00",
+      "language": "English",
+      "image_url": "https://img.etimg.com/thumb/msid-133999380,width-1200,height-630,imgsize-171275,overlay-etdefence/articleshow.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IED masters deploy design against the loss of common goods",
+      "url": "https://www.designboom.com/design/ied-master-of-arts-graduates-design-x-commons/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T08:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2026/09/ied_designboom_facebook-2.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "North Korea builds new Yongbyon uranium enrichment facility , IAEA says",
+      "url": "https://www.cnn.com/2026/09/10/asia/north-korea-iaea-nuclear-enrichment-hnk-intl",
+      "source_domain": "cnn.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T07:15:00+00:00",
+      "language": "English",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/2026-06-05t022850z-1956103041-rc2dnlaoj4tb-rtrmadp-3-northkorea-politics-nuclear.JPG?c=16x9&q=w_800,c_fill",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA refers Iran to UN Security Council for 1st time in 20 years",
+      "url": "https://www.siasat.com/iaea-refers-iran-to-un-security-council-for-1st-time-in-20-years-3539532/",
+      "source_domain": "siasat.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T07:00:00+00:00",
+      "language": "English",
+      "image_url": "https://cdn.siasat.com/wp-content/uploads/2026/09/iran-iaea-tehran-nuclear-programme.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "NUCLEAR ALARM : North Korea Builds Second Uranium Enrichment Facility At Yongbyon",
+      "url": "https://www.theyeshivaworld.com/news/general/2596151/nuclear-alarm-north-korea-builds-second-uranium-enrichment-facility-at-yongbyon.html",
+      "source_domain": "theyeshivaworld.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T03:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.theyeshivaworld.com/wp-content/uploads/2026/09/04nkorea-superJumbo-v2.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Refers Iran Nuclear Program To UN Security Council",
+      "url": "https://www.eurasiareview.com/10092026-iaea-refers-irans-nuclear-program-to-un-security-council/",
+      "source_domain": "eurasiareview.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.eurasiareview.com/wp-content/uploads/2025/06/b-154.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "radiological_nuclear"
+      ]
+    },
+    {
+      "title": "South Dakota Confirms Its First Cattle Anthrax Case of 2026 as Officials Quarantine a Meade County Herd",
+      "url": "https://www.medicaldaily.com/south-dakota-anthrax-meade-county-beef-herd-478442",
+      "source_domain": "medicaldaily.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T00:30:00+00:00",
+      "language": "English",
+      "image_url": "https://d.medicaldaily.com/en/full/485727/philippe-lopez-afp-via-getty-images.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
     {
       "title": "IAEA board refers Iran to UN Security Council",
       "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/10/iaea-board-refers-iran-to-un-security-council",
@@ -310,7 +486,7 @@
     {
       "title": "Sweden provides voluntary funding to support OPCW’s work",
       "url": "https://www.opcw.org/media-centre/news/2026/09/sweden-provides-voluntary-funding-support-opcws-work",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/publi",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -554,24 +730,51 @@
       "categories": [
         "radiological_nuclear"
       ]
-    },
-    {
-      "title": "OPCW Director-General Sabrina Dallafior on official visit to France",
-      "url": "https://www.opcw.org/media-centre/news/2026/08/opcw-director-general-sabrina-dallafior-official-visit-france",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior on official visit to France</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General Sabrina Dallafior (left) meets with Jean-Noël Barrot, Minister for Europe and Foreign Affairs of France, during her official visit to Paris, France, on 26 August 2026.\" src",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-08-27T08:16:57+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T12:08:51.000Z",
+      "fetched_at": "2026-09-10T12:18:18.613381+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T12:12:44.000Z",
+      "fetched_at": "2026-09-10T12:18:16.931229+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "explosives",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T12:10:09.000Z",
+      "fetched_at": "2026-09-10T12:18:15.193236+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "radiological_nuclear",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T12:16:11.000Z",
+      "fetched_at": "2026-09-10T12:18:13.510663+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "biological",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T12:17:11.000Z",
+      "fetched_at": "2026-09-10T12:18:11.857658+00:00",
+      "source": "twitter"
+    },
+    {
+      "category": "chemical",
+      "result_count": 10,
+      "latest_created_at": "2026-09-10T12:15:49.000Z",
+      "fetched_at": "2026-09-10T12:18:10.182890+00:00",
+      "source": "twitter"
+    },
     {
       "category": "directed_energy",
       "result_count": 10,
@@ -658,11 +861,11 @@
     }
   ],
   "twitter_category_totals": {
-    "chemical": 20,
-    "biological": 20,
-    "radiological_nuclear": 20,
-    "explosives": 20,
-    "autonomous_weapons": 20,
-    "directed_energy": 20
+    "chemical": 30,
+    "biological": 30,
+    "radiological_nuclear": 30,
+    "explosives": 30,
+    "autonomous_weapons": 30,
+    "directed_energy": 30
   }
 }
