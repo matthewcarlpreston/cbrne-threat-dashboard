@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T12:19:30.257283+00:00",
+  "generated_at": "2026-09-11T18:17:52.052789+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 132,
+  "total_items": 133,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 12,
     "biological": 55,
-    "nuclear": 58,
+    "nuclear": 59,
     "radiological": 1,
     "explosives": 5,
     "autonomous_weapons": 1,
@@ -36,7 +36,7 @@
     "China": 3,
     "Israel": 7,
     "Turkey": 1,
-    "Austria": 9,
+    "Austria": 10,
     "Egypt": 1,
     "Malaysia": 1,
     "Canada": 1,
@@ -108,22 +108,6 @@
       ]
     },
     {
-      "title": "OPCW Director - General Makes Official Visit To China",
-      "url": "https://www.miragenews.com/opcw-director-general-makes-official-visit-to-1742777/",
-      "source_domain": "miragenews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T10:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.opcw.org/sites/default/files/styles/news_featured_image/public/images/news/2026/09/DSC_4984.jpg?itok=VLeJYhrm",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
       "title": "anthropic ai misuse report : They asked Claude to build missiles , anti - torpedo , and smallpox bioweapons : Anthropic uncovers AI darkest misuse cases , including a live missile test",
       "url": "https://economictimes.indiatimes.com/news/new-updates/they-asked-claude-to-build-missiles-anti-torpedo-and-smallpox-bioweapons-anthropic-uncovers-ais-darkest-misuse-cases-including-a-live-missile-test/articleshow/134057630.cms",
       "source_domain": "economictimes.indiatimes.com",
@@ -140,9 +124,25 @@
       ]
     },
     {
+      "title": "OPCW Director - General Makes Official Visit To China",
+      "url": "https://www.miragenews.com/opcw-director-general-makes-official-visit-to-1742777/",
+      "source_domain": "miragenews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T10:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.opcw.org/sites/default/files/styles/news_featured_image/public/images/news/2026/09/DSC_4984.jpg?itok=VLeJYhrm",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
       "title": "OPCW Director-General makes official visit to China",
       "url": "https://www.opcw.org/media-centre/news/2026/09/opcw-director-general-makes-official-visit-china",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General makes official visit to China  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW Director-General makes official visit to China  \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/DSC_4984.jpg?itok=SKph6RcB\" /><figcaption></figcaption></figure></div>",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General makes official visit to China  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW Director-General makes official visit to China  \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/DSC_4984.jpg?itok=SKph6RcB\" /><figcaption><p>OPCW Director-General Sab",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -490,6 +490,22 @@
       ]
     },
     {
+      "title": "Spying , bioweapons , surveillance : Anthropic reveals how countries , groups are misusing Claude",
+      "url": "https://www.tribuneindia.com/news/trending/spying-bioweapons-surveillance-anthropic-reveals-how-countries-groups-are-misusing-claude/",
+      "source_domain": "tribuneindia.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T05:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTZlOTY2M2UwLWFkOTgtMTFmMS1iN2M0LWQ5MzYzYTY1OTBjNy5qcGc=",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
       "title": "Anthropic says its models were misused for biological weapons research , surveillance and cyber attacks",
       "url": "https://www.thenationalnews.com/future/technology/2026/09/10/anthropic-report-biological-weapons-ai/",
       "source_domain": "thenationalnews.com",
@@ -547,22 +563,6 @@
       "published_date": "2026-09-11T05:00:00+00:00",
       "language": "English",
       "image_url": "https://s.yimg.com/lo/mysterio/api/b70f22bfd9fa73a39f22ac38a03a3e99e814fd947343b273a86e4d05e85357c3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffox_news_text_979%2F050551e25e04237dc683fb4bf853ddce.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Spying , bioweapons , surveillance : Anthropic reveals how countries , groups are misusing Claude",
-      "url": "https://www.tribuneindia.com/news/trending/spying-bioweapons-surveillance-anthropic-reveals-how-countries-groups-are-misusing-claude/",
-      "source_domain": "tribuneindia.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTZlOTY2M2UwLWFkOTgtMTFmMS1iN2M0LWQ5MzYzYTY1OTBjNy5qcGc=",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -999,6 +999,21 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "biological"
+      ]
+    },
+    {
+      "title": "IAEA-Led Mission Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-mission-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -2148,6 +2163,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T18:17:52.036639+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 184,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T18:17:50.404064+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 257,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T18:17:48.732705+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 69,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T18:17:47.095312+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2419,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T18:17:45.371437+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1320,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T18:17:43.667304+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 419,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T18:17:41.997275+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 76,
       "window_hours": 24,
       "fetched_at": "2026-09-11T12:19:30.222551+00:00",
@@ -2372,12 +2443,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 437,
-    "biological": 1289,
-    "nuclear": 2713,
-    "radiological": 56,
-    "explosives": 286,
-    "autonomous_weapons": 194,
-    "directed_energy": 76
+    "chemical": 419,
+    "biological": 1320,
+    "nuclear": 2419,
+    "radiological": 69,
+    "explosives": 257,
+    "autonomous_weapons": 184,
+    "directed_energy": 79
   }
 }
