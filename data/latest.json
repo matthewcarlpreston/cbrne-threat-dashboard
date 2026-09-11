@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T20:48:44.744969+00:00",
+  "generated_at": "2026-09-11T00:20:36.172324+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 70,
+  "total_items": 71,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,7 +14,7 @@
   },
   "category_counts": {
     "chemical": 7,
-    "biological": 1,
+    "biological": 2,
     "nuclear": 55,
     "radiological": 1,
     "explosives": 5,
@@ -22,11 +22,11 @@
     "directed_energy": 1
   },
   "country_counts": {
+    "United States": 30,
     "India": 10,
     "Israel": 6,
     "Egypt": 1,
     "Unknown": 3,
-    "United States": 29,
     "Austria": 8,
     "Malaysia": 1,
     "Pakistan": 2,
@@ -38,6 +38,22 @@
     "China": 2
   },
   "items": [
+    {
+      "title": "Anthropic Reveals How It Stopped  Kamikaze Drone  Swarms , Biological Weapons And More",
+      "url": "https://dailycaller.com/2026/09/10/anthropic-report-kamikaze-drone-swarms-biological-weapons/",
+      "source_domain": "dailycaller.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-10T22:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "biological"
+      ]
+    },
     {
       "title": "India may have produced enough plutonium for 140 to 225 nukes , might have assembled up to 190 warheads : US study",
       "url": "https://timesofindia.indiatimes.com/defence/news/india-may-have-produced-enough-plutonium-for-140-to-225-nukes-might-have-assembled-up-to-190-warheads-us-study/articleshow/134023612.cms",
@@ -1154,6 +1170,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 80,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T00:20:36.158636+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 200,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T00:20:34.504882+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 305,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T00:20:32.827154+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 46,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T00:20:31.207103+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3269,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T00:20:29.581508+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1157,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T00:20:27.942599+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 547,
+      "window_hours": 24,
+      "fetched_at": "2026-09-11T00:20:26.291388+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 87,
       "window_hours": 24,
       "fetched_at": "2026-09-10T20:48:44.735988+00:00",
@@ -1210,12 +1282,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 568,
-    "biological": 1118,
-    "nuclear": 3490,
-    "radiological": 33,
-    "explosives": 310,
-    "autonomous_weapons": 179,
-    "directed_energy": 87
+    "chemical": 547,
+    "biological": 1157,
+    "nuclear": 3269,
+    "radiological": 46,
+    "explosives": 305,
+    "autonomous_weapons": 200,
+    "directed_energy": 80
   }
 }
