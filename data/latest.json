@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T00:20:00.200474+00:00",
+  "generated_at": "2026-09-12T06:17:47.385001+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 132,
+  "total_items": 141,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,16 +14,17 @@
   },
   "category_counts": {
     "chemical": 12,
-    "biological": 55,
-    "nuclear": 58,
+    "biological": 61,
+    "nuclear": 61,
     "radiological": 1,
     "explosives": 5,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "United States": 65,
-    "India": 20,
+    "United States": 71,
+    "India": 22,
+    "Israel": 8,
     "Syria": 1,
     "Netherlands": 3,
     "Sri Lanka": 1,
@@ -34,7 +35,6 @@
     "Singapore": 3,
     "Nigeria": 1,
     "China": 3,
-    "Israel": 7,
     "Turkey": 1,
     "Austria": 9,
     "Egypt": 1,
@@ -43,6 +43,150 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "Explosive  planes and bioweapons : CIA declassifies pre - 9 / 11 intel warnings",
+      "url": "http://www.bignewsnetwork.com/news/279302212/explosive-planes-and-bioweapons-cia-declassifies-pre-911-intel-warnings",
+      "source_domain": "bignewsnetwork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-12T03:45:00+00:00",
+      "language": "English",
+      "image_url": "https://image.chitra.live/api/v1/wps/3cb2740/8b1b0fec-d3c4-4f7f-bd99-b1514132927e/0/M2EyNDYxNDUtODc-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Best of BS Opinion : Why AI should worry us more than nuclear weapons",
+      "url": "https://www.business-standard.com/opinion/specials/best-of-bs-opinion-ai-risks-kerala-government-brics-dauphin-discount-126091101426_1.html",
+      "source_domain": "business-standard.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-12T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/29/thumb/fitandfill/1200X628/1785321270-6556.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "India nuclear arsenal estimated at 190 warheads : report",
+      "url": "https://idrw.org/indias-nuclear-arsenal-estimated-at-190-warheads-report/",
+      "source_domain": "idrw.org",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-12T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://image.telanganatoday.com/wp-content/uploads/2026/09/B-misail_V_jpg--816x480-4g.webp?sw=1920&dsz=816x480&iw=615&p=false&r=1",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Hastings Ricin Scare Prompts Urgent Apartment Evacuation",
+      "url": "https://wgrd.com/hastings-michigan-ricin/",
+      "source_domain": "wgrd.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-12T01:30:00+00:00",
+      "language": "English",
+      "image_url": "https://townsquare.media/site/43/files/2026/09/attachment-ricin-enter-suv.jpg?&q=75&format=natural",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Were on the brink of world war that ends with nuclear weapons - Carlson to GU ( EXCLUSIVE )",
+      "url": "http://www.bignewsnetwork.com/news/279302018/were-on-the-brink-of-world-war-that-ends-with-nuclear-weapons-carlson-to-gu-exclusive",
+      "source_domain": "bignewsnetwork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T23:00:00+00:00",
+      "language": "English",
+      "image_url": "https://image.chitra.live/api/v1/wps/60166c7/2b3785ee-f6b8-4b62-ad00-735c80b8dac8/0/OTg2NWU3M2UtNzU-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "FBI investigating possible ricin contamination in Hastings",
+      "url": "https://www.fox2detroit.com/news/fbi-investigating-possible-ricin-contamination-hastings",
+      "source_domain": "fox2detroit.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T22:45:00+00:00",
+      "language": "English",
+      "image_url": "https://images.foxtv.com/static.fox2detroit.com/www.fox2detroit.com/content/uploads/2026/09/1280/720/gettyimages-107639074-scaled.jpg?ve=1&tl=1",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "ANTHRAX TO RELEASE DARK MATTER COFFEE X ANTHRAX  CURSUM PERFICIO",
+      "url": "https://www.knac.com/news/news/anthrax-darkmattercoffeex-anthraxcursumperficio/",
+      "source_domain": "knac.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T21:15:00+00:00",
+      "language": "English",
+      "image_url": "https://mmo.aiircdn.com/2595/6a28471bf0fd9.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Health department gives update after potential ricin exposure in Hastings | Newsradio WOOD 1300 and 106 . 9 FM",
+      "url": "https://woodradio.iheart.com/featured/wood-radio-local-news/content/2026-09-11-health-department-gives-update-after-potential-ricin-exposure-in-hastings/",
+      "source_domain": "woodradio.iheart.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T19:30:00+00:00",
+      "language": "English",
+      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa44d56f6133d300234a4b5?ops=gravity(%22north%22),fit(1200,675),quality(65)",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Anthropic disrupts bioweapons research efforts , Russian hacking , Chinese Claude misuse",
+      "url": "https://www.al-monitor.com/originals/2026/09/anthropic-disrupts-bioweapons-research-efforts-russian-hacking-chinese-claude",
+      "source_domain": "al-monitor.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-11T19:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
     {
       "title": "Anthropic disrupts bioweapons research efforts , Russian hacking , Chinese Claude misuse",
       "url": "https://finance.yahoo.com/news/anthropic-disrupts-russian-chinese-ai-202300682.html",
@@ -2148,6 +2292,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 122,
+      "window_hours": 24,
+      "fetched_at": "2026-09-12T06:17:47.346024+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 139,
+      "window_hours": 24,
+      "fetched_at": "2026-09-12T06:17:45.679526+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 244,
+      "window_hours": 24,
+      "fetched_at": "2026-09-12T06:17:43.967709+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 61,
+      "window_hours": 24,
+      "fetched_at": "2026-09-12T06:17:42.274194+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1935,
+      "window_hours": 24,
+      "fetched_at": "2026-09-12T06:17:40.595215+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1280,
+      "window_hours": 24,
+      "fetched_at": "2026-09-12T06:17:38.902336+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 351,
+      "window_hours": 24,
+      "fetched_at": "2026-09-12T06:17:37.230441+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 92,
       "window_hours": 24,
       "fetched_at": "2026-09-12T00:20:00.174995+00:00",
@@ -2484,12 +2684,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 386,
-    "biological": 1343,
-    "nuclear": 2136,
-    "radiological": 64,
-    "explosives": 266,
-    "autonomous_weapons": 167,
-    "directed_energy": 92
+    "chemical": 351,
+    "biological": 1280,
+    "nuclear": 1935,
+    "radiological": 61,
+    "explosives": 244,
+    "autonomous_weapons": 139,
+    "directed_energy": 122
   }
 }
