@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T12:18:43.741419+00:00",
+  "generated_at": "2026-09-13T18:16:38.354364+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 187,
+  "total_items": 191,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,16 +14,17 @@
   },
   "category_counts": {
     "chemical": 12,
-    "biological": 61,
-    "nuclear": 106,
+    "biological": 63,
+    "nuclear": 108,
     "radiological": 1,
     "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "Japan": 2,
+    "United States": 92,
     "Morocco": 1,
-    "United States": 90,
     "Unknown": 6,
     "Australia": 2,
     "United Kingdom": 7,
@@ -56,6 +57,70 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "Public Interest Groups Warn National Nuclear Security Administration ( NNSA ) on Plutonium Giveaway",
+      "url": "https://nuclear-news.net/2026/09/13/3-b1-public-interest-groups-warn-national-nuclear-security-administration-nnsa-on-plutonium-giveaway/",
+      "source_domain": "nuclear-news.net",
+      "source_country": "Japan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-13T08:15:00+00:00",
+      "language": "English",
+      "image_url": "https://nuclear-news.net/wp-content/uploads/2021/08/plutonium-god-of-hell.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Nobel Laureates warn about AI and nuclear weapons .",
+      "url": "https://nuclear-news.net/2026/09/13/3-b1-nobel-laureates-warn-about-ai-and-nuclear-weapons/",
+      "source_domain": "nuclear-news.net",
+      "source_country": "Japan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-13T08:15:00+00:00",
+      "language": "English",
+      "image_url": "https://nuclear-news.net/wp-content/uploads/2022/08/uranium_film_festival.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Anthropic says it disrupted scientists using Claude AI for possible biological weapons development",
+      "url": "http://www.cbsnews.com/news/anthropic-ai-claude-biological-weapons-development/",
+      "source_domain": "cbsnews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-13T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/10/888deda8-7ac9-4f65-bd00-f50452005993/thumbnail/1200x630/74dd6edc34c50916d8b45a0560855f39/gettyimages-2283355345.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "AI company says it blocked misuse of its technology that could have supported biological weapons",
+      "url": "https://www.knoe.com/2026/09/12/ai-company-says-it-blocked-misuse-its-technology-that-could-have-supported-biological-weapons/",
+      "source_domain": "knoe.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-13T01:00:00+00:00",
+      "language": "English",
+      "image_url": "https://gray-knoe-prod.gtv-cdn.com/resizer/v2/D7KAPILRENA23PJ6CNQI26RZ4Q.jpg?auth=0757bd76f0c092502d4476a0529b8849c44c3e880751539aa4ddd475ed77c3b9&smart=true",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
     {
       "title": "Morocco Co - Sponsors IAEA Resolution Closing Syria Assad - Era Nuclear File",
       "url": "https://www.moroccoworldnews.com/2026/09/338064/morocco-co-sponsors-iaea-resolution-closing-syrias-assad-era-nuclear-file/",
@@ -1035,7 +1100,7 @@
     {
       "title": "OPCW Director-General makes official visit to China",
       "url": "https://www.opcw.org/media-centre/news/2026/09/opcw-director-general-makes-official-visit-china",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General makes official visit to China  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW Director-General makes official visit to China  \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/DSC_4984.jpg?itok=SKph6RcB\" /><figcaption><p>OPCW Director-General Sab",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General makes official visit to China  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General makes official visit to China  \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/DSC_4984.jpg?itok=SKph6RcB\" />\n\n\n        <figcaption>\n     ",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -1242,7 +1307,7 @@
     {
       "title": "United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work",
       "url": "https://www.opcw.org/media-centre/news/2026/09/united-kingdom-provides-voluntary-funding-more-eur-13-million-enhance",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"H.E. Mr Christopher Maxwell Rampling, Permanent Representative of the United Kingdom of Great Britain and Northern Ireland (UK) to the OPCW, and Sabrina Dallafior, OPCW Director-",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Christopher Maxwell Rampling, Permanent Representative of the United Kingdom of Great Britain and Northern Ireland (UK) to the OPCW, and Sabrina Dallafior, OPC",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -2806,7 +2871,7 @@
     {
       "title": "Sweden provides voluntary funding to support OPCW’s work",
       "url": "https://www.opcw.org/media-centre/news/2026/09/sweden-provides-voluntary-funding-support-opcws-work",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/publi",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -3039,6 +3104,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 58,
+      "window_hours": 24,
+      "fetched_at": "2026-09-13T18:16:38.314928+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 116,
+      "window_hours": 24,
+      "fetched_at": "2026-09-13T18:16:36.707589+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 169,
+      "window_hours": 24,
+      "fetched_at": "2026-09-13T18:16:34.863781+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 57,
+      "window_hours": 24,
+      "fetched_at": "2026-09-13T18:16:33.153664+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1855,
+      "window_hours": 24,
+      "fetched_at": "2026-09-13T18:16:31.526126+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1069,
+      "window_hours": 24,
+      "fetched_at": "2026-09-13T18:16:29.899922+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 385,
+      "window_hours": 24,
+      "fetched_at": "2026-09-13T18:16:28.302645+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 63,
@@ -3713,12 +3834,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 331,
-    "biological": 1085,
-    "nuclear": 1897,
-    "radiological": 56,
-    "explosives": 162,
-    "autonomous_weapons": 106,
-    "directed_energy": 63
+    "chemical": 385,
+    "biological": 1069,
+    "nuclear": 1855,
+    "radiological": 57,
+    "explosives": 169,
+    "autonomous_weapons": 116,
+    "directed_energy": 58
   }
 }
