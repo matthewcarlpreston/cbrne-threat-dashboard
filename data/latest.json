@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T06:21:18.494190+00:00",
+  "generated_at": "2026-09-14T12:20:50.995773+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 190,
+  "total_items": 193,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,13 +15,14 @@
   "category_counts": {
     "chemical": 12,
     "biological": 63,
-    "nuclear": 107,
+    "nuclear": 110,
     "radiological": 1,
     "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "Austria": 11,
     "Japan": 2,
     "United States": 92,
     "Morocco": 1,
@@ -51,12 +52,56 @@
     "Singapore": 3,
     "Nigeria": 1,
     "Turkey": 1,
-    "Austria": 8,
     "Egypt": 1,
     "Canada": 1,
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+      "url": "http://www.iaea.org/newscenter/statements/director-generals-statement-to-the-seventieth-regular-session-of-the-iaea-general-conference",
+      "summary": "(As prepared for delivery)\nExcellencies, ladies and gentlemen,&nbsp;\nToday we begin the 70th General Conference, welcoming the Democratic Republic of Timor-Leste as the IAEA’s one-hundred-and-eighty-second Member State.",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-14T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
+      "url": "http://www.iaea.org/newscenter/news/iaea-general-conference-elects-argentine-ambassador-as-conference-president",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-14T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Projects Global Nuclear Power Capacity Could Triple by 2060, Continuing Rising Trend",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-projects-global-nuclear-power-capacity-could-triple-by-2060-continuing-rising-trend",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-14T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Public Interest Groups Warn National Nuclear Security Administration ( NNSA ) on Plutonium Giveaway",
       "url": "https://nuclear-news.net/2026/09/13/3-b1-public-interest-groups-warn-national-nuclear-security-administration-nnsa-on-plutonium-giveaway/",
@@ -3091,6 +3136,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 61,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T12:20:50.975977+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 125,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T12:20:49.331000+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 225,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T12:20:47.640257+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 35,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T12:20:46.002899+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1789,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T12:20:44.343109+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1022,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T12:20:42.714566+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 451,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T12:20:41.078084+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 57,
       "window_hours": 24,
       "fetched_at": "2026-09-14T06:21:18.469165+00:00",
@@ -3931,12 +4032,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 446,
-    "biological": 1033,
-    "nuclear": 1649,
-    "radiological": 39,
-    "explosives": 192,
-    "autonomous_weapons": 115,
-    "directed_energy": 57
+    "chemical": 451,
+    "biological": 1022,
+    "nuclear": 1789,
+    "radiological": 35,
+    "explosives": 225,
+    "autonomous_weapons": 125,
+    "directed_energy": 61
   }
 }
