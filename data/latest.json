@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-13T18:16:38.354364+00:00",
+  "generated_at": "2026-09-14T00:20:42.209253+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 191,
+  "total_items": 190,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 12,
     "biological": 63,
-    "nuclear": 108,
+    "nuclear": 107,
     "radiological": 1,
     "explosives": 6,
     "autonomous_weapons": 1,
@@ -51,7 +51,7 @@
     "Singapore": 3,
     "Nigeria": 1,
     "Turkey": 1,
-    "Austria": 9,
+    "Austria": 8,
     "Egypt": 1,
     "Canada": 1,
     "South Korea": 2
@@ -1100,7 +1100,7 @@
     {
       "title": "OPCW Director-General makes official visit to China",
       "url": "https://www.opcw.org/media-centre/news/2026/09/opcw-director-general-makes-official-visit-china",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General makes official visit to China  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General makes official visit to China  \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/DSC_4984.jpg?itok=SKph6RcB\" />\n\n\n        <figcaption>\n     ",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General makes official visit to China  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW Director-General makes official visit to China  \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/DSC_4984.jpg?itok=SKph6RcB\" /><figcaption><p>OPCW Director-General Sab",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -1307,7 +1307,7 @@
     {
       "title": "United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work",
       "url": "https://www.opcw.org/media-centre/news/2026/09/united-kingdom-provides-voluntary-funding-more-eur-13-million-enhance",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Christopher Maxwell Rampling, Permanent Representative of the United Kingdom of Great Britain and Northern Ireland (UK) to the OPCW, and Sabrina Dallafior, OPC",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"H.E. Mr Christopher Maxwell Rampling, Permanent Representative of the United Kingdom of Great Britain and Northern Ireland (UK) to the OPCW, and Sabrina Dallafior, OPCW Director-",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -2871,7 +2871,7 @@
     {
       "title": "Sweden provides voluntary funding to support OPCW’s work",
       "url": "https://www.opcw.org/media-centre/news/2026/09/sweden-provides-voluntary-funding-support-opcws-work",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/publi",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -3086,24 +3086,65 @@
         "nuclear",
         "radiological"
       ]
-    },
-    {
-      "title": "Tritium Level Far Below Japan’s Operational Limit in 23rd Batch of ALPS Treated Water, IAEA Confirms",
-      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-23rd-batch-of-alps-treated-water-iaea-confirms",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-08-31T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 55,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T00:20:42.186321+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 119,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T00:20:40.563268+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 178,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T00:20:38.961777+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 52,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T00:20:37.338587+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1630,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T00:20:35.729394+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1149,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T00:20:34.097402+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 419,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T00:20:32.494375+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 58,
@@ -3834,12 +3875,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 385,
-    "biological": 1069,
-    "nuclear": 1855,
-    "radiological": 57,
-    "explosives": 169,
-    "autonomous_weapons": 116,
-    "directed_energy": 58
+    "chemical": 419,
+    "biological": 1149,
+    "nuclear": 1630,
+    "radiological": 52,
+    "explosives": 178,
+    "autonomous_weapons": 119,
+    "directed_energy": 55
   }
 }
