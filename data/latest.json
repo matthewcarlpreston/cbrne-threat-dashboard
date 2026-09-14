@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T12:20:50.995773+00:00",
+  "generated_at": "2026-09-14T18:17:55.920490+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 193,
+  "total_items": 194,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,14 +15,14 @@
   "category_counts": {
     "chemical": 12,
     "biological": 63,
-    "nuclear": 110,
+    "nuclear": 111,
     "radiological": 1,
     "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "Austria": 11,
+    "Austria": 12,
     "Japan": 2,
     "United States": 92,
     "Morocco": 1,
@@ -57,6 +57,21 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+      "url": "http://www.iaea.org/newscenter/news/the-week-ahead-iaea-hosts-70th-general-conference",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-14T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
       "url": "http://www.iaea.org/newscenter/statements/director-generals-statement-to-the-seventieth-regular-session-of-the-iaea-general-conference",
@@ -3136,6 +3151,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T18:17:55.895770+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 140,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T18:17:54.233678+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 266,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T18:17:52.560811+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 40,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T18:17:50.829734+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2074,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T18:17:49.151561+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1110,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T18:17:47.459424+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 397,
+      "window_hours": 24,
+      "fetched_at": "2026-09-14T18:17:45.766712+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 61,
       "window_hours": 24,
       "fetched_at": "2026-09-14T12:20:50.975977+00:00",
@@ -4032,12 +4103,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 451,
-    "biological": 1022,
-    "nuclear": 1789,
-    "radiological": 35,
-    "explosives": 225,
-    "autonomous_weapons": 125,
-    "directed_energy": 61
+    "chemical": 397,
+    "biological": 1110,
+    "nuclear": 2074,
+    "radiological": 40,
+    "explosives": 266,
+    "autonomous_weapons": 140,
+    "directed_energy": 45
   }
 }
