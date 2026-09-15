@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T00:20:55.885050+00:00",
+  "generated_at": "2026-09-15T06:19:53.339727+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
   "total_items": 194,
@@ -58,9 +58,9 @@
   },
   "items": [
     {
-      "title": "The Week Ahead: IAEA Hosts 70th General Conference",
-      "url": "http://www.iaea.org/newscenter/news/the-week-ahead-iaea-hosts-70th-general-conference",
-      "summary": "",
+      "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
+      "url": "http://www.iaea.org/newscenter/statements/director-generals-statement-to-the-seventieth-regular-session-of-the-iaea-general-conference",
+      "summary": "(As prepared for delivery)\nExcellencies, ladies and gentlemen,&nbsp;\nToday we begin the 70th General Conference, welcoming the Democratic Republic of Timor-Leste as the IAEA’s one-hundred-and-eighty-second Member State.",
       "source_domain": "IAEA",
       "source_country": "Austria",
       "tone": null,
@@ -73,9 +73,9 @@
       ]
     },
     {
-      "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
-      "url": "http://www.iaea.org/newscenter/statements/director-generals-statement-to-the-seventieth-regular-session-of-the-iaea-general-conference",
-      "summary": "(As prepared for delivery)\nExcellencies, ladies and gentlemen,&nbsp;\nToday we begin the 70th General Conference, welcoming the Democratic Republic of Timor-Leste as the IAEA’s one-hundred-and-eighty-second Member State.",
+      "title": "The Week Ahead: IAEA Hosts 70th General Conference",
+      "url": "http://www.iaea.org/newscenter/news/the-week-ahead-iaea-hosts-70th-general-conference",
+      "summary": "",
       "source_domain": "IAEA",
       "source_country": "Austria",
       "tone": null,
@@ -3151,6 +3151,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 48,
+      "window_hours": 24,
+      "fetched_at": "2026-09-15T06:19:53.314305+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 148,
+      "window_hours": 24,
+      "fetched_at": "2026-09-15T06:19:51.716304+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 325,
+      "window_hours": 24,
+      "fetched_at": "2026-09-15T06:19:50.107289+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-09-15T06:19:48.511662+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2160,
+      "window_hours": 24,
+      "fetched_at": "2026-09-15T06:19:46.894530+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1074,
+      "window_hours": 24,
+      "fetched_at": "2026-09-15T06:19:45.265048+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 361,
+      "window_hours": 24,
+      "fetched_at": "2026-09-15T06:19:43.636014+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 45,
       "window_hours": 24,
       "fetched_at": "2026-09-15T00:20:55.860701+00:00",
@@ -4159,12 +4215,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 365,
-    "biological": 1055,
-    "nuclear": 2210,
-    "radiological": 43,
-    "explosives": 273,
-    "autonomous_weapons": 143,
-    "directed_energy": 45
+    "chemical": 361,
+    "biological": 1074,
+    "nuclear": 2160,
+    "radiological": 49,
+    "explosives": 325,
+    "autonomous_weapons": 148,
+    "directed_energy": 48
   }
 }
