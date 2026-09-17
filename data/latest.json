@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T06:20:44.090227+00:00",
+  "generated_at": "2026-09-17T12:19:39.453600+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 193,
+  "total_items": 194,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,7 +13,7 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 12,
+    "chemical": 13,
     "biological": 63,
     "nuclear": 110,
     "radiological": 0,
@@ -22,6 +22,7 @@
     "directed_energy": 1
   },
   "country_counts": {
+    "Netherlands": 4,
     "Austria": 11,
     "Japan": 2,
     "United States": 92,
@@ -47,7 +48,6 @@
     "Iran": 1,
     "South Africa": 1,
     "India": 22,
-    "Netherlands": 3,
     "Pakistan": 3,
     "Singapore": 3,
     "Nigeria": 1,
@@ -57,6 +57,21 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW",
+      "url": "https://www.opcw.org/media-centre/speeches-statements/2026/09/closing-remarks-twenty-sixth-annual-induction-workshop",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"\" xml:lang=\"\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\">Thu 17/09/2026 - 11:03</span>\n  Closing remarks by the Deputy Director-General of the OPCW, Me",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-17T09:03:23+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
       "url": "http://www.iaea.org/newscenter/statements/director-generals-statement-to-the-seventieth-regular-session-of-the-iaea-general-conference",
@@ -3135,6 +3150,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 52,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T12:19:39.428704+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 114,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T12:19:37.814536+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 253,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T12:19:36.190037+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 53,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T12:19:34.540594+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2442,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T12:19:32.924347+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 913,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T12:19:31.285500+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 504,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T12:19:29.686635+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 46,
       "window_hours": 24,
       "fetched_at": "2026-09-17T06:20:44.065395+00:00",
@@ -4647,12 +4718,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 490,
-    "biological": 947,
-    "nuclear": 2444,
+    "chemical": 504,
+    "biological": 913,
+    "nuclear": 2442,
     "radiological": 53,
-    "explosives": 335,
-    "autonomous_weapons": 111,
-    "directed_energy": 46
+    "explosives": 253,
+    "autonomous_weapons": 114,
+    "directed_energy": 52
   }
 }
