@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T12:19:39.453600+00:00",
+  "generated_at": "2026-09-17T18:17:25.116512+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 194,
+  "total_items": 197,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 13,
     "biological": 63,
-    "nuclear": 110,
+    "nuclear": 113,
     "radiological": 0,
     "explosives": 6,
     "autonomous_weapons": 1,
@@ -23,7 +23,7 @@
   },
   "country_counts": {
     "Netherlands": 4,
-    "Austria": 11,
+    "Austria": 14,
     "Japan": 2,
     "United States": 92,
     "Morocco": 1,
@@ -70,6 +70,51 @@
       "rss_feed_name": "OPCW",
       "categories": [
         "chemical"
+      ]
+    },
+    {
+      "title": "Update 367 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-367-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-17T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Scientific Forum Highlights Progress in Expanding Access to Cancer Care",
+      "url": "http://www.iaea.org/newscenter/news/scientific-forum-highlights-progress-in-expanding-access-to-cancer-care",
+      "summary": "The IAEA’s flagship Rays of Hope initiative to expand access to cancer care was in the spotlight at this year’s Scientific Forum.&nbsp;The signature side event at the 70th IAEA General Conference, the forum brought together a",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-17T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Visitor Centre Celebrates Its First Anniversary",
+      "url": "http://www.iaea.org/newscenter/news/iaea-visitor-centre-celebrates-its-first-anniversary",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-17T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -3150,6 +3195,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 61,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T18:17:25.091179+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 93,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T18:17:23.401426+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 300,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T18:17:21.699820+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 58,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T18:17:20.006031+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2498,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T18:17:18.284109+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 950,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T18:17:16.597328+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 473,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T18:17:14.910009+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 52,
       "window_hours": 24,
       "fetched_at": "2026-09-17T12:19:39.428704+00:00",
@@ -4718,12 +4819,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 504,
-    "biological": 913,
-    "nuclear": 2442,
-    "radiological": 53,
-    "explosives": 253,
-    "autonomous_weapons": 114,
-    "directed_energy": 52
+    "chemical": 473,
+    "biological": 950,
+    "nuclear": 2498,
+    "radiological": 58,
+    "explosives": 300,
+    "autonomous_weapons": 93,
+    "directed_energy": 61
   }
 }
