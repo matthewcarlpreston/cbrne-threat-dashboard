@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T18:18:06.567242+00:00",
+  "generated_at": "2026-09-17T00:19:30.445586+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 194,
+  "total_items": 193,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,14 +15,14 @@
   "category_counts": {
     "chemical": 12,
     "biological": 63,
-    "nuclear": 111,
-    "radiological": 1,
+    "nuclear": 110,
+    "radiological": 0,
     "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "Austria": 12,
+    "Austria": 11,
     "Japan": 2,
     "United States": 92,
     "Morocco": 1,
@@ -3130,25 +3130,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "IAEA Reviews Finland's Nuclear and Radiological Emergency Preparedness and Response",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-finlands-nuclear-and-radiological-emergency-preparedness-and-response",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-03T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear",
-        "radiological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 48,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T00:19:30.432835+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 102,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T00:19:28.832107+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 315,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T00:19:27.227523+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 54,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T00:19:25.622010+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2191,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T00:19:24.014748+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 997,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T00:19:22.347326+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 482,
+      "window_hours": 24,
+      "fetched_at": "2026-09-17T00:19:20.747157+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 45,
@@ -4551,12 +4591,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 406,
+    "chemical": 482,
     "biological": 997,
-    "nuclear": 1981,
-    "radiological": 50,
-    "explosives": 328,
-    "autonomous_weapons": 106,
-    "directed_energy": 45
+    "nuclear": 2191,
+    "radiological": 54,
+    "explosives": 315,
+    "autonomous_weapons": 102,
+    "directed_energy": 48
   }
 }
