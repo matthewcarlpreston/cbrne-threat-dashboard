@@ -191,6 +191,12 @@ Static HTML/CSS/JS, no build step, reads `data/latest.json` via `fetch()`:
 - Summary stat tiles (items shown, countries reporting, leading category, retention window)
 - Category breakdown bar chart (Chart.js)
 - Top reporting countries
+- **Coverage trend** — daily item counts per category over the selected time range, as
+  small multiples (one sparkline-style chart per category) rather than one combined
+  chart. With 7 categories at very different volumes (Nuclear routinely runs 10-100x
+  Radiological), overlapping lines in a single chart would be hard to tell apart by
+  color alone; a chart per category sidesteps that. Respects the same category and
+  time-range filters as the rest of the dashboard.
 - X/Twitter keyword-volume chart (current per-category count, aggregate only; shows an
   empty state if the source isn't configured for a given deployment)
 - Filterable/searchable item feed, newest first

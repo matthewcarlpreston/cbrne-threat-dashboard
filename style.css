@@ -193,6 +193,30 @@ a { color: var(--accent); }
 .country-bar-fill { background: var(--accent); height: 100%; border-radius: 4px; }
 .country-count { text-align: right; color: var(--text-muted); font-variant-numeric: tabular-nums; }
 
+.trend-panel { grid-column: 1 / -1; }
+.trend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}
+.trend-cell {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px 8px;
+}
+.trend-cell-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 6px;
+}
+.trend-cell-total { color: var(--text-muted); font-weight: 400; font-variant-numeric: tabular-nums; }
+.trend-cell-canvas-wrap { position: relative; height: 70px; }
+
 .twitter-panel { grid-column: 1 / -1; }
 .panel-note { font-weight: 400; font-size: 0.78rem; color: var(--text-muted); }
 .twitter-disclosure { margin: 10px 0 0; font-size: 0.78rem; color: var(--text-muted); }

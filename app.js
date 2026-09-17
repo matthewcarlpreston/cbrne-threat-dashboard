@@ -27,6 +27,7 @@
     searchTerm: "",
     chart: null,
     twitterChart: null,
+    trendCharts: {}, // category -> Chart instance, small multiples
   };
 
   const el = (id) => document.getElementById(id);
@@ -218,6 +219,114 @@
     });
   }
 
+  function dayKeyUTC(date) {
+    return date.toISOString().slice(0, 10); // YYYY-MM-DD, timezone-independent bucketing
+  }
+
+  function buildDayRange(rangeDays) {
+    const days = [];
+    const n = rangeDays === "all" ? state.data.retention_days || 14 : rangeDays;
+    const today = new Date();
+    for (let i = n - 1; i >= 0; i--) {
+      days.push(dayKeyUTC(new Date(today.getTime() - i * 86400000)));
+    }
+    return days;
+  }
+
+  function renderTrend(items) {
+    const container = el("trend-grid");
+    const empty = el("trend-empty");
+    const labels = state.data.category_labels || CATEGORY_FALLBACK_LABELS;
+
+    // Small multiples, not one combined chart: with 7 categories at very
+    // different volumes (Nuclear routinely dwarfs Radiological), overlapping
+    // lines in a single chart would be unreadable and hard to tell apart by
+    // color alone. One line per category, each in its own color, sidesteps
+    // that entirely -- see dataviz skill's guidance on categorical color
+    // limits for overlapping-series forms.
+    Object.values(state.trendCharts).forEach((c) => c.destroy());
+    state.trendCharts = {};
+
+    const dayKeys = buildDayRange(state.rangeDays);
+    if (dayKeys.length < 2) {
+      container.innerHTML = "";
+      empty.hidden = false;
+      return;
+    }
+    empty.hidden = true;
+
+    const categoriesToShow = (
+      state.activeCategories.size > 0
+        ? CATEGORY_ORDER.filter((c) => state.activeCategories.has(c))
+        : CATEGORY_ORDER
+    ).filter((c) => c in labels);
+
+    container.innerHTML = "";
+    const dayIndex = new Map(dayKeys.map((d, i) => [d, i]));
+    const muted = getComputedStyle(document.documentElement).getPropertyValue("--text-muted");
+    const gridline = getComputedStyle(document.documentElement).getPropertyValue("--gridline");
+
+    categoriesToShow.forEach((cat) => {
+      const counts = new Array(dayKeys.length).fill(0);
+      items.forEach((item) => {
+        if (!(item.categories || []).includes(cat)) return;
+        const d = new Date(item.published_date);
+        if (Number.isNaN(d.getTime())) return;
+        const idx = dayIndex.get(dayKeyUTC(d));
+        if (idx !== undefined) counts[idx] += 1;
+      });
+      const total = counts.reduce((a, b) => a + b, 0);
+      const color = categoryColor(cat);
+
+      const cell = document.createElement("div");
+      cell.className = "trend-cell";
+      const title = document.createElement("div");
+      title.className = "trend-cell-title";
+      title.innerHTML = `<span style="color:${color}">${escapeHtml(labels[cat] || CATEGORY_FALLBACK_LABELS[cat] || cat)}</span><span class="trend-cell-total">${total}</span>`;
+      const canvasWrap = document.createElement("div");
+      canvasWrap.className = "trend-cell-canvas-wrap";
+      const canvas = document.createElement("canvas");
+      canvasWrap.appendChild(canvas);
+      cell.appendChild(title);
+      cell.appendChild(canvasWrap);
+      container.appendChild(cell);
+
+      state.trendCharts[cat] = new Chart(canvas.getContext("2d"), {
+        type: "line",
+        data: {
+          labels: dayKeys.map((d) => d.slice(5)), // MM-DD
+          datasets: [
+            {
+              data: counts,
+              borderColor: color,
+              backgroundColor: `${color}22`,
+              fill: true,
+              tension: 0.3,
+              pointRadius: 0,
+              borderWidth: 2,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: {
+              grid: { display: false },
+              ticks: { color: muted, maxTicksLimit: 4, font: { size: 9 } },
+            },
+            y: {
+              beginAtZero: true,
+              grid: { color: gridline },
+              ticks: { precision: 0, color: muted, maxTicksLimit: 3, font: { size: 9 } },
+            },
+          },
+        },
+      });
+    });
+  }
+
   function renderCountries(items) {
     const counts = {};
     items.forEach((i) => {
@@ -314,6 +423,7 @@
     const items = filteredItems();
     renderStats(items);
     renderChart(items);
+    renderTrend(items);
     renderCountries(items);
     renderFeed(items);
   }
