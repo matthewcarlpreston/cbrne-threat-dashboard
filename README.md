@@ -57,7 +57,10 @@ cbrne-threat-dashboard/
 │   ├── fetch_rss.py                    # IAEA / OPCW / NTI RSS feeds
 │   ├── fetch_twitter.py                # X/Twitter aggregate keyword-volume counts (optional)
 │   ├── classify.py                     # keyword/regex domain classification
-│   └── build_json.py                   # orchestrates fetch → classify → merge → write
+│   ├── build_json.py                   # orchestrates fetch → classify → merge → write
+│   └── make_og_image.py                # renders the link-preview thumbnail (run by hand, not by cron)
+├── assets/
+│   └── og-image.png                    # 1200x630 preview shown when the URL is shared
 ├── data/
 │   └── latest.json                     # current snapshot the dashboard reads
 ├── index.html / style.css / app.js     # static dashboard (GitHub Pages source: repo root)
@@ -200,6 +203,19 @@ Static HTML/CSS/JS, no build step, reads `data/latest.json` via `fetch()`:
 - X/Twitter keyword-volume chart (current per-category count, aggregate only; shows an
   empty state if the source isn't configured for a given deployment)
 - Filterable/searchable item feed, newest first
+
+### Link preview (LinkedIn / Slack / X)
+
+`index.html` carries Open Graph and Twitter Card tags pointing at `assets/og-image.png`, a
+1200×630 PNG (LinkedIn ignores SVG, and scrapers need an absolute image URL). The card is a
+miniature of the live Coverage-trend panel, drawn from `data/latest.json` by
+`scripts/make_og_image.py`. It's a **static snapshot** — the cron doesn't regenerate it, so
+re-run the script by hand if you want it to reflect newer data or a palette/taxonomy change
+(`pip install pillow` first; Pillow is a dev-only dependency and deliberately not in
+`requirements.txt`, so the scheduled workflow doesn't install it every run).
+
+Social platforms cache previews aggressively. After changing the image or tags, force a
+re-scrape with LinkedIn's [Post Inspector](https://www.linkedin.com/post-inspector/).
 
 ## Build phases (as executed)
 
