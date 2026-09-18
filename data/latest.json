@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T12:17:26.849144+00:00",
+  "generated_at": "2026-09-18T18:16:50.915096+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 197,
+  "total_items": 198,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,15 +15,15 @@
   "category_counts": {
     "chemical": 13,
     "biological": 63,
-    "nuclear": 113,
+    "nuclear": 114,
     "radiological": 0,
     "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "Austria": 15,
     "Netherlands": 4,
-    "Austria": 14,
     "Japan": 2,
     "United States": 92,
     "Morocco": 1,
@@ -57,6 +57,21 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "New Members Elected to the IAEA Board of Governors",
+      "url": "http://www.iaea.org/newscenter/news/GC70-new-members-elected-to-the-iaea-board-of-governors",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-18T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW",
       "url": "https://www.opcw.org/media-centre/speeches-statements/2026/09/closing-remarks-twenty-sixth-annual-induction-workshop",
@@ -3195,6 +3210,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-09-18T18:16:50.888443+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 146,
+      "window_hours": 24,
+      "fetched_at": "2026-09-18T18:16:49.253254+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 364,
+      "window_hours": 24,
+      "fetched_at": "2026-09-18T18:16:47.630412+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 83,
+      "window_hours": 24,
+      "fetched_at": "2026-09-18T18:16:45.994802+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3121,
+      "window_hours": 24,
+      "fetched_at": "2026-09-18T18:16:44.346012+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1070,
+      "window_hours": 24,
+      "fetched_at": "2026-09-18T18:16:42.507944+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 444,
+      "window_hours": 24,
+      "fetched_at": "2026-09-18T18:16:40.857582+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 58,
       "window_hours": 24,
       "fetched_at": "2026-09-18T12:17:26.827786+00:00",
@@ -4987,12 +5058,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 412,
-    "biological": 1005,
-    "nuclear": 2677,
-    "radiological": 72,
-    "explosives": 401,
-    "autonomous_weapons": 106,
-    "directed_energy": 58
+    "chemical": 444,
+    "biological": 1070,
+    "nuclear": 3121,
+    "radiological": 83,
+    "explosives": 364,
+    "autonomous_weapons": 146,
+    "directed_energy": 49
   }
 }
