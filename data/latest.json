@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T00:20:02.524459+00:00",
+  "generated_at": "2026-09-19T06:18:25.684239+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
   "total_items": 197,
@@ -3195,6 +3195,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 37,
+      "window_hours": 24,
+      "fetched_at": "2026-09-19T06:18:25.658442+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 146,
+      "window_hours": 24,
+      "fetched_at": "2026-09-19T06:18:24.011744+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 308,
+      "window_hours": 24,
+      "fetched_at": "2026-09-19T06:18:22.394635+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 62,
+      "window_hours": 24,
+      "fetched_at": "2026-09-19T06:18:20.802049+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3540,
+      "window_hours": 24,
+      "fetched_at": "2026-09-19T06:18:19.207657+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1268,
+      "window_hours": 24,
+      "fetched_at": "2026-09-19T06:18:17.604022+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 415,
+      "window_hours": 24,
+      "fetched_at": "2026-09-19T06:18:15.985699+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 48,
       "window_hours": 24,
       "fetched_at": "2026-09-19T00:20:02.498807+00:00",
@@ -5099,12 +5155,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 437,
-    "biological": 1260,
-    "nuclear": 3571,
-    "radiological": 70,
-    "explosives": 329,
-    "autonomous_weapons": 135,
-    "directed_energy": 48
+    "chemical": 415,
+    "biological": 1268,
+    "nuclear": 3540,
+    "radiological": 62,
+    "explosives": 308,
+    "autonomous_weapons": 146,
+    "directed_energy": 37
   }
 }
