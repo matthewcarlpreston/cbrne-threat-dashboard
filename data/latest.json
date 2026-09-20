@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T06:18:30.079987+00:00",
+  "generated_at": "2026-09-20T12:17:52.650570+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 197,
+  "total_items": 198,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,17 +15,17 @@
   "category_counts": {
     "chemical": 13,
     "biological": 63,
-    "nuclear": 113,
+    "nuclear": 114,
     "radiological": 0,
     "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "United States": 93,
     "Austria": 14,
     "Netherlands": 4,
     "Japan": 2,
-    "United States": 92,
     "Morocco": 1,
     "Unknown": 6,
     "Australia": 2,
@@ -57,6 +57,22 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "Bikini Atoll Sunken  Ghost Fleet  80 Years After Nuclear Tests",
+      "url": "https://www.military.com/the-navy-dropped-atomic-bombs-on-more-than-90-ships-the-ghost-fleet-is-still-there",
+      "source_domain": "military.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-20T09:30:00+00:00",
+      "language": "English",
+      "image_url": "https://static0.mltimages.com/wordpress/wp-content/uploads/2026/09/ijn_nagato.jpg?&fit=crop",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "New Members Elected to the IAEA Board of Governors",
       "url": "http://www.iaea.org/newscenter/news/GC70-new-members-elected-to-the-iaea-board-of-governors",
@@ -3195,6 +3211,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 30,
+      "window_hours": 24,
+      "fetched_at": "2026-09-20T12:17:52.618947+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 111,
+      "window_hours": 24,
+      "fetched_at": "2026-09-20T12:17:50.958575+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 323,
+      "window_hours": 24,
+      "fetched_at": "2026-09-20T12:17:49.352975+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 65,
+      "window_hours": 24,
+      "fetched_at": "2026-09-20T12:17:47.708166+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2489,
+      "window_hours": 24,
+      "fetched_at": "2026-09-20T12:17:46.096112+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 858,
+      "window_hours": 24,
+      "fetched_at": "2026-09-20T12:17:44.480633+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 373,
+      "window_hours": 24,
+      "fetched_at": "2026-09-20T12:17:42.868275+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 32,
       "window_hours": 24,
       "fetched_at": "2026-09-20T06:18:30.051833+00:00",
@@ -5379,12 +5451,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 371,
-    "biological": 880,
-    "nuclear": 2526,
-    "radiological": 68,
-    "explosives": 289,
-    "autonomous_weapons": 93,
-    "directed_energy": 32
+    "chemical": 373,
+    "biological": 858,
+    "nuclear": 2489,
+    "radiological": 65,
+    "explosives": 323,
+    "autonomous_weapons": 111,
+    "directed_energy": 30
   }
 }
