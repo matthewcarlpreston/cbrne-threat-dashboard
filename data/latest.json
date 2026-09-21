@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T06:20:32.779582+00:00",
+  "generated_at": "2026-09-21T12:17:24.068860+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 203,
+  "total_items": 204,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,20 +15,20 @@
   "category_counts": {
     "chemical": 13,
     "biological": 65,
-    "nuclear": 116,
+    "nuclear": 117,
     "radiological": 0,
     "explosives": 7,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "Japan": 3,
     "United States": 96,
     "Zambia": 1,
     "Iran": 2,
     "Pakistan": 4,
     "Austria": 13,
     "Netherlands": 4,
-    "Japan": 2,
     "Morocco": 1,
     "Unknown": 6,
     "Australia": 2,
@@ -58,6 +58,22 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "The Peril of Trump Final Act : Would He Use a Tactical Nuclear Weapon in Iran ? « nuclear - news",
+      "url": "https://nuclear-news.net/2026/09/21/5-a-the-peril-of-trumps-final-act-would-he-use-a-tactical-nuclear-weapon-in-iran/",
+      "source_domain": "nuclear-news.net",
+      "source_country": "Japan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-21T06:30:00+00:00",
+      "language": "English",
+      "image_url": "https://nuclear-news.net/wp-content/uploads/2025/01/trump-world-a.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "25 Years After Amerithrax : The Changing Landscape Of Biosecurity - Analysis",
       "url": "https://www.eurasiareview.com/21092026-25-years-after-amerithrax-the-changing-landscape-of-biosecurity-analysis/",
@@ -3293,6 +3309,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 55,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T12:17:24.046354+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 184,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T12:17:22.353489+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 262,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T12:17:20.613333+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 63,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T12:17:18.876396+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2149,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T12:17:17.167381+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 740,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T12:17:15.494791+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 426,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T12:17:13.804175+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 45,
       "window_hours": 24,
       "fetched_at": "2026-09-21T06:20:32.739382+00:00",
@@ -5701,12 +5773,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 402,
-    "biological": 759,
-    "nuclear": 2166,
+    "chemical": 426,
+    "biological": 740,
+    "nuclear": 2149,
     "radiological": 63,
-    "explosives": 314,
-    "autonomous_weapons": 171,
-    "directed_energy": 45
+    "explosives": 262,
+    "autonomous_weapons": 184,
+    "directed_energy": 55
   }
 }
