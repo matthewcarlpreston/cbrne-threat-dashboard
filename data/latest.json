@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T12:17:24.068860+00:00",
+  "generated_at": "2026-09-21T18:16:21.469196+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 204,
+  "total_items": 205,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 13,
     "biological": 65,
-    "nuclear": 117,
+    "nuclear": 118,
     "radiological": 0,
     "explosives": 7,
     "autonomous_weapons": 1,
@@ -25,9 +25,9 @@
     "Japan": 3,
     "United States": 96,
     "Zambia": 1,
+    "Austria": 14,
     "Iran": 2,
     "Pakistan": 4,
-    "Austria": 13,
     "Netherlands": 4,
     "Morocco": 1,
     "Unknown": 6,
@@ -104,6 +104,21 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "biological"
+      ]
+    },
+    {
+      "title": "Week in Review: IAEA 70th General Conference",
+      "url": "http://www.iaea.org/newscenter/news/week-in-review-iaea-70th-general-conference",
+      "summary": "The 70th annual IAEA General Conference came to a close on Friday last week, following five days of discussions, events and activities related to a range of nuclear topics.",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-21T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -3309,6 +3324,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 64,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T18:16:21.435486+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 176,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T18:16:19.730797+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 229,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T18:16:18.113587+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 59,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T18:16:16.497330+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1984,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T18:16:14.886697+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 743,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T18:16:13.271103+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 458,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T18:16:11.664138+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 55,
       "window_hours": 24,
       "fetched_at": "2026-09-21T12:17:24.046354+00:00",
@@ -5773,12 +5844,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 426,
-    "biological": 740,
-    "nuclear": 2149,
-    "radiological": 63,
-    "explosives": 262,
-    "autonomous_weapons": 184,
-    "directed_energy": 55
+    "chemical": 458,
+    "biological": 743,
+    "nuclear": 1984,
+    "radiological": 59,
+    "explosives": 229,
+    "autonomous_weapons": 176,
+    "directed_energy": 64
   }
 }
