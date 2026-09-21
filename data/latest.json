@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T18:16:54.656151+00:00",
+  "generated_at": "2026-09-21T00:20:37.607117+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 198,
+  "total_items": 200,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,15 +15,16 @@
   "category_counts": {
     "chemical": 13,
     "biological": 63,
-    "nuclear": 114,
+    "nuclear": 116,
     "radiological": 0,
     "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "United States": 93,
-    "Austria": 14,
+    "United States": 95,
+    "Iran": 2,
+    "Austria": 13,
     "Netherlands": 4,
     "Japan": 2,
     "Morocco": 1,
@@ -45,7 +46,6 @@
     "Sierra Leone": 1,
     "Cambodia": 1,
     "Argentina": 1,
-    "Iran": 1,
     "South Africa": 1,
     "India": 22,
     "Pakistan": 3,
@@ -57,6 +57,54 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "IL Governor JB Pritzker says AI is dangerous  on the level of nuclear weapons",
+      "url": "https://abc7chicago.com/story/il-governor-jb-pritzker-says-ai-is-dangerous-level-nuclear-weapons/19852245/",
+      "source_domain": "abc7chicago.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-20T17:15:00+00:00",
+      "language": "English",
+      "image_url": "https://cdn.abcotvs.com/dip/images/19852249_abcn-pritzker-this-week-img.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Gov . Pritzker : AI is dangerous  on the level of nuclear weapons",
+      "url": "https://abcnews.com/Politics/gov-pritzker-ai-dangerous-level-nuclear-weapons/story?id=136597418",
+      "source_domain": "abcnews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-20T16:00:00+00:00",
+      "language": "English",
+      "image_url": "https://i.abcnewsfe.com/a/e0808b98-a7e2-4197-9d49-4a302473555f/pritzker_thisweek_abc_cw_20260920_1789914182899_hpMain_16x9.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Weekly Report : NCRI Supporters Mobilize Global Protests Targeting UN Assembly , IAEA , and Regime Executions",
+      "url": "https://www.ncr-iran.org/en/news/weekly-report-ncri-supporters-mobilize-global-protests-targeting-un-assembly-iaea-and-regime-executions/",
+      "source_domain": "ncr-iran.org",
+      "source_country": "Iran",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-20T14:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.ncr-iran.org/en/wp-content/uploads/2026/09/paris-photo-exhibition-of-ncri-supporters-19092026.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Bikini Atoll Sunken  Ghost Fleet  80 Years After Nuclear Tests",
       "url": "https://www.military.com/the-navy-dropped-atomic-bombs-on-more-than-90-ships-the-ghost-fleet-is-still-there",
@@ -3191,24 +3239,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "IAEA Director General's Introductory Statement to the Board of Governors",
-      "url": "http://www.iaea.org/newscenter/statements/iaea-director-generals-introductory-statement-to-the-board-of-governors-7-september-2026",
-      "summary": "(As prepared for delivery)\nLadies and gentlemen,\nIn a fragmented world, the IAEA is more indispensable than ever. Our impartial and expert work is part of some of the most sensitive and consequential international efforts of our time.",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-07T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 31,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T00:20:37.565076+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 140,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T00:20:35.919866+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 341,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T00:20:34.300253+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 64,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T00:20:32.693336+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2268,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T00:20:31.075782+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 743,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T00:20:29.463703+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 422,
+      "window_hours": 24,
+      "fetched_at": "2026-09-21T00:20:27.848820+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 32,
@@ -5507,12 +5596,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 424,
-    "biological": 796,
-    "nuclear": 2357,
-    "radiological": 63,
-    "explosives": 350,
-    "autonomous_weapons": 119,
-    "directed_energy": 32
+    "chemical": 422,
+    "biological": 743,
+    "nuclear": 2268,
+    "radiological": 64,
+    "explosives": 341,
+    "autonomous_weapons": 140,
+    "directed_energy": 31
   }
 }
