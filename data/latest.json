@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T12:19:32.976995+00:00",
+  "generated_at": "2026-09-22T18:19:15.413954+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 199,
+  "total_items": 201,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,17 +13,18 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 12,
+    "chemical": 13,
     "biological": 66,
     "nuclear": 114,
     "radiological": 0,
-    "explosives": 6,
+    "explosives": 7,
     "autonomous_weapons": 1,
     "directed_energy": 0
   },
   "country_counts": {
+    "Unknown": 8,
+    "India": 22,
     "United States": 95,
-    "Unknown": 7,
     "Japan": 3,
     "Zambia": 1,
     "Austria": 13,
@@ -49,7 +50,6 @@
     "Cambodia": 1,
     "Argentina": 1,
     "South Africa": 1,
-    "India": 21,
     "Singapore": 3,
     "Nigeria": 1,
     "Turkey": 1,
@@ -57,6 +57,38 @@
     "Canada": 1
   },
   "items": [
+    {
+      "title": "World leaders gather at UNGA , united kingdom backs Saudi defence , and UN ready for Sudan chemical weapons probe",
+      "url": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/09/22/world-leaders-gather-at-unga-uk-backs-saudi-defence-and-un-ready-for-sudan-chemical-weapons-probe/",
+      "source_domain": "thenationalnews.com",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-22T07:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.thenationalnews.com/resizer/v2/7GERFU5UL7YDR3AXSOQMVT75XU.jpg?auth=9c18b727bcb49beda9755ea28f506b75941348d73c5d22dfdad66ae0276c5548&smart=true",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Weapons cache recovered from maoist dump in Bijapur",
+      "url": "https://organiser.org/2026/09/22/381945/bharat/chhattisgarh-security-forces-recover-maoist-weapons-cache-hidden-underground-in-bijapurs-utla-forest/",
+      "source_domain": "organiser.org",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-22T07:15:00+00:00",
+      "language": "English",
+      "image_url": "https://organiser.org/wp-content/uploads/2026/09/whatsapp-image-2026-09-22-at-10.45.05-am.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
     {
       "title": "ANTHRAX  Cursum Perficio",
       "url": "https://www.knac.com/news/albums/albumreview-anthrax-cursumperficio/",
@@ -3228,6 +3260,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 65,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T18:19:15.368730+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 130,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T18:19:13.762444+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 264,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T18:19:12.158732+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 55,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T18:19:10.546329+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2557,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T18:19:08.941714+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 823,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T18:19:07.288716+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 457,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T18:19:05.618884+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 59,
       "window_hours": 24,
       "fetched_at": "2026-09-22T12:19:32.951567+00:00",
@@ -5916,12 +6004,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 518,
-    "biological": 812,
-    "nuclear": 1992,
-    "radiological": 54,
-    "explosives": 261,
-    "autonomous_weapons": 133,
-    "directed_energy": 59
+    "chemical": 457,
+    "biological": 823,
+    "nuclear": 2557,
+    "radiological": 55,
+    "explosives": 264,
+    "autonomous_weapons": 130,
+    "directed_energy": 65
   }
 }
