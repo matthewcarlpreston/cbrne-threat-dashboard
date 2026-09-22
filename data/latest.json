@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-21T18:16:21.469196+00:00",
+  "generated_at": "2026-09-22T00:19:30.878078+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 205,
+  "total_items": 206,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,24 +13,24 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 13,
-    "biological": 65,
-    "nuclear": 118,
+    "chemical": 14,
+    "biological": 66,
+    "nuclear": 117,
     "radiological": 0,
     "explosives": 7,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "United States": 97,
+    "Unknown": 7,
     "Japan": 3,
-    "United States": 96,
     "Zambia": 1,
-    "Austria": 14,
+    "Austria": 13,
     "Iran": 2,
     "Pakistan": 4,
     "Netherlands": 4,
     "Morocco": 1,
-    "Unknown": 6,
     "Australia": 2,
     "United Kingdom": 7,
     "Afghanistan": 2,
@@ -58,6 +58,38 @@
     "South Korea": 2
   },
   "items": [
+    {
+      "title": "ANTHRAX  Cursum Perficio",
+      "url": "https://www.knac.com/news/albums/albumreview-anthrax-cursumperficio/",
+      "source_domain": "knac.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-21T22:00:00+00:00",
+      "language": "English",
+      "image_url": "https://mmo.aiircdn.com/2595/6a0dfcc6e4250.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "UN ready to investigate use of chemical weapons in Sudan civil war",
+      "url": "https://www.thenationalnews.com/news/mena/2026/09/21/un-ready-to-investigate-use-of-chemical-weapons-in-sudan-civil-war/",
+      "source_domain": "thenationalnews.com",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-21T19:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.thenationalnews.com/resizer/v2/2XOAKMB4H5CEFP55NVBBZY6HPY.JPG?auth=3ec96658a5ed6c5a89b1050885ffb1921fe0b07da52c94d23e6d05b04f6fadcf&focal=2462%2C527",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "The Peril of Trump Final Act : Would He Use a Tactical Nuclear Weapon in Iran ? « nuclear - news",
       "url": "https://nuclear-news.net/2026/09/21/5-a-the-peril-of-trumps-final-act-would-he-use-a-tactical-nuclear-weapon-in-iran/",
@@ -3304,24 +3336,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "IAEA Hosts Workshop for International Financial Institutions on Nuclear Financing",
-      "url": "http://www.iaea.org/newscenter/news/iaea-hosts-workshop-for-international-financial-institutions-on-nuclear-financing",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 63,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T00:19:30.841003+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 167,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T00:19:29.229057+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 258,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T00:19:27.602291+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 54,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T00:19:25.977624+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1880,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T00:19:24.342054+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 793,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T00:19:22.697445+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 481,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T00:19:21.087459+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 64,
@@ -5844,12 +5917,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 458,
-    "biological": 743,
-    "nuclear": 1984,
-    "radiological": 59,
-    "explosives": 229,
-    "autonomous_weapons": 176,
-    "directed_energy": 64
+    "chemical": 481,
+    "biological": 793,
+    "nuclear": 1880,
+    "radiological": 54,
+    "explosives": 258,
+    "autonomous_weapons": 167,
+    "directed_energy": 63
   }
 }
