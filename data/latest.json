@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T00:19:30.878078+00:00",
+  "generated_at": "2026-09-22T06:20:08.714631+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 206,
+  "total_items": 199,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,16 +13,16 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 14,
+    "chemical": 12,
     "biological": 66,
-    "nuclear": 117,
+    "nuclear": 114,
     "radiological": 0,
-    "explosives": 7,
+    "explosives": 6,
     "autonomous_weapons": 1,
-    "directed_energy": 1
+    "directed_energy": 0
   },
   "country_counts": {
-    "United States": 97,
+    "United States": 95,
     "Unknown": 7,
     "Japan": 3,
     "Zambia": 1,
@@ -36,7 +36,7 @@
     "Afghanistan": 2,
     "Israel": 9,
     "France": 1,
-    "China": 5,
+    "China": 3,
     "Ireland": 1,
     "Syria": 2,
     "Malaysia": 3,
@@ -49,13 +49,12 @@
     "Cambodia": 1,
     "Argentina": 1,
     "South Africa": 1,
-    "India": 22,
+    "India": 21,
     "Singapore": 3,
     "Nigeria": 1,
     "Turkey": 1,
     "Egypt": 1,
-    "Canada": 1,
-    "South Korea": 2
+    "Canada": 1
   },
   "items": [
     {
@@ -3224,121 +3223,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Roseville police investigate suspected explosive device found during traffic stop",
-      "url": "https://www.cbsnews.com/sacramento/news/roseville-police-suspected-explosive-device-traffic-stop/",
-      "source_domain": "cbsnews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T05:00:00+00:00",
-      "language": "English",
-      "image_url": "https://assets3.cbsnewsstatic.com/hub/i/r/2024/01/14/202b1b5c-802d-4eb8-898a-8362eccd5465/thumbnail/1200x630/570835063a903f71880eae3e40757ad6/gettyimages-1480290188.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Beyond Surya : DRDO Eyes 500 kW - Class Laser Weapon After 300 kW Programme , Sources",
-      "url": "https://idrw.org/beyond-surya-drdo-eyes-500-kw-class-laser-weapon-after-300-kw-programme-sources/",
-      "source_domain": "idrw.org",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T04:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.ibb.co/MxTqgTnC/1bc631ba-d5af-4bd7-89fa-0f2cee153834.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "directed_energy"
-      ]
-    },
-    {
-      "title": "IAEA says Korea notifies intent to consult on safeguards arrangement for nuclear - powered subs",
-      "url": "https://www.koreatimes.co.kr/foreignaffairs/20260908/iaea-says-korea-notifies-intent-to-consult-on-safeguards-arrangement-for-nuclear-powered-subs",
-      "source_domain": "koreatimes.co.kr",
-      "source_country": "South Korea",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T04:00:00+00:00",
-      "language": "English",
-      "image_url": "https://newsimg.koreatimes.co.kr/2026/09/08/158cd951-d989-421d-9d4f-a1c513ea8a7a.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Japan urged to thoroughly destroy its chemical weapons abandoned in China : spokesperson",
-      "url": "http://europe.chinadaily.com.cn/a/202609/07/WS6a9ec497e4b06d4aa055ccb5.html",
-      "source_domain": "europe.chinadaily.com.cn",
-      "source_country": "China",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T02:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Japan urged to thoroughly destroy its chemical weapons abandoned in China : spokesperson",
-      "url": "http://global.chinadaily.com.cn/a/202609/07/WS6a9ec497e4b06d4aa055ccb5.html",
-      "source_domain": "global.chinadaily.com.cn",
-      "source_country": "China",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T02:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "IAEA says S . Korea notifies intent to consult on safeguards arrangement for nuclear - powered subs",
-      "url": "https://www.koreaherald.com/article/10866075",
-      "source_domain": "koreaherald.com",
-      "source_country": "South Korea",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://wimg.heraldcorp.com/news/cms/2026/09/08/news-p.v1.20260908.925e4945e9e94d088dc8ee6bd158d389_T1.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Assad - Era Syrian Reactor Was Configured For Nuclear Weapons , IAEA Chief Says",
-      "url": "https://www.theyeshivaworld.com/news/general/2595126/assad-era-syrian-reactor-was-configured-for-nuclear-weapons-iaea-chief-says.html",
-      "source_domain": "theyeshivaworld.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-08T00:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.theyeshivaworld.com/wp-content/uploads/2026/09/AP26230556938439.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 61,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T06:20:08.681240+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 153,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T06:20:07.078575+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 254,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T06:20:05.393643+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 54,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T06:20:03.753257+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1906,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T06:20:02.133306+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 794,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T06:20:00.486539+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 501,
+      "window_hours": 24,
+      "fetched_at": "2026-09-22T06:19:58.764315+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 63,
@@ -5917,12 +5860,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 481,
-    "biological": 793,
-    "nuclear": 1880,
+    "chemical": 501,
+    "biological": 794,
+    "nuclear": 1906,
     "radiological": 54,
-    "explosives": 258,
-    "autonomous_weapons": 167,
-    "directed_energy": 63
+    "explosives": 254,
+    "autonomous_weapons": 153,
+    "directed_energy": 61
   }
 }
