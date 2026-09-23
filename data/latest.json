@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T00:19:05.422521+00:00",
+  "generated_at": "2026-09-23T06:18:36.259365+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 210,
+  "total_items": 213,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,17 +14,18 @@
   },
   "category_counts": {
     "chemical": 13,
-    "biological": 66,
-    "nuclear": 123,
+    "biological": 67,
+    "nuclear": 126,
     "radiological": 0,
-    "explosives": 7,
+    "explosives": 6,
     "autonomous_weapons": 1,
     "directed_energy": 0
   },
   "country_counts": {
+    "Russia": 6,
+    "United States": 101,
+    "France": 2,
     "Kenya": 2,
-    "United States": 100,
-    "Russia": 4,
     "Lithuania": 1,
     "Unknown": 8,
     "India": 22,
@@ -36,10 +37,9 @@
     "Netherlands": 4,
     "Morocco": 1,
     "Australia": 2,
-    "United Kingdom": 7,
+    "United Kingdom": 6,
     "Afghanistan": 2,
     "Israel": 9,
-    "France": 1,
     "China": 3,
     "Ireland": 1,
     "Syria": 2,
@@ -59,6 +59,70 @@
     "Canada": 1
   },
   "items": [
+    {
+      "title": "NATO member one step closer to lifting nuclear weapons ban",
+      "url": "http://www.europesun.com/news/279324465/nato-member-one-step-closer-to-lifting-nuclear-weapons-ban",
+      "source_domain": "europesun.com",
+      "source_country": "Russia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T04:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/110d10f/17ca2416-4e8b-4b69-85f6-7ca6078909d3/0/MGNjYjFiODMtYWE-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "NATO member moves closer to lifting nuclear weapons ban",
+      "url": "http://www.europesun.com/news/279324534/nato-member-moves-closer-to-lifting-nuclear-weapons-ban",
+      "source_domain": "europesun.com",
+      "source_country": "Russia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T04:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5cd1e7d/591a6161-0afe-4f1f-93b5-f006895a9b8e/0/OWQ0ZjA5ODgtZTA-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "A 24 - year - old man is accused of making ricin inside a Hastings apartment complex",
+      "url": "https://www.wmuk.org/wmuk-news/2026-09-22/a-24-year-old-man-is-accused-of-making-ricin-inside-a-hastings-apartment-complex",
+      "source_domain": "wmuk.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T01:45:00+00:00",
+      "language": "English",
+      "image_url": "http://npr-brightspot.s3.amazonaws.com/33/46/a13befda4f6f9508f8ce8ebd470e/imgp6407.JPG",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "NATO member moves closer to lifting nuclear weapons ban",
+      "url": "http://www.parisguardian.com/news/279324534/nato-member-moves-closer-to-lifting-nuclear-weapons-ban",
+      "source_domain": "parisguardian.com",
+      "source_country": "France",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T01:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5cd1e7d/591a6161-0afe-4f1f-93b5-f006895a9b8e/0/OWQ0ZjA5ODgtZTA-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "NATO member moves closer to lifting nuclear weapons ban",
       "url": "http://www.kenyastar.com/news/279324534/nato-member-moves-closer-to-lifting-nuclear-weapons-ban",
@@ -3386,25 +3450,65 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "Tyneside bomb hoaxer threatened to blow up illegal immigrants and made fake improvised explosive device",
-      "url": "https://www.chroniclelive.co.uk/news/north-east-news/tyneside-bomb-hoaxer-threatened-blow-34584301",
-      "source_domain": "chroniclelive.co.uk",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T02:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i2-prod.chroniclelive.co.uk/article34584857.ece/ALTERNATES/s1200d/2_Sean-McCrystal.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 70,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T06:18:36.216504+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 104,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T06:18:34.606397+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 241,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T06:18:32.996884+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 43,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T06:18:31.401826+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2809,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T06:18:29.787365+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 806,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T06:18:28.169168+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 432,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T06:18:26.549305+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 76,
@@ -6207,12 +6311,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 464,
-    "biological": 785,
-    "nuclear": 2775,
-    "radiological": 51,
-    "explosives": 232,
-    "autonomous_weapons": 125,
-    "directed_energy": 76
+    "chemical": 432,
+    "biological": 806,
+    "nuclear": 2809,
+    "radiological": 43,
+    "explosives": 241,
+    "autonomous_weapons": 104,
+    "directed_energy": 70
   }
 }
