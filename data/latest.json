@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T06:18:36.259365+00:00",
+  "generated_at": "2026-09-23T12:19:44.617640+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 213,
+  "total_items": 207,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,31 +13,31 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 13,
+    "chemical": 10,
     "biological": 67,
-    "nuclear": 126,
+    "nuclear": 122,
     "radiological": 0,
     "explosives": 6,
-    "autonomous_weapons": 1,
+    "autonomous_weapons": 2,
     "directed_energy": 0
   },
   "country_counts": {
+    "India": 22,
     "Russia": 6,
-    "United States": 101,
+    "United States": 99,
     "France": 2,
     "Kenya": 2,
     "Lithuania": 1,
     "Unknown": 8,
-    "India": 22,
     "Japan": 3,
     "Zambia": 1,
     "Austria": 12,
     "Iran": 2,
     "Pakistan": 4,
-    "Netherlands": 4,
+    "Netherlands": 3,
     "Morocco": 1,
     "Australia": 2,
-    "United Kingdom": 6,
+    "United Kingdom": 5,
     "Afghanistan": 2,
     "Israel": 9,
     "China": 3,
@@ -52,13 +52,29 @@
     "Cambodia": 1,
     "Argentina": 1,
     "South Africa": 1,
-    "Singapore": 3,
+    "Singapore": 1,
     "Nigeria": 1,
     "Turkey": 1,
     "Egypt": 1,
     "Canada": 1
   },
   "items": [
+    {
+      "title": "India new drone killer : DRDO starts production process of a mobile weapon that can destroy drone swarms 5 km away",
+      "url": "https://economictimes.indiatimes.com/news/defence/indias-new-drone-killer-drdo-starts-production-process-of-a-mobile-weapon-that-can-destroy-drone-swarms-5-km-away/articleshow/134429019.cms",
+      "source_domain": "economictimes.indiatimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T08:30:00+00:00",
+      "language": "English",
+      "image_url": "https://img.etimg.com/thumb/msid-134429371,width-1200,height-630,imgsize-151762,overlay-etdefence/articleshow.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "directed_energy_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
     {
       "title": "NATO member one step closer to lifting nuclear weapons ban",
       "url": "http://www.europesun.com/news/279324465/nato-member-one-step-closer-to-lifting-nuclear-weapons-ban",
@@ -3339,120 +3355,65 @@
       "categories": [
         "explosives"
       ]
-    },
-    {
-      "title": "North Korea builds new Yongbyon uranium enrichment facility , IAEA says",
-      "url": "https://www.asiaone.com/asia/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says",
-      "source_domain": "asiaone.com",
-      "source_country": "Singapore",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T12:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Sep2026/uranium%20facilioty.JPG?itok=cmVn_ytM",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Belfast women claimed she  came into contact with Novichok  sparking major emergency response",
-      "url": "https://www.lbc.co.uk/article/belfast-noivchok-emergency-services-firefighters-5HjdhBm_2/",
-      "source_domain": "lbc.co.uk",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T12:00:00+00:00",
-      "language": "English",
-      "image_url": "https://images.globalplayer.com/images/840704?crop=16_9&signature=mbsNsjdC3qD0ZS54OPQe1ToL3BM=",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Indian nuclear weapons , 2026",
-      "url": "https://thebulletin.org/premium/2026-09/indian-nuclear-weapons-2026/",
-      "source_domain": "thebulletin.org",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T11:00:00+00:00",
-      "language": "English",
-      "image_url": "https://thebulletin.org/wp-content/uploads/2026/09/INS_Arihant_SSBN-modified.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "North Korea builds new Yongbyon uranium enrichment facility , IAEA says",
-      "url": "https://www.asiaone.com:443/asia/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea-says",
-      "source_domain": "asiaone.com",
-      "source_country": "Singapore",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T10:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Sep2026/uranium%20facilioty.JPG?itok=cmVn_ytM",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "North Korea builds new Yongbyon uranium enrichment facility : IAEA",
-      "url": "https://www.thehindubusinessline.com/news/world/north-korea-builds-new-yongbyon-uranium-enrichment-facility-iaea/article71445910.ece",
-      "source_domain": "thehindubusinessline.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T08:00:00+00:00",
-      "language": "English",
-      "image_url": "https://bl-i.thgim.com/public/incoming/s2bzek/article71446169.ece/alternates/LANDSCAPE_1200/2026-09-09T054003Z_856407033_RC2UKGASEDV0_RTRMADP_3_NORTHKOREA-NUCLEAR-IAEA.JPG",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Craig Murray : Nonsense Drones & Novichok",
-      "url": "https://consortiumnews.com/2026/09/09/craig-murray-nonsense-drones-novichok/",
-      "source_domain": "consortiumnews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T08:00:00+00:00",
-      "language": "English",
-      "image_url": "https://consortiumnews.com/wp-content/uploads/2026/09/Ursula_von_der_Leyen_Volodymyr_Zelensky_Mark_Rutte__Antonio_Costa_-_2025_2-e1788871058265.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Sweden provides voluntary funding to support OPCW’s work",
-      "url": "https://www.opcw.org/media-centre/news/2026/09/sweden-provides-voluntary-funding-support-opcws-work",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Sweden provides voluntary funding to support OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"H.E. Mr Julius Liljeström, Permanent Representative of the Kingdom of Sweden to the OPCW, and Sabrina Dallafior, OPCW Director-General. \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/publi",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T07:29:49+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 88,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T12:19:44.590637+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 92,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T12:19:42.886057+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 227,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T12:19:41.238325+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 39,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T12:19:39.593051+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2738,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T12:19:37.796606+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 836,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T12:19:36.145290+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 417,
+      "window_hours": 24,
+      "fetched_at": "2026-09-23T12:19:34.490399+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 70,
@@ -6311,12 +6272,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 432,
-    "biological": 806,
-    "nuclear": 2809,
-    "radiological": 43,
-    "explosives": 241,
-    "autonomous_weapons": 104,
-    "directed_energy": 70
+    "chemical": 417,
+    "biological": 836,
+    "nuclear": 2738,
+    "radiological": 39,
+    "explosives": 227,
+    "autonomous_weapons": 92,
+    "directed_energy": 88
   }
 }
