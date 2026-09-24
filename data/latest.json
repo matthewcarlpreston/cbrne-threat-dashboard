@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T18:19:27.765298+00:00",
+  "generated_at": "2026-09-24T00:19:01.804439+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 208,
+  "total_items": 202,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,28 +15,28 @@
   "category_counts": {
     "chemical": 9,
     "biological": 68,
-    "nuclear": 125,
+    "nuclear": 118,
     "radiological": 0,
-    "explosives": 5,
-    "autonomous_weapons": 1,
+    "explosives": 4,
+    "autonomous_weapons": 3,
     "directed_energy": 0
   },
   "country_counts": {
-    "Israel": 10,
+    "Israel": 7,
     "South Korea": 2,
-    "India": 21,
+    "India": 20,
     "United Kingdom": 6,
     "Japan": 4,
     "Russia": 6,
-    "United States": 98,
+    "United States": 100,
     "France": 2,
     "Kenya": 2,
     "Lithuania": 1,
     "Unknown": 7,
     "Zambia": 1,
-    "Austria": 12,
+    "Austria": 11,
     "Iran": 2,
-    "Pakistan": 4,
+    "Pakistan": 2,
     "Netherlands": 3,
     "Morocco": 1,
     "Australia": 2,
@@ -44,7 +44,7 @@
     "China": 3,
     "Ireland": 1,
     "Syria": 2,
-    "Malaysia": 3,
+    "Malaysia": 2,
     "Azerbaijan": 1,
     "Sri Lanka": 2,
     "Thailand": 1,
@@ -201,6 +201,38 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "biological"
+      ]
+    },
+    {
+      "title": "Is it  killer robot or  super intelligence ? At the UN , leaders see both",
+      "url": "https://isp.netscape.com:443/news/world/story/0001/20260922/073d9026a06d99192009170b51bc6e37",
+      "source_domain": "isp.netscape.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T01:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Is it  killer robot or  super intelligence ? At the UN , leaders see both",
+      "url": "https://isp.netscape.com:443/news/story/0001/20260922/073d9026a06d99192009170b51bc6e37",
+      "source_domain": "isp.netscape.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T01:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
       ]
     },
     {
@@ -3244,136 +3276,65 @@
       "categories": [
         "biological"
       ]
-    },
-    {
-      "title": "What You Need to Know about the IAEA General Conference",
-      "url": "http://www.iaea.org/newscenter/news/what-you-need-to-know-about-the-iaea-general-conference",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA board refers Iran to UN Security Council",
-      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/09/10/iaea-board-refers-iran-to-un-security-council",
-      "source_domain": "freemalaysiatoday.com",
-      "source_country": "Malaysia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T23:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/06/e982bc8c-14045369_cropped_1-1.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA board passes resolution reporting Iran to UNSC",
-      "url": "http://www.jpost.com/middle-east/iran-news/article-908151",
-      "source_domain": "jpost.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T22:15:00+00:00",
-      "language": "English",
-      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/736498",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA board passes resolution reporting Iran to UN Security Council",
-      "url": "https://thefrontierpost.com/iaea-board-passes-resolution-reporting-iran-to-un-security-council/",
-      "source_domain": "thefrontierpost.com",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T21:30:00+00:00",
-      "language": "English",
-      "image_url": "https://jetpack.com/redirect/?source=sigenerate&query=t%3DeyJpbWciOiJodHRwczpcL1wvdGhlZnJvbnRpZXJwb3N0LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNlwvMDlcL2UxYzMwOWM4LWExNjQtNDg4NS1hYzliLWExZTIxNzBlMmQzZS0xMDI0eDY4My53ZWJwIiwidHh0IjoiSUFFQSBib2FyZCBwYXNzZXMgcmVzb2x1dGlvbiByZXBvcnRpbmcgSXJhbiB0byBVTiBTZWN1cml0eSBDb3VuY2lsIiwidGVtcGxhdGUiOiJoaWdod2F5IiwiZm9udCI6IiIsImJsb2dfaWQiOjEzNzU4MjM0M30.OAtH3YKTc-ght2z5jdyZUPSrunyQ0VmHrQZooQ2FgmcMQ",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Nabi detonated Red Fort car bomb : NIA in chargesheet",
-      "url": "https://www.tribuneindia.com/news/top-headlines/nabi-detonated-red-fort-car-bomb-nia-in-chargesheet/",
-      "source_domain": "tribuneindia.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T21:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWQxN2U1ZGEwLWFjOGEtMTFmMS05YjIwLTgzZThkYzhhYjE2YS5qcGc=",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "IAEA 35 - nation Board of Governors reportes Iran to UNSC",
-      "url": "https://www.pakistantoday.com.pk/2026/09/10/iaea-board-passes-resolution-reporting-iran-to-un-security-council",
-      "source_domain": "pakistantoday.com.pk",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T20:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.pakistantoday.com.pk/uploads/IAEA-Iran-nuclear-1788982163582-5e0syt.jfif",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA board passes resolution reporting Iran to UN Security Council",
-      "url": "https://www.al-monitor.com/originals/2026/09/iaea-board-passes-resolution-reporting-iran-un-security-council",
-      "source_domain": "al-monitor.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T18:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA board refers Iran to UN Security Council",
-      "url": "https://www.al-monitor.com/originals/2026/09/iaea-board-refers-iran-un-security-council",
-      "source_domain": "al-monitor.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-09T18:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 117,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T00:19:01.760358+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 75,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T00:19:00.122455+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 224,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T00:18:58.448096+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 46,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T00:18:56.803309+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2630,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T00:18:55.183577+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 813,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T00:18:53.560726+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 479,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T00:18:51.940711+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 99,
@@ -6344,12 +6305,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 441,
-    "biological": 828,
-    "nuclear": 2495,
-    "radiological": 35,
-    "explosives": 214,
-    "autonomous_weapons": 79,
-    "directed_energy": 99
+    "chemical": 479,
+    "biological": 813,
+    "nuclear": 2630,
+    "radiological": 46,
+    "explosives": 224,
+    "autonomous_weapons": 75,
+    "directed_energy": 117
   }
 }
