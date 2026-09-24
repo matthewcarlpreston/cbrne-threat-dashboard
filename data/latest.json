@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T00:19:01.804439+00:00",
+  "generated_at": "2026-09-24T06:20:14.371998+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 202,
+  "total_items": 199,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,8 +14,8 @@
   },
   "category_counts": {
     "chemical": 9,
-    "biological": 68,
-    "nuclear": 118,
+    "biological": 67,
+    "nuclear": 116,
     "radiological": 0,
     "explosives": 4,
     "autonomous_weapons": 3,
@@ -23,12 +23,12 @@
   },
   "country_counts": {
     "Israel": 7,
-    "South Korea": 2,
     "India": 20,
+    "South Korea": 2,
     "United Kingdom": 6,
     "Japan": 4,
     "Russia": 6,
-    "United States": 100,
+    "United States": 97,
     "France": 2,
     "Kenya": 2,
     "Lithuania": 1,
@@ -76,22 +76,6 @@
       ]
     },
     {
-      "title": "South Korea president forgoes  denuclearization  for  peninsula free from nuclear weapon in UN speech",
-      "url": "https://english.hani.co.kr/arti/english_edition/e_international/1279267.html",
-      "source_domain": "english.hani.co.kr",
-      "source_country": "South Korea",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-23T08:30:00+00:00",
-      "language": "English",
-      "image_url": "https://flexible.img.hani.co.kr/flexible/normal/758/455/imgdb/original/2026/0923/8717901462084492.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "India new drone killer : DRDO starts production process of a mobile weapon that can destroy drone swarms 5 km away",
       "url": "https://economictimes.indiatimes.com/news/defence/indias-new-drone-killer-drdo-starts-production-process-of-a-mobile-weapon-that-can-destroy-drone-swarms-5-km-away/articleshow/134429019.cms",
       "source_domain": "economictimes.indiatimes.com",
@@ -105,6 +89,22 @@
       "gdelt_query_tag": "directed_energy_keyword",
       "categories": [
         "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "South Korea president forgoes  denuclearization  for  peninsula free from nuclear weapon in UN speech",
+      "url": "https://english.hani.co.kr/arti/english_edition/e_international/1279267.html",
+      "source_domain": "english.hani.co.kr",
+      "source_country": "South Korea",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-23T08:30:00+00:00",
+      "language": "English",
+      "image_url": "https://flexible.img.hani.co.kr/flexible/normal/758/455/imgdb/original/2026/0923/8717901462084492.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -3228,57 +3228,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "NUCLEAR ALARM : North Korea Builds Second Uranium Enrichment Facility At Yongbyon",
-      "url": "https://www.theyeshivaworld.com/news/general/2596151/nuclear-alarm-north-korea-builds-second-uranium-enrichment-facility-at-yongbyon.html",
-      "source_domain": "theyeshivaworld.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T03:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.theyeshivaworld.com/wp-content/uploads/2026/09/04nkorea-superJumbo-v2.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Refers Iran Nuclear Program To UN Security Council",
-      "url": "https://www.eurasiareview.com/10092026-iaea-refers-irans-nuclear-program-to-un-security-council/",
-      "source_domain": "eurasiareview.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T02:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.eurasiareview.com/wp-content/uploads/2025/06/b-154.jpeg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "South Dakota Confirms Its First Cattle Anthrax Case of 2026 as Officials Quarantine a Meade County Herd",
-      "url": "https://www.medicaldaily.com/south-dakota-anthrax-meade-county-beef-herd-478442",
-      "source_domain": "medicaldaily.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T00:30:00+00:00",
-      "language": "English",
-      "image_url": "https://d.medicaldaily.com/en/full/485727/philippe-lopez-afp-via-getty-images.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 120,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T06:20:14.345682+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 86,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T06:20:12.746912+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 216,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T06:20:11.144568+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 50,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T06:20:09.497809+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2625,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T06:20:07.878899+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 799,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T06:20:06.280408+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 503,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T06:20:04.668456+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 117,
@@ -6305,12 +6313,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 479,
-    "biological": 813,
-    "nuclear": 2630,
-    "radiological": 46,
-    "explosives": 224,
-    "autonomous_weapons": 75,
-    "directed_energy": 117
+    "chemical": 503,
+    "biological": 799,
+    "nuclear": 2625,
+    "radiological": 50,
+    "explosives": 216,
+    "autonomous_weapons": 86,
+    "directed_energy": 120
   }
 }
