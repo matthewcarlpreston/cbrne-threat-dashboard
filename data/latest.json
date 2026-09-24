@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T12:18:20.523952+00:00",
+  "generated_at": "2026-09-24T18:19:43.909071+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 190,
+  "total_items": 176,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,25 +14,30 @@
   },
   "category_counts": {
     "chemical": 9,
-    "biological": 67,
-    "nuclear": 107,
+    "biological": 68,
+    "nuclear": 92,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 93,
-    "Israel": 7,
-    "India": 16,
+    "Bulgaria": 1,
+    "Unknown": 6,
+    "Canada": 1,
+    "Azerbaijan": 2,
+    "Syria": 3,
+    "Russia": 7,
+    "United States": 77,
+    "Malaysia": 3,
+    "Israel": 5,
+    "India": 15,
     "South Korea": 2,
     "United Kingdom": 6,
     "Japan": 4,
-    "Russia": 6,
     "France": 2,
     "Kenya": 2,
     "Lithuania": 1,
-    "Unknown": 6,
     "Zambia": 1,
     "Austria": 11,
     "Iran": 2,
@@ -43,9 +48,6 @@
     "Afghanistan": 2,
     "China": 3,
     "Ireland": 1,
-    "Syria": 2,
-    "Malaysia": 2,
-    "Azerbaijan": 1,
     "Sri Lanka": 2,
     "Thailand": 1,
     "Myanmar": 1,
@@ -55,10 +57,105 @@
     "South Africa": 1,
     "Singapore": 1,
     "Nigeria": 1,
-    "Turkey": 1,
-    "Egypt": 1
+    "Turkey": 1
   },
   "items": [
+    {
+      "title": "The Mysterious Death of a Soviet Scientist and the Secret Biological Weapon  Variant U",
+      "url": "http://www.bgnes.com/science/the-mysterious-death-of-a-soviet-scientist-and-the-secret-biological-weapon-variant-u",
+      "source_domain": "bgnes.com",
+      "source_country": "Bulgaria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T17:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.bgnes.com/static/images/news/2026/09/24/22868/20972.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "IAEA inspectors cannot return to Iran amid US threats : Russia",
+      "url": "https://www.presstv.co.uk/Detail/2026/09/24/776933/IAEA-inspectors-Iran-US-threats--Russia",
+      "source_domain": "presstv.co.uk",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T17:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Quebec City man plotted to  poison Canadian with chemical weapon , RCMP alleges",
+      "url": "https://montrealgazette.com/news/local-crime/quebec-city-man-poison-canadians-chemical-weapon-rcmp/",
+      "source_domain": "montrealgazette.com",
+      "source_country": "Canada",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T17:00:00+00:00",
+      "language": "English",
+      "image_url": "https://montrealgazette.com/wp-content/uploads/sites/2/2026/09/rcmp-cruiser.fs_305067671.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "North Korea rejects call to halt nuclear tests",
+      "url": "https://en.apa.az/asia/north-korea-rejects-call-to-halt-nuclear-tests-526092",
+      "source_domain": "en.apa.az",
+      "source_country": "Azerbaijan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T16:15:00+00:00",
+      "language": "English",
+      "image_url": "https://en.apa.az/storage/news/2026/september/24/big/6ab5451fe5ef96ab5451fe5efa17902646076ab5451fe5ef76ab5451fe5ef8.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Rejects Call to Halt Nuclear Tests",
+      "url": "https://english.aawsat.com/world/5322171-north-korea-rejects-call-halt-nuclear-tests",
+      "source_domain": "english.aawsat.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T15:45:00+00:00",
+      "language": "English",
+      "image_url": "https://static.srpcdigital.com/styles/1200x600/public/2026-09/1792409_0.png.webp?VersionId=BQrrZAm40IXpZf8_RuwEX248VpONIV.F",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "We know how to detect a nuclear test . But why shouldnt we conduct one ?",
+      "url": "https://europeanleadershipnetwork.org/commentary/we-know-how-to-detect-a-nuclear-test-but-why-shouldnt-we-conduct-one/",
+      "source_domain": "europeanleadershipnetwork.org",
+      "source_country": "Russia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T10:45:00+00:00",
+      "language": "English",
+      "image_url": "https://europeanleadershipnetwork.org/wp-content/uploads/2026/09/3952226831_0f071dee3c_k-1024x683.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "UN Chief Calls for AI Pact to Prevent Rise of Killer Robots",
       "url": "https://www.insurancejournal.com/news/international/2026/09/24/886600.htm",
@@ -70,9 +167,25 @@
       "language": "English",
       "image_url": "https://www.insurancejournal.com/app/uploads/2026/09/artificial-intelligence-branding-2-bloomberg.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "North Korea to keep nuclear weapons  forever , says foreign minister",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/09/24/north-korea-to-keep-nuclear-weapons-forever-says-foreign-minister",
+      "source_domain": "freemalaysiatoday.com",
+      "source_country": "Malaysia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T05:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=75,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/09/a15ffa76-2300-4056-af8b-c6efef161ea5-EPA-Images---Choe-Son-Hui---North-Korea--24092026.jpg.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -2748,345 +2861,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Sudan chemical weapons allegations highlight Israel involvement in war",
-      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/sudan-chemical-weapons-allegations-highlight-israels-involvement-war",
-      "source_domain": "middleeasteye.net",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T18:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.middleeasteye.net/sites/default/files/2026-09/000_C7JG4A3%20%281%29.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Rafael Grossi says North Korea built Uranium Enrichment site at Yongbyon",
-      "url": "https://www.el-balad.com/17049801",
-      "source_domain": "el-balad.com",
-      "source_country": "Egypt",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T16:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.el-balad.com/uploads/2026/09/10/uranium-enrichment-d191fed9_1200w.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "India nuclear arsenal estimated at 190 warheads , including 30 for new missiles under production : Report",
-      "url": "https://www.hindustantimes.com/india-news/indias-nuclear-arsenal-estimated-at-190-warheads-including-30-for-new-missiles-under-production-report-101789047304264.html",
-      "source_domain": "hindustantimes.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T15:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Lithuania Plans to Remove Nuclear Weapons Ban From Constitution",
-      "url": "https://sputnikglobe.com/20260910/lithuania-plans-to-remove-nuclear-weapons-ban-from-constitution---parliament-speaker-1124712554.html",
-      "source_domain": "sputnikglobe.com",
-      "source_country": "Unknown",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T15:30:00+00:00",
-      "language": "English",
-      "image_url": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1124712554.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://hallelujah955.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "hallelujah955.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T15:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://kste.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "kste.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T15:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://wccfradio.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "wccfradio.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T15:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://kprcradio.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "kprcradio.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | News / Talk 1130 WISN",
-      "url": "https://newstalk1130.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "newstalk1130.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | Newsradio 970 KFBX - AM",
-      "url": "https://970kfbx.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "970kfbx.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | Newstalk 1400 , 104 . 5 , and 105 . 9 WJMX",
-      "url": "https://newstalk1400online.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "newstalk1400online.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://wvoc.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "wvoc.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://talkradio1080.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "talkradio1080.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | The Patriot KEIB AM 1150",
-      "url": "https://patriotla.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "patriotla.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | News Talk 550 KFYI",
-      "url": "https://kfyi.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "kfyi.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA exposes secret new Pyonyang uranium plant built to boost warheads",
-      "url": "http://www.jpost.com/international/article-908265",
-      "source_domain": "jpost.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:00:00+00:00",
-      "language": "English",
-      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/737300",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | NewsRadio 630 WLAP",
-      "url": "https://wlap.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "wlap.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T14:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://woc1420.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "woc1420.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T13:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council",
-      "url": "https://wflanews.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "wflanews.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T13:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | NewsRadio 104 . 9 WBUV",
-      "url": "https://newsradio1049.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "newsradio1049.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T13:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Board Refers Iran To UN Security Council | News Talk 1090 WKBZ - AM",
-      "url": "https://newstalk1090.iheart.com/content/2026-09-10-iaea-board-refers-iran-to-un-security-council/",
-      "source_domain": "newstalk1090.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T13:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa29a39815285523f3199ed?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 97,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T18:19:43.879712+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 110,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T18:19:42.225064+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 196,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T18:19:36.075370+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 60,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T18:19:15.783082+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2335,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T18:19:06.825090+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 855,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T18:19:05.142430+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 572,
+      "window_hours": 24,
+      "fetched_at": "2026-09-24T18:19:03.382974+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 111,
@@ -6225,12 +6058,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 522,
-    "biological": 807,
-    "nuclear": 2651,
-    "radiological": 58,
-    "explosives": 214,
-    "autonomous_weapons": 89,
-    "directed_energy": 111
+    "chemical": 572,
+    "biological": 855,
+    "nuclear": 2335,
+    "radiological": 60,
+    "explosives": 196,
+    "autonomous_weapons": 110,
+    "directed_energy": 97
   }
 }
