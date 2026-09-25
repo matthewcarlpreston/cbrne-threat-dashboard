@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T06:19:29.567904+00:00",
+  "generated_at": "2026-09-25T12:18:51.712706+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 132,
+  "total_items": 122,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,52 +13,148 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 9,
-    "biological": 27,
-    "nuclear": 89,
+    "chemical": 7,
+    "biological": 14,
+    "nuclear": 94,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
+    "United States": 46,
+    "Singapore": 1,
+    "Iraq": 1,
     "Austria": 10,
+    "Japan": 5,
+    "Canada": 3,
     "Bulgaria": 1,
-    "Unknown": 5,
-    "Canada": 1,
+    "Unknown": 4,
     "Azerbaijan": 2,
-    "Syria": 3,
-    "United States": 47,
+    "Syria": 2,
     "Russia": 7,
     "Malaysia": 3,
     "Israel": 3,
-    "India": 7,
+    "India": 4,
     "South Korea": 2,
-    "United Kingdom": 5,
-    "Japan": 4,
+    "United Kingdom": 4,
     "France": 2,
     "Kenya": 2,
     "Lithuania": 1,
     "Zambia": 1,
     "Iran": 2,
-    "Pakistan": 2,
-    "Netherlands": 3,
+    "Pakistan": 1,
+    "Netherlands": 1,
     "Morocco": 1,
     "Australia": 2,
-    "Afghanistan": 2,
-    "China": 3,
+    "Afghanistan": 1,
+    "China": 2,
     "Ireland": 1,
-    "Sri Lanka": 2,
+    "Sri Lanka": 1,
     "Thailand": 1,
     "Myanmar": 1,
     "Sierra Leone": 1,
     "Cambodia": 1,
     "Argentina": 1,
-    "South Africa": 1,
-    "Singapore": 1,
-    "Nigeria": 1
+    "South Africa": 1
   },
   "items": [
+    {
+      "title": "Lithuania Parliament Backs Amendment to Lift Nuclear Weapons Ban , Russian Officials Warn of Consequences – NaturalNews . com",
+      "url": "https://www.naturalnews.com/2026-09-24-lithuania-backs-amendment-to-lift-nuclear-weapons-ban.html",
+      "source_domain": "naturalnews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T08:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/09/lithuania-nuclear-weapons-ban-constitutional-amendment-article-137-weapons-of-mass-destruction-4371-original.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea rejects call to halt nuclear tests",
+      "url": "https://www.asiaone.com/asia/north-korea-rejects-call-halt-nuclear-tests",
+      "source_domain": "asiaone.com",
+      "source_country": "Singapore",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T05:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Sep2026/kim%20jong%20un_2.JPG?itok=EHQ6ypOa",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Not at all : Iran President Pezeshkian denies nuclear weapon ambition , blames US for starting conflict",
+      "url": "http://www.bignewsnetwork.com/news/279330000/not-at-all-iran-president-pezeshkian-denies-nuclear-weapon-ambition-blames-us-for-starting-conflict",
+      "source_domain": "bignewsnetwork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T02:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5e53348/f2901565-d608-497c-b685-d0040f743945/0/ANI-20260925011256-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western powers seek condemnation of Syria over sarin attacks",
+      "url": "https://spacewar.com/western-powers-seek-condemnation-of-syria-over-sarin-attacks-999/",
+      "source_domain": "spacewar.com",
+      "source_country": "Iraq",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T02:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Not at all : Iran President Pezeshkian denies nuclear weapon ambition , blames US for starting conflict",
+      "url": "http://www.heraldglobe.com/news/279330000/not-at-all-iran-president-pezeshkian-denies-nuclear-weapon-ambition-blames-us-for-starting-conflict",
+      "source_domain": "heraldglobe.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T02:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5e53348/f2901565-d608-497c-b685-d0040f743945/0/ANI-20260925011256-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iranian president says enriched uranium is  not a big deal",
+      "url": "http://www.washingtonexaminer.com/news/world/4742269/iran-president-enriched-uranium-not-big-deal/",
+      "source_domain": "washingtonexaminer.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T00:45:00+00:00",
+      "language": "English",
+      "image_url": "http://www.washingtonexaminer.com/wp-content/uploads/2026/09/iran-president-uranium-no-big-deal.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-368-iaea-director-general-statement-on-situation-in-ukraine",
@@ -72,6 +168,70 @@
       "rss_feed_name": "IAEA",
       "categories": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea rejects international call to halt nuclear tests",
+      "url": "https://japantoday.com/category/politics/north-korea-rejects-call-to-halt-nuclear-tests",
+      "source_domain": "japantoday.com",
+      "source_country": "Japan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T23:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea rejects call to halt nuclear tests",
+      "url": "https://www.channelnewsasia.com/world/north-korea-nuclear-test-ban-reject-6409251",
+      "source_domain": "channelnewsasia.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://dam.mediacorp.sg/image/upload/s--jcD7xm2r--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-09-24T150439Z_1_LYNXMPEM8N1EA_RTROPTP_3_NORTHKOREA-NUCLEAR.JPG?itok=kUh9Rs4T",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Quebec City man accused of planning a chemical attack to benefit ISIS group",
+      "url": "https://www.mtlblog.com/quebec-man-in-court-on-terrorism-charges",
+      "source_domain": "mtlblog.com",
+      "source_country": "Canada",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.mtlblog.com/media-library/quebec-man-in-court-on-terrorism-charges.jpg?id=67848787&coordinates=0%2C118%2C0%2C118",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Quebec City man accused of planning a chemical attack to benefit ISIS group – Winnipeg Free Press",
+      "url": "https://www.winnipegfreepress.com/business/2026/09/24/quebec-city-man-accused-of-planning-a-chemical-attack-to-benefit-isis-group",
+      "source_domain": "winnipegfreepress.com",
+      "source_country": "Canada",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T19:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
       ]
     },
     {
@@ -1839,327 +1999,65 @@
       "categories": [
         "biological"
       ]
-    },
-    {
-      "title": "Anthropic disrupts bioweapons research efforts , Russian hacking , Chinese Claude misuse",
-      "url": "https://finance.yahoo.com/news/anthropic-disrupts-russian-chinese-ai-202300682.html",
-      "source_domain": "finance.yahoo.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T11:30:00+00:00",
-      "language": "English",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/ac78ca6af57452baeca6266e8d7514cb184137d455c986a4f07842a5d45cad70/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F1c6b9c69748d39e303fd7466656beef9.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic Says It Blocked Misuse of Its AI That Could Have Supported Biological Weapons",
-      "url": "https://www.deccanchronicle.com/technology/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons-1986699",
-      "source_domain": "deccanchronicle.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T11:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.deccanchronicle.com/h-upload/2026/09/11/2087808-aa-8111428.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.theoaklandpress.com/2026/09/11/anthropic-weapon-use-blocked/",
-      "source_domain": "theoaklandpress.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T11:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.theoaklandpress.com/wp-content/uploads/2026/09/Anthropic_Researcher_Resignation_85781_48317c.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Lithuania Plans to Remove Nuclear Weapons Ban From Constitution",
-      "url": "https://www.globalsecurity.org/military/library/news/2026/09/mil-260910-sputnik03.htm",
-      "source_domain": "globalsecurity.org",
-      "source_country": "Syria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T11:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "anthropic ai misuse report : They asked Claude to build missiles , anti - torpedo , and smallpox bioweapons : Anthropic uncovers AI darkest misuse cases , including a live missile test",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/they-asked-claude-to-build-missiles-anti-torpedo-and-smallpox-bioweapons-anthropic-uncovers-ais-darkest-misuse-cases-including-a-live-missile-test/articleshow/134057630.cms",
-      "source_domain": "economictimes.indiatimes.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T10:45:00+00:00",
-      "language": "English",
-      "image_url": "https://img.etimg.com/thumb/msid-134058788,width-1200,height-630,imgsize-188704,overlay-economictimes/articleshow.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "OPCW Director - General Makes Official Visit To China",
-      "url": "https://www.miragenews.com/opcw-director-general-makes-official-visit-to-1742777/",
-      "source_domain": "miragenews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T10:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.opcw.org/sites/default/files/styles/news_featured_image/public/images/news/2026/09/DSC_4984.jpg?itok=VLeJYhrm",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "OPCW Director-General makes official visit to China",
-      "url": "https://www.opcw.org/media-centre/news/2026/09/opcw-director-general-makes-official-visit-china",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General makes official visit to China  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW Director-General makes official visit to China  \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/DSC_4984.jpg?itok=SKph6RcB\" /><figcaption><p>OPCW Director-General Sab",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T09:01:37+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Anthropic Blocks Attempts to Use Claude for Bioweapons Research",
-      "url": "https://slguardian.org/anthropic-blocks-attempts-to-use-claude-for-bioweapons-research/",
-      "source_domain": "slguardian.org",
-      "source_country": "Sri Lanka",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T09:00:00+00:00",
-      "language": "English",
-      "image_url": "https://slguardian.org/wp-content/uploads/2026/02/1768928769781-lk.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic tightens AI rules to prevent biological weapons development",
-      "url": "https://www.thenews.com.pk/latest/1415768-anthropic-tightens-ai-rules-to-prevent-biological-weapons-development",
-      "source_domain": "thenews.com.pk",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T09:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.thenews.com.pk/assets/uploads/2026-09-11/1415768_120333_updates.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocks malicious use of AI that could develop biological weapons",
-      "url": "https://www.aol.co.uk/articles/anthropic-blocks-malicious-ai-could-081520000.html",
-      "source_domain": "aol.co.uk",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:45:00+00:00",
-      "language": "English",
-      "image_url": "https://hermes.media.static.aol.com/media/2026/09/11/c411ec2e-6290-3c94-93fc-aafd25776c26/d40e5e8d-b6d9-434b-817b-831d23939f6d.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Could AI help build a biological weapon ? Anthropic says it saw the risk",
-      "url": "https://www.moneycontrol.com/world/could-ai-help-build-a-biological-weapon-anthropic-says-it-saw-the-risk-article-14027882.html",
-      "source_domain": "moneycontrol.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:45:00+00:00",
-      "language": "English",
-      "image_url": "https://images.moneycontrol.com/static-mcnews/2026/08/20260828053758_anthropic-wi.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Lithuania Will Be in Crosshairs of Russian Nuclear Weapons if it Hosts Such Weapons",
-      "url": "https://sputnikglobe.com/20260911/lithuania-will-be-in-crosshairs-of-russian-nuclear-weapons-if-it-hosts-such-weapons---kremlin--1124715083.html",
-      "source_domain": "sputnikglobe.com",
-      "source_country": "Unknown",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:30:00+00:00",
-      "language": "English",
-      "image_url": "https://cdn1.img.sputnikglobe.com/images/sharing/article/eng/1124715083.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "UK Donates Over €1 . 3M to Boost OPCW Efforts",
-      "url": "https://www.miragenews.com/uk-donates-over-e1-3m-to-boost-opcw-efforts-1742738/",
-      "source_domain": "miragenews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.opcw.org/sites/default/files/styles/news_featured_image/public/images/news/2026/09/HP1A0259.jpg?itok=zQ93ivnq",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.vindy.com/news/business-news/2026/09/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/",
-      "source_domain": "vindy.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic Blocks Suspected Attempts to Use AI for Biological Weapons Research",
-      "url": "https://www.khaama.com/anthropic-blocks-suspected-attempts-to-use-ai-for-biological-weapons-research/",
-      "source_domain": "khaama.com",
-      "source_country": "Afghanistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.khaama.com/wp-content/uploads/2026/09/Claude1.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://isp.netscape.com:443/pf/story/0001/20260911/00266dca90e4f8853f669648998d3bda",
-      "source_domain": "isp.netscape.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.asiaone.com/digital/anthropic-says-it-blocked-misuse-its-ai-could-have-supported-biological-weapons",
-      "source_domain": "asiaone.com",
-      "source_country": "Singapore",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:00:00+00:00",
-      "language": "English",
-      "image_url": "https://media.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Sep2026/anthropic.jpg?itok=4vqrIrwp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic flags five Claude AI uses for biological weapons",
-      "url": "https://punchng.com/anthropic-flags-five-claude-ai-uses-linked-to-biological-weapons-research/",
-      "source_domain": "punchng.com",
-      "source_country": "Nigeria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:00:00+00:00",
-      "language": "English",
-      "image_url": "https://punchng.com/wp-content/uploads/2026/06/ai.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Feature : Crimes of Japan  poison gas island  must not be concealed - A visit to Okunoshima",
-      "url": "http://en.people.cn/n3/2026/0911/c90000-20498520.html",
-      "source_domain": "en.people.cn",
-      "source_country": "China",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T08:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work",
-      "url": "https://www.opcw.org/media-centre/news/2026/09/united-kingdom-provides-voluntary-funding-more-eur-13-million-enhance",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">United Kingdom provides voluntary funding of more than EUR 1.3 million to enhance OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"H.E. Mr Christopher Maxwell Rampling, Permanent Representative of the United Kingdom of Great Britain and Northern Ireland (UK) to the OPCW, and Sabrina Dallafior, OPCW Director-",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T07:07:32+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 76,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T12:18:51.673271+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 116,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T12:18:50.031470+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 209,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T12:18:48.384566+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 71,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T12:18:46.747885+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1915,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T12:18:45.090476+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 855,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T12:18:43.429247+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 497,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T12:18:41.778409+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 82,
@@ -5298,12 +5196,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 517,
-    "biological": 902,
-    "nuclear": 2036,
-    "radiological": 73,
-    "explosives": 203,
-    "autonomous_weapons": 113,
-    "directed_energy": 82
+    "chemical": 497,
+    "biological": 855,
+    "nuclear": 1915,
+    "radiological": 71,
+    "explosives": 209,
+    "autonomous_weapons": 116,
+    "directed_energy": 76
   }
 }
