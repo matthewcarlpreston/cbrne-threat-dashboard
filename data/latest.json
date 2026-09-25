@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T12:18:51.712706+00:00",
+  "generated_at": "2026-09-25T18:17:39.383305+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 122,
+  "total_items": 123,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 7,
     "biological": 14,
-    "nuclear": 94,
+    "nuclear": 95,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
@@ -25,7 +25,7 @@
     "United States": 46,
     "Singapore": 1,
     "Iraq": 1,
-    "Austria": 10,
+    "Austria": 11,
     "Japan": 5,
     "Canada": 3,
     "Bulgaria": 1,
@@ -151,6 +151,21 @@
       "image_url": "http://www.washingtonexaminer.com/wp-content/uploads/2026/09/iran-president-uranium-no-big-deal.jpg",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA and Inter-American Development Bank Sign Partnership Agreement on Nuclear Energy for Development",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-and-inter-american-development-bank-sign-partnership-agreement-on-nuclear-energy-for-development",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
       "categories": [
         "nuclear"
       ]
@@ -2002,6 +2017,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 69,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T18:17:39.364212+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 114,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T18:17:37.727844+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 214,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T18:17:36.078645+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T18:17:34.460131+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1939,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T18:17:32.820964+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 794,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T18:17:31.121455+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 454,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T18:17:29.482784+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 76,
@@ -5137,71 +5208,15 @@
       "fetched_at": "2026-09-11T18:17:41.997275+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 76,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T12:19:30.222551+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 194,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T12:19:28.605463+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 286,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T12:19:26.956711+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 56,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T12:19:25.283330+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2713,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T12:19:23.661119+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1289,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T12:19:22.004690+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 437,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T12:19:20.360338+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 497,
-    "biological": 855,
-    "nuclear": 1915,
-    "radiological": 71,
-    "explosives": 209,
-    "autonomous_weapons": 116,
-    "directed_energy": 76
+    "chemical": 454,
+    "biological": 794,
+    "nuclear": 1939,
+    "radiological": 79,
+    "explosives": 214,
+    "autonomous_weapons": 114,
+    "directed_energy": 69
   }
 }
