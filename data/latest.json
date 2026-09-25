@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T18:19:43.909071+00:00",
+  "generated_at": "2026-09-25T00:21:04.647810+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 176,
+  "total_items": 171,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,8 +14,8 @@
   },
   "category_counts": {
     "chemical": 9,
-    "biological": 68,
-    "nuclear": 92,
+    "biological": 67,
+    "nuclear": 88,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
@@ -27,11 +27,11 @@
     "Canada": 1,
     "Azerbaijan": 2,
     "Syria": 3,
+    "United States": 76,
     "Russia": 7,
-    "United States": 77,
     "Malaysia": 3,
-    "Israel": 5,
-    "India": 15,
+    "Israel": 4,
+    "India": 14,
     "South Korea": 2,
     "United Kingdom": 6,
     "Japan": 4,
@@ -39,7 +39,7 @@
     "Kenya": 2,
     "Lithuania": 1,
     "Zambia": 1,
-    "Austria": 11,
+    "Austria": 9,
     "Iran": 2,
     "Pakistan": 2,
     "Netherlands": 3,
@@ -141,6 +141,22 @@
       ]
     },
     {
+      "title": "UN Chief Calls for AI Pact to Prevent Rise of Killer Robots",
+      "url": "https://www.insurancejournal.com/news/international/2026/09/24/886600.htm",
+      "source_domain": "insurancejournal.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-24T10:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.insurancejournal.com/app/uploads/2026/09/artificial-intelligence-branding-2-bloomberg.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
       "title": "We know how to detect a nuclear test . But why shouldnt we conduct one ?",
       "url": "https://europeanleadershipnetwork.org/commentary/we-know-how-to-detect-a-nuclear-test-but-why-shouldnt-we-conduct-one/",
       "source_domain": "europeanleadershipnetwork.org",
@@ -154,22 +170,6 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "UN Chief Calls for AI Pact to Prevent Rise of Killer Robots",
-      "url": "https://www.insurancejournal.com/news/international/2026/09/24/886600.htm",
-      "source_domain": "insurancejournal.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T10:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.insurancejournal.com/app/uploads/2026/09/artificial-intelligence-branding-2-bloomberg.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "autonomous_weapons"
       ]
     },
     {
@@ -2783,87 +2783,65 @@
       "categories": [
         "biological"
       ]
-    },
-    {
-      "title": "IAEA-Led Mission Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-mission-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Update 366 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-366-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Anthropic Reveals How It Stopped  Kamikaze Drone  Swarms , Biological Weapons And More",
-      "url": "https://dailycaller.com/2026/09/10/anthropic-report-kamikaze-drone-swarms-biological-weapons/",
-      "source_domain": "dailycaller.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T22:30:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "India may have produced enough plutonium for 140 to 225 nukes , might have assembled up to 190 warheads : US study",
-      "url": "https://timesofindia.indiatimes.com/defence/news/india-may-have-produced-enough-plutonium-for-140-to-225-nukes-might-have-assembled-up-to-190-warheads-us-study/articleshow/134023612.cms",
-      "source_domain": "timesofindia.indiatimes.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T18:30:00+00:00",
-      "language": "English",
-      "image_url": "https://static.toiimg.com/thumb/msid-134023693,width-1280,height-720,imgsize-89000,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Netanyahu : Iran is trying to rearm , I wont let them have nuclear weapons",
-      "url": "https://www.israelnationalnews.com/flashes/693368",
-      "source_domain": "israelnationalnews.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-10T18:30:00+00:00",
-      "language": "English",
-      "image_url": "https://2.a7.org/files/pictures/000/1075218.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 83,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T00:21:04.635111+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 114,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T00:21:02.932383+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 191,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T00:21:01.134602+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 72,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T00:20:59.426011+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2107,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T00:20:57.773247+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 923,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T00:20:56.101185+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 524,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T00:20:54.253889+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 97,
@@ -5943,127 +5921,15 @@
       "fetched_at": "2026-09-11T06:19:01.252295+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 80,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T00:20:36.158636+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 200,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T00:20:34.504882+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 305,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T00:20:32.827154+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 46,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T00:20:31.207103+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3269,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T00:20:29.581508+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1157,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T00:20:27.942599+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 547,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T00:20:26.291388+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 87,
-      "window_hours": 24,
-      "fetched_at": "2026-09-10T20:48:44.735988+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 179,
-      "window_hours": 24,
-      "fetched_at": "2026-09-10T20:48:43.029814+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 310,
-      "window_hours": 24,
-      "fetched_at": "2026-09-10T20:48:41.275742+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 33,
-      "window_hours": 24,
-      "fetched_at": "2026-09-10T20:48:39.526639+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3490,
-      "window_hours": 24,
-      "fetched_at": "2026-09-10T20:48:37.764148+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1118,
-      "window_hours": 24,
-      "fetched_at": "2026-09-10T20:48:36.072594+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 568,
-      "window_hours": 24,
-      "fetched_at": "2026-09-10T20:48:34.406692+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 572,
-    "biological": 855,
-    "nuclear": 2335,
-    "radiological": 60,
-    "explosives": 196,
-    "autonomous_weapons": 110,
-    "directed_energy": 97
+    "chemical": 524,
+    "biological": 923,
+    "nuclear": 2107,
+    "radiological": 72,
+    "explosives": 191,
+    "autonomous_weapons": 114,
+    "directed_energy": 83
   }
 }
