@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T00:21:04.647810+00:00",
+  "generated_at": "2026-09-25T06:19:29.567904+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 171,
+  "total_items": 132,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,32 +14,32 @@
   },
   "category_counts": {
     "chemical": 9,
-    "biological": 67,
-    "nuclear": 88,
+    "biological": 27,
+    "nuclear": 89,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
+    "Austria": 10,
     "Bulgaria": 1,
-    "Unknown": 6,
+    "Unknown": 5,
     "Canada": 1,
     "Azerbaijan": 2,
     "Syria": 3,
-    "United States": 76,
+    "United States": 47,
     "Russia": 7,
     "Malaysia": 3,
-    "Israel": 4,
-    "India": 14,
+    "Israel": 3,
+    "India": 7,
     "South Korea": 2,
-    "United Kingdom": 6,
+    "United Kingdom": 5,
     "Japan": 4,
     "France": 2,
     "Kenya": 2,
     "Lithuania": 1,
     "Zambia": 1,
-    "Austria": 9,
     "Iran": 2,
     "Pakistan": 2,
     "Netherlands": 3,
@@ -56,10 +56,24 @@
     "Argentina": 1,
     "South Africa": 1,
     "Singapore": 1,
-    "Nigeria": 1,
-    "Turkey": 1
+    "Nigeria": 1
   },
   "items": [
+    {
+      "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-368-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-25T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "The Mysterious Death of a Soviet Scientist and the Secret Biological Weapon  Variant U",
       "url": "http://www.bgnes.com/science/the-mysterious-death-of-a-soviet-scientist-and-the-secret-biological-weapon-variant-u",
@@ -2143,649 +2157,65 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.wpxi.com/news/local/anthropic-says-it-blocked-misuse-its-ai-that-could-have-supported-biological-weapons/AXWSNOBTDZAQPPZR32QH2D7CPM/",
-      "source_domain": "wpxi.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T06:15:00+00:00",
-      "language": "English",
-      "image_url": "https://cmg-cmg-tv-10080-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FJ5H6OS57ARBEHEYOH36HJQMFPU.jpg?auth=662275b14538a424e70b7fbab3a2193e4512d560768bda3ba080d1d81b0ea1ea&smart=true",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked AI misuse for bioweapons research , Russia - Iran propaganda",
-      "url": "https://dailypioneer.com/news/anthropic-blocks-ai-misuse-bioweapons-russia-iran-propaganda",
-      "source_domain": "dailypioneer.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T06:15:00+00:00",
-      "language": "English",
-      "image_url": "https://dailypioneer.com/uploads/2026/story/images/big/anthropic-says-it-blocked-ai-misuse-for-bioweapons-research--russia-iran-propaganda-2026-09-11.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.thehindubusinessline.com/info-tech/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/article71454720.ece",
-      "source_domain": "thehindubusinessline.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:45:00+00:00",
-      "language": "English",
-      "image_url": "https://bl-i.thgim.com/public/incoming/lmn63q/article71454743.ece/alternates/LANDSCAPE_1200/2026-09-10T195449Z_374685200_RC2UNLAFWGCM_RTRMADP_3_ANTHROPIC-CYBERSECURITY.JPG",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.union-bulletin.com/news/national/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/article_2c868d6b-fdf8-5669-8816-26b4aae7d225.html",
-      "source_domain": "union-bulletin.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:45:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.newyork1.vip.townnews.com/union-bulletin.com/content/tncms/assets/v3/editorial/1/9a/19a4270c-3c25-536d-89fa-b7c34244fdd6/6aa31bcc882c4.image.jpg?crop=1762%2C925%2C0%2C125",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "http://www.dailyadvance.com/news/national/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/article_d4264da9-6f74-5e54-aeec-8ddcc0d91d81.html",
-      "source_domain": "dailyadvance.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:15:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.newyork1.vip.townnews.com/dailyadvance.com/content/tncms/assets/v3/editorial/3/7a/37a1dc1f-9967-53fa-a1d6-737df0db079f/6aa31befb7ffb.image.jpg?crop=1762%2C925%2C0%2C125",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.idahostatejournal.com/news/national/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/article_b2a7d065-45d0-5afa-9557-84ebfdd1de38.html",
-      "source_domain": "idahostatejournal.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:15:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.chicago2.vip.townnews.com/idahostatejournal.com/content/tncms/assets/v3/editorial/1/17/117b2627-2706-540a-83ca-efc50914247d/6aa1a0770a60f.image.jpg?crop=1762%2C925%2C0%2C125",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic caught actors using its AI to build bioweapons and a Yemen cell to design long - range missiles",
-      "url": "https://www.oneindia.com/featured/anthropic-caught-actors-using-its-ai-to-build-bioweapons-and-a-yemen-cell-to-design-long-range-missiles-8202101.html",
-      "source_domain": "oneindia.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:15:00+00:00",
-      "language": "English",
-      "image_url": "https://imagesvs.oneindia.com/img/2026/09/ai-misuse-report-scifi-og-82521789101210.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.thehindu.com/sci-tech/technology/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/article71454632.ece",
-      "source_domain": "thehindu.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:15:00+00:00",
-      "language": "English",
-      "image_url": "https://th-i.thgim.com/public/incoming/dr292z/article71454648.ece/alternates/LANDSCAPE_1200/2026-04-17T200327Z_358970032_RC27RKA0YRQ5_RTRMADP_3_USA-ANTHROPIC.JPG",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Spying , bioweapons , surveillance : Anthropic reveals how countries , groups are misusing Claude",
-      "url": "https://www.tribuneindia.com/news/trending/spying-bioweapons-surveillance-anthropic-reveals-how-countries-groups-are-misusing-claude/",
-      "source_domain": "tribuneindia.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTZlOTY2M2UwLWFkOTgtMTFmMS1iN2M0LWQ5MzYzYTY1OTBjNy5qcGc=",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says its models were misused for biological weapons research , surveillance and cyber attacks",
-      "url": "https://www.thenationalnews.com/future/technology/2026/09/10/anthropic-report-biological-weapons-ai/",
-      "source_domain": "thenationalnews.com",
-      "source_country": "Unknown",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.thenationalnews.com/resizer/v2/PEVOWUTFYWZYQJASOIFFQQZJ7E.jpg?auth=4faedffe8ea0ad5af602b15306090cbcf2a20cbac21fe717a68e765a068f9ab1&smart=true",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked AI use linked to biological weapons research",
-      "url": "https://www.business-standard.com/world-news/anthropic-blocked-claude-ai-misuse-biological-weapons-research-threat-126091100168_1.html",
-      "source_domain": "business-standard.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:00:00+00:00",
-      "language": "English",
-      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/31/thumb/featurecrop/1200X628/1785486049-3662.JPG",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons - Boston News , Weather , Sports",
-      "url": "https://whdh.com/news/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/",
-      "source_domain": "whdh.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Bioweapon threat exposed as Anthropic sounds alarm on foreign actors plotting virus experiments",
-      "url": "https://www.yahoo.com/news/science/articles/bioweapon-threat-exposed-anthropic-sounds-225734882.html",
-      "source_domain": "yahoo.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T05:00:00+00:00",
-      "language": "English",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/b70f22bfd9fa73a39f22ac38a03a3e99e814fd947343b273a86e4d05e85357c3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffox_news_text_979%2F050551e25e04237dc683fb4bf853ddce.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocks AI users over suspected bioweapons research",
-      "url": "https://www.israelnationalnews.com/news/433048",
-      "source_domain": "israelnationalnews.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T04:15:00+00:00",
-      "language": "English",
-      "image_url": "https://2.a7.org/files/pictures/000/1221300.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocked AI misuse that could have led to bioweapons – NBC Connecticut",
-      "url": "https://www.nbcconnecticut.com/news/national-international/anthropic-misuse-claude-ai-biological-weapons/3773820/",
-      "source_domain": "nbcconnecticut.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T04:15:00+00:00",
-      "language": "English",
-      "image_url": "https://media.nbcconnecticut.com/2025/09/GettyImages-1690054181.jpg?quality=85&strip=all",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked 5 attempts to use AI for potential bioweapons development",
-      "url": "https://aa.com.tr/en/americas/anthropic-says-it-blocked-5-attempts-to-use-ai-for-potential-bioweapons-development/4053843",
-      "source_domain": "aa.com.tr",
-      "source_country": "Turkey",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T04:15:00+00:00",
-      "language": "English",
-      "image_url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/09/11/thumbs_b_c_185f04cf31e965f8fbfea69847d18980.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocks  malicious use  of AI that could develop biological weapons",
-      "url": "https://www.yahoo.com/news/us/articles/anthropic-blocks-malicious-ai-could-024635384.html",
-      "source_domain": "yahoo.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T04:15:00+00:00",
-      "language": "English",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/ac72ccee6227f8ae301139ccc6e230d48f3d89fc54faff741529e5d9c4d3c9e8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F04d3ebe86d5a8cdef1153cb1dbd0ea56.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic Says It Blocked State - Linked Scientists From Using Claude For Bioweapons Research",
-      "url": "https://www.freepressjournal.in/tech/anthropic-says-it-blocked-state-linked-scientists-from-using-claude-for-bioweapons-research",
-      "source_domain": "freepressjournal.in",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T04:00:00+00:00",
-      "language": "English",
-      "image_url": "https://media.assettype.com/freepressjournal/2026-06-13/li22xwf1/Untitled-design-2026-06-13T115106.959.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked use of bad actors developing bioweapons",
-      "url": "https://www.salon.com/2026/09/10/anthropic-says-it-blocked-use-of-bad-actors-developing-bioweapons/",
-      "source_domain": "salon.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T03:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.salon.com/app/uploads/2026/09/Anthropic-claude-GettyImages-2293903833.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocks  malicious use  of AI that could develop biological weapons",
-      "url": "https://www.bbc.com/news/articles/cx2zrrpkx20o",
-      "source_domain": "bbc.com",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T03:45:00+00:00",
-      "language": "English",
-      "image_url": "https://ichef.bbci.co.uk/news/1024/branded_news/090c/live/88ca35f0-ad6d-11f1-8edd-ada2fcb84b27.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked potential AI bioweapon misuse",
-      "url": "https://abcnews.com/GMA/News/anthropic-blocked-potential-ai-bioweapon-misuse/story?id=136351654",
-      "source_domain": "abcnews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T03:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.abcnewsfe.com/a/6adb6243-fb82-448a-9655-149edbd68943/Anthropic-gty-sn-260910_1789083503772_hpMain_16x9.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked possible attempts to use AI to develop bioweapons",
-      "url": "https://www.kztv10.com/science-and-tech/artificial-intelligence/anthropic-says-it-blocked-possible-attempts-to-use-ai-to-develop-bioweapons",
-      "source_domain": "kztv10.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T03:30:00+00:00",
-      "language": "English",
-      "image_url": "https://ewscripps.brightspotcdn.com/33/1a/dce5026941ceace51127ba171230/shutterstock-1590824860.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocked AI misuse that could have led to bioweapons – NBC New York",
-      "url": "https://www.nbcnewyork.com/news/national-international/anthropic-misuse-claude-ai-biological-weapons/6546182/",
-      "source_domain": "nbcnewyork.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T03:00:00+00:00",
-      "language": "English",
-      "image_url": "https://media.nbcnewyork.com/2025/09/GettyImages-1690054181.jpg?quality=85&strip=all",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked possible attempts to use AI to develop bioweapons",
-      "url": "https://edition.cnn.com/2026/09/10/health/anthropic-bioweapons-report",
-      "source_domain": "edition.cnn.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:30:00+00:00",
-      "language": "English",
-      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2276546969.jpg?c=16x9&q=w_800,c_fill",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocked AI misuse that could have led to bioweapons – NBC Chicago",
-      "url": "https://www.nbcchicago.com/news/national-international/anthropic-misuse-claude-ai-biological-weapons/3987443/",
-      "source_domain": "nbcchicago.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:15:00+00:00",
-      "language": "English",
-      "image_url": "https://media.nbcchicago.com/2025/09/GettyImages-1690054181.jpg?quality=85&strip=all",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.mcall.com/2026/09/10/anthropic-threat-report/",
-      "source_domain": "mcall.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.mcall.com/wp-content/uploads/2026/09/Anthropic_Researcher_Resignation_85781_48317c.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "http://www.somdnews.com/ap/nation/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/article_6464e481-da90-5f9b-8c6c-4bb80a184d88.html",
-      "source_domain": "somdnews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:15:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.chicago2.vip.townnews.com/somdnews.com/content/tncms/assets/v3/editorial/5/d9/5d9194ff-764a-50be-90d0-c7e042d77ea4/6aa31ccaed9c4.image.jpg?crop=1762%2C925%2C0%2C125",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of AI that could have supported biological weapons",
-      "url": "https://www.willmarradio.com/business/business_news/anthropic-says-it-blocked-misuse-of-ai-that-could-have-supported-biological-weapons/article_f8265bc4-0ed6-5683-948f-954b1b845a9f.html",
-      "source_domain": "willmarradio.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.chicago2.vip.townnews.com/willmarradio.com/content/tncms/custom/image/19d1e1cc-f2c3-11ef-ac5a-c7151fb40ed8.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of Claude for biological weapons",
-      "url": "https://www.chicagotribune.com/2026/09/10/anthropic-weapon-use-blocked/",
-      "source_domain": "chicagotribune.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.chicagotribune.com/wp-content/uploads/2026/09/Anthropic_Researcher_Resignation_85781_48317c.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://krmg.com/2026/09/10/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/",
-      "source_domain": "krmg.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://krmg.com/wp-content/uploads/2026/09/Anthropic-Researcher-Resignation.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocked AI misuse that could have led to bioweapons – NBC 5 Dallas - Fort Worth",
-      "url": "https://www.nbcdfw.com/news/national-international/anthropic-misuse-claude-ai-biological-weapons/4075395/",
-      "source_domain": "nbcdfw.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://media.nbcdfw.com/2025/09/GettyImages-1690054181.jpg?quality=85&strip=all",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked possible attempts to use AI to develop bioweapons",
-      "url": "https://www.wtxl.com/science-and-tech/artificial-intelligence/anthropic-says-it-blocked-possible-attempts-to-use-ai-to-develop-bioweapons",
-      "source_domain": "wtxl.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:45:00+00:00",
-      "language": "English",
-      "image_url": "https://ewscripps.brightspotcdn.com/33/1a/dce5026941ceace51127ba171230/shutterstock-1590824860.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.citizensvoice.com/2026/09/10/anthropic-threat-report/",
-      "source_domain": "citizensvoice.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.citizensvoice.com/wp-content/uploads/2026/09/Anthropic_Researcher_Resignation_85781_48317c.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocked AI misuse that could have led to bioweapons – NBC 7 San Diego",
-      "url": "https://www.nbcsandiego.com/news/national-international/anthropic-misuse-claude-ai-biological-weapons/4072175/",
-      "source_domain": "nbcsandiego.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:15:00+00:00",
-      "language": "English",
-      "image_url": "https://media.nbcsandiego.com/2025/09/GettyImages-1690054181.jpg?quality=85&strip=all",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.akronnewsreporter.com/2026/09/10/anthropic-threat-report/",
-      "source_domain": "akronnewsreporter.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.akronnewsreporter.com/wp-content/uploads/2026/09/Anthropic_Researcher_Resignation_85781_48317c.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.times-standard.com/2026/09/10/anthropic-threat-report/",
-      "source_domain": "times-standard.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.times-standard.com/wp-content/uploads/2026/09/Anthropic_Researcher_Resignation_85781_48317c.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.eastbaytimes.com/2026/09/10/anthropic-threat-report/",
-      "source_domain": "eastbaytimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.eastbaytimes.com/wp-content/uploads/2026/09/Anthropic_Researcher_Resignation_85781_48317c.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocked AI misuse that could have led to bioweapons – NBC10 Philadelphia",
-      "url": "https://www.nbcphiladelphia.com/news/national-international/anthropic-misuse-claude-ai-biological-weapons/4461256/",
-      "source_domain": "nbcphiladelphia.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:00:00+00:00",
-      "language": "English",
-      "image_url": "https://media.nbcphiladelphia.com/2025/09/GettyImages-1690054181.jpg?quality=85&strip=all",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic blocked AI misuse that could have led to bioweapons – NBC Bay Area",
-      "url": "https://www.nbcbayarea.com/news/california/anthropic-misuse-claude-ai-biological-weapons/4140955/",
-      "source_domain": "nbcbayarea.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:00:00+00:00",
-      "language": "English",
-      "image_url": "https://media.nbcbayarea.com/2025/09/GettyImages-1690054181.jpg?quality=85&strip=all",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic says it blocked misuse of its AI that could have supported biological weapons",
-      "url": "https://www.adn.com/nation-world/2026/09/10/anthropic-says-it-blocked-misuse-of-its-ai-that-could-have-supported-biological-weapons/",
-      "source_domain": "adn.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T01:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.adn.com/resizer/v2/GWGQAW3XFT5OXDGJSEBSJWNJ44.jpg?smart=true&auth=c3cc1a06f10318756d2cbcafada944dbe944ee94420675b1347856d1af60294c",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 82,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T06:19:29.543616+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 113,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T06:19:27.954992+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 203,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T06:19:26.360548+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 73,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T06:19:24.755990+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2036,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T06:19:23.161243+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 902,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T06:19:21.555686+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 517,
+      "window_hours": 24,
+      "fetched_at": "2026-09-25T06:19:19.965800+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 83,
@@ -5865,71 +5295,15 @@
       "fetched_at": "2026-09-11T12:19:20.360338+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 85,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T06:19:11.306821+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 216,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T06:19:09.656217+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 310,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T06:19:07.948392+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 58,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T06:19:06.240025+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2899,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T06:19:04.584171+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1207,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T06:19:02.903154+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 534,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T06:19:01.252295+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 524,
-    "biological": 923,
-    "nuclear": 2107,
-    "radiological": 72,
-    "explosives": 191,
-    "autonomous_weapons": 114,
-    "directed_energy": 83
+    "chemical": 517,
+    "biological": 902,
+    "nuclear": 2036,
+    "radiological": 73,
+    "explosives": 203,
+    "autonomous_weapons": 113,
+    "directed_energy": 82
   }
 }
