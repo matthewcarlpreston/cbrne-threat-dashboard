@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T06:18:26.717881+00:00",
+  "generated_at": "2026-09-26T12:17:15.577220+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 114,
+  "total_items": 85,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,14 +15,14 @@
   "category_counts": {
     "chemical": 7,
     "biological": 8,
-    "nuclear": 92,
+    "nuclear": 63,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 40,
+    "United States": 26,
     "Singapore": 1,
     "Iraq": 1,
     "Austria": 11,
@@ -30,33 +30,26 @@
     "Canada": 3,
     "Bulgaria": 1,
     "Unknown": 4,
-    "Azerbaijan": 2,
+    "Azerbaijan": 1,
     "Syria": 2,
-    "Russia": 7,
-    "Malaysia": 3,
+    "Russia": 6,
+    "Malaysia": 2,
     "Israel": 2,
     "India": 2,
     "South Korea": 2,
-    "United Kingdom": 4,
+    "United Kingdom": 2,
     "France": 2,
     "Kenya": 2,
     "Lithuania": 1,
     "Zambia": 1,
-    "Iran": 2,
+    "Iran": 1,
     "Pakistan": 1,
     "Netherlands": 1,
     "Morocco": 1,
-    "Australia": 2,
+    "Australia": 1,
     "Afghanistan": 1,
-    "China": 2,
-    "Ireland": 1,
-    "Sri Lanka": 1,
-    "Thailand": 1,
-    "Myanmar": 1,
-    "Sierra Leone": 1,
-    "Cambodia": 1,
-    "Argentina": 1,
-    "South Africa": 1
+    "China": 1,
+    "Ireland": 1
   },
   "items": [
     {
@@ -1406,473 +1399,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.azerbaijannews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "azerbaijannews.net",
-      "source_country": "Azerbaijan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.albuquerqueexpress.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "albuquerqueexpress.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.haitisun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "haitisun.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.tennesseedaily.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "tennesseedaily.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.srilankasource.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "srilankasource.com",
-      "source_country": "Sri Lanka",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.thailandnews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "thailandnews.net",
-      "source_country": "Thailand",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.malaysiasun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "malaysiasun.com",
-      "source_country": "Malaysia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.sandiegosun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "sandiegosun.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.australiannews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "australiannews.net",
-      "source_country": "Australia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.birminghamstar.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "birminghamstar.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.mainemirror.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "mainemirror.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.shanghainews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "shanghainews.net",
-      "source_country": "China",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.europesun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "europesun.com",
-      "source_country": "Russia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T11:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.neworleanssun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "neworleanssun.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.myanmarnews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "myanmarnews.net",
-      "source_country": "Myanmar",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.stlouisstar.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "stlouisstar.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.saltlakecitysun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "saltlakecitysun.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.nashvilleherald.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "nashvilleherald.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.oklahomacitysun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "oklahomacitysun.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.britainnews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "britainnews.net",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.sierraleonetimes.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "sierraleonetimes.com",
-      "source_country": "Sierra Leone",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T10:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.cambodiantimes.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "cambodiantimes.com",
-      "source_country": "Cambodia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T09:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.argentinastar.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "argentinastar.com",
-      "source_country": "Argentina",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.iranherald.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "iranherald.com",
-      "source_country": "Iran",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.africaleader.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "africaleader.com",
-      "source_country": "South Africa",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.coloradostar.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "coloradostar.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.laosnews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "laosnews.net",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T09:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.londonmercury.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "londonmercury.com",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T09:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Putin boosts his stock of nuclear warheads to nine - year high as he threatens West that putting troops into Ukraine  means war with Russia",
-      "url": "https://www.dailymail.com/news/article-16125435/Putin-boosts-nuclear-warheads-nine-year-high.html",
-      "source_domain": "dailymail.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T08:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i.dailymail.com/1s/2026/09/12/08/111204835-0-image-m-12_1789198959211.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T12:17:15.563232+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 143,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T12:17:13.834785+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 269,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T12:17:12.170186+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 65,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T12:17:10.416718+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1818,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T12:17:08.775051+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 735,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T12:17:07.057668+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 456,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T12:17:05.397833+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 55,
@@ -4952,71 +4537,15 @@
       "fetched_at": "2026-09-12T18:16:48.057016+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 118,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T12:16:05.954756+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 119,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T12:16:04.313903+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 223,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T12:16:02.684776+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 61,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T12:16:01.020400+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1759,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T12:15:59.371896+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1167,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T12:15:57.710461+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 354,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T12:15:56.072286+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 443,
-    "biological": 707,
-    "nuclear": 1849,
-    "radiological": 66,
-    "explosives": 240,
-    "autonomous_weapons": 105,
-    "directed_energy": 55
+    "chemical": 456,
+    "biological": 735,
+    "nuclear": 1818,
+    "radiological": 65,
+    "explosives": 269,
+    "autonomous_weapons": 143,
+    "directed_energy": 51
   }
 }
