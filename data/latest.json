@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T00:17:55.171605+00:00",
+  "generated_at": "2026-09-26T06:18:26.717881+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 118,
+  "total_items": 114,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,15 +14,15 @@
   },
   "category_counts": {
     "chemical": 7,
-    "biological": 10,
-    "nuclear": 94,
+    "biological": 8,
+    "nuclear": 92,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 42,
+    "United States": 40,
     "Singapore": 1,
     "Iraq": 1,
     "Austria": 11,
@@ -35,7 +35,7 @@
     "Russia": 7,
     "Malaysia": 3,
     "Israel": 2,
-    "India": 4,
+    "India": 2,
     "South Korea": 2,
     "United Kingdom": 4,
     "France": 2,
@@ -954,7 +954,7 @@
     {
       "title": "Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW",
       "url": "https://www.opcw.org/media-centre/speeches-statements/2026/09/closing-remarks-twenty-sixth-annual-induction-workshop",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"\" xml:lang=\"\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\">Thu 17/09/2026 - 11:03</span>\n  Closing remarks by the Deputy Director-General of the OPCW, Me",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\">Thu 17/09/2026 - 11:03</span>\n  Closing remarks by the Deputy Director-General of the OPCW, Mekondjo Kaapa",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -1870,73 +1870,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Explosive  planes and bioweapons : CIA declassifies pre - 9 / 11 intel warnings",
-      "url": "http://www.bignewsnetwork.com/news/279302212/explosive-planes-and-bioweapons-cia-declassifies-pre-911-intel-warnings",
-      "source_domain": "bignewsnetwork.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T03:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/3cb2740/8b1b0fec-d3c4-4f7f-bd99-b1514132927e/0/M2EyNDYxNDUtODc-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Best of BS Opinion : Why AI should worry us more than nuclear weapons",
-      "url": "https://www.business-standard.com/opinion/specials/best-of-bs-opinion-ai-risks-kerala-government-brics-dauphin-discount-126091101426_1.html",
-      "source_domain": "business-standard.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T03:30:00+00:00",
-      "language": "English",
-      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/29/thumb/fitandfill/1200X628/1785321270-6556.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "India nuclear arsenal estimated at 190 warheads : report",
-      "url": "https://idrw.org/indias-nuclear-arsenal-estimated-at-190-warheads-report/",
-      "source_domain": "idrw.org",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T03:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.telanganatoday.com/wp-content/uploads/2026/09/B-misail_V_jpg--816x480-4g.webp?sw=1920&dsz=816x480&iw=615&p=false&r=1",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Hastings Ricin Scare Prompts Urgent Apartment Evacuation",
-      "url": "https://wgrd.com/hastings-michigan-ricin/",
-      "source_domain": "wgrd.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T01:30:00+00:00",
-      "language": "English",
-      "image_url": "https://townsquare.media/site/43/files/2026/09/attachment-ricin-enter-suv.jpg?&q=75&format=natural",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 55,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T06:18:26.694426+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 105,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T06:18:25.009917+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 240,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T06:18:23.340153+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 66,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T06:18:21.654506+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1849,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T06:18:19.981392+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 707,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T06:18:18.253479+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 443,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T06:18:16.529049+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 63,
@@ -5016,127 +5008,15 @@
       "fetched_at": "2026-09-12T12:15:56.072286+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 122,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T06:17:47.346024+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 139,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T06:17:45.679526+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 244,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T06:17:43.967709+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 61,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T06:17:42.274194+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1935,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T06:17:40.595215+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1280,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T06:17:38.902336+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 351,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T06:17:37.230441+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 92,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T00:20:00.174995+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 167,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T00:19:58.500304+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 266,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T00:19:56.820003+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 64,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T00:19:55.136840+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2136,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T00:19:53.461962+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1343,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T00:19:51.792035+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 386,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T00:19:50.090183+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 474,
-    "biological": 691,
-    "nuclear": 1856,
-    "radiological": 62,
-    "explosives": 219,
-    "autonomous_weapons": 112,
-    "directed_energy": 63
+    "chemical": 443,
+    "biological": 707,
+    "nuclear": 1849,
+    "radiological": 66,
+    "explosives": 240,
+    "autonomous_weapons": 105,
+    "directed_energy": 55
   }
 }
