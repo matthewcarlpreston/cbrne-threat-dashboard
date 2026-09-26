@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T12:17:15.577220+00:00",
+  "generated_at": "2026-09-26T18:16:53.900971+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 85,
+  "total_items": 68,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,41 +15,36 @@
   "category_counts": {
     "chemical": 7,
     "biological": 8,
-    "nuclear": 63,
+    "nuclear": 47,
     "radiological": 0,
-    "explosives": 3,
+    "explosives": 2,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 26,
+    "United States": 21,
     "Singapore": 1,
     "Iraq": 1,
     "Austria": 11,
     "Japan": 5,
     "Canada": 3,
     "Bulgaria": 1,
-    "Unknown": 4,
+    "Unknown": 3,
     "Azerbaijan": 1,
-    "Syria": 2,
-    "Russia": 6,
-    "Malaysia": 2,
-    "Israel": 2,
+    "Syria": 1,
+    "Russia": 5,
+    "Malaysia": 1,
+    "Israel": 1,
     "India": 2,
     "South Korea": 2,
-    "United Kingdom": 2,
-    "France": 2,
+    "United Kingdom": 1,
+    "France": 1,
     "Kenya": 2,
     "Lithuania": 1,
     "Zambia": 1,
     "Iran": 1,
     "Pakistan": 1,
-    "Netherlands": 1,
-    "Morocco": 1,
-    "Australia": 1,
-    "Afghanistan": 1,
-    "China": 1,
-    "Ireland": 1
+    "Netherlands": 1
   },
   "items": [
     {
@@ -947,7 +942,7 @@
     {
       "title": "Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW",
       "url": "https://www.opcw.org/media-centre/speeches-statements/2026/09/closing-remarks-twenty-sixth-annual-induction-workshop",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\">Thu 17/09/2026 - 11:03</span>\n  Closing remarks by the Deputy Director-General of the OPCW, Mekondjo Kaapa",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Closing Remarks at the Twenty-Sixth Annual Induction Workshop for Diplomatic Personnel Accredited to the OPCW</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"\" xml:lang=\"\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\">Thu 17/09/2026 - 11:03</span>\n  Closing remarks by the Deputy Director-General of the OPCW, Me",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -1127,281 +1122,65 @@
       "categories": [
         "biological"
       ]
-    },
-    {
-      "title": "Morocco Co - Sponsors IAEA Resolution Closing Syria Assad - Era Nuclear File",
-      "url": "https://www.moroccoworldnews.com/2026/09/338064/morocco-co-sponsors-iaea-resolution-closing-syrias-assad-era-nuclear-file/",
-      "source_domain": "moroccoworldnews.com",
-      "source_country": "Morocco",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T15:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.moroccoworldnews.com/wp-content/uploads/2026/09/Morocco-Co-Sponsors-IAEA-Resolution-Closing-Syrias-Assad-Era-Nuclear-File.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Fort Pierce man arrested after deputies recover eight explosive devices",
-      "url": "https://www.wqcs.org/wqcs-news/2026-09-12/fort-pierce-man-arrested-after-deputies-recover-eight-explosive-devices",
-      "source_domain": "wqcs.org",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T15:30:00+00:00",
-      "language": "English",
-      "image_url": "http://npr-brightspot.s3.amazonaws.com/42/68/312bfcba4f05be23867a48ac9b90/805854047-1105341532026255-7893629465445859132-n.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Iran has good reason to bar IAEA inspectors from returning amid US aggression : Author",
-      "url": "https://www.presstv.co.uk/Detail/2026/09/11/776097/iran-refusal-allow-iaea-inspectors-back-amid-us-aggression-understandable-author",
-      "source_domain": "presstv.co.uk",
-      "source_country": "Unknown",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T15:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "https://www.2lt.com.au/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities/",
-      "source_domain": "2lt.com.au",
-      "source_country": "Australia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T14:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.2lt.com.au/wp-content/uploads/2026/09/6-Iran-nuclear-630x420.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.theuknews.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "theuknews.com",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T14:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.afghanistannews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "afghanistannews.net",
-      "source_country": "Afghanistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.israelherald.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "israelherald.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.parisguardian.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "parisguardian.com",
-      "source_country": "France",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:30:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.asiabulletin.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "asiabulletin.com",
-      "source_country": "China",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.hawaiitelegraph.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "hawaiitelegraph.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.irishsun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "irishsun.com",
-      "source_country": "Ireland",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.californiatelegraph.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "californiatelegraph.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.middleeaststar.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "middleeaststar.com",
-      "source_country": "Syria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T13:15:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA accuses Iran of non - cooperation over nuclear activities",
-      "url": "http://www.bruneinews.net/news/279299211/iaea-accuses-iran-of-non-cooperation-over-nuclear-activities",
-      "source_domain": "bruneinews.net",
-      "source_country": "Malaysia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.memphissun.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "memphissun.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.newjerseytelegraph.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "newjerseytelegraph.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iran faces new nuclear pressure from IAEA",
-      "url": "http://www.russiaherald.com/news/279299211/iran-faces-new-nuclear-pressure-from-iaea",
-      "source_domain": "russiaherald.com",
-      "source_country": "Russia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-12T12:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/399e513/adf22119-ec2f-4766-ab71-62e19e4438b7/1/6-Iran-nuclear-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 38,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T18:16:53.886854+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 127,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T18:16:52.209433+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 337,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T18:16:50.525061+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T18:16:48.843749+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2026,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T18:16:47.132065+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 724,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T18:16:45.425329+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 454,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T18:16:43.699862+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 51,
@@ -4505,47 +4284,15 @@
       "fetched_at": "2026-09-12T18:16:54.531865+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T18:16:52.899828+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1570,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T18:16:51.302584+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1059,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T18:16:49.692913+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 337,
-      "window_hours": 24,
-      "fetched_at": "2026-09-12T18:16:48.057016+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 456,
-    "biological": 735,
-    "nuclear": 1818,
-    "radiological": 65,
-    "explosives": 269,
-    "autonomous_weapons": 143,
-    "directed_energy": 51
+    "chemical": 454,
+    "biological": 724,
+    "nuclear": 2026,
+    "radiological": 51,
+    "explosives": 337,
+    "autonomous_weapons": 127,
+    "directed_energy": 38
   }
 }
