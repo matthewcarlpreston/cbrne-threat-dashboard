@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T18:17:39.383305+00:00",
+  "generated_at": "2026-09-26T00:17:55.171605+00:00",
   "retention_days": 14,
   "lookback_hours": 24,
-  "total_items": 123,
+  "total_items": 118,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,15 +14,15 @@
   },
   "category_counts": {
     "chemical": 7,
-    "biological": 14,
-    "nuclear": 95,
+    "biological": 10,
+    "nuclear": 94,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 46,
+    "United States": 42,
     "Singapore": 1,
     "Iraq": 1,
     "Austria": 11,
@@ -34,7 +34,7 @@
     "Syria": 2,
     "Russia": 7,
     "Malaysia": 3,
-    "Israel": 3,
+    "Israel": 2,
     "India": 4,
     "South Korea": 2,
     "United Kingdom": 4,
@@ -1934,89 +1934,65 @@
       "categories": [
         "biological"
       ]
-    },
-    {
-      "title": "Were on the brink of world war that ends with nuclear weapons - Carlson to GU ( EXCLUSIVE )",
-      "url": "http://www.bignewsnetwork.com/news/279302018/were-on-the-brink-of-world-war-that-ends-with-nuclear-weapons-carlson-to-gu-exclusive",
-      "source_domain": "bignewsnetwork.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T23:00:00+00:00",
-      "language": "English",
-      "image_url": "https://image.chitra.live/api/v1/wps/60166c7/2b3785ee-f6b8-4b62-ad00-735c80b8dac8/0/OTg2NWU3M2UtNzU-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "FBI investigating possible ricin contamination in Hastings",
-      "url": "https://www.fox2detroit.com/news/fbi-investigating-possible-ricin-contamination-hastings",
-      "source_domain": "fox2detroit.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T22:45:00+00:00",
-      "language": "English",
-      "image_url": "https://images.foxtv.com/static.fox2detroit.com/www.fox2detroit.com/content/uploads/2026/09/1280/720/gettyimages-107639074-scaled.jpg?ve=1&tl=1",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "ANTHRAX TO RELEASE DARK MATTER COFFEE X ANTHRAX  CURSUM PERFICIO",
-      "url": "https://www.knac.com/news/news/anthrax-darkmattercoffeex-anthraxcursumperficio/",
-      "source_domain": "knac.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T21:15:00+00:00",
-      "language": "English",
-      "image_url": "https://mmo.aiircdn.com/2595/6a28471bf0fd9.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Health department gives update after potential ricin exposure in Hastings | Newsradio WOOD 1300 and 106 . 9 FM",
-      "url": "https://woodradio.iheart.com/featured/wood-radio-local-news/content/2026-09-11-health-department-gives-update-after-potential-ricin-exposure-in-hastings/",
-      "source_domain": "woodradio.iheart.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T19:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.iheart.com/v3/re/assets.getty/6aa44d56f6133d300234a4b5?ops=gravity(%22north%22),fit(1200,675),quality(65)",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Anthropic disrupts bioweapons research efforts , Russian hacking , Chinese Claude misuse",
-      "url": "https://www.al-monitor.com/originals/2026/09/anthropic-disrupts-bioweapons-research-efforts-russian-hacking-chinese-claude",
-      "source_domain": "al-monitor.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-11T19:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 63,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T00:17:55.154968+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 112,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T00:17:53.495974+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 219,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T00:17:51.849609+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 62,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T00:17:50.125714+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1856,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T00:17:48.490646+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 691,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T00:17:46.834666+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 474,
+      "window_hours": 24,
+      "fetched_at": "2026-09-26T00:17:45.189415+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 69,
@@ -5152,71 +5128,15 @@
       "fetched_at": "2026-09-12T00:19:50.090183+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 79,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T18:17:52.036639+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 184,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T18:17:50.404064+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 257,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T18:17:48.732705+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 69,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T18:17:47.095312+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2419,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T18:17:45.371437+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1320,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T18:17:43.667304+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 419,
-      "window_hours": 24,
-      "fetched_at": "2026-09-11T18:17:41.997275+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 454,
-    "biological": 794,
-    "nuclear": 1939,
-    "radiological": 79,
-    "explosives": 214,
-    "autonomous_weapons": 114,
-    "directed_energy": 69
+    "chemical": 474,
+    "biological": 691,
+    "nuclear": 1856,
+    "radiological": 62,
+    "explosives": 219,
+    "autonomous_weapons": 112,
+    "directed_energy": 63
   }
 }
