@@ -71,7 +71,13 @@ cbrne-threat-dashboard/
 
 **GDELT DOC 2.0 API** (primary, free, no key required)
 - Endpoint: `https://api.gdeltproject.org/api/v2/doc/doc`
-- Rolling window queried every pipeline run: last 24 hours, sorted by date.
+- Rolling window queried every pipeline run: last 72 hours, sorted by date. The runs are
+  6 hours apart, so windows overlap heavily **on purpose**: GDELT rate-limits and times out
+  often enough that whole days of runs can come back empty (Sep 14–19, 2026 had zero GDELT
+  items under the original 24h window). With a 72h lookback, the next successful run
+  backfills the gap, and URL dedup makes the re-fetch free. `fetch_gdelt.py` logs a warning
+  if a query ever hits the 250-record cap (the WMD theme query returns ~40/day, so there is
+  plenty of headroom). X/Twitter counts are unaffected and stay on a fixed 24h window.
 - One query against the GKG `theme:WMD` tag (broad CBRN net), plus three targeted
   keyword queries for explosives/IED, autonomous weapons, and directed-energy weapons —
   GDELT has no dedicated GKG theme for those three domains.
@@ -192,6 +198,10 @@ score (GDELT items only).
 Static HTML/CSS/JS, no build step, reads `data/latest.json` via `fetch()`:
 - Category and time-range filters, plus free-text search
 - Summary stat tiles (items shown, countries reporting, leading category, retention window)
+- Freshness indicators in the header: "Newest item Xh ago" turns amber if nothing new has
+  arrived in 24h (sources failing or rate-limited), and the "Updated" pill turns amber if
+  the pipeline itself hasn't run in 12h (workflow failing). A current "Updated" time alone
+  can't tell you whether the runs actually collected anything.
 - Category breakdown bar chart (Chart.js)
 - Top reporting countries
 - **Coverage trend** — daily item counts per category over the selected time range, as
@@ -231,7 +241,7 @@ re-scrape with LinkedIn's [Post Inspector](https://www.linkedin.com/post-inspect
 - `build_json.py` merges each run's new items into the existing `data/latest.json` and
   applies a **14-day retention window** (`--retention-days`, configurable) before writing —
   so short of the git history, the live file itself carries two weeks of signal, not just
-  the latest 24-hour pull.
+  the latest 72-hour pull.
 - The GitHub Action runs every 6 hours. GDELT's free API has no published hard quota but
   publishes rate-limit guidance (~1 req/5s/IP) and asks high-volume users to switch to
   their bulk datasets — a 6-hour cadence across 4 queries is well inside reasonable use.
@@ -254,7 +264,7 @@ re-scrape with LinkedIn's [Post Inspector](https://www.linkedin.com/post-inspect
 python -m venv .venv
 source .venv/Scripts/activate   # or .venv/bin/activate on macOS/Linux
 pip install -r requirements.txt
-python scripts/build_json.py --hours 24 --retention-days 14
+python scripts/build_json.py --hours 72 --retention-days 14
 python -m http.server 8080      # serve the static site
 ```
 

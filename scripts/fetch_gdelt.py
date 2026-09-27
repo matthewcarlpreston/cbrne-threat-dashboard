@@ -90,7 +90,12 @@ def _fetch_one_query(query_tag: str, query: str, hours: int, retries: int = 2) -
         try:
             resp = requests.get(url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": USER_AGENT})
         except requests.RequestException as exc:
+            # Timeouts/connection resets are as transient as a 429 -- retry
+            # them too instead of losing this query for the whole run.
             print(f"[fetch_gdelt] WARN: request failed for '{query_tag}': {exc}", file=sys.stderr)
+            if attempt < retries:
+                time.sleep(SECONDS_BETWEEN_REQUESTS * (attempt + 2))
+                continue
             return []
 
         if resp.status_code == 429 and attempt < retries:
@@ -126,6 +131,14 @@ def _fetch_one_query(query_tag: str, query: str, hours: int, retries: int = 2) -
         return []
 
     articles = payload.get("articles", [])
+    if len(articles) >= MAX_RECORDS:
+        # Results are sorted newest-first, so a full page means the oldest
+        # part of the lookback window was cut off.
+        print(
+            f"[fetch_gdelt] WARN: '{query_tag}' hit the {MAX_RECORDS}-record cap; "
+            f"older items in the {hours}h window were truncated",
+            file=sys.stderr,
+        )
     if not articles:
         print(f"[fetch_gdelt] INFO: no results for '{query_tag}'", file=sys.stderr)
         return []

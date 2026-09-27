@@ -37,7 +37,7 @@ jobs:
           # not per-post) -- at this workflow's 6h cadence that's ~$0.14/day.
           # Lower the cron frequency above or remove this secret to cut spend.
           TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
-        run: python scripts/build_json.py --hours 24 --retention-days 14
+        run: python scripts/build_json.py --hours 72 --retention-days 14
 
       - name: Commit and push if changed
         run: |

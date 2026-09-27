@@ -8,7 +8,7 @@ dashboard to consume.
 This is the single entry point the GitHub Actions workflow calls.
 
 Usage:
-    python scripts/build_json.py [--hours 24] [--retention-days 14]
+    python scripts/build_json.py [--hours 72] [--retention-days 14]
 """
 
 from __future__ import annotations
@@ -29,6 +29,11 @@ from fetch_twitter import fetch_twitter_signal, METRIC_VERSION as TWITTER_METRIC
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 LATEST_PATH = DATA_DIR / "latest.json"
+
+# X/Twitter counts stay on a fixed 24h window regardless of --hours: the
+# dashboard shows the latest reading as "volume per day", and widening it
+# would silently change what that number means.
+TWITTER_WINDOW_HOURS = 24
 
 
 def _dedupe_by_url(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -84,7 +89,7 @@ def build(hours: int, retention_days: int) -> dict[str, Any]:
     print(f"[build_json] Got {len(rss_items)} RSS items", file=sys.stderr)
 
     print("[build_json] Fetching X/Twitter signal (aggregate counts only)...", file=sys.stderr)
-    twitter_rows = fetch_twitter_signal(hours=hours)
+    twitter_rows = fetch_twitter_signal(hours=TWITTER_WINDOW_HOURS)
     print(f"[build_json] Got {len(twitter_rows)} X/Twitter category rows", file=sys.stderr)
 
     existing = _load_existing()
@@ -152,7 +157,12 @@ def build(hours: int, retention_days: int) -> dict[str, Any]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build data/latest.json for the CBRN-E OSINT dashboard")
-    parser.add_argument("--hours", type=int, default=24, help="GDELT lookback window in hours")
+    # 72h on a 6h cadence means each window is re-queried ~12 times. That
+    # overlap is deliberate: a run lost to GDELT rate limiting or timeouts
+    # gets backfilled by the next successful one (dedup by URL makes the
+    # re-fetch free). With a 24h lookback, a day of failed runs was a
+    # permanent gap in the archive.
+    parser.add_argument("--hours", type=int, default=72, help="GDELT lookback window in hours")
     parser.add_argument("--retention-days", type=int, default=14, help="How many days of items to retain")
     args = parser.parse_args()
 

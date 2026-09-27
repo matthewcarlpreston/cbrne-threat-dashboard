@@ -20,6 +20,12 @@
     directed_energy: "Directed Energy Weapons",
   };
 
+  // A pipeline run every 6h should always produce something within a day;
+  // past these thresholds the header flags the data as stale instead of
+  // letting a healthy-looking "Updated" timestamp hide a collection gap.
+  const STALE_RUN_HOURS = 12; // cron missed ~2 runs
+  const STALE_ITEM_HOURS = 24; // runs succeeded but sources returned nothing new
+
   const state = {
     data: null,
     activeCategories: new Set(), // empty = all
@@ -48,8 +54,48 @@
       dateStyle: "medium",
       timeStyle: "short",
     })}`;
+    const runStale = hoursSince(generated) > STALE_RUN_HOURS;
+    el("last-updated").classList.toggle("pill-warn", runStale);
+    el("last-updated").title = runStale
+      ? `No pipeline run in over ${STALE_RUN_HOURS}h. The scheduled workflow may be failing.`
+      : "";
+    renderFreshness(data.items || []);
     el("total-items").textContent = `${data.total_items} items in archive`;
     el("stat-window").textContent = `${data.retention_days}d`;
+  }
+
+  function hoursSince(date) {
+    return (Date.now() - date.getTime()) / 3.6e6;
+  }
+
+  function formatAge(hours) {
+    if (hours < 1) return "<1h ago";
+    if (hours < 48) return `${Math.floor(hours)}h ago`;
+    return `${Math.floor(hours / 24)}d ago`;
+  }
+
+  function renderFreshness(items) {
+    const pill = el("freshness");
+    const now = Date.now();
+    let newest = null;
+    for (const item of items) {
+      const t = Date.parse(item.published_date);
+      // Ignore unparseable and future-dated timestamps (feed clock skew).
+      if (!Number.isNaN(t) && t <= now && (newest === null || t > newest)) newest = t;
+    }
+    pill.hidden = false;
+    if (newest === null) {
+      pill.textContent = "No items";
+      pill.classList.add("pill-warn");
+      return;
+    }
+    const age = hoursSince(new Date(newest));
+    const stale = age > STALE_ITEM_HOURS;
+    pill.textContent = `Newest item ${formatAge(age)}`;
+    pill.classList.toggle("pill-warn", stale);
+    pill.title = stale
+      ? `No new items in over ${STALE_ITEM_HOURS}h. Sources may be failing or rate-limited.`
+      : "Publish time of the most recent item in the archive";
   }
 
   function buildCategoryChips(labels) {
