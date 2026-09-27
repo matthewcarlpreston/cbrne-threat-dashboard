@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T00:20:48.479264+00:00",
+  "generated_at": "2026-09-27T06:19:33.275996+00:00",
   "retention_days": 14,
-  "lookback_hours": 24,
-  "total_items": 68,
+  "lookback_hours": 72,
+  "total_items": 66,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,7 +14,7 @@
   },
   "category_counts": {
     "chemical": 7,
-    "biological": 8,
+    "biological": 6,
     "nuclear": 47,
     "radiological": 0,
     "explosives": 2,
@@ -22,7 +22,7 @@
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 21,
+    "United States": 19,
     "Singapore": 1,
     "Iraq": 1,
     "Austria": 11,
@@ -1090,41 +1090,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Anthropic says it disrupted scientists using Claude AI for possible biological weapons development",
-      "url": "http://www.cbsnews.com/news/anthropic-ai-claude-biological-weapons-development/",
-      "source_domain": "cbsnews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-13T04:15:00+00:00",
-      "language": "English",
-      "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/10/888deda8-7ac9-4f65-bd00-f50452005993/thumbnail/1200x630/74dd6edc34c50916d8b45a0560855f39/gettyimages-2283355345.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "AI company says it blocked misuse of its technology that could have supported biological weapons",
-      "url": "https://www.knoe.com/2026/09/12/ai-company-says-it-blocked-misuse-its-technology-that-could-have-supported-biological-weapons/",
-      "source_domain": "knoe.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-13T01:00:00+00:00",
-      "language": "English",
-      "image_url": "https://gray-knoe-prod.gtv-cdn.com/resizer/v2/D7KAPILRENA23PJ6CNQI26RZ4Q.jpg?auth=0757bd76f0c092502d4476a0529b8849c44c3e880751539aa4ddd475ed77c3b9&smart=true",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 37,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T06:19:33.264083+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 131,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T06:19:31.614375+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 386,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T06:19:29.955638+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 38,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T06:19:28.322430+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2002,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T06:19:26.664417+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 656,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T06:19:25.010113+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 479,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T06:19:23.359771+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 38,
@@ -4263,12 +4287,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 454,
-    "biological": 703,
-    "nuclear": 2066,
-    "radiological": 45,
-    "explosives": 376,
-    "autonomous_weapons": 120,
-    "directed_energy": 38
+    "chemical": 479,
+    "biological": 656,
+    "nuclear": 2002,
+    "radiological": 38,
+    "explosives": 386,
+    "autonomous_weapons": 131,
+    "directed_energy": 37
   }
 }
