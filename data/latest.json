@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T12:19:00.229724+00:00",
+  "generated_at": "2026-09-27T18:16:17.833012+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 66,
+  "total_items": 71,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,17 +14,17 @@
   },
   "category_counts": {
     "chemical": 7,
-    "biological": 7,
-    "nuclear": 46,
+    "biological": 8,
+    "nuclear": 50,
     "radiological": 0,
     "explosives": 2,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "Bangladesh": 1,
+    "Bangladesh": 2,
+    "United States": 23,
     "India": 3,
-    "United States": 19,
     "Singapore": 1,
     "Iraq": 1,
     "Austria": 11,
@@ -48,6 +48,86 @@
     "Netherlands": 1
   },
   "items": [
+    {
+      "title": "[ Goat meat linked to most anthrax cases in Meherpur Gangni ]",
+      "url": "https://www.thedailystar.net/news/healthcare/disease/news/goat-meat-linked-most-anthrax-cases-meherpurs-gangni-4284481",
+      "source_domain": "thedailystar.net",
+      "source_country": "Bangladesh",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T17:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Bill Gates : Getting countries to agree on AI regulations  more difficult  than nuclear weapons talks – NBC New York",
+      "url": "https://www.nbcnewyork.com/news/national-international/bill-gates-getting-countries-to-agree-on-ai-regulations-harder-than-cold-war-era-nuclear-negotiations/6552617/",
+      "source_domain": "nbcnewyork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T17:00:00+00:00",
+      "language": "English",
+      "image_url": "https://media.nbcnewyork.com/2023/12/107341708-1701400988741-gettyimages-1719104903-New_Funding_To_Protect_370_Million_Children_From_Polio_Every_Year.jpeg?quality=85&strip=all",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Bill Gates : Getting countries to agree on AI regulations  more difficult  than nuclear weapons talks – NBC 5 Dallas - Fort Worth",
+      "url": "https://www.nbcdfw.com/news/national-international/bill-gates-getting-countries-to-agree-on-ai-regulations-harder-than-cold-war-era-nuclear-negotiations/4083175/",
+      "source_domain": "nbcdfw.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T16:00:00+00:00",
+      "language": "English",
+      "image_url": "https://media.nbcdfw.com/2023/12/107341708-1701400988741-gettyimages-1719104903-New_Funding_To_Protect_370_Million_Children_From_Polio_Every_Year.jpeg?quality=85&strip=all",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Bill Gates : Getting countries to agree on AI regulations  more difficult  than nuclear weapons talks – NBC Connecticut",
+      "url": "https://www.nbcconnecticut.com/news/national-international/bill-gates-getting-countries-to-agree-on-ai-regulations-harder-than-cold-war-era-nuclear-negotiations/3779007/",
+      "source_domain": "nbcconnecticut.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T15:00:00+00:00",
+      "language": "English",
+      "image_url": "https://media.nbcconnecticut.com/2023/12/107341708-1701400988741-gettyimages-1719104903-New_Funding_To_Protect_370_Million_Children_From_Polio_Every_Year.jpeg?quality=85&strip=all",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Bill Gates : Getting countries to agree on AI regulations  more difficult  than nuclear weapons talks – NBC10 Philadelphia",
+      "url": "https://www.nbcphiladelphia.com/news/national-international/bill-gates-getting-countries-to-agree-on-ai-regulations-harder-than-cold-war-era-nuclear-negotiations/4470105/",
+      "source_domain": "nbcphiladelphia.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T14:45:00+00:00",
+      "language": "English",
+      "image_url": "https://media.nbcphiladelphia.com/2023/12/107341708-1701400988741-gettyimages-1719104903-New_Funding_To_Protect_370_Million_Children_From_Polio_Every_Year.jpeg?quality=85&strip=all",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Act before anthrax spreads further",
       "url": "https://www.thedailystar.net/opinion/editorial/news/act-anthrax-spreads-further-4283701",
@@ -1094,6 +1174,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 33,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T18:16:17.815306+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 89,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T18:16:16.168564+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 782,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T18:16:14.493234+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 57,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T18:16:12.799826+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1683,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T18:16:11.126452+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 591,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T18:16:09.457681+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 489,
+      "window_hours": 24,
+      "fetched_at": "2026-09-27T18:16:07.805247+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 32,
@@ -4232,12 +4368,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 471,
-    "biological": 617,
-    "nuclear": 1934,
-    "radiological": 44,
-    "explosives": 436,
+    "chemical": 489,
+    "biological": 591,
+    "nuclear": 1683,
+    "radiological": 57,
+    "explosives": 782,
     "autonomous_weapons": 89,
-    "directed_energy": 32
+    "directed_energy": 33
   }
 }
