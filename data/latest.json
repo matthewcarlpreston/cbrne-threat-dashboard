@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T12:20:24.876081+00:00",
+  "generated_at": "2026-09-28T18:18:34.092639+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 74,
+  "total_items": 91,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,24 +15,26 @@
   "category_counts": {
     "chemical": 8,
     "biological": 10,
-    "nuclear": 48,
+    "nuclear": 51,
     "radiological": 0,
-    "explosives": 4,
+    "explosives": 18,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
+    "United States": 32,
+    "United Kingdom": 4,
+    "Israel": 4,
+    "Australia": 3,
+    "Ireland": 2,
     "Netherlands": 2,
-    "Israel": 2,
     "Fiji": 1,
-    "United States": 25,
+    "Austria": 8,
     "Unknown": 4,
-    "Australia": 1,
     "Bangladesh": 2,
     "India": 3,
     "Singapore": 1,
     "Iraq": 1,
-    "Austria": 7,
     "Japan": 3,
     "Canada": 3,
     "Bulgaria": 1,
@@ -41,7 +43,6 @@
     "Russia": 5,
     "Malaysia": 1,
     "South Korea": 2,
-    "United Kingdom": 1,
     "France": 1,
     "Kenya": 2,
     "Lithuania": 1,
@@ -50,6 +51,198 @@
     "Pakistan": 1
   },
   "items": [
+    {
+      "title": "TERROR PLOT PROBE : Iran Denies Link to Suspected Bomb Plot Near U . S .- Used Air Base in Britain",
+      "url": "https://www.theyeshivaworld.com/news/general/2603693/terror-plot-probe-iran-denies-link-to-suspected-bomb-plot-near-u-s-used-air-base-in-britain.html",
+      "source_domain": "theyeshivaworld.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T17:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.theyeshivaworld.com/wp-content/uploads/2026/09/739718.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "RAF Fairford bomb plot : Counter - terror police probe five London men and possible Iran link - London Business News",
+      "url": "https://londonlovesbusiness.com/raf-fairford-bomb-plot-counter-terror-police-probe-five-london-men-and-possible-iran-link/",
+      "source_domain": "londonlovesbusiness.com",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T15:45:00+00:00",
+      "language": "English",
+      "image_url": "https://mloyoq1wv9pf.i.optimole.com/cb:q0m5.1962/w:auto/h:auto/q:mauto/f:best/https://londonlovesbusiness.com/wp-content/uploads/2026/09/RAF-Fariford-gang-members.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Five British men from London arrested over RAF  terror bomb plot  are all released on bail - as Iran  categorically reject involvement",
+      "url": "https://www.dailymail.com/news/article-16166889/Five-British-men-London-arrested-RAF-terror-bomb-plot-released-bail-Iran-categorically-rejects-involvement.html",
+      "source_domain": "dailymail.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T15:30:00+00:00",
+      "language": "English",
+      "image_url": "https://i.dailymail.com/1s/2026/09/28/15/111512583-0-image-a-40_1790606855299.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Iran denies link to suspected bomb plot at united kingdom airbase used by US",
+      "url": "https://www.al-monitor.com/originals/2026/09/iran-denies-link-suspected-bomb-plot-uk-airbase-used-us",
+      "source_domain": "al-monitor.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T15:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Residents living near RAF Fairford  told attack was imminent day before bomb plot",
+      "url": "https://www.independent.co.uk/news/uk/home-news/raf-fairford-investigation-residents-attack-latest-b3057550.html",
+      "source_domain": "independent.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T14:15:00+00:00",
+      "language": "English",
+      "image_url": "https://static.independent.co.uk/2026/09/28/11/00/2297522635-getty.jpg?trim=0,0,0,0&crop=1200:800",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "AI companies could learn safety lessons from the history of nuclear weapons",
+      "url": "https://theconversation.com/ai-companies-could-learn-safety-lessons-from-the-history-of-nuclear-weapons-292623",
+      "source_domain": "theconversation.com",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T13:45:00+00:00",
+      "language": "English",
+      "image_url": "https://images.theconversation.com/files/762030/original/file-20260924-50-zro7q.jpg?ixlib=rb-4.1.1&rect=262%2C875%2C4418%2C2209&q=45&auto=format&fit=crop",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Revealed : Farmer WhatsApp message that alerted locals to RAF  terror bomb plot  - as she hits back at Wes Streeting for accusing her of  not having the full picture",
+      "url": "https://www.dailymail.com/news/article-16166449/Farmers-WhatsApp-message-alerted-locals-RAF-terror-bomb-plot-hits-Wes-Streeting-accusing-not-having-picture.html",
+      "source_domain": "dailymail.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T13:15:00+00:00",
+      "language": "English",
+      "image_url": "https://i.dailymail.com/1s/2026/09/28/13/111517111-0-image-a-20_1790598514313.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Inside Iran ruthless Quds Force unit tasked with attacks on foreign soil and overseen by  Shadow Commander  boss - as united kingdom probes regime link to RAF Fairford bomb plot",
+      "url": "https://www.dailymail.com/news/article-16165951/Inside-Irans-ruthless-Quds-Force-unit-tasked-attacks-foreign-soil-overseen-Shadow-Commander-boss-UK-probes-regime-link-RAF-Fairford-bomb-plot.html",
+      "source_domain": "dailymail.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T11:30:00+00:00",
+      "language": "English",
+      "image_url": "https://i.dailymail.com/1s/2026/09/28/11/111514911-0-image-a-10_1790590711207.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Suspected bomb plot investigations continue",
+      "url": "https://www.abc.net.au/listen/programs/pm/suspected-bomb-plot-investigations-continue-/107205218",
+      "source_domain": "abc.net.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T11:15:00+00:00",
+      "language": "English",
+      "image_url": "https://live-production.wcms.abc-cdn.net.au/640063910f18a9df2125298d3e4d9a90?impolicy=wcms_watermark_abc&cropH=1080&cropW=1920&xPos=0&yPos=0&imformat=generic",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "National security expert discusses alleged U . K . bomb plot",
+      "url": "https://www.ksmu.org/2026-09-28/national-security-expert-discusses-alleged-u-k-bomb-plot",
+      "source_domain": "ksmu.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T10:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "National security expert discusses alleged U . K . bomb plot",
+      "url": "https://www.wqcs.org/2026-09-28/national-security-expert-discusses-alleged-u-k-bomb-plot",
+      "source_domain": "wqcs.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T10:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Counter - terror police investigate Iran link over suspected bomb plot at RAF base used by US",
+      "url": "https://www.irishexaminer.com/world/arid-41916559.html",
+      "source_domain": "irishexaminer.com",
+      "source_country": "Ireland",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T09:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.irishexaminer.com/cms_media/module_img/10483/5241739_1_org_3103ca32-5fc2-48a1-aa53-3621d8b9b9d8.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
     {
       "title": "OPCW and Brazil strengthen chemical emergency preparedness across the Lusophone countries",
       "url": "https://www.opcw.org/media-centre/news/2026/09/opcw-and-brazil-strengthen-chemical-emergency-preparedness-across",
@@ -63,6 +256,70 @@
       "rss_feed_name": "OPCW",
       "categories": [
         "chemical"
+      ]
+    },
+    {
+      "title": "We will be transparent  Wes Streeting vows to be honest on RAF  bomb plot  but admits public only has  partial picture",
+      "url": "https://www.lbc.co.uk/article/wes-streeting-lbc-iran-raf-fairford-5Hjdj8B_2/",
+      "source_domain": "lbc.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T08:00:00+00:00",
+      "language": "English",
+      "image_url": "https://images.globalplayer.com/images/845019?crop=16_9&signature=rm5nvOA_RHqZu6v9aGBp54Oxx2g=",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Counter - terror police investigate Iran link over suspected bomb plot at RAF base used by US",
+      "url": "https://www.breakingnews.ie/world/counter-terror-police-investigate-iran-link-over-suspected-bomb-plot-at-raf-base-used-by-us-1951144.html",
+      "source_domain": "breakingnews.ie",
+      "source_country": "Ireland",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T08:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Iran suspected in RAF base bomb plot , united kingdom police investigating",
+      "url": "http://www.jpost.com/middle-east/iran-news/article-909919",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T07:30:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/739616",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "RIGHT SPEAK : Hasan Piker Argues Middle East Would Be  more stable  If Iran Had Nuclear Weapons ; Piker Says Middle East Would Be More Secure If Iran Had a Nuclear Weapon",
+      "url": "http://www.rightspeak.net/2026/09/hasan-piker-argues-middle-east-would-be.html",
+      "source_domain": "rightspeak.net",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T06:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -93,6 +350,21 @@
       "image_url": "",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Technical Cooperation Showcases Results at 70th IAEA General Conference",
+      "url": "http://www.iaea.org/news/photoessay/tc-showcases-results-iaeagc-70",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
       "categories": [
         "nuclear"
       ]
@@ -1227,6 +1499,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 34,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T18:18:34.054971+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 94,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T18:18:32.423718+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 1513,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T18:18:30.806949+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 75,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T18:18:29.201668+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1676,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T18:18:27.598129+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 726,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T18:18:25.988072+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 616,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T18:18:24.378817+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 30,
@@ -4306,127 +4634,15 @@
       "fetched_at": "2026-09-15T00:20:46.074772+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 45,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T18:17:55.895770+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 140,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T18:17:54.233678+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 266,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T18:17:52.560811+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 40,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T18:17:50.829734+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2074,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T18:17:49.151561+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1110,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T18:17:47.459424+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 397,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T18:17:45.766712+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 61,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T12:20:50.975977+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 125,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T12:20:49.331000+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 225,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T12:20:47.640257+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 35,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T12:20:46.002899+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1789,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T12:20:44.343109+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1022,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T12:20:42.714566+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 451,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T12:20:41.078084+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 561,
-    "biological": 667,
+    "chemical": 616,
+    "biological": 726,
     "nuclear": 1676,
-    "radiological": 72,
-    "explosives": 1236,
-    "autonomous_weapons": 87,
-    "directed_energy": 30
+    "radiological": 75,
+    "explosives": 1513,
+    "autonomous_weapons": 94,
+    "directed_energy": 34
   }
 }
