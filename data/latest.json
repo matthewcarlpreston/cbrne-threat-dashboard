@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T06:20:32.925143+00:00",
+  "generated_at": "2026-09-28T12:20:24.876081+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 73,
+  "total_items": 74,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,7 +13,7 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 7,
+    "chemical": 8,
     "biological": 10,
     "nuclear": 48,
     "radiological": 0,
@@ -22,6 +22,7 @@
     "directed_energy": 0
   },
   "country_counts": {
+    "Netherlands": 2,
     "Israel": 2,
     "Fiji": 1,
     "United States": 25,
@@ -46,10 +47,24 @@
     "Lithuania": 1,
     "Zambia": 1,
     "Iran": 1,
-    "Pakistan": 1,
-    "Netherlands": 1
+    "Pakistan": 1
   },
   "items": [
+    {
+      "title": "OPCW and Brazil strengthen chemical emergency preparedness across the Lusophone countries",
+      "url": "https://www.opcw.org/media-centre/news/2026/09/opcw-and-brazil-strengthen-chemical-emergency-preparedness-across",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW and Brazil strengthen chemical emergency preparedness across the Lusophone countries  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"Aerial view of exit from the port in Maputo, Mozambique \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/Untitled%20Design%20%283%29.p",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T08:33:03+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Iran suspected in RAF base bomb plot , united kingdom police investigating",
       "url": "https://www.jpost.com/middle-east/iran-news/article-909919",
@@ -1212,6 +1227,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 30,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T12:20:24.862485+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 87,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T12:20:23.195038+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 1236,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T12:20:21.519033+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 72,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T12:20:19.846852+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1676,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T12:20:18.193396+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 667,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T12:20:16.363972+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 561,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T12:20:14.715908+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 29,
@@ -4347,71 +4418,15 @@
       "fetched_at": "2026-09-14T12:20:41.078084+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 57,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T06:21:18.469165+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 115,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T06:21:16.863953+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 192,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T06:21:15.256930+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 39,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T06:21:13.659171+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1649,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T06:21:12.062666+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1033,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T06:21:10.456300+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 446,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T06:21:08.798816+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 534,
-    "biological": 648,
-    "nuclear": 1600,
-    "radiological": 66,
-    "explosives": 990,
-    "autonomous_weapons": 86,
-    "directed_energy": 29
+    "chemical": 561,
+    "biological": 667,
+    "nuclear": 1676,
+    "radiological": 72,
+    "explosives": 1236,
+    "autonomous_weapons": 87,
+    "directed_energy": 30
   }
 }
