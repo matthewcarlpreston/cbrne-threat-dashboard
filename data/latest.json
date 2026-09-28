@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T00:23:07.635041+00:00",
+  "generated_at": "2026-09-28T06:20:32.925143+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 67,
+  "total_items": 73,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,16 +14,20 @@
   },
   "category_counts": {
     "chemical": 7,
-    "biological": 8,
-    "nuclear": 46,
+    "biological": 10,
+    "nuclear": 48,
     "radiological": 0,
-    "explosives": 2,
+    "explosives": 4,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
+    "Israel": 2,
+    "Fiji": 1,
+    "United States": 25,
+    "Unknown": 4,
+    "Australia": 1,
     "Bangladesh": 2,
-    "United States": 23,
     "India": 3,
     "Singapore": 1,
     "Iraq": 1,
@@ -31,12 +35,10 @@
     "Japan": 3,
     "Canada": 3,
     "Bulgaria": 1,
-    "Unknown": 3,
     "Azerbaijan": 1,
     "Syria": 1,
     "Russia": 5,
     "Malaysia": 1,
-    "Israel": 1,
     "South Korea": 2,
     "United Kingdom": 1,
     "France": 1,
@@ -48,6 +50,102 @@
     "Netherlands": 1
   },
   "items": [
+    {
+      "title": "Iran suspected in RAF base bomb plot , united kingdom police investigating",
+      "url": "https://www.jpost.com/middle-east/iran-news/article-909919",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T05:30:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/739616",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "President Heine warns against seabed mining , calls for UN nuclear testing apology",
+      "url": "https://pina.com.fj/2026/09/28/president-heine-warns-against-seabed-mining-calls-for-un-nuclear-testing-apology/",
+      "source_domain": "pina.com.fj",
+      "source_country": "Fiji",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T04:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "5 arrested over bomb plot near British air base used by U . S . bombers",
+      "url": "https://bnonews.com/index.php/2026/09/5-arrested-over-bomb-plot-near-british-air-base-used-by-u-s-bombers/",
+      "source_domain": "bnonews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T21:45:00+00:00",
+      "language": "English",
+      "image_url": "https://bnonews.com/wp-content/uploads/2026/09/20260927UKTerroristInvestigation.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "How concerning is the biological weapon threat from AI systems ?",
+      "url": "https://www.rnz.co.nz/news/world/1624164/how-concerning-is-the-biological-weapon-threat-from-ai-systems",
+      "source_domain": "rnz.co.nz",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T21:15:00+00:00",
+      "language": "English",
+      "image_url": "https://media.rnztools.nz/rnz/image/upload/s--4VE0JcBC--/t_tohu-badge-facebook/f_auto/q_auto/4M9UE2E_image_crop_123353",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Bill Gates : Getting countries to agree on AI regulations  more difficult  than nuclear weapons talks – NBC 6 South Florida",
+      "url": "https://www.nbcmiami.com/news/national-international/bill-gates-getting-countries-to-agree-on-ai-regulations-harder-than-cold-war-era-nuclear-negotiations/3864836/",
+      "source_domain": "nbcmiami.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T19:45:00+00:00",
+      "language": "English",
+      "image_url": "https://media.nbcmiami.com/2023/12/107341708-1701400988741-gettyimages-1719104903-New_Funding_To_Protect_370_Million_Children_From_Polio_Every_Year.jpeg?quality=85&strip=all",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "How concerning is the biological weapon threat from AI systems ?",
+      "url": "https://www.abc.net.au/news/science/2026-09-28/how-concerning-is-the-biological-weapon-threat-from-ai-systems/107161348",
+      "source_domain": "abc.net.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-27T19:15:00+00:00",
+      "language": "English",
+      "image_url": "https://live-production.wcms.abc-cdn.net.au/4f078886181d2dbc25464d6f95c66428?impolicy=wcms_watermark_news&cropH=1596&cropW=2837&xPos=177&yPos=0&imformat=generic",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
     {
       "title": "[ Goat meat linked to most anthrax cases in Meherpur Gangni ]",
       "url": "https://www.thedailystar.net/news/healthcare/disease/news/goat-meat-linked-most-anthrax-cases-meherpurs-gangni-4284481",
@@ -1114,6 +1212,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 29,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T06:20:32.889897+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 86,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T06:20:31.284469+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 990,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T06:20:29.683374+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 66,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T06:20:28.024651+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1600,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T06:20:26.425737+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 648,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T06:20:24.836024+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 534,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T06:20:23.203335+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 31,
@@ -4252,12 +4406,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 511,
-    "biological": 600,
-    "nuclear": 1541,
-    "radiological": 61,
-    "explosives": 946,
-    "autonomous_weapons": 87,
-    "directed_energy": 31
+    "chemical": 534,
+    "biological": 648,
+    "nuclear": 1600,
+    "radiological": 66,
+    "explosives": 990,
+    "autonomous_weapons": 86,
+    "directed_energy": 29
   }
 }
