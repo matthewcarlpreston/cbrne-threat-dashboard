@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T18:16:17.833012+00:00",
+  "generated_at": "2026-09-28T00:23:07.635041+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 71,
+  "total_items": 67,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 7,
     "biological": 8,
-    "nuclear": 50,
+    "nuclear": 46,
     "radiological": 0,
     "explosives": 2,
     "autonomous_weapons": 4,
@@ -27,7 +27,7 @@
     "India": 3,
     "Singapore": 1,
     "Iraq": 1,
-    "Austria": 11,
+    "Austria": 7,
     "Japan": 3,
     "Canada": 3,
     "Bulgaria": 1,
@@ -1111,69 +1111,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Director General's Statement to the Seventieth Regular Session of the IAEA General Conference",
-      "url": "http://www.iaea.org/newscenter/statements/director-generals-statement-to-the-seventieth-regular-session-of-the-iaea-general-conference",
-      "summary": "(As prepared for delivery)\nExcellencies, ladies and gentlemen,&nbsp;\nToday we begin the 70th General Conference, welcoming the Democratic Republic of Timor-Leste as the IAEA’s one-hundred-and-eighty-second Member State.",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-14T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "The Week Ahead: IAEA Hosts 70th General Conference",
-      "url": "http://www.iaea.org/newscenter/news/the-week-ahead-iaea-hosts-70th-general-conference",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-14T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA General Conference Elects Argentine Ambassador as Conference President",
-      "url": "http://www.iaea.org/newscenter/news/iaea-general-conference-elects-argentine-ambassador-as-conference-president",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-14T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Projects Global Nuclear Power Capacity Could Triple by 2060, Continuing Rising Trend",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-projects-global-nuclear-power-capacity-could-triple-by-2060-continuing-rising-trend",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-14T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 31,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T00:23:07.621485+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 87,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T00:23:06.002424+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 946,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T00:23:04.358875+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 61,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T00:23:02.723102+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1541,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T00:23:01.004140+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 600,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T00:22:59.377340+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 511,
+      "window_hours": 24,
+      "fetched_at": "2026-09-28T00:22:57.732822+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 33,
@@ -4253,127 +4249,15 @@
       "fetched_at": "2026-09-14T06:21:08.798816+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 55,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T00:20:42.186321+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 119,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T00:20:40.563268+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 178,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T00:20:38.961777+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 52,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T00:20:37.338587+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1630,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T00:20:35.729394+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1149,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T00:20:34.097402+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 419,
-      "window_hours": 24,
-      "fetched_at": "2026-09-14T00:20:32.494375+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 58,
-      "window_hours": 24,
-      "fetched_at": "2026-09-13T18:16:38.314928+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 116,
-      "window_hours": 24,
-      "fetched_at": "2026-09-13T18:16:36.707589+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 169,
-      "window_hours": 24,
-      "fetched_at": "2026-09-13T18:16:34.863781+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 57,
-      "window_hours": 24,
-      "fetched_at": "2026-09-13T18:16:33.153664+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1855,
-      "window_hours": 24,
-      "fetched_at": "2026-09-13T18:16:31.526126+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1069,
-      "window_hours": 24,
-      "fetched_at": "2026-09-13T18:16:29.899922+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 385,
-      "window_hours": 24,
-      "fetched_at": "2026-09-13T18:16:28.302645+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 489,
-    "biological": 591,
-    "nuclear": 1683,
-    "radiological": 57,
-    "explosives": 782,
-    "autonomous_weapons": 89,
-    "directed_energy": 33
+    "chemical": 511,
+    "biological": 600,
+    "nuclear": 1541,
+    "radiological": 61,
+    "explosives": 946,
+    "autonomous_weapons": 87,
+    "directed_energy": 31
   }
 }
