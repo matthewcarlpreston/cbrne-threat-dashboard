@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T00:21:18.142177+00:00",
+  "generated_at": "2026-09-29T06:19:58.437537+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 97,
+  "total_items": 100,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,18 +14,18 @@
   },
   "category_counts": {
     "chemical": 8,
-    "biological": 10,
-    "nuclear": 51,
+    "biological": 11,
+    "nuclear": 53,
     "radiological": 0,
     "explosives": 24,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 35,
-    "Israel": 6,
+    "United States": 36,
+    "United Kingdom": 5,
+    "Israel": 7,
     "India": 4,
-    "United Kingdom": 4,
     "Australia": 3,
     "Ireland": 2,
     "Netherlands": 2,
@@ -52,6 +52,22 @@
   },
   "items": [
     {
+      "title": "The Next Bioweapon Could Target the Human Genome",
+      "url": "https://www.popularmechanics.com/science/a73917072/mutagenic-weapon/",
+      "source_domain": "popularmechanics.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://hips.hearstapps.com/hmg-prod/images/641781b4-4eb0-4195-bedc-a2d54ba93f55.jpeg?crop=1xw:0.75xh;center,top",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
       "title": "Green Beret who survived an IED now clears Ukraine landmines",
       "url": "https://www.navytimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
       "source_domain": "navytimes.com",
@@ -65,6 +81,38 @@
       "gdelt_query_tag": "explosives_keyword",
       "categories": [
         "explosives"
+      ]
+    },
+    {
+      "title": "Wes Streeting asked to probe claims civil servants  torpedoed  compensation for nuclear test vets",
+      "url": "https://www.mirror.co.uk/news/politics/nuclear-test-veterans-compensation-mod-37712376",
+      "source_domain": "mirror.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T23:15:00+00:00",
+      "language": "English",
+      "image_url": "https://i2-prod.mirror.co.uk/article37707553.ece/ALTERNATES/s1200d/2_Britain-Defense.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Trump on Iran : I stopped them from having a nuclear weapon",
+      "url": "https://www.israelnationalnews.com/news/433798",
+      "source_domain": "israelnationalnews.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T22:45:00+00:00",
+      "language": "English",
+      "image_url": "https://2.a7.org/files/pictures/000/1226590.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -1595,6 +1643,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 37,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T06:19:58.413913+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 98,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T06:19:56.773758+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 1748,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T06:19:55.102932+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 70,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T06:19:53.364400+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1967,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T06:19:51.707812+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 790,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T06:19:50.039864+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 535,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T06:19:48.363183+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 34,
@@ -4674,71 +4778,15 @@
       "fetched_at": "2026-09-15T12:18:08.260713+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 48,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T06:19:53.314305+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 148,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T06:19:51.716304+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 325,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T06:19:50.107289+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 49,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T06:19:48.511662+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2160,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T06:19:46.894530+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1074,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T06:19:45.265048+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 361,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T06:19:43.636014+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 567,
-    "biological": 795,
-    "nuclear": 1854,
-    "radiological": 74,
-    "explosives": 1678,
-    "autonomous_weapons": 104,
-    "directed_energy": 34
+    "chemical": 535,
+    "biological": 790,
+    "nuclear": 1967,
+    "radiological": 70,
+    "explosives": 1748,
+    "autonomous_weapons": 98,
+    "directed_energy": 37
   }
 }
