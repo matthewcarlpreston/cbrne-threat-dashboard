@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T06:19:58.437537+00:00",
+  "generated_at": "2026-09-29T12:19:59.480977+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 100,
+  "total_items": 119,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,25 +13,25 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 8,
-    "biological": 11,
-    "nuclear": 53,
+    "chemical": 9,
+    "biological": 12,
+    "nuclear": 54,
     "radiological": 0,
-    "explosives": 24,
+    "explosives": 40,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 36,
-    "United Kingdom": 5,
-    "Israel": 7,
+    "Unknown": 5,
+    "United States": 47,
+    "Israel": 9,
+    "United Kingdom": 9,
+    "Australia": 4,
     "India": 4,
-    "Australia": 3,
     "Ireland": 2,
     "Netherlands": 2,
     "Fiji": 1,
     "Austria": 8,
-    "Unknown": 4,
     "Bangladesh": 2,
     "Singapore": 1,
     "Iraq": 1,
@@ -52,6 +52,294 @@
   },
   "items": [
     {
+      "title": "25 years later , the anthrax threat not only has not gone away it may be worse",
+      "url": "https://www.inquirer.com/opinion/commentary/anthrax-usps-attack-biodefense-ai-risk-20260929.html",
+      "source_domain": "inquirer.com",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T11:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.inquirer.com/resizer/v2/OZ5CRSYEIBAEPE7PJUWNYYF6VY.jpg?auth=aec83516bbfc6bb3fd9423c97589ca19cf9cd6038ae8dce52df6e44e62fa942f&smart=true",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Wearable nanotech could help neutralise nerve agents before they become deadly",
+      "url": "https://www.digitaljournal.com/article/wearable-nanotech-could-help-neutralise-nerve-agents-before-they-become-deadly/",
+      "source_domain": "digitaljournal.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T08:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.digitaljournal.com/wp-content/uploads/2022/10/DDD-6-1.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Rubio says Iran would  blackmail the world  if it had a nuclear weapon",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-says-iran-would-blackmail-world-if-it-had-nuclear-weapon",
+      "source_domain": "middleeasteye.net",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T07:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.middleeasteye.net/sites/default/files/2026-09/Iranian-made%20Zolfaghar%20missiles%20are%20seen%20on%20display%20beside%20a%20large%20portrait%20of%20Iran%27s%20supreme%20leader%20Mojtaba%20Khamenei%20at%20Baharestan%20Square%20in%20Tehran%20on%20September%2028%2C%202026.%20%28AFP%29.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Master of Arts in Design for Other Species : Transdisciplinary Practices Towards More - than - Human Futures IED Milano",
+      "url": "https://www.designboom.com/course/master-of-arts-in-design-for-other-species-transdisciplinary-practices-towards-more-than-human-futures-ied-milano/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T06:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2026/03/Master-of-Arts-in-Design-for-Other-Species-designboom-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Tuesday briefing : Inside the suspected bomb plot at RAF Fairford",
+      "url": "https://www.aol.co.uk/articles/tuesday-briefing-inside-suspected-bomb-054556000.html",
+      "source_domain": "aol.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T06:15:00+00:00",
+      "language": "English",
+      "image_url": "https://hermes.media.static.aol.com/media/2026/09/29/740b9c8b-5551-3f52-ab7f-bb7c851690b5/bda82e79-4a46-4303-8ae9-ed36f82d5555.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Tuesday briefing : Inside the suspected bomb plot at RAF Fairford",
+      "url": "https://www.theguardian.com/world/2026/sep/29/tuesday-briefing-first-edition-raf-fairford-cotswolds",
+      "source_domain": "theguardian.com",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T06:15:00+00:00",
+      "language": "English",
+      "image_url": "https://i.guim.co.uk/img/media/1aabb1642d46f9db7c18997114f51da586843c26/105_0_4578_3662/master/4578.jpg?&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=830d61534adc109c765c3bf09a5d52e0",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Rubio says foreign actor was  clearly  behind suspected RAF Fairford bomb plot | united kingdom news",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/29/raf-fairford-uk-bomb-plot-marco-rubio-claims-foreign-actor",
+      "source_domain": "theguardian.com",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T04:45:00+00:00",
+      "language": "English",
+      "image_url": "https://i.guim.co.uk/img/media/eca5ceb33f9fe870ec39d38e103c54797f85da36/254_0_4779_3821/master/4779.jpg?&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1cfd1187ed8f11cbcb3ea603c3690a5b",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Inquiry launched into suspected bomb plot against US linked united kingdom air base | SBS News in Easy English 29 September 2026",
+      "url": "https://www.sbs.com.au/news/podcast-episode/inquiry-launched-into-suspected-bomb-plot-against-us-linked-uk-air-base-sbs-news-in-easy-english-29-september-2026/hmfuvpz4d",
+      "source_domain": "sbs.com.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T04:45:00+00:00",
+      "language": "English",
+      "image_url": "https://sbs-au-brightspot.s3.ap-southeast-2.amazonaws.com/49/26/15fe8cee400f866a5720b576fdcc/bs-easy-english-bulletin-image-square.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Marco Rubio says foreign actor involved in RAF Fairford bomb plot",
+      "url": "http://www.jpost.com/international/article-910028",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/739750",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Rubio says foreign actor was  clearly  behind suspected RAF Fairford bomb plot",
+      "url": "https://www.aol.co.uk/articles/rubio-says-foreign-actor-clearly-032933000.html",
+      "source_domain": "aol.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://hermes.media.static.aol.com/media/2026/09/29/f6e27745-2b6f-3f57-ae6e-a449690c9188/558057e8-5445-4b60-9287-59877668af70.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Interaction Design . Emerging technologies for products and services by IED Torino",
+      "url": "https://www.designboom.com/course/interaction-design-emerging-technologies-for-products-and-services-by-ied-torino/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2026/03/Interaction-Design.-Emerging-technologies-for-products-and-services-by-IED-Torino-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Interior and Furniture Design by IED Firenze",
+      "url": "https://www.designboom.com/course/interior-and-furniture-design-by-ied-firenze/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2026/03/Interior-and-Furniture-Design-by-IED-Firenze-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Master in Fashion Creative Direction by IED",
+      "url": "https://www.designboom.com/course/masters-in-fashion-creative-direction-by-ied/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2025/12/BCN-Fashion-Creative-Direction-designboom-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Master in Fashion Business Innovation by IED",
+      "url": "https://www.designboom.com/course/masters-in-fashion-business-innovation-by-ied/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2025/12/Masters-in-Fashion-Business-Innovation-by-IED-designboom-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Master in Digital Fashion by IED | designboom | architecture & design magazine",
+      "url": "https://www.designboom.com/course/masters-in-digital-fashion-by-ied/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2025/12/Masters-in-Digital-Fashion-by-IED-designboom-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Master in Digital Arts & Creative Technologies by IED | designboom | architecture & design magazine",
+      "url": "https://www.designboom.com/course/masters-in-digital-arts-creative-technologies-by-ied/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2025/12/Masters-in-Digital-Arts-Creative-Technologies-by-IED-designboom-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Master in Brand Design and Hospitality by IED | designboom | architecture & design magazine",
+      "url": "https://www.designboom.com/course/masters-in-brand-design-and-hospitality-by-ied/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2025/12/Masters-in-Brand-Design-and-Hospitality-by-IED-designboom-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Master in Fashion Business by IED | designboom | architecture & design magazine",
+      "url": "https://www.designboom.com/course/masters-in-fashion-business-by-ied/",
+      "source_domain": "designboom.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.designboom.com/twitterimages/uploads/2025/12/Masters-in-Fashion-Business-by-IED-designboom-1200.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
       "title": "The Next Bioweapon Could Target the Human Genome",
       "url": "https://www.popularmechanics.com/science/a73917072/mutagenic-weapon/",
       "source_domain": "popularmechanics.com",
@@ -65,6 +353,22 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "biological"
+      ]
+    },
+    {
+      "title": "Green Beret who survived an IED now clears Ukraine landmines",
+      "url": "https://www.airforcetimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
+      "source_domain": "airforcetimes.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T00:45:00+00:00",
+      "language": "English",
+      "image_url": "https://one.sightlinemg.com/wp-content/uploads/2026/09/Ryan-in-tactical-gear-outdoors.jpg.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -1643,6 +1947,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 43,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T12:19:59.445023+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 96,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T12:19:57.761797+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 1623,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T12:19:56.117768+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 55,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T12:19:54.504008+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2085,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T12:19:52.831253+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 778,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T12:19:50.952949+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 515,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T12:19:49.309517+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 37,
@@ -4722,71 +5082,15 @@
       "fetched_at": "2026-09-15T18:16:09.822490+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 51,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T12:18:18.844131+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 151,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T12:18:16.955055+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 327,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T12:18:15.136040+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 58,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T12:18:13.459301+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2129,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T12:18:11.726028+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1071,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T12:18:10.015939+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 358,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T12:18:08.260713+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 535,
-    "biological": 790,
-    "nuclear": 1967,
-    "radiological": 70,
-    "explosives": 1748,
-    "autonomous_weapons": 98,
-    "directed_energy": 37
+    "chemical": 515,
+    "biological": 778,
+    "nuclear": 2085,
+    "radiological": 55,
+    "explosives": 1623,
+    "autonomous_weapons": 96,
+    "directed_energy": 43
   }
 }
