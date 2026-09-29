@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T18:18:34.092639+00:00",
+  "generated_at": "2026-09-29T00:21:18.142177+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 91,
+  "total_items": 97,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -17,14 +17,15 @@
     "biological": 10,
     "nuclear": 51,
     "radiological": 0,
-    "explosives": 18,
+    "explosives": 24,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 32,
+    "United States": 35,
+    "Israel": 6,
+    "India": 4,
     "United Kingdom": 4,
-    "Israel": 4,
     "Australia": 3,
     "Ireland": 2,
     "Netherlands": 2,
@@ -32,7 +33,6 @@
     "Austria": 8,
     "Unknown": 4,
     "Bangladesh": 2,
-    "India": 3,
     "Singapore": 1,
     "Iraq": 1,
     "Japan": 3,
@@ -51,6 +51,102 @@
     "Pakistan": 1
   },
   "items": [
+    {
+      "title": "Green Beret who survived an IED now clears Ukraine landmines",
+      "url": "https://www.navytimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
+      "source_domain": "navytimes.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T23:45:00+00:00",
+      "language": "English",
+      "image_url": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/N3MOOFSXCNCBLASCWDWWMP3PLI.jpg?&auth=481761a2c533c6f15fc36bbd1d005327dfdd163137a7ba9ed0d0ac2d53095638",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Green Beret who survived an IED now clears Ukraine landmines",
+      "url": "https://www.marinecorpstimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
+      "source_domain": "marinecorpstimes.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T22:15:00+00:00",
+      "language": "English",
+      "image_url": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/N3MOOFSXCNCBLASCWDWWMP3PLI.jpg?&auth=481761a2c533c6f15fc36bbd1d005327dfdd163137a7ba9ed0d0ac2d53095638",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Green Beret who survived an IED now clears Ukraine landmines",
+      "url": "https://www.armytimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
+      "source_domain": "armytimes.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T22:00:00+00:00",
+      "language": "English",
+      "image_url": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/N3MOOFSXCNCBLASCWDWWMP3PLI.jpg?&auth=481761a2c533c6f15fc36bbd1d005327dfdd163137a7ba9ed0d0ac2d53095638",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "UK bomb plot suspects released on bail",
+      "url": "https://www.clevelandjewishnews.com/jns/uk-bomb-plot-suspects-released-on-bail/article_3f42a1d4-8c57-5b97-8d18-aded2c647d62.html",
+      "source_domain": "clevelandjewishnews.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T21:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/clevelandjewishnews.com/content/tncms/custom/image/7278b38c-b303-11e5-a1a2-a31281943715.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "UK releases Fairford bomb plot suspects , continues investigation",
+      "url": "http://www.jpost.com/international/article-909989",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T18:45:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/739718",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Iran denies link to suspected bomb plot at U . K . airbase used by U . S .",
+      "url": "https://www.thehindu.com/news/international/iran-denies-link-to-suspected-bomb-plot-at-uk-airbase-used-by-us/article71521258.ece",
+      "source_domain": "thehindu.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T18:00:00+00:00",
+      "language": "English",
+      "image_url": "https://th-i.thgim.com/public/incoming/vbhx22/article71521279.ece/alternates/LANDSCAPE_1200/2026-09-27T083855Z_1349271208_RC2IRNAKLJEJ_RTRMADP_3_BRITAIN-USA-FAIRFORD.JPG",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
     {
       "title": "TERROR PLOT PROBE : Iran Denies Link to Suspected Bomb Plot Near U . S .- Used Air Base in Britain",
       "url": "https://www.theyeshivaworld.com/news/general/2603693/terror-plot-probe-iran-denies-link-to-suspected-bomb-plot-near-u-s-used-air-base-in-britain.html",
@@ -1499,6 +1595,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 34,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T00:21:18.117043+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 104,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T00:21:16.437685+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 1678,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T00:21:14.738815+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 74,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T00:21:13.108834+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1854,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T00:21:11.489228+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 795,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T00:21:09.871513+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 567,
+      "window_hours": 24,
+      "fetched_at": "2026-09-29T00:21:08.235887+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 34,
@@ -4578,71 +4730,15 @@
       "fetched_at": "2026-09-15T06:19:43.636014+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 45,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T00:20:55.860701+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 143,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T00:20:54.255846+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 273,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T00:20:52.640366+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 43,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T00:20:50.959513+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2210,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T00:20:49.330484+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1055,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T00:20:47.699645+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 365,
-      "window_hours": 24,
-      "fetched_at": "2026-09-15T00:20:46.074772+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 616,
-    "biological": 726,
-    "nuclear": 1676,
-    "radiological": 75,
-    "explosives": 1513,
-    "autonomous_weapons": 94,
+    "chemical": 567,
+    "biological": 795,
+    "nuclear": 1854,
+    "radiological": 74,
+    "explosives": 1678,
+    "autonomous_weapons": 104,
     "directed_energy": 34
   }
 }
