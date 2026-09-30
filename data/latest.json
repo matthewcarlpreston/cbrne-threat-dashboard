@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T18:20:17.831466+00:00",
+  "generated_at": "2026-09-30T00:21:50.354143+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 119,
+  "total_items": 123,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,19 +15,20 @@
   "category_counts": {
     "chemical": 9,
     "biological": 12,
-    "nuclear": 54,
+    "nuclear": 56,
     "radiological": 0,
-    "explosives": 40,
+    "explosives": 42,
     "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
+    "Israel": 10,
+    "India": 6,
+    "Pakistan": 2,
     "Unknown": 5,
     "United States": 47,
-    "Israel": 9,
     "United Kingdom": 9,
     "Australia": 4,
-    "India": 4,
     "Ireland": 2,
     "Netherlands": 2,
     "Fiji": 1,
@@ -47,10 +48,73 @@
     "Kenya": 2,
     "Lithuania": 1,
     "Zambia": 1,
-    "Iran": 1,
-    "Pakistan": 1
+    "Iran": 1
   },
   "items": [
+    {
+      "title": "How RAF Fairford  bomb plot  narrative fell apart as US and united kingdom made competing claims",
+      "url": "https://www.middleeasteye.net/news/how-raf-fairford-bomb-plot-narrative-fell-apart-us-and-uk-made-competing-claims",
+      "source_domain": "middleeasteye.net",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T17:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.middleeasteye.net/sites/default/files/images-story/000_C9JZ86Q%20%281%29.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Tronglaobi IED attack case : NIA arrests second accused",
+      "url": "https://news.webindia123.com/news/Articles/India/20260929/4505066.html",
+      "source_domain": "news.webindia123.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T16:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "The claim that Iran is trying to acquire nuclear weapons is the biggest lie of this century , says Hossein Mohebbi .",
+      "url": "https://dailythepatriot.com/the-claim-that-iran-is-trying-to-acquire-nuclear-weapons-is-the-biggest-lie-of-this-century-says-hossein-mohebbi/",
+      "source_domain": "dailythepatriot.com",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T12:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran not after nuclear weapon : Iranian Guard Corps spokesperson denies US claim ; calls Trump  a big liar",
+      "url": "https://www.hindustantimes.com/world-news/iran-not-after-nuclear-weapons-iranian-guards-corps-spokesperson-denies-us-claim-calls-trump-a-big-liar-101790679881181.html",
+      "source_domain": "hindustantimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T12:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "25 years later , the anthrax threat not only has not gone away it may be worse",
       "url": "https://www.inquirer.com/opinion/commentary/anthrax-usps-attack-biodefense-ai-risk-20260929.html",
@@ -1947,6 +2011,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 68,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T00:21:50.305200+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 99,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T00:21:48.696276+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 894,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T00:21:47.084540+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T00:21:45.489046+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1933,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T00:21:43.887032+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 830,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T00:21:42.238692+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 432,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T00:21:40.608349+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 54,
@@ -5026,71 +5146,15 @@
       "fetched_at": "2026-09-16T06:19:29.728156+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 63,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T00:19:22.872842+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 133,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T00:19:21.164856+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 320,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T00:19:19.534496+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 60,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T00:19:17.885696+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1846,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T00:19:16.226606+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1027,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T00:19:14.567162+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 363,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T00:19:12.919214+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 443,
-    "biological": 780,
-    "nuclear": 2102,
-    "radiological": 42,
-    "explosives": 1076,
-    "autonomous_weapons": 101,
-    "directed_energy": 54
+    "chemical": 432,
+    "biological": 830,
+    "nuclear": 1933,
+    "radiological": 45,
+    "explosives": 894,
+    "autonomous_weapons": 99,
+    "directed_energy": 68
   }
 }
