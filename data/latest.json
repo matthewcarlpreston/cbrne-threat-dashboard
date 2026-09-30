@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T12:20:50.611169+00:00",
+  "generated_at": "2026-09-30T18:19:04.245892+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 128,
+  "total_items": 130,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -17,12 +17,13 @@
     "biological": 12,
     "nuclear": 59,
     "radiological": 0,
-    "explosives": 42,
+    "explosives": 44,
     "autonomous_weapons": 6,
     "directed_energy": 0
   },
   "country_counts": {
-    "India": 7,
+    "Saudi Arabia": 1,
+    "India": 8,
     "Australia": 5,
     "Austria": 9,
     "United States": 48,
@@ -51,6 +52,38 @@
     "Iran": 1
   },
   "items": [
+    {
+      "title": "Arab News | The Iranian bomb plot on united kingdom soil that never was",
+      "url": "https://www.arabnews.com/opinion/the-iranian-bomb-plot-on-uk-soil-that-never-was-3003746",
+      "source_domain": "arabnews.com",
+      "source_country": "Saudi Arabia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-30T13:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Manipur : NIA Arrests Second Accused In Tronglaobi IED Attack Case",
+      "url": "https://northeasttoday.in/northeast/manipur-nia-arrests-second-accused-in-tronglaobi-ied-attack-case/",
+      "source_domain": "northeasttoday.in",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-30T07:45:00+00:00",
+      "language": "English",
+      "image_url": "https://northeasttoday.in/wp-content/uploads/2026/09/IMG-20260930-WA0004.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
     {
       "title": "Kim Jong Un a friend : Trump reasoning on why North Korea can have nuclear weapons but Iran cannot",
       "url": "https://www.hindustantimes.com/world-news/kim-jong-un-a-friend-trumps-reasoning-on-why-north-korea-can-have-nuclear-weapons-but-iran-cannot-101790740208430.html",
@@ -755,22 +788,6 @@
       ]
     },
     {
-      "title": "IDF extends suspension of  Atalef  loitering munition drones",
-      "url": "http://www.jpost.com/defense-and-tech/article-909949",
-      "source_domain": "jpost.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T11:15:00+00:00",
-      "language": "English",
-      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734621",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
       "title": "Suspected bomb plot investigations continue",
       "url": "https://www.abc.net.au/listen/programs/pm/suspected-bomb-plot-investigations-continue-/107205218",
       "source_domain": "abc.net.au",
@@ -784,6 +801,22 @@
       "gdelt_query_tag": "explosives_keyword",
       "categories": [
         "explosives"
+      ]
+    },
+    {
+      "title": "IDF extends suspension of  Atalef  loitering munition drones",
+      "url": "http://www.jpost.com/defense-and-tech/article-909949",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T11:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734621",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
       ]
     },
     {
@@ -2090,6 +2123,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 53,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T18:19:04.211967+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 93,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T18:19:02.616807+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 593,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T18:19:00.996235+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 59,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T18:18:59.392674+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1508,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T18:18:57.745633+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 925,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T18:18:56.100343+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 400,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T18:18:54.497963+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 60,
@@ -5169,71 +5258,15 @@
       "fetched_at": "2026-09-17T00:19:20.747157+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 45,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T18:18:06.544112+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 106,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T18:18:04.802567+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 328,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T18:18:03.074813+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 50,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T18:18:01.363126+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1981,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T18:17:59.691299+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 997,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T18:17:57.925159+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 406,
-      "window_hours": 24,
-      "fetched_at": "2026-09-16T18:17:56.149644+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 428,
-    "biological": 914,
-    "nuclear": 1667,
-    "radiological": 50,
-    "explosives": 625,
-    "autonomous_weapons": 94,
-    "directed_energy": 60
+    "chemical": 400,
+    "biological": 925,
+    "nuclear": 1508,
+    "radiological": 59,
+    "explosives": 593,
+    "autonomous_weapons": 93,
+    "directed_energy": 53
   }
 }
