@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T00:21:50.354143+00:00",
+  "generated_at": "2026-09-30T06:18:44.569465+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 123,
+  "total_items": 127,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,20 +15,20 @@
   "category_counts": {
     "chemical": 9,
     "biological": 12,
-    "nuclear": 56,
+    "nuclear": 58,
     "radiological": 0,
     "explosives": 42,
-    "autonomous_weapons": 4,
+    "autonomous_weapons": 6,
     "directed_energy": 0
   },
   "country_counts": {
-    "Israel": 10,
-    "India": 6,
+    "India": 7,
+    "Australia": 5,
+    "United States": 48,
+    "Israel": 11,
     "Pakistan": 2,
     "Unknown": 5,
-    "United States": 47,
     "United Kingdom": 9,
-    "Australia": 4,
     "Ireland": 2,
     "Netherlands": 2,
     "Fiji": 1,
@@ -51,6 +51,54 @@
     "Iran": 1
   },
   "items": [
+    {
+      "title": "Kim Jong Un a friend : Trump reasoning on why North Korea can have nuclear weapons but Iran cannot",
+      "url": "https://www.hindustantimes.com/world-news/kim-jong-un-a-friend-trumps-reasoning-on-why-north-korea-can-have-nuclear-weapons-but-iran-cannot-101790740208430.html",
+      "source_domain": "hindustantimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-30T05:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Trump defends North Korea right to have nuclear weapons",
+      "url": "https://www.brisbanetimes.com.au/world/trump-defends-north-koreas-right-to-have-nuclear-weapons-20260930-p611nw.html",
+      "source_domain": "brisbanetimes.com.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-30T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/a55fcf66772426d1342717dcc9fe9408e2c30ba9",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "AI Drone Killed Ukraine Civilians Without Human Order : Ministers Back Autonomous Weapons Treaty",
+      "url": "https://www.techtimes.com/articles/328213/20260929/ai-drone-killed-ukraine-civilians-without-human-order-ministers-back-autonomous-weapons-treaty.htm",
+      "source_domain": "techtimes.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-29T18:30:00+00:00",
+      "language": "English",
+      "image_url": "https://d.techtimes.com/en/full/476130/firefighter-tackles-blaze-engulfing-building-ukrainian-academy.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
     {
       "title": "How RAF Fairford  bomb plot  narrative fell apart as US and united kingdom made competing claims",
       "url": "https://www.middleeasteye.net/news/how-raf-fairford-bomb-plot-narrative-fell-apart-us-and-uk-made-competing-claims",
@@ -705,6 +753,22 @@
       "gdelt_query_tag": "explosives_keyword",
       "categories": [
         "explosives"
+      ]
+    },
+    {
+      "title": "IDF extends suspension of  Atalef  loitering munition drones",
+      "url": "http://www.jpost.com/defense-and-tech/article-909949",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T11:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734621",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
       ]
     },
     {
@@ -2011,6 +2075,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 66,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T06:18:44.519181+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 93,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T06:18:42.914043+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 782,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T06:18:41.296436+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T06:18:39.703639+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1787,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T06:18:38.087093+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 899,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T06:18:36.483003+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 438,
+      "window_hours": 24,
+      "fetched_at": "2026-09-30T06:18:34.869106+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 68,
@@ -5149,12 +5269,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 432,
-    "biological": 830,
-    "nuclear": 1933,
-    "radiological": 45,
-    "explosives": 894,
-    "autonomous_weapons": 99,
-    "directed_energy": 68
+    "chemical": 438,
+    "biological": 899,
+    "nuclear": 1787,
+    "radiological": 49,
+    "explosives": 782,
+    "autonomous_weapons": 93,
+    "directed_energy": 66
   }
 }
