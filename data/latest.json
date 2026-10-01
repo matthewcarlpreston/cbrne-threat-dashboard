@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T00:21:35.411181+00:00",
+  "generated_at": "2026-10-01T06:21:56.987228+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 132,
+  "total_items": 140,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,18 +13,20 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 9,
-    "biological": 14,
-    "nuclear": 59,
+    "chemical": 10,
+    "biological": 17,
+    "nuclear": 60,
     "radiological": 0,
-    "explosives": 44,
-    "autonomous_weapons": 6,
+    "explosives": 46,
+    "autonomous_weapons": 7,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 50,
+    "United States": 53,
+    "Latvia": 3,
+    "Nigeria": 2,
     "Pakistan": 3,
-    "Latvia": 1,
+    "Bangladesh": 3,
     "Saudi Arabia": 1,
     "Ireland": 3,
     "India": 8,
@@ -35,7 +37,6 @@
     "United Kingdom": 9,
     "Netherlands": 2,
     "Fiji": 1,
-    "Bangladesh": 2,
     "Singapore": 1,
     "Iraq": 1,
     "Japan": 3,
@@ -53,6 +54,102 @@
     "Iran": 1
   },
   "items": [
+    {
+      "title": "U . S ., Russia Collude to Weaken U . N Treaty on Use of Autonomous AI  Killer Robot  Weaponry",
+      "url": "https://bradblog.com/?p=19404",
+      "source_domain": "bradblog.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T05:00:00+00:00",
+      "language": "English",
+      "image_url": "https://bradblog.com/images/BradCast_PentagonRobotHand_093026.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Melanin - inspired nanotechnology might help protect workers from deadly nerve agents",
+      "url": "https://www.techspot.com/news/114051-melanin-inspired-nanotechnology-might-help-protect-workers-deadly.html",
+      "source_domain": "techspot.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.techspot.com/images2/news/ts3_thumbs/2026/09/2026-09-30-ts3_thumbs-979.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "We have no legal obstacles  – Rinkēvičs on deploying nuclear weapons in Latvia · BNN",
+      "url": "https://bnn-news.com/social/we-have-no-legal-obstacles-rinkevics-on-deploying-nuclear-weapons-in-latvia-jf4q5te",
+      "source_domain": "bnn-news.com",
+      "source_country": "Latvia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://media.bnn.lv/LET_24948042-1-1200x675.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Chinese AI tool explained how to make biological weapons ; investigation underway",
+      "url": "https://bnn-news.com/world/chinese-ai-tool-explained-how-to-make-biological-weapons-investigation-underway-3fsnku6",
+      "source_domain": "bnn-news.com",
+      "source_country": "Latvia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://media.bnn.lv/klemens-morbe-W5cSGjaC6Io-unsplash1-scaled-1200x675.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "South Africa : How Apartheid Biological Weapons Programme Emerged From the Dust of World War 2",
+      "url": "https://allafrica.com/stories/202609300756.html",
+      "source_domain": "allafrica.com",
+      "source_country": "Nigeria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T02:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Boca Raton was ground zero for 2001 anthrax attack . Here what happened - WSVN 7News | Miami News , Weather , Sports",
+      "url": "https://wsvn.com/news/local/florida/boca-raton-was-ground-zero-for-2001-anthrax-attack-heres-what-happened/",
+      "source_domain": "wsvn.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T01:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
     {
       "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development Even Without AI",
       "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
@@ -83,6 +180,38 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "RAF Fairford mystery turns into a bomb plot",
+      "url": "https://weeklyblitz.net/2026/10/01/raf-fairford-mystery-turns-into-a-bomb-plot/",
+      "source_domain": "weeklyblitz.net",
+      "source_country": "Bangladesh",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-30T19:15:00+00:00",
+      "language": "English",
+      "image_url": "https://weeklyblitz.net/wp-content/uploads/RAF-Fairford-mystery_When-does-a-suspected-bomb-plot-become-a-bomb-plot.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Troops discover , detonate IED in Borno",
+      "url": "https://dailypost.ng/2026/09/30/troops-discover-detonate-ied-in-borno/",
+      "source_domain": "dailypost.ng",
+      "source_country": "Nigeria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-30T18:00:00+00:00",
+      "language": "English",
+      "image_url": "https://dailypost.ng/wp-content/uploads/2026/02/troops.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -869,22 +998,6 @@
       ]
     },
     {
-      "title": "IDF extends suspension of  Atalef  loitering munition drones",
-      "url": "http://www.jpost.com/defense-and-tech/article-909949",
-      "source_domain": "jpost.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T11:15:00+00:00",
-      "language": "English",
-      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734621",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
       "title": "Suspected bomb plot investigations continue",
       "url": "https://www.abc.net.au/listen/programs/pm/suspected-bomb-plot-investigations-continue-/107205218",
       "source_domain": "abc.net.au",
@@ -898,6 +1011,22 @@
       "gdelt_query_tag": "explosives_keyword",
       "categories": [
         "explosives"
+      ]
+    },
+    {
+      "title": "IDF extends suspension of  Atalef  loitering munition drones",
+      "url": "http://www.jpost.com/defense-and-tech/article-909949",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-09-28T11:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734621",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
       ]
     },
     {
@@ -2159,6 +2288,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 40,
+      "window_hours": 24,
+      "fetched_at": "2026-10-01T06:21:56.934077+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 100,
+      "window_hours": 24,
+      "fetched_at": "2026-10-01T06:21:55.328565+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 407,
+      "window_hours": 24,
+      "fetched_at": "2026-10-01T06:21:53.710625+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 52,
+      "window_hours": 24,
+      "fetched_at": "2026-10-01T06:21:52.070864+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1331,
+      "window_hours": 24,
+      "fetched_at": "2026-10-01T06:21:50.456947+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 791,
+      "window_hours": 24,
+      "fetched_at": "2026-10-01T06:21:48.846933+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 451,
+      "window_hours": 24,
+      "fetched_at": "2026-10-01T06:21:47.135267+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 39,
@@ -5238,71 +5423,15 @@
       "fetched_at": "2026-09-17T12:19:29.686635+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 46,
-      "window_hours": 24,
-      "fetched_at": "2026-09-17T06:20:44.065395+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 111,
-      "window_hours": 24,
-      "fetched_at": "2026-09-17T06:20:42.414271+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 335,
-      "window_hours": 24,
-      "fetched_at": "2026-09-17T06:20:40.742797+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 53,
-      "window_hours": 24,
-      "fetched_at": "2026-09-17T06:20:39.140895+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2444,
-      "window_hours": 24,
-      "fetched_at": "2026-09-17T06:20:37.479772+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 947,
-      "window_hours": 24,
-      "fetched_at": "2026-09-17T06:20:35.879636+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 490,
-      "window_hours": 24,
-      "fetched_at": "2026-09-17T06:20:34.262302+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 447,
-    "biological": 859,
-    "nuclear": 1421,
-    "radiological": 56,
-    "explosives": 437,
-    "autonomous_weapons": 93,
-    "directed_energy": 39
+    "chemical": 451,
+    "biological": 791,
+    "nuclear": 1331,
+    "radiological": 52,
+    "explosives": 407,
+    "autonomous_weapons": 100,
+    "directed_energy": 40
   }
 }
