@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T00:21:38.378838+00:00",
+  "generated_at": "2026-10-02T06:19:40.736526+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 144,
+  "total_items": 153,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,16 +13,18 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 10,
-    "biological": 18,
-    "nuclear": 62,
+    "chemical": 11,
+    "biological": 19,
+    "nuclear": 64,
     "radiological": 0,
-    "explosives": 47,
+    "explosives": 52,
     "autonomous_weapons": 7,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 57,
+    "United States": 62,
+    "Iran": 2,
+    "United Kingdom": 12,
     "Azerbaijan": 2,
     "Netherlands": 2,
     "Latvia": 3,
@@ -36,7 +38,6 @@
     "Austria": 5,
     "Israel": 11,
     "Unknown": 5,
-    "United Kingdom": 9,
     "Fiji": 1,
     "Singapore": 1,
     "Iraq": 1,
@@ -50,10 +51,89 @@
     "France": 1,
     "Kenya": 2,
     "Lithuania": 1,
-    "Zambia": 1,
-    "Iran": 1
+    "Zambia": 1
   },
   "items": [
+    {
+      "title": "Chinese AI model investigated after researcher says it provided instructions for bioweapons , assassinations",
+      "url": "https://www.wfmd.com/2026/10/01/chinese-ai-model-investigated-after-researcher-says-it-provided-instructions-for-bioweapons-assassinations/",
+      "source_domain": "wfmd.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-02T03:45:00+00:00",
+      "language": "English",
+      "image_url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/moonshot-ai-kimi-k3-chinese-ai-model.jpg?ve=1&tl=1",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Researchers : Chinese AI Models Provided Instructions on Sarin Gas Production , Terror Attack Advice",
+      "url": "https://www.breitbart.com/tech/2026/10/01/researchers-chinese-ai-models-provided-instructions-on-sarin-gas-production-terror-attack-advice/",
+      "source_domain": "breitbart.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-02T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://media.breitbart.com/media/2026/09/AI-turning-evil-640x335.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Training Facility Advances Plutonium Pit Production at Savannah River Site",
+      "url": "https://ilovebobfm.com/2026/10/01/training-facility-advances-plutonium-pit-production-at-savannah-river-site/",
+      "source_domain": "ilovebobfm.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-02T01:00:00+00:00",
+      "language": "English",
+      "image_url": "https://ilovebobfm.com/uploads/2026/10/srs-high-fidelity-training.jpg?auto=webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Reports Iran to UN Security Council | Arms Control Association",
+      "url": "https://www.armscontrol.org/act/2026-10/news/iaea-reports-iran-un-security-council",
+      "source_domain": "armscontrol.org",
+      "source_country": "Iran",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-02T00:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "ABB Protection and Control IED Manager PCM600 Mitigations",
+      "url": "https://www.isssource.com/abb-protection-and-control-ied-manager-pcm600-mitigations/",
+      "source_domain": "isssource.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T23:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
     {
       "title": "Training Facility Advances Plutonium Pit Production at Savannah River Site",
       "url": "https://hotaugusta.com/2026/10/01/training-facility-advances-plutonium-pit-production-at-savannah-river-site/",
@@ -116,6 +196,70 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "UK - Iranian man , 27 , arrested on suspicion of terror offences in RAF Fairford  bomb plot  probe",
+      "url": "https://www.liverpoolecho.co.uk/news/uk-world-news/uk-iranian-man-27-arrested-34703822",
+      "source_domain": "liverpoolecho.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T19:45:00+00:00",
+      "language": "English",
+      "image_url": "https://i2-prod.liverpoolecho.co.uk/article34692505.ece/ALTERNATES/s1200d/0_Fairford-incident.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Counter terror cops arrest Iranian national in RAF Fairford  bomb plot  probe",
+      "url": "https://www.dailystar.co.uk/news/latest-news/breaking-counter-terror-cops-arrest-37725113",
+      "source_domain": "dailystar.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T18:00:00+00:00",
+      "language": "English",
+      "image_url": "https://i2-prod.dailystar.co.uk/article37725132.ece/ALTERNATES/s1200d/0_BRITAIN-POLICE-EXPLOSIVES.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "UK - Iranian man arrested on suspicion of terror offences in RAF Fairford  bomb plot  probe",
+      "url": "https://www.mirror.co.uk/news/uk-news/raf-fairford-sixth-man-arrest-37725120",
+      "source_domain": "mirror.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T18:00:00+00:00",
+      "language": "English",
+      "image_url": "https://i2-prod.mirror.co.uk/article37725119.ece/ALTERNATES/s1200d/6_BRI_PG_290926fairford-103.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "British Iranian man arrested over alleged RAF Fairford bomb plot",
+      "url": "https://www.aol.com/articles/british-iranian-man-arrested-over-164627000.html",
+      "source_domain": "aol.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T17:15:00+00:00",
+      "language": "English",
+      "image_url": "https://hermes.media.static.aol.com/media/2026/10/01/7ffb0900-4516-3c45-85ee-64bf45b5a782/a2f5a749-7213-4256-a92b-60dd743cb6a0.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -2353,6 +2497,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 81,
+      "window_hours": 24,
+      "fetched_at": "2026-10-02T06:19:40.686635+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 75,
+      "window_hours": 24,
+      "fetched_at": "2026-10-02T06:19:39.084738+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 267,
+      "window_hours": 24,
+      "fetched_at": "2026-10-02T06:19:37.483084+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 57,
+      "window_hours": 24,
+      "fetched_at": "2026-10-02T06:19:35.874358+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1233,
+      "window_hours": 24,
+      "fetched_at": "2026-10-02T06:19:34.275846+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 742,
+      "window_hours": 24,
+      "fetched_at": "2026-10-02T06:19:32.675999+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 408,
+      "window_hours": 24,
+      "fetched_at": "2026-10-02T06:19:31.013111+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 73,
@@ -5432,71 +5632,15 @@
       "fetched_at": "2026-09-18T12:17:16.851982+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 61,
-      "window_hours": 24,
-      "fetched_at": "2026-09-18T06:19:12.869319+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 106,
-      "window_hours": 24,
-      "fetched_at": "2026-09-18T06:19:11.196103+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 341,
-      "window_hours": 24,
-      "fetched_at": "2026-09-18T06:19:09.532502+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 73,
-      "window_hours": 24,
-      "fetched_at": "2026-09-18T06:19:07.806248+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2638,
-      "window_hours": 24,
-      "fetched_at": "2026-09-18T06:19:06.112274+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 934,
-      "window_hours": 24,
-      "fetched_at": "2026-09-18T06:19:04.411090+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 415,
-      "window_hours": 24,
-      "fetched_at": "2026-09-18T06:19:02.707962+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 374,
-    "biological": 732,
-    "nuclear": 1242,
-    "radiological": 55,
-    "explosives": 282,
-    "autonomous_weapons": 82,
-    "directed_energy": 73
+    "chemical": 408,
+    "biological": 742,
+    "nuclear": 1233,
+    "radiological": 57,
+    "explosives": 267,
+    "autonomous_weapons": 75,
+    "directed_energy": 81
   }
 }
