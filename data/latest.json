@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T11:57:06.524113+00:00",
+  "generated_at": "2026-10-04T16:35:57.683905+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 155,
+  "total_items": 153,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 11,
     "biological": 20,
-    "nuclear": 66,
+    "nuclear": 64,
     "radiological": 0,
     "explosives": 51,
     "autonomous_weapons": 7,
@@ -23,8 +23,8 @@
   },
   "country_counts": {
     "Australia": 6,
-    "United States": 62,
-    "Iran": 2,
+    "United States": 61,
+    "Iran": 1,
     "Austria": 7,
     "United Kingdom": 12,
     "Azerbaijan": 2,
@@ -2492,41 +2492,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Gov . Pritzker : AI is dangerous  on the level of nuclear weapons",
-      "url": "https://abcnews.com/Politics/gov-pritzker-ai-dangerous-level-nuclear-weapons/story?id=136597418",
-      "source_domain": "abcnews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-20T16:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.abcnewsfe.com/a/e0808b98-a7e2-4197-9d49-4a302473555f/pritzker_thisweek_abc_cw_20260920_1789914182899_hpMain_16x9.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Weekly Report : NCRI Supporters Mobilize Global Protests Targeting UN Assembly , IAEA , and Regime Executions",
-      "url": "https://www.ncr-iran.org/en/news/weekly-report-ncri-supporters-mobilize-global-protests-targeting-un-assembly-iaea-and-regime-executions/",
-      "source_domain": "ncr-iran.org",
-      "source_country": "Iran",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-20T14:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.ncr-iran.org/en/wp-content/uploads/2026/09/paris-photo-exhibition-of-ncri-supporters-19092026.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 35,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T16:35:57.659101+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 86,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T16:35:56.033925+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 444,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T16:35:54.380073+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T16:35:52.773281+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1168,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T16:35:51.123079+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 891,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T16:35:49.481291+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 398,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T16:35:47.884095+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 31,
@@ -5606,71 +5630,15 @@
       "fetched_at": "2026-09-20T18:16:44.496208+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 30,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T12:17:52.618947+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 111,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T12:17:50.958575+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 323,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T12:17:49.352975+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 65,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T12:17:47.708166+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2489,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T12:17:46.096112+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 858,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T12:17:44.480633+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 373,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T12:17:42.868275+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 389,
-    "biological": 881,
-    "nuclear": 1178,
-    "radiological": 42,
-    "explosives": 482,
-    "autonomous_weapons": 95,
-    "directed_energy": 31
+    "chemical": 398,
+    "biological": 891,
+    "nuclear": 1168,
+    "radiological": 45,
+    "explosives": 444,
+    "autonomous_weapons": 86,
+    "directed_energy": 35
   }
 }
