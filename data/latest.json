@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T22:21:08.692301+00:00",
+  "generated_at": "2026-10-04T04:44:26.436754+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 157,
@@ -197,6 +197,22 @@
       ]
     },
     {
+      "title": "Feds used  psychological  coercion to strong - arm confession out of autistic J6 pipe bomb suspect , defense claims",
+      "url": "https://www.theblaze.com/news/autistic-dc-pipe-bomb-suspects-confession-was-coerced-by-feds-defense-alleges-in-damning-filing",
+      "source_domain": "theblaze.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T22:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.theblaze.com/media-library/feds-used-psychological-coercion-to-strong-arm-confession-out-of-autistic-j6-pipe-bomb-suspect-defense-claims.jpg?id=68021445&coordinates=0%2C39%2C0%2C39",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
       "title": "Training Facility Advances Plutonium Pit Production at Savannah River Site",
       "url": "https://hotaugusta.com/2026/10/01/training-facility-advances-plutonium-pit-production-at-savannah-river-site/",
       "source_domain": "hotaugusta.com",
@@ -210,22 +226,6 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
-      ]
-    },
-    {
-      "title": "Feds used  psychological  coercion to strong - arm confession out of autistic J6 pipe bomb suspect , defense claims",
-      "url": "https://www.theblaze.com/news/autistic-dc-pipe-bomb-suspects-confession-was-coerced-by-feds-defense-alleges-in-damning-filing",
-      "source_domain": "theblaze.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T22:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.theblaze.com/media-library/feds-used-psychological-coercion-to-strong-arm-confession-out-of-autistic-j6-pipe-bomb-suspect-defense-claims.jpg?id=68021445&coordinates=0%2C39%2C0%2C39",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "explosives"
       ]
     },
     {
@@ -2559,6 +2559,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 29,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T04:44:26.411070+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T04:44:24.777384+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 511,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T04:44:23.154385+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 47,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T04:44:21.511224+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1177,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T04:44:19.885439+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 872,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T04:44:18.267479+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 435,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T04:44:16.636495+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 30,
@@ -5638,71 +5694,15 @@
       "fetched_at": "2026-09-20T06:18:20.094679+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 32,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T00:21:08.245487+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 104,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T00:21:06.595946+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 256,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T00:21:04.906504+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 64,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T00:21:03.271105+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2648,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T00:21:01.660176+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 958,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T00:21:00.031546+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 349,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T00:20:58.392082+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 438,
-    "biological": 863,
-    "nuclear": 1198,
-    "radiological": 48,
-    "explosives": 469,
-    "autonomous_weapons": 70,
-    "directed_energy": 30
+    "chemical": 435,
+    "biological": 872,
+    "nuclear": 1177,
+    "radiological": 47,
+    "explosives": 511,
+    "autonomous_weapons": 79,
+    "directed_energy": 29
   }
 }
