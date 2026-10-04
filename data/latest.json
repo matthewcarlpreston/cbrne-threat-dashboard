@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T16:35:57.683905+00:00",
+  "generated_at": "2026-10-04T21:00:31.915681+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 153,
+  "total_items": 152,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 11,
     "biological": 20,
-    "nuclear": 64,
+    "nuclear": 63,
     "radiological": 0,
     "explosives": 51,
     "autonomous_weapons": 7,
@@ -23,7 +23,7 @@
   },
   "country_counts": {
     "Australia": 6,
-    "United States": 61,
+    "United States": 60,
     "Iran": 1,
     "Austria": 7,
     "United Kingdom": 12,
@@ -197,22 +197,6 @@
       ]
     },
     {
-      "title": "Feds used  psychological  coercion to strong - arm confession out of autistic J6 pipe bomb suspect , defense claims",
-      "url": "https://www.theblaze.com/news/autistic-dc-pipe-bomb-suspects-confession-was-coerced-by-feds-defense-alleges-in-damning-filing",
-      "source_domain": "theblaze.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T22:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.theblaze.com/media-library/feds-used-psychological-coercion-to-strong-arm-confession-out-of-autistic-j6-pipe-bomb-suspect-defense-claims.jpg?id=68021445&coordinates=0%2C39%2C0%2C39",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
       "title": "Training Facility Advances Plutonium Pit Production at Savannah River Site",
       "url": "https://hotaugusta.com/2026/10/01/training-facility-advances-plutonium-pit-production-at-savannah-river-site/",
       "source_domain": "hotaugusta.com",
@@ -226,6 +210,22 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Feds used  psychological  coercion to strong - arm confession out of autistic J6 pipe bomb suspect , defense claims",
+      "url": "https://www.theblaze.com/news/autistic-dc-pipe-bomb-suspects-confession-was-coerced-by-feds-defense-alleges-in-damning-filing",
+      "source_domain": "theblaze.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-01T22:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.theblaze.com/media-library/feds-used-psychological-coercion-to-strong-arm-confession-out-of-autistic-j6-pipe-bomb-suspect-defense-claims.jpg?id=68021445&coordinates=0%2C39%2C0%2C39",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -2476,25 +2476,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "IL Governor JB Pritzker says AI is dangerous  on the level of nuclear weapons",
-      "url": "https://abc7chicago.com/story/il-governor-jb-pritzker-says-ai-is-dangerous-level-nuclear-weapons/19852245/",
-      "source_domain": "abc7chicago.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-20T17:15:00+00:00",
-      "language": "English",
-      "image_url": "https://cdn.abcotvs.com/dip/images/19852249_abcn-pritzker-this-week-img.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T21:00:31.881366+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 78,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T21:00:30.271899+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 396,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T21:00:28.649463+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 46,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T21:00:27.015576+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1177,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T21:00:25.345935+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1082,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T21:00:23.707841+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 446,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T21:00:21.935368+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 35,
@@ -5574,71 +5614,15 @@
       "fetched_at": "2026-09-21T00:20:27.848820+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 32,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T18:16:54.629815+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 119,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T18:16:52.972890+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 350,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T18:16:51.323738+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 63,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T18:16:49.558055+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2357,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T18:16:47.882253+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 796,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T18:16:46.198327+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 424,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T18:16:44.496208+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 398,
-    "biological": 891,
-    "nuclear": 1168,
-    "radiological": 45,
-    "explosives": 444,
-    "autonomous_weapons": 86,
-    "directed_energy": 35
+    "chemical": 446,
+    "biological": 1082,
+    "nuclear": 1177,
+    "radiological": 46,
+    "explosives": 396,
+    "autonomous_weapons": 78,
+    "directed_energy": 45
   }
 }
