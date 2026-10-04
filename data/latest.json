@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T04:44:26.436754+00:00",
+  "generated_at": "2026-10-04T11:57:06.524113+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 157,
+  "total_items": 155,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,15 +15,15 @@
   "category_counts": {
     "chemical": 11,
     "biological": 20,
-    "nuclear": 67,
+    "nuclear": 66,
     "radiological": 0,
-    "explosives": 52,
+    "explosives": 51,
     "autonomous_weapons": 7,
     "directed_energy": 0
   },
   "country_counts": {
     "Australia": 6,
-    "United States": 63,
+    "United States": 62,
     "Iran": 2,
     "Austria": 7,
     "United Kingdom": 12,
@@ -31,7 +31,7 @@
     "Netherlands": 2,
     "Latvia": 3,
     "Nigeria": 2,
-    "Pakistan": 3,
+    "Pakistan": 2,
     "Bangladesh": 3,
     "Saudi Arabia": 1,
     "Ireland": 3,
@@ -2524,41 +2524,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Bikini Atoll Sunken  Ghost Fleet  80 Years After Nuclear Tests",
-      "url": "https://www.military.com/the-navy-dropped-atomic-bombs-on-more-than-90-ships-the-ghost-fleet-is-still-there",
-      "source_domain": "military.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-20T09:30:00+00:00",
-      "language": "English",
-      "image_url": "https://static0.mltimages.com/wordpress/wp-content/uploads/2026/09/ijn_nagato.jpg?&fit=crop",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Kharan : 10 laborers injured in IED attack",
-      "url": "https://www.radio.gov.pk/20-09-2026/kharan-nine-laborers-injured-in-ied-attack",
-      "source_domain": "radio.gov.pk",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-20T09:00:00+00:00",
-      "language": "English",
-      "image_url": "https://newsimage.radio.gov.pk/20260920/147344011789882879.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 31,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T11:57:06.510967+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 95,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T11:57:04.823365+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 482,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T11:57:03.056653+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 42,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T11:57:01.428693+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1178,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T11:56:59.784456+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 881,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T11:56:58.109994+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 389,
+      "window_hours": 24,
+      "fetched_at": "2026-10-04T11:56:56.452230+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 29,
@@ -5638,71 +5662,15 @@
       "fetched_at": "2026-09-20T12:17:42.868275+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 32,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T06:18:30.051833+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 93,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T06:18:28.329063+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 289,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T06:18:26.652077+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 68,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T06:18:25.017689+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2526,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T06:18:23.379450+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 880,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T06:18:21.728607+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 371,
-      "window_hours": 24,
-      "fetched_at": "2026-09-20T06:18:20.094679+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 435,
-    "biological": 872,
-    "nuclear": 1177,
-    "radiological": 47,
-    "explosives": 511,
-    "autonomous_weapons": 79,
-    "directed_energy": 29
+    "chemical": 389,
+    "biological": 881,
+    "nuclear": 1178,
+    "radiological": 42,
+    "explosives": 482,
+    "autonomous_weapons": 95,
+    "directed_energy": 31
   }
 }
