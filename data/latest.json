@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T21:00:31.915681+00:00",
+  "generated_at": "2026-10-05T04:33:32.991291+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 152,
+  "total_items": 149,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,8 +14,8 @@
   },
   "category_counts": {
     "chemical": 11,
-    "biological": 20,
-    "nuclear": 63,
+    "biological": 18,
+    "nuclear": 62,
     "radiological": 0,
     "explosives": 51,
     "autonomous_weapons": 7,
@@ -23,9 +23,9 @@
   },
   "country_counts": {
     "Australia": 6,
-    "United States": 60,
+    "United States": 59,
     "Iran": 1,
-    "Austria": 7,
+    "Austria": 6,
     "United Kingdom": 12,
     "Azerbaijan": 2,
     "Netherlands": 2,
@@ -50,8 +50,7 @@
     "South Korea": 2,
     "France": 1,
     "Kenya": 2,
-    "Lithuania": 1,
-    "Zambia": 1
+    "Lithuania": 1
   },
   "items": [
     {
@@ -2429,56 +2428,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "25 Years After Amerithrax : The Changing Landscape Of Biosecurity - Analysis",
-      "url": "https://www.eurasiareview.com/21092026-25-years-after-amerithrax-the-changing-landscape-of-biosecurity-analysis/",
-      "source_domain": "eurasiareview.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-21T02:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.eurasiareview.com/wp-content/uploads/2024/12/a-92.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Govt launches mass anthrax vaccination targeting 20 , 000 animals",
-      "url": "https://times.co.zm/govt-launches-mass-anthrax-vaccination-targeting-20000-animals/",
-      "source_domain": "times.co.zm",
-      "source_country": "Zambia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-21T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://times.co.zm/wp-content/uploads/2026/09/Cow-e1789905707971-1024x700.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Week in Review: IAEA 70th General Conference",
-      "url": "http://www.iaea.org/newscenter/news/week-in-review-iaea-70th-general-conference",
-      "summary": "The 70th annual IAEA General Conference came to a close on Friday last week, following five days of discussions, events and activities related to a range of nuclear topics.",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-21T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 58,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T04:33:32.963468+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 80,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T04:33:31.362342+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 354,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T04:33:29.761770+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 58,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T04:33:28.119188+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1144,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T04:33:26.511218+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1453,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T04:33:24.886820+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 447,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T04:33:23.281004+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 45,
@@ -5558,71 +5566,15 @@
       "fetched_at": "2026-09-21T06:20:22.821699+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 31,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T00:20:37.565076+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 140,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T00:20:35.919866+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 341,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T00:20:34.300253+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 64,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T00:20:32.693336+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2268,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T00:20:31.075782+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 743,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T00:20:29.463703+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 422,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T00:20:27.848820+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 446,
-    "biological": 1082,
-    "nuclear": 1177,
-    "radiological": 46,
-    "explosives": 396,
-    "autonomous_weapons": 78,
-    "directed_energy": 45
+    "chemical": 447,
+    "biological": 1453,
+    "nuclear": 1144,
+    "radiological": 58,
+    "explosives": 354,
+    "autonomous_weapons": 80,
+    "directed_energy": 58
   }
 }
