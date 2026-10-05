@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T04:33:32.991291+00:00",
+  "generated_at": "2026-10-05T13:54:00.374907+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 149,
+  "total_items": 151,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,22 +13,22 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 11,
+    "chemical": 12,
     "biological": 18,
-    "nuclear": 62,
+    "nuclear": 63,
     "radiological": 0,
     "explosives": 51,
     "autonomous_weapons": 7,
     "directed_energy": 0
   },
   "country_counts": {
+    "Netherlands": 3,
+    "Austria": 8,
     "Australia": 6,
     "United States": 59,
     "Iran": 1,
-    "Austria": 6,
     "United Kingdom": 12,
     "Azerbaijan": 2,
-    "Netherlands": 2,
     "Latvia": 3,
     "Nigeria": 2,
     "Pakistan": 2,
@@ -41,7 +41,7 @@
     "Fiji": 1,
     "Singapore": 1,
     "Iraq": 1,
-    "Japan": 3,
+    "Japan": 2,
     "Canada": 3,
     "Bulgaria": 1,
     "Syria": 1,
@@ -53,6 +53,51 @@
     "Lithuania": 1
   },
   "items": [
+    {
+      "title": "OPCW Director-General Sabrina Dallafior meets with Panama’s Foreign Minister",
+      "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-sabrina-dallafior-meets-panamas-foreign-minister",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior meets with Panama’s Foreign Minister </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"The Director-General of the Organisation for the Prohibition of Chemical Weapons (OPCW), Sabrina Dallafior, met with the Minister of Foreign Affairs of the Republic of Panama, H.E. Mr Javier Edua",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-05T13:16:15+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "IAEA Report Finds Japan's Monitoring of ALPS Treated Water Accurate and Reliable",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-finds-japans-monitoring-of-alps-treated-water-accurate-and-reliable",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-05T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Tritium Level Far Below Japan’s Operational Limit in 24th Batch of ALPS Treated Water, IAEA Confirms",
+      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-24th-batch-of-alps-treated-water-iaea-confirms",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-05T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Bill Gates Calls AI Self - Regulation  Insane , Rebuking Trump and Warning of Bioterror and Cyberattack Risks",
       "url": "https://www.ibtimes.com.au/bill-gates-urges-government-ai-safeguards-1876180",
@@ -2412,25 +2457,65 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "The Peril of Trump Final Act : Would He Use a Tactical Nuclear Weapon in Iran ? « nuclear - news",
-      "url": "https://nuclear-news.net/2026/09/21/5-a-the-peril-of-trumps-final-act-would-he-use-a-tactical-nuclear-weapon-in-iran/",
-      "source_domain": "nuclear-news.net",
-      "source_country": "Japan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-21T06:30:00+00:00",
-      "language": "English",
-      "image_url": "https://nuclear-news.net/wp-content/uploads/2025/01/trump-world-a.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T13:54:00.361203+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 118,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T13:53:58.598482+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 401,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T13:53:56.913258+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 65,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T13:53:55.225773+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1252,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T13:53:53.529205+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1664,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T13:53:51.880990+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 531,
+      "window_hours": 24,
+      "fetched_at": "2026-10-05T13:53:50.221045+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 58,
@@ -5454,127 +5539,15 @@
       "fetched_at": "2026-09-21T18:16:11.664138+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 55,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T12:17:24.046354+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 184,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T12:17:22.353489+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 262,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T12:17:20.613333+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 63,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T12:17:18.876396+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2149,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T12:17:17.167381+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 740,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T12:17:15.494791+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 426,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T12:17:13.804175+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 45,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T06:20:32.739382+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 171,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T06:20:31.094412+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 314,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T06:20:29.458690+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 63,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T06:20:27.786435+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2166,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T06:20:26.137579+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 759,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T06:20:24.472532+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 402,
-      "window_hours": 24,
-      "fetched_at": "2026-09-21T06:20:22.821699+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 447,
-    "biological": 1453,
-    "nuclear": 1144,
-    "radiological": 58,
-    "explosives": 354,
-    "autonomous_weapons": 80,
-    "directed_energy": 58
+    "chemical": 531,
+    "biological": 1664,
+    "nuclear": 1252,
+    "radiological": 65,
+    "explosives": 401,
+    "autonomous_weapons": 118,
+    "directed_energy": 51
   }
 }
