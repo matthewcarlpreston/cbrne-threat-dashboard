@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T12:56:39.552871+00:00",
+  "generated_at": "2026-10-06T22:29:18.612822+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 148,
+  "total_items": 141,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 11,
     "biological": 17,
-    "nuclear": 63,
+    "nuclear": 56,
     "radiological": 0,
     "explosives": 50,
     "autonomous_weapons": 7,
@@ -25,7 +25,7 @@
     "Netherlands": 4,
     "Austria": 8,
     "Australia": 6,
-    "United States": 58,
+    "United States": 54,
     "Iran": 1,
     "United Kingdom": 12,
     "Azerbaijan": 2,
@@ -45,12 +45,11 @@
     "Canada": 3,
     "Bulgaria": 1,
     "Syria": 1,
-    "Russia": 5,
+    "Russia": 3,
     "Malaysia": 1,
     "South Korea": 2,
     "France": 1,
-    "Kenya": 2,
-    "Lithuania": 1
+    "Kenya": 2
   },
   "items": [
     {
@@ -2296,121 +2295,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "NATO member one step closer to lifting nuclear weapons ban",
-      "url": "http://www.russiaherald.com/news/279324465/nato-member-one-step-closer-to-lifting-nuclear-weapons-ban",
-      "source_domain": "russiaherald.com",
-      "source_country": "Russia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-22T22:15:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/110d10f/17ca2416-4e8b-4b69-85f6-7ca6078909d3/0/MGNjYjFiODMtYWE-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "NATO member moves closer to lifting nuclear weapons ban",
-      "url": "http://www.austinglobe.com/news/279324534/nato-member-moves-closer-to-lifting-nuclear-weapons-ban",
-      "source_domain": "austinglobe.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-22T22:15:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5cd1e7d/591a6161-0afe-4f1f-93b5-f006895a9b8e/0/OWQ0ZjA5ODgtZTA-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "NATO member one step closer to lifting nuclear weapons ban",
-      "url": "http://www.austinglobe.com/news/279324465/nato-member-one-step-closer-to-lifting-nuclear-weapons-ban",
-      "source_domain": "austinglobe.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-22T22:15:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/110d10f/17ca2416-4e8b-4b69-85f6-7ca6078909d3/0/MGNjYjFiODMtYWE-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "NATO member moves closer to lifting nuclear weapons ban",
-      "url": "http://www.russiaherald.com/news/279324534/nato-member-moves-closer-to-lifting-nuclear-weapons-ban",
-      "source_domain": "russiaherald.com",
-      "source_country": "Russia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-22T22:15:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5cd1e7d/591a6161-0afe-4f1f-93b5-f006895a9b8e/0/OWQ0ZjA5ODgtZTA-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "NATO member one step closer to lifting nuclear weapons ban",
-      "url": "http://www.heraldglobe.com/news/279324465/nato-member-one-step-closer-to-lifting-nuclear-weapons-ban",
-      "source_domain": "heraldglobe.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-22T21:45:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/110d10f/17ca2416-4e8b-4b69-85f6-7ca6078909d3/0/MGNjYjFiODMtYWE-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "NATO member one step closer to lifting nuclear weapons ban",
-      "url": "http://www.batonrougepost.com/news/279324465/nato-member-one-step-closer-to-lifting-nuclear-weapons-ban",
-      "source_domain": "batonrougepost.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-22T21:45:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/110d10f/17ca2416-4e8b-4b69-85f6-7ca6078909d3/0/MGNjYjFiODMtYWE-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Lithuania Seimas backs move to remove constitutional ban on nuclear weapons",
-      "url": "https://www.lrt.lt/en/news-in-english/19/3060405/lithuania-s-seimas-backs-move-to-remove-constitutional-ban-on-nuclear-weapons",
-      "source_domain": "lrt.lt",
-      "source_country": "Lithuania",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-22T19:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.lrt.lt/img/2020/10/22/746832-357758-1287x836.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 56,
+      "window_hours": 24,
+      "fetched_at": "2026-10-06T22:29:18.594071+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 138,
+      "window_hours": 24,
+      "fetched_at": "2026-10-06T22:29:16.958851+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 253,
+      "window_hours": 24,
+      "fetched_at": "2026-10-06T22:29:15.310062+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 143,
+      "window_hours": 24,
+      "fetched_at": "2026-10-06T22:29:13.649523+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3053,
+      "window_hours": 24,
+      "fetched_at": "2026-10-06T22:29:11.969851+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1796,
+      "window_hours": 24,
+      "fetched_at": "2026-10-06T22:29:10.325767+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 466,
+      "window_hours": 24,
+      "fetched_at": "2026-10-06T22:29:08.633760+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 55,
@@ -5378,71 +5321,15 @@
       "fetched_at": "2026-09-23T00:18:55.664305+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 65,
-      "window_hours": 24,
-      "fetched_at": "2026-09-22T18:19:15.368730+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 130,
-      "window_hours": 24,
-      "fetched_at": "2026-09-22T18:19:13.762444+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 264,
-      "window_hours": 24,
-      "fetched_at": "2026-09-22T18:19:12.158732+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 55,
-      "window_hours": 24,
-      "fetched_at": "2026-09-22T18:19:10.546329+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2557,
-      "window_hours": 24,
-      "fetched_at": "2026-09-22T18:19:08.941714+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 823,
-      "window_hours": 24,
-      "fetched_at": "2026-09-22T18:19:07.288716+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 457,
-      "window_hours": 24,
-      "fetched_at": "2026-09-22T18:19:05.618884+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 645,
-    "biological": 1965,
-    "nuclear": 2051,
-    "radiological": 106,
-    "explosives": 281,
-    "autonomous_weapons": 166,
-    "directed_energy": 55
+    "chemical": 466,
+    "biological": 1796,
+    "nuclear": 3053,
+    "radiological": 143,
+    "explosives": 253,
+    "autonomous_weapons": 138,
+    "directed_energy": 56
   }
 }
