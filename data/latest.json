@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T04:47:51.462857+00:00",
+  "generated_at": "2026-10-07T12:52:20.330382+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 132,
+  "total_items": 129,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,20 +14,20 @@
   },
   "category_counts": {
     "chemical": 11,
-    "biological": 16,
-    "nuclear": 50,
+    "biological": 15,
+    "nuclear": 49,
     "radiological": 0,
     "explosives": 50,
-    "autonomous_weapons": 5,
+    "autonomous_weapons": 4,
     "directed_energy": 0
   },
   "country_counts": {
+    "Austria": 10,
     "Netherlands": 4,
-    "Austria": 8,
     "Australia": 6,
     "United States": 50,
     "Iran": 1,
-    "United Kingdom": 12,
+    "United Kingdom": 11,
     "Azerbaijan": 2,
     "Latvia": 3,
     "Nigeria": 2,
@@ -35,21 +35,50 @@
     "Bangladesh": 3,
     "Saudi Arabia": 1,
     "Ireland": 3,
-    "India": 7,
+    "India": 6,
     "Israel": 11,
     "Unknown": 3,
     "Fiji": 1,
     "Singapore": 1,
     "Iraq": 1,
-    "Japan": 2,
+    "Japan": 1,
     "Canada": 3,
     "Bulgaria": 1,
     "Syria": 1,
     "Russia": 1,
-    "Malaysia": 1,
-    "South Korea": 2
+    "Malaysia": 1
   },
   "items": [
+    {
+      "title": "IAEA-led Team Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-team-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-07T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Helps Countries Mobilize Investment to Expand Radiotherapy Services",
+      "url": "http://www.iaea.org/newscenter/news/iaea-helps-countries-mobilize-investment-to-expand-radiotherapy-services",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-07T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Opening Statement by the Director-General to the 113th Session of the Executive Council",
       "url": "https://www.opcw.org/media-centre/news/2026/10/opening-statement-director-general-113th-session-executive-council",
@@ -2069,89 +2098,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "India new drone killer : DRDO starts production process of a mobile weapon that can destroy drone swarms 5 km away",
-      "url": "https://economictimes.indiatimes.com/news/defence/indias-new-drone-killer-drdo-starts-production-process-of-a-mobile-weapon-that-can-destroy-drone-swarms-5-km-away/articleshow/134429019.cms",
-      "source_domain": "economictimes.indiatimes.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-23T08:30:00+00:00",
-      "language": "English",
-      "image_url": "https://img.etimg.com/thumb/msid-134429371,width-1200,height-630,imgsize-151762,overlay-etdefence/articleshow.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "directed_energy_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
-      "title": "South Korea president forgoes  denuclearization  for  peninsula free from nuclear weapon in UN speech",
-      "url": "https://english.hani.co.kr/arti/english_edition/e_international/1279267.html",
-      "source_domain": "english.hani.co.kr",
-      "source_country": "South Korea",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-23T08:30:00+00:00",
-      "language": "English",
-      "image_url": "https://flexible.img.hani.co.kr/flexible/normal/758/455/imgdb/original/2026/0923/8717901462084492.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Geezer Butler , Anthrax Scott Ian , Mike McCready among new names for Tom Morello stacked  Power To The People  line - up",
-      "url": "https://www.nme.com/news/music/geezer-butler-anthraxs-scott-ian-mike-mccready-among-new-names-tom-morellos-stacked-power-to-the-people-line-up-3969853",
-      "source_domain": "nme.com",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-23T08:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.nme.com/wp-content/uploads/2026/07/Tom_Morello_Danny_Clinch.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "South Korea president forgoes  denuclearization  for  peninsula free from nuclear weapon in UN speech",
-      "url": "https://www.hani.co.kr/arti/english_edition/e_international/1279267.html",
-      "source_domain": "hani.co.kr",
-      "source_country": "South Korea",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-23T07:15:00+00:00",
-      "language": "English",
-      "image_url": "https://flexible.img.hani.co.kr/flexible/normal/758/455/imgdb/original/2026/0923/8717901462084492.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "North Korea Underground Nuclear Tests Are Reactivating Dormant Earthquake Fault Lines « nuclear - news",
-      "url": "https://nuclear-news.net/2026/09/23/4-b1-north-koreas-underground-nuclear-tests-are-reactivating-dormant-earthquake-fault-lines/",
-      "source_domain": "nuclear-news.net",
-      "source_country": "Japan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-23T06:00:00+00:00",
-      "language": "English",
-      "image_url": "http://img.youtube.com/vi/jpEIG-mqMy0/0.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 47,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T12:52:20.306898+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 121,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T12:52:18.538996+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 260,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T12:52:16.866998+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 180,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T12:52:15.208991+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3447,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T12:52:13.567646+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1674,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T12:52:11.942115+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 485,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T12:52:10.208376+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 48,
@@ -5063,127 +5068,15 @@
       "fetched_at": "2026-09-23T18:19:17.744281+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 88,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T12:19:44.590637+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 92,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T12:19:42.886057+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 227,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T12:19:41.238325+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 39,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T12:19:39.593051+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2738,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T12:19:37.796606+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 836,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T12:19:36.145290+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 417,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T12:19:34.490399+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 70,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T06:18:36.216504+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 104,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T06:18:34.606397+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 241,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T06:18:32.996884+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 43,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T06:18:31.401826+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2809,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T06:18:29.787365+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 806,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T06:18:28.169168+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 432,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T06:18:26.549305+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 453,
-    "biological": 1650,
-    "nuclear": 3514,
-    "radiological": 187,
-    "explosives": 262,
-    "autonomous_weapons": 127,
-    "directed_energy": 48
+    "chemical": 485,
+    "biological": 1674,
+    "nuclear": 3447,
+    "radiological": 180,
+    "explosives": 260,
+    "autonomous_weapons": 121,
+    "directed_energy": 47
   }
 }
