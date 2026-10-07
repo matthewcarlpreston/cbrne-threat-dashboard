@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T12:52:20.330382+00:00",
+  "generated_at": "2026-10-07T22:53:06.215399+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 129,
+  "total_items": 128,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 11,
     "biological": 15,
-    "nuclear": 49,
+    "nuclear": 48,
     "radiological": 0,
     "explosives": 50,
     "autonomous_weapons": 4,
@@ -36,7 +36,7 @@
     "Saudi Arabia": 1,
     "Ireland": 3,
     "India": 6,
-    "Israel": 11,
+    "Israel": 10,
     "Unknown": 3,
     "Fiji": 1,
     "Singapore": 1,
@@ -2082,25 +2082,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Iran Pezeshkian accuses Israel of double standards on nuclear weapons at UN",
-      "url": "http://www.jpost.com/international/article-909448",
-      "source_domain": "jpost.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-23T15:15:00+00:00",
-      "language": "English",
-      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/738977",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 40,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T22:53:06.190992+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 115,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T22:53:04.499628+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 244,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T22:53:02.791383+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 153,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T22:53:01.139574+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2595,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T22:52:59.462267+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1736,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T22:52:57.782159+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 563,
+      "window_hours": 24,
+      "fetched_at": "2026-10-07T22:52:56.058854+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 47,
@@ -5012,71 +5052,15 @@
       "fetched_at": "2026-09-24T00:18:51.940711+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 99,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T18:19:27.722334+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 79,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T18:19:26.052889+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 214,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T18:19:24.389100+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 35,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T18:19:22.754463+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2495,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T18:19:21.024028+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 828,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T18:19:19.388813+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 441,
-      "window_hours": 24,
-      "fetched_at": "2026-09-23T18:19:17.744281+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 485,
-    "biological": 1674,
-    "nuclear": 3447,
-    "radiological": 180,
-    "explosives": 260,
-    "autonomous_weapons": 121,
-    "directed_energy": 47
+    "chemical": 563,
+    "biological": 1736,
+    "nuclear": 2595,
+    "radiological": 153,
+    "explosives": 244,
+    "autonomous_weapons": 115,
+    "directed_energy": 40
   }
 }
