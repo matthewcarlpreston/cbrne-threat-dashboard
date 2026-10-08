@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T13:01:31.248167+00:00",
+  "generated_at": "2026-10-08T23:05:30.502825+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 125,
+  "total_items": 117,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,9 +13,9 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 11,
-    "biological": 15,
-    "nuclear": 46,
+    "chemical": 8,
+    "biological": 14,
+    "nuclear": 42,
     "radiological": 0,
     "explosives": 50,
     "autonomous_weapons": 3,
@@ -25,10 +25,10 @@
     "Austria": 10,
     "Netherlands": 4,
     "Australia": 6,
-    "United States": 49,
+    "United States": 48,
     "Iran": 1,
     "United Kingdom": 11,
-    "Azerbaijan": 2,
+    "Azerbaijan": 1,
     "Latvia": 3,
     "Nigeria": 2,
     "Pakistan": 2,
@@ -37,14 +37,11 @@
     "Ireland": 3,
     "India": 6,
     "Israel": 10,
-    "Unknown": 3,
+    "Unknown": 2,
     "Fiji": 1,
     "Singapore": 1,
     "Iraq": 1,
-    "Japan": 1,
-    "Canada": 3,
-    "Bulgaria": 1,
-    "Syria": 1
+    "Japan": 1
   },
   "items": [
     {
@@ -1904,137 +1901,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "North Korea rejects call to halt nuclear tests",
-      "url": "https://www.channelnewsasia.com/world/north-korea-nuclear-test-ban-reject-6409251",
-      "source_domain": "channelnewsasia.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T21:30:00+00:00",
-      "language": "English",
-      "image_url": "https://dam.mediacorp.sg/image/upload/s--jcD7xm2r--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-09-24T150439Z_1_LYNXMPEM8N1EA_RTROPTP_3_NORTHKOREA-NUCLEAR.JPG?itok=kUh9Rs4T",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Quebec City man accused of planning a chemical attack to benefit ISIS group",
-      "url": "https://www.mtlblog.com/quebec-man-in-court-on-terrorism-charges",
-      "source_domain": "mtlblog.com",
-      "source_country": "Canada",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T21:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.mtlblog.com/media-library/quebec-man-in-court-on-terrorism-charges.jpg?id=67848787&coordinates=0%2C118%2C0%2C118",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Quebec City man accused of planning a chemical attack to benefit ISIS group – Winnipeg Free Press",
-      "url": "https://www.winnipegfreepress.com/business/2026/09/24/quebec-city-man-accused-of-planning-a-chemical-attack-to-benefit-isis-group",
-      "source_domain": "winnipegfreepress.com",
-      "source_country": "Canada",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T19:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "The Mysterious Death of a Soviet Scientist and the Secret Biological Weapon  Variant U",
-      "url": "http://www.bgnes.com/science/the-mysterious-death-of-a-soviet-scientist-and-the-secret-biological-weapon-variant-u",
-      "source_domain": "bgnes.com",
-      "source_country": "Bulgaria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T17:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.bgnes.com/static/images/news/2026/09/24/22868/20972.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "IAEA inspectors cannot return to Iran amid US threats : Russia",
-      "url": "https://www.presstv.co.uk/Detail/2026/09/24/776933/IAEA-inspectors-Iran-US-threats--Russia",
-      "source_domain": "presstv.co.uk",
-      "source_country": "Unknown",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T17:30:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Quebec City man plotted to  poison Canadian with chemical weapon , RCMP alleges",
-      "url": "https://montrealgazette.com/news/local-crime/quebec-city-man-poison-canadians-chemical-weapon-rcmp/",
-      "source_domain": "montrealgazette.com",
-      "source_country": "Canada",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T17:00:00+00:00",
-      "language": "English",
-      "image_url": "https://montrealgazette.com/wp-content/uploads/sites/2/2026/09/rcmp-cruiser.fs_305067671.jpeg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "North Korea rejects call to halt nuclear tests",
-      "url": "https://en.apa.az/asia/north-korea-rejects-call-to-halt-nuclear-tests-526092",
-      "source_domain": "en.apa.az",
-      "source_country": "Azerbaijan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T16:15:00+00:00",
-      "language": "English",
-      "image_url": "https://en.apa.az/storage/news/2026/september/24/big/6ab5451fe5ef96ab5451fe5efa17902646076ab5451fe5ef76ab5451fe5ef8.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "North Korea Rejects Call to Halt Nuclear Tests",
-      "url": "https://english.aawsat.com/world/5322171-north-korea-rejects-call-halt-nuclear-tests",
-      "source_domain": "english.aawsat.com",
-      "source_country": "Syria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T15:45:00+00:00",
-      "language": "English",
-      "image_url": "https://static.srpcdigital.com/styles/1200x600/public/2026-09/1792409_0.png.webp?VersionId=BQrrZAm40IXpZf8_RuwEX248VpONIV.F",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 47,
+      "window_hours": 24,
+      "fetched_at": "2026-10-08T23:05:30.480688+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 109,
+      "window_hours": 24,
+      "fetched_at": "2026-10-08T23:05:28.858699+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 209,
+      "window_hours": 24,
+      "fetched_at": "2026-10-08T23:05:27.242444+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 58,
+      "window_hours": 24,
+      "fetched_at": "2026-10-08T23:05:25.585537+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2079,
+      "window_hours": 24,
+      "fetched_at": "2026-10-08T23:05:23.471743+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1163,
+      "window_hours": 24,
+      "fetched_at": "2026-10-08T23:05:21.850300+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 590,
+      "window_hours": 24,
+      "fetched_at": "2026-10-08T23:05:20.168621+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 36,
@@ -4890,71 +4815,15 @@
       "fetched_at": "2026-09-25T00:20:54.253889+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 97,
-      "window_hours": 24,
-      "fetched_at": "2026-09-24T18:19:43.879712+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 110,
-      "window_hours": 24,
-      "fetched_at": "2026-09-24T18:19:42.225064+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 196,
-      "window_hours": 24,
-      "fetched_at": "2026-09-24T18:19:36.075370+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 60,
-      "window_hours": 24,
-      "fetched_at": "2026-09-24T18:19:15.783082+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2335,
-      "window_hours": 24,
-      "fetched_at": "2026-09-24T18:19:06.825090+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 855,
-      "window_hours": 24,
-      "fetched_at": "2026-09-24T18:19:05.142430+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 572,
-      "window_hours": 24,
-      "fetched_at": "2026-09-24T18:19:03.382974+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 726,
-    "biological": 1516,
-    "nuclear": 1996,
-    "radiological": 92,
-    "explosives": 194,
-    "autonomous_weapons": 110,
-    "directed_energy": 36
+    "chemical": 590,
+    "biological": 1163,
+    "nuclear": 2079,
+    "radiological": 58,
+    "explosives": 209,
+    "autonomous_weapons": 109,
+    "directed_energy": 47
   }
 }
