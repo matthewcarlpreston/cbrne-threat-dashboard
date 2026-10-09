@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T12:45:53.554379+00:00",
+  "generated_at": "2026-10-09T22:24:38.133053+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 109,
+  "total_items": 111,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,14 +15,14 @@
   "category_counts": {
     "chemical": 7,
     "biological": 14,
-    "nuclear": 35,
+    "nuclear": 37,
     "radiological": 0,
     "explosives": 50,
     "autonomous_weapons": 3,
     "directed_energy": 0
   },
   "country_counts": {
-    "Austria": 9,
+    "Austria": 11,
     "Netherlands": 4,
     "Australia": 6,
     "United States": 44,
@@ -41,6 +41,36 @@
     "Fiji": 1
   },
   "items": [
+    {
+      "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-370-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-09T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Concludes Long Term Operation Safety Review at Sweden’s Oskarshamn Nuclear Power Plant",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-long-term-operation-safety-review-at-swedens-oskarshamn-nuclear-power-plant-0",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-09T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
       "url": "http://www.iaea.org/newscenter/pressreleases/iaea-completes-international-physical-protection-advisory-service-mission-in-pakistan",
@@ -1774,6 +1804,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 43,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T22:24:38.114015+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 100,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T22:24:36.475033+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 296,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T22:24:34.811653+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 53,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T22:24:33.159540+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1700,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T22:24:31.480595+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 887,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T22:24:29.824857+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 442,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T22:24:28.127537+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 47,
@@ -4573,71 +4659,15 @@
       "fetched_at": "2026-09-26T00:17:45.189415+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 69,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T18:17:39.364212+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 114,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T18:17:37.727844+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 214,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T18:17:36.078645+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 79,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T18:17:34.460131+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1939,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T18:17:32.820964+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 794,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T18:17:31.121455+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 454,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T18:17:29.482784+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 438,
-    "biological": 1001,
-    "nuclear": 1961,
-    "radiological": 57,
-    "explosives": 263,
-    "autonomous_weapons": 119,
-    "directed_energy": 47
+    "chemical": 442,
+    "biological": 887,
+    "nuclear": 1700,
+    "radiological": 53,
+    "explosives": 296,
+    "autonomous_weapons": 100,
+    "directed_energy": 43
   }
 }
