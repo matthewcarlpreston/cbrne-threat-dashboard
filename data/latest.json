@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T23:05:30.502825+00:00",
+  "generated_at": "2026-10-09T05:00:37.801738+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 117,
+  "total_items": 110,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,19 +13,19 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 8,
+    "chemical": 7,
     "biological": 14,
-    "nuclear": 42,
+    "nuclear": 36,
     "radiological": 0,
     "explosives": 50,
     "autonomous_weapons": 3,
     "directed_energy": 0
   },
   "country_counts": {
-    "Austria": 10,
+    "Austria": 8,
     "Netherlands": 4,
     "Australia": 6,
-    "United States": 48,
+    "United States": 45,
     "Iran": 1,
     "United Kingdom": 11,
     "Azerbaijan": 1,
@@ -39,9 +39,7 @@
     "Israel": 10,
     "Unknown": 2,
     "Fiji": 1,
-    "Singapore": 1,
-    "Iraq": 1,
-    "Japan": 1
+    "Singapore": 1
   },
   "items": [
     {
@@ -1791,119 +1789,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Not at all : Iran President Pezeshkian denies nuclear weapon ambition , blames US for starting conflict",
-      "url": "http://www.bignewsnetwork.com/news/279330000/not-at-all-iran-president-pezeshkian-denies-nuclear-weapon-ambition-blames-us-for-starting-conflict",
-      "source_domain": "bignewsnetwork.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-25T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5e53348/f2901565-d608-497c-b685-d0040f743945/0/ANI-20260925011256-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Western powers seek condemnation of Syria over sarin attacks",
-      "url": "https://spacewar.com/western-powers-seek-condemnation-of-syria-over-sarin-attacks-999/",
-      "source_domain": "spacewar.com",
-      "source_country": "Iraq",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-25T02:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Not at all : Iran President Pezeshkian denies nuclear weapon ambition , blames US for starting conflict",
-      "url": "http://www.heraldglobe.com/news/279330000/not-at-all-iran-president-pezeshkian-denies-nuclear-weapon-ambition-blames-us-for-starting-conflict",
-      "source_domain": "heraldglobe.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-25T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/5e53348/f2901565-d608-497c-b685-d0040f743945/0/ANI-20260925011256-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Iranian president says enriched uranium is  not a big deal",
-      "url": "http://www.washingtonexaminer.com/news/world/4742269/iran-president-enriched-uranium-not-big-deal/",
-      "source_domain": "washingtonexaminer.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-25T00:45:00+00:00",
-      "language": "English",
-      "image_url": "http://www.washingtonexaminer.com/wp-content/uploads/2026/09/iran-president-uranium-no-big-deal.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA and Inter-American Development Bank Sign Partnership Agreement on Nuclear Energy for Development",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-and-inter-american-development-bank-sign-partnership-agreement-on-nuclear-energy-for-development",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-25T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Update 368 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-368-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-25T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "North Korea rejects international call to halt nuclear tests",
-      "url": "https://japantoday.com/category/politics/north-korea-rejects-call-to-halt-nuclear-tests",
-      "source_domain": "japantoday.com",
-      "source_country": "Japan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-24T23:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 44,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T05:00:37.783868+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 100,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T05:00:36.046776+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 213,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T05:00:34.327783+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T05:00:32.584251+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2017,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T05:00:30.908934+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1095,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T05:00:29.219638+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 591,
+      "window_hours": 24,
+      "fetched_at": "2026-10-09T05:00:27.546831+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 47,
@@ -4759,71 +4703,15 @@
       "fetched_at": "2026-09-25T06:19:19.965800+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 83,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T00:21:04.635111+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 114,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T00:21:02.932383+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 191,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T00:21:01.134602+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 72,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T00:20:59.426011+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2107,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T00:20:57.773247+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 923,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T00:20:56.101185+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 524,
-      "window_hours": 24,
-      "fetched_at": "2026-09-25T00:20:54.253889+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 590,
-    "biological": 1163,
-    "nuclear": 2079,
-    "radiological": 58,
-    "explosives": 209,
-    "autonomous_weapons": 109,
-    "directed_energy": 47
+    "chemical": 591,
+    "biological": 1095,
+    "nuclear": 2017,
+    "radiological": 51,
+    "explosives": 213,
+    "autonomous_weapons": 100,
+    "directed_energy": 44
   }
 }
