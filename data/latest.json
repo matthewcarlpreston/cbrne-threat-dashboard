@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:18:37.727516+00:00",
+  "generated_at": "2026-10-11T04:31:10.816584+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 111,
@@ -119,7 +119,7 @@
     {
       "title": "Opening Statement by the Director-General to the 113th Session of the Executive Council",
       "url": "https://www.opcw.org/media-centre/news/2026/10/opening-statement-director-general-113th-session-executive-council",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Opening Statement by the Director-General to the 113th Session of the Executive Council\t</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"Opening Statement by the Director-General to the 113th Session of the Executive Council\t\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/imag",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Opening Statement by the Director-General to the 113th Session of the Executive Council\t</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"Opening Statement by the Director-General to the 113th Session of the Executive Council\t\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -134,7 +134,7 @@
     {
       "title": "OPCW Director-General Sabrina Dallafior meets with Panama’s Foreign Minister",
       "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-sabrina-dallafior-meets-panamas-foreign-minister",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior meets with Panama’s Foreign Minister </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"The Director-General of the Organisation for the Prohibition of Chemical Weapons (OPCW), Sabrina Dallafior, met with the Minister of Foreign Affairs of the Republic of Panama, H.E. Mr ",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior meets with Panama’s Foreign Minister </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"The Director-General of the Organisation for the Prohibition of Chemical Weapons (OPCW), Sabrina Dallafior, met with the Minister of Foreign Affairs of the Republic of Panama, H.E. Mr Javier Edua",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -465,7 +465,7 @@
     {
       "title": "OPCW and China advance responsible use of AI for chemical safety and security",
       "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-and-china-advance-responsible-use-ai-chemical-safety-and-security",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW and China advance responsible use of AI for chemical safety and security </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW and China advance responsible use of AI for chemical safety and security \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/IMG_4948.",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW and China advance responsible use of AI for chemical safety and security </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"OPCW and China advance responsible use of AI for chemical safety and security \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/IMG_4948.JPG?itok=Bm",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -1503,7 +1503,7 @@
     {
       "title": "OPCW and Brazil strengthen chemical emergency preparedness across the Lusophone countries",
       "url": "https://www.opcw.org/media-centre/news/2026/09/opcw-and-brazil-strengthen-chemical-emergency-preparedness-across",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW and Brazil strengthen chemical emergency preparedness across the Lusophone countries  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"Aerial view of exit from the port in Maputo, Mozambique \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/Untitled%20Design%",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW and Brazil strengthen chemical emergency preparedness across the Lusophone countries  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure><img alt=\"Aerial view of exit from the port in Maputo, Mozambique \" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/Untitled%20Design%20%283%29.p",
       "source_domain": "OPCW",
       "source_country": "Netherlands",
       "tone": null,
@@ -1804,6 +1804,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 21,
+      "window_hours": 24,
+      "fetched_at": "2026-10-11T04:31:10.796152+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 86,
+      "window_hours": 24,
+      "fetched_at": "2026-10-11T04:31:09.186640+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 211,
+      "window_hours": 24,
+      "fetched_at": "2026-10-11T04:31:07.581383+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 42,
+      "window_hours": 24,
+      "fetched_at": "2026-10-11T04:31:05.964402+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1285,
+      "window_hours": 24,
+      "fetched_at": "2026-10-11T04:31:04.356784+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 762,
+      "window_hours": 24,
+      "fetched_at": "2026-10-11T04:31:02.760414+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 536,
+      "window_hours": 24,
+      "fetched_at": "2026-10-11T04:31:01.093329+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 23,
@@ -4547,71 +4603,15 @@
       "fetched_at": "2026-09-27T06:19:23.359771+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 38,
-      "window_hours": 24,
-      "fetched_at": "2026-09-27T00:20:48.464870+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 120,
-      "window_hours": 24,
-      "fetched_at": "2026-09-27T00:20:46.849760+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 376,
-      "window_hours": 24,
-      "fetched_at": "2026-09-27T00:20:45.227781+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 45,
-      "window_hours": 24,
-      "fetched_at": "2026-09-27T00:20:43.610764+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2066,
-      "window_hours": 24,
-      "fetched_at": "2026-09-27T00:20:42.011249+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 703,
-      "window_hours": 24,
-      "fetched_at": "2026-09-27T00:20:40.387835+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 454,
-      "window_hours": 24,
-      "fetched_at": "2026-09-27T00:20:38.785867+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 556,
-    "biological": 789,
-    "nuclear": 1441,
-    "radiological": 45,
-    "explosives": 228,
-    "autonomous_weapons": 125,
-    "directed_energy": 23
+    "chemical": 536,
+    "biological": 762,
+    "nuclear": 1285,
+    "radiological": 42,
+    "explosives": 211,
+    "autonomous_weapons": 86,
+    "directed_energy": 21
   }
 }
