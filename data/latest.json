@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-11T21:38:02.920909+00:00",
+  "generated_at": "2026-10-12T04:45:09.255989+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 101,
+  "total_items": 98,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,17 +15,17 @@
   "category_counts": {
     "chemical": 7,
     "biological": 10,
-    "nuclear": 31,
+    "nuclear": 29,
     "radiological": 0,
-    "explosives": 50,
+    "explosives": 49,
     "autonomous_weapons": 3,
     "directed_energy": 0
   },
   "country_counts": {
-    "Austria": 11,
+    "Austria": 10,
     "Netherlands": 4,
     "Australia": 5,
-    "United States": 39,
+    "United States": 38,
     "Iran": 1,
     "United Kingdom": 11,
     "Azerbaijan": 1,
@@ -37,8 +37,7 @@
     "Ireland": 3,
     "India": 5,
     "Israel": 10,
-    "Unknown": 1,
-    "Fiji": 1
+    "Unknown": 1
   },
   "items": [
     {
@@ -1594,56 +1593,65 @@
       "categories": [
         "explosives"
       ]
-    },
-    {
-      "title": "President Heine warns against seabed mining , calls for UN nuclear testing apology",
-      "url": "https://pina.com.fj/2026/09/28/president-heine-warns-against-seabed-mining-calls-for-un-nuclear-testing-apology/",
-      "source_domain": "pina.com.fj",
-      "source_country": "Fiji",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T04:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Technical Cooperation Showcases Results at 70th IAEA General Conference",
-      "url": "http://www.iaea.org/news/photoessay/tc-showcases-results-iaeagc-70",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "5 arrested over bomb plot near British air base used by U . S . bombers",
-      "url": "https://bnonews.com/index.php/2026/09/5-arrested-over-bomb-plot-near-british-air-base-used-by-u-s-bombers/",
-      "source_domain": "bnonews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-27T21:45:00+00:00",
-      "language": "English",
-      "image_url": "https://bnonews.com/wp-content/uploads/2026/09/20260927UKTerroristInvestigation.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 34,
+      "window_hours": 24,
+      "fetched_at": "2026-10-12T04:45:09.243086+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 93,
+      "window_hours": 24,
+      "fetched_at": "2026-10-12T04:45:07.569026+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 184,
+      "window_hours": 24,
+      "fetched_at": "2026-10-12T04:45:05.806345+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 55,
+      "window_hours": 24,
+      "fetched_at": "2026-10-12T04:45:04.175865+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1104,
+      "window_hours": 24,
+      "fetched_at": "2026-10-12T04:45:02.552220+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 734,
+      "window_hours": 24,
+      "fetched_at": "2026-10-12T04:45:00.863616+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 517,
+      "window_hours": 24,
+      "fetched_at": "2026-10-12T04:44:59.202815+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 23,
@@ -4331,71 +4339,15 @@
       "fetched_at": "2026-09-28T06:20:23.203335+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 31,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T00:23:07.621485+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 87,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T00:23:06.002424+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 946,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T00:23:04.358875+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 61,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T00:23:02.723102+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1541,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T00:23:01.004140+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 600,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T00:22:59.377340+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 511,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T00:22:57.732822+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 508,
-    "biological": 703,
-    "nuclear": 1025,
-    "radiological": 42,
-    "explosives": 187,
-    "autonomous_weapons": 84,
-    "directed_energy": 23
+    "chemical": 517,
+    "biological": 734,
+    "nuclear": 1104,
+    "radiological": 55,
+    "explosives": 184,
+    "autonomous_weapons": 93,
+    "directed_energy": 34
   }
 }
