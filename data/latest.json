@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-13T13:44:32.742571+00:00",
+  "generated_at": "2026-10-13T22:26:31.455540+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 49,
+  "total_items": 47,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,19 +13,19 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 5,
+    "chemical": 6,
     "biological": 8,
     "nuclear": 22,
     "radiological": 0,
-    "explosives": 12,
-    "autonomous_weapons": 2,
+    "explosives": 10,
+    "autonomous_weapons": 1,
     "directed_energy": 0
   },
   "country_counts": {
+    "Netherlands": 4,
     "Austria": 10,
-    "Netherlands": 3,
     "Australia": 2,
-    "United States": 16,
+    "United States": 15,
     "Iran": 1,
     "United Kingdom": 3,
     "Azerbaijan": 1,
@@ -35,10 +35,24 @@
     "Bangladesh": 1,
     "Saudi Arabia": 1,
     "Ireland": 1,
-    "India": 3,
-    "Israel": 1
+    "India": 2
   },
   "items": [
+    {
+      "title": "OPCW Director-General visits Syria",
+      "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-visits-syria",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General visits Syria</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General Sabrina Dallafior (left) during a meeting with Syrian Minister of Foreign Affairs Asaad al-Shaibani in Damascus, Syria.\" height=\"417\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-13T15:48:21+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-370-iaea-director-general-statement-on-situation-in-ukraine",
@@ -761,57 +775,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "AI Drone Killed Ukraine Civilians Without Human Order : Ministers Back Autonomous Weapons Treaty",
-      "url": "https://www.techtimes.com/articles/328213/20260929/ai-drone-killed-ukraine-civilians-without-human-order-ministers-back-autonomous-weapons-treaty.htm",
-      "source_domain": "techtimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-29T18:30:00+00:00",
-      "language": "English",
-      "image_url": "https://d.techtimes.com/en/full/476130/firefighter-tackles-blaze-engulfing-building-ukrainian-academy.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
-      "title": "How RAF Fairford  bomb plot  narrative fell apart as US and united kingdom made competing claims",
-      "url": "https://www.middleeasteye.net/news/how-raf-fairford-bomb-plot-narrative-fell-apart-us-and-uk-made-competing-claims",
-      "source_domain": "middleeasteye.net",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-29T17:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.middleeasteye.net/sites/default/files/images-story/000_C9JZ86Q%20%281%29.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Tronglaobi IED attack case : NIA arrests second accused",
-      "url": "https://news.webindia123.com/news/Articles/India/20260929/4505066.html",
-      "source_domain": "news.webindia123.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-29T16:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 58,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T22:26:31.440753+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 109,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T22:26:29.762478+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 313,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T22:26:28.116565+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 69,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T22:26:26.483949+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 935,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T22:26:24.838300+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 803,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T22:26:23.153245+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 552,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T22:26:21.451977+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 55,
@@ -3331,71 +3353,15 @@
       "fetched_at": "2026-09-30T00:21:40.608349+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 54,
-      "window_hours": 24,
-      "fetched_at": "2026-09-29T18:20:17.810488+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 101,
-      "window_hours": 24,
-      "fetched_at": "2026-09-29T18:20:16.188666+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 1076,
-      "window_hours": 24,
-      "fetched_at": "2026-09-29T18:20:14.562707+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 42,
-      "window_hours": 24,
-      "fetched_at": "2026-09-29T18:20:12.834185+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2102,
-      "window_hours": 24,
-      "fetched_at": "2026-09-29T18:20:11.216206+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 780,
-      "window_hours": 24,
-      "fetched_at": "2026-09-29T18:20:09.550014+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 443,
-      "window_hours": 24,
-      "fetched_at": "2026-09-29T18:20:07.941096+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 550,
-    "biological": 772,
-    "nuclear": 964,
-    "radiological": 47,
-    "explosives": 334,
-    "autonomous_weapons": 115,
-    "directed_energy": 55
+    "chemical": 552,
+    "biological": 803,
+    "nuclear": 935,
+    "radiological": 69,
+    "explosives": 313,
+    "autonomous_weapons": 109,
+    "directed_energy": 58
   }
 }
