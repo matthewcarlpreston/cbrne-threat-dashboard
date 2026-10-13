@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T14:41:35.764801+00:00",
+  "generated_at": "2026-10-13T00:17:37.464815+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 83,
+  "total_items": 71,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,9 +15,9 @@
   "category_counts": {
     "chemical": 6,
     "biological": 10,
-    "nuclear": 27,
+    "nuclear": 25,
     "radiological": 0,
-    "explosives": 38,
+    "explosives": 28,
     "autonomous_weapons": 2,
     "directed_energy": 0
   },
@@ -25,9 +25,9 @@
     "Austria": 10,
     "Netherlands": 3,
     "Australia": 3,
-    "United States": 33,
+    "United States": 28,
     "Iran": 1,
-    "United Kingdom": 9,
+    "United Kingdom": 7,
     "Azerbaijan": 1,
     "Latvia": 3,
     "Nigeria": 2,
@@ -35,8 +35,8 @@
     "Bangladesh": 1,
     "Saudi Arabia": 1,
     "Ireland": 1,
-    "India": 5,
-    "Israel": 7,
+    "India": 4,
+    "Israel": 3,
     "Unknown": 1
   },
   "items": [
@@ -1162,201 +1162,65 @@
       "categories": [
         "explosives"
       ]
-    },
-    {
-      "title": "Green Beret who survived an IED now clears Ukraine landmines",
-      "url": "https://www.navytimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
-      "source_domain": "navytimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T23:45:00+00:00",
-      "language": "English",
-      "image_url": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/N3MOOFSXCNCBLASCWDWWMP3PLI.jpg?&auth=481761a2c533c6f15fc36bbd1d005327dfdd163137a7ba9ed0d0ac2d53095638",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Wes Streeting asked to probe claims civil servants  torpedoed  compensation for nuclear test vets",
-      "url": "https://www.mirror.co.uk/news/politics/nuclear-test-veterans-compensation-mod-37712376",
-      "source_domain": "mirror.co.uk",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T23:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i2-prod.mirror.co.uk/article37707553.ece/ALTERNATES/s1200d/2_Britain-Defense.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Trump on Iran : I stopped them from having a nuclear weapon",
-      "url": "https://www.israelnationalnews.com/news/433798",
-      "source_domain": "israelnationalnews.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T22:45:00+00:00",
-      "language": "English",
-      "image_url": "https://2.a7.org/files/pictures/000/1226590.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Green Beret who survived an IED now clears Ukraine landmines",
-      "url": "https://www.marinecorpstimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
-      "source_domain": "marinecorpstimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T22:15:00+00:00",
-      "language": "English",
-      "image_url": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/N3MOOFSXCNCBLASCWDWWMP3PLI.jpg?&auth=481761a2c533c6f15fc36bbd1d005327dfdd163137a7ba9ed0d0ac2d53095638",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Green Beret who survived an IED now clears Ukraine landmines",
-      "url": "https://www.armytimes.com/off-duty/military-culture/2026/09/28/green-beret-who-survived-an-ied-now-clears-ukraines-landmines/",
-      "source_domain": "armytimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T22:00:00+00:00",
-      "language": "English",
-      "image_url": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/N3MOOFSXCNCBLASCWDWWMP3PLI.jpg?&auth=481761a2c533c6f15fc36bbd1d005327dfdd163137a7ba9ed0d0ac2d53095638",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "UK bomb plot suspects released on bail",
-      "url": "https://www.clevelandjewishnews.com/jns/uk-bomb-plot-suspects-released-on-bail/article_3f42a1d4-8c57-5b97-8d18-aded2c647d62.html",
-      "source_domain": "clevelandjewishnews.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T21:15:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.chicago2.vip.townnews.com/clevelandjewishnews.com/content/tncms/custom/image/7278b38c-b303-11e5-a1a2-a31281943715.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "UK releases Fairford bomb plot suspects , continues investigation",
-      "url": "http://www.jpost.com/international/article-909989",
-      "source_domain": "jpost.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T18:45:00+00:00",
-      "language": "English",
-      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/739718",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Iran denies link to suspected bomb plot at U . K . airbase used by U . S .",
-      "url": "https://www.thehindu.com/news/international/iran-denies-link-to-suspected-bomb-plot-at-uk-airbase-used-by-us/article71521258.ece",
-      "source_domain": "thehindu.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T18:00:00+00:00",
-      "language": "English",
-      "image_url": "https://th-i.thgim.com/public/incoming/vbhx22/article71521279.ece/alternates/LANDSCAPE_1200/2026-09-27T083855Z_1349271208_RC2IRNAKLJEJ_RTRMADP_3_BRITAIN-USA-FAIRFORD.JPG",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "TERROR PLOT PROBE : Iran Denies Link to Suspected Bomb Plot Near U . S .- Used Air Base in Britain",
-      "url": "https://www.theyeshivaworld.com/news/general/2603693/terror-plot-probe-iran-denies-link-to-suspected-bomb-plot-near-u-s-used-air-base-in-britain.html",
-      "source_domain": "theyeshivaworld.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T17:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.theyeshivaworld.com/wp-content/uploads/2026/09/739718.jpeg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "RAF Fairford bomb plot : Counter - terror police probe five London men and possible Iran link - London Business News",
-      "url": "https://londonlovesbusiness.com/raf-fairford-bomb-plot-counter-terror-police-probe-five-london-men-and-possible-iran-link/",
-      "source_domain": "londonlovesbusiness.com",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T15:45:00+00:00",
-      "language": "English",
-      "image_url": "https://mloyoq1wv9pf.i.optimole.com/cb:q0m5.1962/w:auto/h:auto/q:mauto/f:best/https://londonlovesbusiness.com/wp-content/uploads/2026/09/RAF-Fariford-gang-members.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Five British men from London arrested over RAF  terror bomb plot  are all released on bail - as Iran  categorically reject involvement",
-      "url": "https://www.dailymail.com/news/article-16166889/Five-British-men-London-arrested-RAF-terror-bomb-plot-released-bail-Iran-categorically-rejects-involvement.html",
-      "source_domain": "dailymail.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T15:30:00+00:00",
-      "language": "English",
-      "image_url": "https://i.dailymail.com/1s/2026/09/28/15/111512583-0-image-a-40_1790606855299.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Iran denies link to suspected bomb plot at united kingdom airbase used by US",
-      "url": "https://www.al-monitor.com/originals/2026/09/iran-denies-link-suspected-bomb-plot-uk-airbase-used-us",
-      "source_domain": "al-monitor.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-28T15:30:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T00:17:37.448515+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 111,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T00:17:35.840837+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 277,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T00:17:34.245494+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T00:17:32.631055+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1145,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T00:17:31.017101+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 715,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T00:17:29.405488+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 472,
+      "window_hours": 24,
+      "fetched_at": "2026-10-13T00:17:27.804370+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 35,
@@ -3988,71 +3852,15 @@
       "fetched_at": "2026-09-29T00:21:08.235887+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 34,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T18:18:34.054971+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 94,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T18:18:32.423718+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 1513,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T18:18:30.806949+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 75,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T18:18:29.201668+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1676,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T18:18:27.598129+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 726,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T18:18:25.988072+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 616,
-      "window_hours": 24,
-      "fetched_at": "2026-09-28T18:18:24.378817+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 425,
+    "chemical": 472,
     "biological": 715,
-    "nuclear": 1149,
-    "radiological": 58,
-    "explosives": 214,
-    "autonomous_weapons": 94,
-    "directed_energy": 35
+    "nuclear": 1145,
+    "radiological": 51,
+    "explosives": 277,
+    "autonomous_weapons": 111,
+    "directed_energy": 49
   }
 }
