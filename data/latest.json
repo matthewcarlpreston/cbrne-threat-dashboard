@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T11:24:05.763426+00:00",
+  "generated_at": "2026-10-14T16:45:58.817366+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 44,
+  "total_items": 40,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,10 +14,10 @@
   },
   "category_counts": {
     "chemical": 6,
-    "biological": 8,
-    "nuclear": 20,
+    "biological": 7,
+    "nuclear": 18,
     "radiological": 0,
-    "explosives": 9,
+    "explosives": 8,
     "autonomous_weapons": 1,
     "directed_energy": 0
   },
@@ -25,16 +25,14 @@
     "Netherlands": 4,
     "Austria": 10,
     "Australia": 1,
-    "United States": 15,
+    "United States": 14,
     "Iran": 1,
     "United Kingdom": 3,
     "Azerbaijan": 1,
-    "Latvia": 3,
+    "Latvia": 2,
     "Nigeria": 2,
     "Pakistan": 1,
-    "Bangladesh": 1,
-    "Saudi Arabia": 1,
-    "Ireland": 1
+    "Bangladesh": 1
   },
   "items": [
     {
@@ -662,73 +660,65 @@
       "categories": [
         "explosives"
       ]
-    },
-    {
-      "title": "If NATO collectively decides to do so and there is a need , nuclear weapons could be deployed in Latvia",
-      "url": "https://www.baltictimes.com/if_nato_collectively_decides_to_do_so_and_there_is_a_need__nuclear_weapons_could_be_deployed_in_latvia_-_rinkevics/",
-      "source_domain": "baltictimes.com",
-      "source_country": "Latvia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-30T14:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Arab News | The Iranian bomb plot on united kingdom soil that never was",
-      "url": "https://www.arabnews.com/opinion/the-iranian-bomb-plot-on-uk-soil-that-never-was-3003746",
-      "source_domain": "arabnews.com",
-      "source_country": "Saudi Arabia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-30T13:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Russia warns it could use nuclear weapons if Nato tries to isolate Kaliningrad",
-      "url": "https://www.irishexaminer.com/world/arid-41917762.html",
-      "source_domain": "irishexaminer.com",
-      "source_country": "Ireland",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-30T12:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.irishexaminer.com/cms_media/module_img/10489/5244688_1_org_c9a6d64da65f4db3aabf576d218fb8b0.jpg.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Chinese AI tool told researchers how to make biological weapons",
-      "url": "https://www.dailymail.com/news/article-16171987/Chinese-AI-tool-told-researchers-make-biological-weapons.html",
-      "source_domain": "dailymail.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-30T12:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.dailymail.com/1s/2026/09/30/11/111560793-0-image-m-33_1790765539670.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-10-14T16:45:58.800759+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 125,
+      "window_hours": 24,
+      "fetched_at": "2026-10-14T16:45:57.154356+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 281,
+      "window_hours": 24,
+      "fetched_at": "2026-10-14T16:45:55.547848+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 72,
+      "window_hours": 24,
+      "fetched_at": "2026-10-14T16:45:53.906365+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1072,
+      "window_hours": 24,
+      "fetched_at": "2026-10-14T16:45:52.280357+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 804,
+      "window_hours": 24,
+      "fetched_at": "2026-10-14T16:45:50.648722+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 549,
+      "window_hours": 24,
+      "fetched_at": "2026-10-14T16:45:48.977284+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 55,
@@ -3248,71 +3238,15 @@
       "fetched_at": "2026-09-30T18:18:54.497963+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 60,
-      "window_hours": 24,
-      "fetched_at": "2026-09-30T12:20:50.588917+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 94,
-      "window_hours": 24,
-      "fetched_at": "2026-09-30T12:20:48.976978+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 625,
-      "window_hours": 24,
-      "fetched_at": "2026-09-30T12:20:47.311215+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 50,
-      "window_hours": 24,
-      "fetched_at": "2026-09-30T12:20:45.673856+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1667,
-      "window_hours": 24,
-      "fetched_at": "2026-09-30T12:20:44.060458+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 914,
-      "window_hours": 24,
-      "fetched_at": "2026-09-30T12:20:42.445428+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 428,
-      "window_hours": 24,
-      "fetched_at": "2026-09-30T12:20:40.834278+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 560,
-    "biological": 817,
-    "nuclear": 980,
-    "radiological": 73,
-    "explosives": 309,
-    "autonomous_weapons": 121,
-    "directed_energy": 55
+    "chemical": 549,
+    "biological": 804,
+    "nuclear": 1072,
+    "radiological": 72,
+    "explosives": 281,
+    "autonomous_weapons": 125,
+    "directed_energy": 51
   }
 }
