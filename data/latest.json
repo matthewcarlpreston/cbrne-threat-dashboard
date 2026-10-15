@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T03:35:49.635747+00:00",
+  "generated_at": "2026-10-15T11:01:03.653286+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 31,
+  "total_items": 29,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,19 +13,19 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 5,
+    "chemical": 4,
     "biological": 3,
     "nuclear": 16,
     "radiological": 0,
     "explosives": 6,
-    "autonomous_weapons": 1,
+    "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
-    "Netherlands": 4,
+    "Netherlands": 3,
     "Austria": 10,
     "Australia": 1,
-    "United States": 11,
+    "United States": 10,
     "Iran": 1,
     "United Kingdom": 3,
     "Azerbaijan": 1
@@ -481,40 +481,65 @@
       "categories": [
         "biological"
       ]
-    },
-    {
-      "title": "OPCW and China advance responsible use of AI for chemical safety and security",
-      "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-and-china-advance-responsible-use-ai-chemical-safety-and-security",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW and China advance responsible use of AI for chemical safety and security </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW and China advance responsible use of AI for chemical safety and security \" height=\"417\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/cont",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T09:24:21+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "U . S ., Russia Collude to Weaken U . N Treaty on Use of Autonomous AI  Killer Robot  Weaponry",
-      "url": "https://bradblog.com/?p=19404",
-      "source_domain": "bradblog.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T05:00:00+00:00",
-      "language": "English",
-      "image_url": "https://bradblog.com/images/BradCast_PentagonRobotHand_093026.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 44,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T11:01:03.645834+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 134,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T11:01:01.892870+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 220,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T11:01:00.163584+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 62,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T11:00:58.437036+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1395,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T11:00:56.694340+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 793,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T11:00:55.004375+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 511,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T11:00:53.208387+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 45,
@@ -3034,71 +3059,15 @@
       "fetched_at": "2026-10-01T12:22:06.313647+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 40,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T06:21:56.934077+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 100,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T06:21:55.328565+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 407,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T06:21:53.710625+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 52,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T06:21:52.070864+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1331,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T06:21:50.456947+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 791,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T06:21:48.846933+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 451,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T06:21:47.135267+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 552,
-    "biological": 814,
-    "nuclear": 1221,
-    "radiological": 56,
-    "explosives": 252,
-    "autonomous_weapons": 143,
-    "directed_energy": 45
+    "chemical": 511,
+    "biological": 793,
+    "nuclear": 1395,
+    "radiological": 62,
+    "explosives": 220,
+    "autonomous_weapons": 134,
+    "directed_energy": 44
   }
 }
