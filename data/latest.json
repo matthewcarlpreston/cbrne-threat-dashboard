@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T21:24:24.933945+00:00",
+  "generated_at": "2026-10-15T03:35:49.635747+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 38,
+  "total_items": 31,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,9 +13,9 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 6,
-    "biological": 7,
-    "nuclear": 18,
+    "chemical": 5,
+    "biological": 3,
+    "nuclear": 16,
     "radiological": 0,
     "explosives": 6,
     "autonomous_weapons": 1,
@@ -25,13 +25,10 @@
     "Netherlands": 4,
     "Austria": 10,
     "Australia": 1,
-    "United States": 14,
+    "United States": 11,
     "Iran": 1,
     "United Kingdom": 3,
-    "Azerbaijan": 1,
-    "Latvia": 2,
-    "Nigeria": 1,
-    "Pakistan": 1
+    "Azerbaijan": 1
   },
   "items": [
     {
@@ -515,121 +512,65 @@
       "categories": [
         "autonomous_weapons"
       ]
-    },
-    {
-      "title": "Melanin - inspired nanotechnology might help protect workers from deadly nerve agents",
-      "url": "https://www.techspot.com/news/114051-melanin-inspired-nanotechnology-might-help-protect-workers-deadly.html",
-      "source_domain": "techspot.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T02:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.techspot.com/images2/news/ts3_thumbs/2026/09/2026-09-30-ts3_thumbs-979.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "We have no legal obstacles  – Rinkēvičs on deploying nuclear weapons in Latvia · BNN",
-      "url": "https://bnn-news.com/social/we-have-no-legal-obstacles-rinkevics-on-deploying-nuclear-weapons-in-latvia-jf4q5te",
-      "source_domain": "bnn-news.com",
-      "source_country": "Latvia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T02:45:00+00:00",
-      "language": "English",
-      "image_url": "https://media.bnn.lv/LET_24948042-1-1200x675.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Chinese AI tool explained how to make biological weapons ; investigation underway",
-      "url": "https://bnn-news.com/world/chinese-ai-tool-explained-how-to-make-biological-weapons-investigation-underway-3fsnku6",
-      "source_domain": "bnn-news.com",
-      "source_country": "Latvia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T02:45:00+00:00",
-      "language": "English",
-      "image_url": "https://media.bnn.lv/klemens-morbe-W5cSGjaC6Io-unsplash1-scaled-1200x675.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "South Africa : How Apartheid Biological Weapons Programme Emerged From the Dust of World War 2",
-      "url": "https://allafrica.com/stories/202609300756.html",
-      "source_domain": "allafrica.com",
-      "source_country": "Nigeria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T02:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Boca Raton was ground zero for 2001 anthrax attack . Here what happened - WSVN 7News | Miami News , Weather , Sports",
-      "url": "https://wsvn.com/news/local/florida/boca-raton-was-ground-zero-for-2001-anthrax-attack-heres-what-happened/",
-      "source_domain": "wsvn.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T01:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "There Are Plenty of Reasons to Be Concerned About Bioweapons Development Even Without AI",
-      "url": "https://www.wired.com/story/you-dont-need-ai-to-be-concerned-about-bioweapons-development-but-it-helps/",
-      "source_domain": "wired.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-30T22:15:00+00:00",
-      "language": "English",
-      "image_url": "https://media.wired.com/photos/6abc561adcf8a088a1995737/191:100/w_1280,c_limit/science_biological_weapons_ai.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Russia warns it could use nuclear weapons if NATO cuts off Kaliningrad",
-      "url": "https://www.thenews.com.pk/latest/1418273-russia-warns-it-could-use-nuclear-weapons-if-nato-cuts-off-kaliningrad",
-      "source_domain": "thenews.com.pk",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-09-30T21:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.thenews.com.pk/assets/uploads/2026-10-01/1418273_021709_updates.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T03:35:49.620945+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 143,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T03:35:47.940516+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 252,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T03:35:46.276072+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 56,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T03:35:44.554426+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1221,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T03:35:42.801028+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 814,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T03:35:41.123548+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 552,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T03:35:39.447520+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 50,
@@ -3149,71 +3090,15 @@
       "fetched_at": "2026-10-01T06:21:47.135267+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 39,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T00:21:35.370932+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 93,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T00:21:33.705888+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 437,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T00:21:32.051328+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 56,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T00:21:30.365508+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1421,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T00:21:28.713904+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 859,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T00:21:27.037448+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 447,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T00:21:25.324268+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 569,
-    "biological": 825,
-    "nuclear": 1178,
-    "radiological": 67,
-    "explosives": 264,
-    "autonomous_weapons": 140,
-    "directed_energy": 50
+    "chemical": 552,
+    "biological": 814,
+    "nuclear": 1221,
+    "radiological": 56,
+    "explosives": 252,
+    "autonomous_weapons": 143,
+    "directed_energy": 45
   }
 }
