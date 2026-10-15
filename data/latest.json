@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T11:01:03.653286+00:00",
+  "generated_at": "2026-10-15T16:30:52.361100+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 29,
+  "total_items": 32,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,23 +14,71 @@
   },
   "category_counts": {
     "chemical": 4,
-    "biological": 3,
-    "nuclear": 16,
+    "biological": 4,
+    "nuclear": 18,
     "radiological": 0,
     "explosives": 6,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
+    "United States": 13,
     "Netherlands": 3,
     "Austria": 10,
     "Australia": 1,
-    "United States": 10,
     "Iran": 1,
     "United Kingdom": 3,
     "Azerbaijan": 1
   },
   "items": [
+    {
+      "title": "Norway may open €2 trillion wealth fund to nuclear weapons makers",
+      "url": "https://www.euronews.com/2026/10/15/norway-may-open-2-trillion-wealth-fund-to-nuclear-weapons-makers",
+      "source_domain": "euronews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-15T14:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.euronews.com/articles/stories/09/95/35/55/1200x675_cmsv2_b0460a4c-adbb-5f9c-8f67-c4e6222aebe7-9953555.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Remembering the anthrax attacks 25 years later",
+      "url": "https://www.news8000.com/news/national-world/remembering-the-anthrax-attacks-25-years-later/article_e1e5a290-597e-5db0-b2ac-8e43dbe40623.html",
+      "source_domain": "news8000.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-15T14:00:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.newyork1.vip.townnews.com/news8000.com/content/tncms/assets/v3/editorial/e/1e/e1e5a290-597e-5db0-b2ac-8e43dbe40623/6accf9a38d220.preview.jpg?crop=1763%2C926%2C0%2C114",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "OFA teacher publishes book on nuclear weapons history",
+      "url": "http://northcountrynow.com/stories/ofa-teacher-publishes-book-on-nuclear-weapons-history,395729",
+      "source_domain": "northcountrynow.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-15T13:15:00+00:00",
+      "language": "English",
+      "image_url": "https://zeta.creativecirclecdn.com/ncn/original/20261015-062250-6fe-OFA%20teacher%20book%20WS.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "OPCW Director-General visits Syria",
       "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-visits-syria",
@@ -484,6 +532,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 54,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T16:30:52.343553+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 122,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T16:30:50.719359+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 197,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T16:30:49.102499+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T16:30:47.474805+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1562,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T16:30:45.846742+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 833,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T16:30:44.237493+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 495,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T16:30:42.604475+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 44,
@@ -3003,71 +3107,15 @@
       "fetched_at": "2026-10-01T18:20:24.401754+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 35,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T12:22:16.269986+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 99,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T12:22:14.632178+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 373,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T12:22:12.955849+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 53,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T12:22:11.222669+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1227,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T12:22:09.589895+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 783,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T12:22:07.955773+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 441,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T12:22:06.313647+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 511,
-    "biological": 793,
-    "nuclear": 1395,
-    "radiological": 62,
-    "explosives": 220,
-    "autonomous_weapons": 134,
-    "directed_energy": 44
+    "chemical": 495,
+    "biological": 833,
+    "nuclear": 1562,
+    "radiological": 79,
+    "explosives": 197,
+    "autonomous_weapons": 122,
+    "directed_energy": 54
   }
 }
