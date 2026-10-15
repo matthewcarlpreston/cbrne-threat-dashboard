@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T16:30:52.361100+00:00",
+  "generated_at": "2026-10-15T21:02:08.848710+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 32,
+  "total_items": 29,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,23 +14,55 @@
   },
   "category_counts": {
     "chemical": 4,
-    "biological": 4,
-    "nuclear": 18,
+    "biological": 3,
+    "nuclear": 20,
     "radiological": 0,
-    "explosives": 6,
+    "explosives": 2,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 13,
+    "Azerbaijan": 1,
+    "Japan": 1,
+    "United States": 12,
     "Netherlands": 3,
     "Austria": 10,
     "Australia": 1,
-    "Iran": 1,
-    "United Kingdom": 3,
-    "Azerbaijan": 1
+    "Iran": 1
   },
   "items": [
+    {
+      "title": "White House official : Trump considering all options to keep Iran from nuclear weapon",
+      "url": "https://en.apa.az/america/white-house-official-trump-considering-all-options-to-keep-iran-from-nuclear-weapon-530338",
+      "source_domain": "en.apa.az",
+      "source_country": "Azerbaijan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-15T19:00:00+00:00",
+      "language": "English",
+      "image_url": "https://en.apa.az/storage/news/2026/october/15/big/6ad0f3233d0dc6ad0f3233d0dd17920786276ad0f3233d0da6ad0f3233d0db.jfif",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Japan attempt to acquire nuclear - powered submarines aims at possession of nuclear weapons : KCNA",
+      "url": "http://www.japanherald.com/news/279376831/japan-attempt-to-acquire-nuclear-powered-submarines-aims-at-possession-of-nuclear-weapons-kcna",
+      "source_domain": "japanherald.com",
+      "source_country": "Japan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-15T19:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Norway may open €2 trillion wealth fund to nuclear weapons makers",
       "url": "https://www.euronews.com/2026/10/15/norway-may-open-2-trillion-wealth-fund-to-nuclear-weapons-makers",
@@ -449,89 +481,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "UK - Iranian man , 27 , arrested on suspicion of terror offences in RAF Fairford  bomb plot  probe",
-      "url": "https://www.liverpoolecho.co.uk/news/uk-world-news/uk-iranian-man-27-arrested-34703822",
-      "source_domain": "liverpoolecho.co.uk",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T19:45:00+00:00",
-      "language": "English",
-      "image_url": "https://i2-prod.liverpoolecho.co.uk/article34692505.ece/ALTERNATES/s1200d/0_Fairford-incident.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Counter terror cops arrest Iranian national in RAF Fairford  bomb plot  probe",
-      "url": "https://www.dailystar.co.uk/news/latest-news/breaking-counter-terror-cops-arrest-37725113",
-      "source_domain": "dailystar.co.uk",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T18:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i2-prod.dailystar.co.uk/article37725132.ece/ALTERNATES/s1200d/0_BRITAIN-POLICE-EXPLOSIVES.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "UK - Iranian man arrested on suspicion of terror offences in RAF Fairford  bomb plot  probe",
-      "url": "https://www.mirror.co.uk/news/uk-news/raf-fairford-sixth-man-arrest-37725120",
-      "source_domain": "mirror.co.uk",
-      "source_country": "United Kingdom",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T18:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i2-prod.mirror.co.uk/article37725119.ece/ALTERNATES/s1200d/6_BRI_PG_290926fairford-103.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "British Iranian man arrested over alleged RAF Fairford bomb plot",
-      "url": "https://www.aol.com/articles/british-iranian-man-arrested-over-164627000.html",
-      "source_domain": "aol.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T17:15:00+00:00",
-      "language": "English",
-      "image_url": "https://hermes.media.static.aol.com/media/2026/10/01/7ffb0900-4516-3c45-85ee-64bf45b5a782/a2f5a749-7213-4256-a92b-60dd743cb6a0.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "AI can create bioweapons and plan assassinations",
-      "url": "https://www.azernews.az/region/264824.html",
-      "source_domain": "azernews.az",
-      "source_country": "Azerbaijan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-01T16:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.azernews.az/media/2026/10/01/image_-_2026-10-01t170301087.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T21:02:08.829414+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 103,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T21:02:07.194033+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 187,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T21:02:05.526122+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 84,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T21:02:03.877147+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1621,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T21:02:02.229386+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 848,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T21:02:00.587657+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 493,
+      "window_hours": 24,
+      "fetched_at": "2026-10-15T21:01:58.935085+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 54,
@@ -3051,71 +3059,15 @@
       "fetched_at": "2026-10-02T00:21:28.312977+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 28,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T18:20:34.053303+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 89,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T18:20:32.450584+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 296,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T18:20:30.840395+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 42,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T18:20:29.247817+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1183,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T18:20:27.626618+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 726,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T18:20:26.020810+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 427,
-      "window_hours": 24,
-      "fetched_at": "2026-10-01T18:20:24.401754+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 495,
-    "biological": 833,
-    "nuclear": 1562,
-    "radiological": 79,
-    "explosives": 197,
-    "autonomous_weapons": 122,
-    "directed_energy": 54
+    "chemical": 493,
+    "biological": 848,
+    "nuclear": 1621,
+    "radiological": 84,
+    "explosives": 187,
+    "autonomous_weapons": 103,
+    "directed_energy": 49
   }
 }
