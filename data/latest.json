@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T03:31:46.455868+00:00",
+  "generated_at": "2026-10-16T10:55:29.464021+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 20,
+  "total_items": 18,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,7 +14,7 @@
   },
   "category_counts": {
     "chemical": 4,
-    "biological": 3,
+    "biological": 1,
     "nuclear": 13,
     "radiological": 0,
     "explosives": 0,
@@ -22,15 +22,29 @@
     "directed_energy": 0
   },
   "country_counts": {
+    "Austria": 9,
     "Syria": 1,
     "Azerbaijan": 1,
     "Japan": 1,
-    "United States": 5,
-    "Netherlands": 3,
-    "Austria": 8,
-    "Australia": 1
+    "United States": 3,
+    "Netherlands": 3
   },
   "items": [
+    {
+      "title": "Update 371 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-371-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-16T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Syria highlights renewed international cooperation on chemical weapons",
       "url": "https://sana.sy/en/politics/2351059/",
@@ -291,57 +305,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Bill Gates Calls AI Self - Regulation  Insane , Rebuking Trump and Warning of Bioterror and Cyberattack Risks",
-      "url": "https://www.ibtimes.com.au/bill-gates-urges-government-ai-safeguards-1876180",
-      "source_domain": "ibtimes.com.au",
-      "source_country": "Australia",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-02T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://d.ibtimes.com.au/en/full/1802984/american-billionaire-bill-gates-co-founder-terrapower.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "Vatican diplomat rues AI integration into nuclear weapons amid rising rhetoric | News Headlines",
-      "url": "https://www.catholicculture.org/news/headlines/index.cfm?storyid=70838",
-      "source_domain": "catholicculture.org",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-02T06:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.catholicculture.org/images/social/fb/CatholicCulture.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Chinese AI model investigated after researcher says it provided instructions for bioweapons , assassinations",
-      "url": "https://www.wfmd.com/2026/10/01/chinese-ai-model-investigated-after-researcher-says-it-provided-instructions-for-bioweapons-assassinations/",
-      "source_domain": "wfmd.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-02T03:45:00+00:00",
-      "language": "English",
-      "image_url": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/moonshot-ai-kimi-k3-chinese-ai-model.jpg?ve=1&tl=1",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 47,
+      "window_hours": 24,
+      "fetched_at": "2026-10-16T10:55:29.452681+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 92,
+      "window_hours": 24,
+      "fetched_at": "2026-10-16T10:55:27.808072+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 206,
+      "window_hours": 24,
+      "fetched_at": "2026-10-16T10:55:26.163223+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 80,
+      "window_hours": 24,
+      "fetched_at": "2026-10-16T10:55:24.481193+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1700,
+      "window_hours": 24,
+      "fetched_at": "2026-10-16T10:55:22.805386+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 849,
+      "window_hours": 24,
+      "fetched_at": "2026-10-16T10:55:21.161763+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 468,
+      "window_hours": 24,
+      "fetched_at": "2026-10-16T10:55:19.511187+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 48,
@@ -2861,71 +2883,15 @@
       "fetched_at": "2026-10-02T12:19:42.815764+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 81,
-      "window_hours": 24,
-      "fetched_at": "2026-10-02T06:19:40.686635+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 75,
-      "window_hours": 24,
-      "fetched_at": "2026-10-02T06:19:39.084738+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 267,
-      "window_hours": 24,
-      "fetched_at": "2026-10-02T06:19:37.483084+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 57,
-      "window_hours": 24,
-      "fetched_at": "2026-10-02T06:19:35.874358+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1233,
-      "window_hours": 24,
-      "fetched_at": "2026-10-02T06:19:34.275846+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 742,
-      "window_hours": 24,
-      "fetched_at": "2026-10-02T06:19:32.675999+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 408,
-      "window_hours": 24,
-      "fetched_at": "2026-10-02T06:19:31.013111+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 470,
-    "biological": 834,
-    "nuclear": 1747,
-    "radiological": 88,
-    "explosives": 200,
-    "autonomous_weapons": 98,
-    "directed_energy": 48
+    "chemical": 468,
+    "biological": 849,
+    "nuclear": 1700,
+    "radiological": 80,
+    "explosives": 206,
+    "autonomous_weapons": 92,
+    "directed_energy": 47
   }
 }
