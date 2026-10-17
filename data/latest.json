@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T03:21:55.610572+00:00",
+  "generated_at": "2026-10-17T10:18:36.141909+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 27,
+  "total_items": 29,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,16 +14,17 @@
   },
   "category_counts": {
     "chemical": 6,
-    "biological": 3,
-    "nuclear": 18,
+    "biological": 4,
+    "nuclear": 19,
     "radiological": 0,
     "explosives": 0,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
+    "United States": 8,
+    "India": 1,
     "Syria": 2,
-    "United States": 7,
     "United Kingdom": 1,
     "Netherlands": 4,
     "Pakistan": 1,
@@ -32,6 +33,38 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Dave Mustaine Reveals Tour w / Anthrax & Kerry King",
+      "url": "http://www.metalunderground.com/news/details.cfm?newsid=162313",
+      "source_domain": "metalunderground.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-17T09:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.metalunderground.com/images/bandphotos/Slayer_photo.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Iran president denies seeking nuclear weapons , slams propaganda",
+      "url": "https://www.siasat.com/iran-president-denies-seeking-nuclear-weapons-slams-propaganda-3559832/",
+      "source_domain": "siasat.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-17T05:30:00+00:00",
+      "language": "English",
+      "image_url": "https://cdn.siasat.com/wp-content/uploads/2026/08/iran-president-masoud-pezeshkian.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Syria , Netherlands discuss national priorities , chemical weapons eradication",
       "url": "https://sana.sy/en/syria/2351324/",
@@ -453,6 +486,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 32,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T10:18:36.116850+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 84,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T10:18:34.491024+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 250,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T10:18:32.849782+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T10:18:31.214960+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1112,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T10:18:29.590376+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 956,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T10:18:27.972487+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 393,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T10:18:26.339272+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 36,
@@ -2972,71 +3061,15 @@
       "fetched_at": "2026-10-03T14:59:46.277971+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 34,
-      "window_hours": 24,
-      "fetched_at": "2026-10-03T06:23:05.364479+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 56,
-      "window_hours": 24,
-      "fetched_at": "2026-10-03T06:23:03.736901+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 396,
-      "window_hours": 24,
-      "fetched_at": "2026-10-03T06:23:02.141910+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-10-03T06:23:00.511366+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1165,
-      "window_hours": 24,
-      "fetched_at": "2026-10-03T06:22:58.908004+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 799,
-      "window_hours": 24,
-      "fetched_at": "2026-10-03T06:22:57.299195+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 399,
-      "window_hours": 24,
-      "fetched_at": "2026-10-03T06:22:55.668940+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 423,
-    "biological": 829,
-    "nuclear": 1248,
-    "radiological": 41,
-    "explosives": 245,
+    "chemical": 393,
+    "biological": 956,
+    "nuclear": 1112,
+    "radiological": 45,
+    "explosives": 250,
     "autonomous_weapons": 84,
-    "directed_energy": 36
+    "directed_energy": 32
   }
 }
