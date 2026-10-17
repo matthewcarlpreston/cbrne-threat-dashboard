@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T15:09:39.755219+00:00",
+  "generated_at": "2026-10-17T20:19:07.543228+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 30,
+  "total_items": 36,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,17 +13,18 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 6,
+    "chemical": 7,
     "biological": 4,
-    "nuclear": 19,
+    "nuclear": 20,
     "radiological": 0,
-    "explosives": 0,
+    "explosives": 4,
     "autonomous_weapons": 1,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 8,
-    "India": 2,
+    "Bulgaria": 1,
+    "United States": 9,
+    "India": 6,
     "Syria": 2,
     "United Kingdom": 1,
     "Netherlands": 4,
@@ -33,6 +34,38 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "International Report : Impunity for Sudanese Military Leaders in Chemical Attacks Threatens the Global Ban - Novinite . com",
+      "url": "https://www.novinite.com/articles/241120/International+Report:+Impunity+for+Sudanese+Military+Leaders+in+Chemical+Attacks+Threatens+the+Global+Ban",
+      "source_domain": "novinite.com",
+      "source_country": "Bulgaria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-17T17:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.novinite.com/media/images/2026-10/photo_verybig_241120.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Bombspotting : US nuclear weapons in Europe",
+      "url": "https://www.armscontrolwonk.com/collections/nato-nukes-in-europe/",
+      "source_domain": "armscontrolwonk.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-17T11:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Dave Mustaine Reveals Tour w / Anthrax & Kerry King",
       "url": "http://www.metalunderground.com/news/details.cfm?newsid=162313",
@@ -47,6 +80,38 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "biological"
+      ]
+    },
+    {
+      "title": "NIA chargesheets 5 accused in 2024 IED recovery case planted by ULFA ( 1 ) in Assam",
+      "url": "http://www.indiagazette.com/news/279380371/nia-chargesheets-5-accused-in-2024-ied-recovery-case-planted-by-ulfa-1-in-assam",
+      "source_domain": "indiagazette.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-17T07:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa2f7c/f5322ca9-45f3-43e1-b8e5-53ac56c14d7e/0/ANI-20261017024424-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "NIA chargesheets 5 accused in 2024 IED recovery case planted by ULFA ( 1 ) in Assam",
+      "url": "http://www.calcuttanews.net/news/279380371/nia-chargesheets-5-accused-in-2024-ied-recovery-case-planted-by-ulfa-1-in-assam",
+      "source_domain": "calcuttanews.net",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-17T05:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa2f7c/f5322ca9-45f3-43e1-b8e5-53ac56c14d7e/0/ANI-20261017024424-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -82,6 +147,22 @@
       ]
     },
     {
+      "title": "NIA chargesheets 5 accused in 2024 IED recovery case planted by ULFA ( 1 ) in Assam",
+      "url": "https://aninews.in/news/national/general-news/nia-chargesheets-5-accused-in-2024-ied-recovery-case-planted-by-ulfa-1-in-assam20261017081450/",
+      "source_domain": "aninews.in",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-17T04:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
       "title": "Syria , Netherlands discuss national priorities , chemical weapons eradication",
       "url": "https://sana.sy/en/syria/2351324/",
       "source_domain": "sana.sy",
@@ -111,6 +192,22 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "biological"
+      ]
+    },
+    {
+      "title": "NIA chargesheets ULFA ( I ) chief , four others in Guwahati IED case",
+      "url": "https://www.prokerala.com/news/articles/a1825456.html",
+      "source_domain": "prokerala.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-16T19:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -502,6 +599,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 24,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T20:19:07.526094+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 83,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T20:19:05.838242+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 215,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T20:19:04.154818+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T20:19:02.500787+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 933,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T20:19:00.817532+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1163,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T20:18:59.163034+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 395,
+      "window_hours": 24,
+      "fetched_at": "2026-10-17T20:18:57.459561+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 28,
@@ -3080,12 +3233,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 369,
-    "biological": 1042,
-    "nuclear": 1011,
-    "radiological": 41,
-    "explosives": 217,
-    "autonomous_weapons": 97,
-    "directed_energy": 28
+    "chemical": 395,
+    "biological": 1163,
+    "nuclear": 933,
+    "radiological": 51,
+    "explosives": 215,
+    "autonomous_weapons": 83,
+    "directed_energy": 24
   }
 }
