@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:25:56.814463+00:00",
+  "generated_at": "2026-10-19T22:07:53.190863+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 36,
@@ -13,27 +13,43 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 7,
+    "chemical": 6,
     "biological": 4,
     "nuclear": 20,
     "radiological": 0,
     "explosives": 4,
     "autonomous_weapons": 1,
-    "directed_energy": 0
+    "directed_energy": 1
   },
   "country_counts": {
-    "India": 8,
+    "India": 9,
     "Bulgaria": 1,
     "United States": 9,
     "Syria": 2,
     "United Kingdom": 1,
-    "Netherlands": 4,
+    "Netherlands": 3,
     "Pakistan": 1,
     "Azerbaijan": 2,
     "Austria": 7,
     "Japan": 1
   },
   "items": [
+    {
+      "title": "DRDO working on laser weapon pod for helicopters ; development to be completed by 2029",
+      "url": "https://www.newindianexpress.com/india/2026/Oct/19/drdo-working-on-laser-weapon-pod-for-helicopters-development-to-be-completed-by-2029",
+      "source_domain": "newindianexpress.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T13:00:00+00:00",
+      "language": "English",
+      "image_url": "https://cf-images.assettype.com/newindianexpress%2F2026-10-19%2Fr1fpejt5%2FIMG4867.jpeg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "source": "gdelt",
+      "gdelt_query_tag": "directed_energy_keyword",
+      "categories": [
+        "directed_energy"
+      ]
+    },
     {
       "title": "Trump vows Iran will never get nuclear weapon",
       "url": "https://morungexpress.com/trump-vows-iran-will-never-get-nuclear-weapon",
@@ -583,24 +599,65 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "OPCW Director-General Sabrina Dallafior meets with Panama’s Foreign Minister",
-      "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-sabrina-dallafior-meets-panamas-foreign-minister",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior meets with Panama’s Foreign Minister </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"The Director-General of the Organisation for the Prohibition of Chemical Weapons (OPCW), Sabrina Dallafior, met with the Minister of Foreign Affairs of the Republic of Panama, H.E. Mr ",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-05T13:16:15+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 55,
+      "window_hours": 24,
+      "fetched_at": "2026-10-19T22:07:53.176666+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 83,
+      "window_hours": 24,
+      "fetched_at": "2026-10-19T22:07:51.463028+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 339,
+      "window_hours": 24,
+      "fetched_at": "2026-10-19T22:07:49.817375+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 40,
+      "window_hours": 24,
+      "fetched_at": "2026-10-19T22:07:48.171742+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1679,
+      "window_hours": 24,
+      "fetched_at": "2026-10-19T22:07:46.532566+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 723,
+      "window_hours": 24,
+      "fetched_at": "2026-10-19T22:07:44.907440+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 449,
+      "window_hours": 24,
+      "fetched_at": "2026-10-19T22:07:43.284831+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 46,
@@ -3176,71 +3233,15 @@
       "fetched_at": "2026-10-05T23:52:44.132032+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 51,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T13:54:00.361203+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 118,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T13:53:58.598482+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 401,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T13:53:56.913258+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 65,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T13:53:55.225773+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1252,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T13:53:53.529205+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1664,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T13:53:51.880990+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 531,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T13:53:50.221045+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 419,
-    "biological": 705,
-    "nuclear": 1517,
-    "radiological": 62,
-    "explosives": 307,
-    "autonomous_weapons": 80,
-    "directed_energy": 46
+    "chemical": 449,
+    "biological": 723,
+    "nuclear": 1679,
+    "radiological": 40,
+    "explosives": 339,
+    "autonomous_weapons": 83,
+    "directed_energy": 55
   }
 }
