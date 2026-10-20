@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T16:31:49.342085+00:00",
+  "generated_at": "2026-10-20T21:24:25.002503+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 51,
+  "total_items": 52,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -17,12 +17,12 @@
     "biological": 5,
     "nuclear": 30,
     "radiological": 0,
-    "explosives": 9,
+    "explosives": 10,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "India": 14,
+    "India": 15,
     "United States": 16,
     "Austria": 8,
     "Unknown": 1,
@@ -35,6 +35,22 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Three CRPF Personnel Injured In IED Blast In Manipur",
+      "url": "https://idrw.org/three-crpf-personnel-injured-in-ied-blast-in-manipur/",
+      "source_domain": "idrw.org",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-20T21:00:00+00:00",
+      "language": "English",
+      "image_url": "https://ommcomnews.com/wp-content/uploads/2026/10/New-Project-1-7.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
     {
       "title": "At UN , India says decision to use nuclear weapons must stay with humans , not AI",
       "url": "https://www.tribuneindia.com/news/india/at-un-india-says-decision-to-use-nuclear-weapons-must-stay-with-humans-not-ai/",
@@ -843,6 +859,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 50,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T21:24:24.986883+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 60,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T21:24:23.358351+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 403,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T21:24:21.684676+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T21:24:20.036877+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1695,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T21:24:18.379090+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 839,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T21:24:16.744747+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 362,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T21:24:15.096184+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 53,
@@ -3477,12 +3549,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 395,
-    "biological": 826,
-    "nuclear": 1807,
-    "radiological": 35,
-    "explosives": 401,
-    "autonomous_weapons": 68,
-    "directed_energy": 53
+    "chemical": 362,
+    "biological": 839,
+    "nuclear": 1695,
+    "radiological": 45,
+    "explosives": 403,
+    "autonomous_weapons": 60,
+    "directed_energy": 50
   }
 }
