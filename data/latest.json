@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T22:07:53.190863+00:00",
+  "generated_at": "2026-10-20T03:49:00.370571+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 36,
+  "total_items": 44,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,25 +15,74 @@
   "category_counts": {
     "chemical": 6,
     "biological": 4,
-    "nuclear": 20,
+    "nuclear": 24,
     "radiological": 0,
-    "explosives": 4,
+    "explosives": 8,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "India": 9,
+    "United States": 12,
+    "Unknown": 1,
+    "India": 11,
+    "Pakistan": 3,
     "Bulgaria": 1,
-    "United States": 9,
     "Syria": 2,
     "United Kingdom": 1,
     "Netherlands": 3,
-    "Pakistan": 1,
     "Azerbaijan": 2,
     "Austria": 7,
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Armenia Pledges Peaceful Nuclear Energy Cooperation With IAEA",
+      "url": "https://www.eurasiareview.com/20102026-armenia-pledges-peaceful-nuclear-energy-cooperation-with-iaea/",
+      "source_domain": "eurasiareview.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-20T01:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.eurasiareview.com/wp-content/uploads/2026/09/a-116.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran pols finally admit they want nuclear weapons :  It a necessity more important than bread",
+      "url": "https://nypost.com/2026/10/19/world-news/iran-pols-finally-admit-they-want-nuclear-weapons-its-a-necessity-more-important-than-bread/",
+      "source_domain": "nypost.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T22:45:00+00:00",
+      "language": "English",
+      "image_url": "https://nypost.com/wp-content/uploads/sites/2/2026/10/145745040.jpg?quality=75&strip=all",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Armenia pledges peaceful nuclear energy cooperation with IAEA",
+      "url": "https://www.pan.am/en/626534",
+      "source_domain": "pan.am",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T13:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.pan.am/en/wp-content/uploads/2026/10/un-oon.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "DRDO working on laser weapon pod for helicopters ; development to be completed by 2029",
       "url": "https://www.newindianexpress.com/india/2026/Oct/19/drdo-working-on-laser-weapon-pod-for-helicopters-development-to-be-completed-by-2029",
@@ -48,6 +97,86 @@
       "gdelt_query_tag": "directed_energy_keyword",
       "categories": [
         "directed_energy"
+      ]
+    },
+    {
+      "title": "The return of nuclear testing ?",
+      "url": "https://www.armscontrolwonk.com/collections/nuclear-testing/",
+      "source_domain": "armscontrolwonk.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T08:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Army major martyred in IED blast during Gwadar operation , four terrorists killed in Kalat : ISPR",
+      "url": "https://tribune.com.pk/story/2635666/army-major-martyred-in-ied-attack-four-terrorists-killed-in-balochistan-ibo-ispr",
+      "source_domain": "tribune.com.pk",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T07:15:00+00:00",
+      "language": "English",
+      "image_url": "https://i.tribune.com.pk/media/images/untitled-design-2026-10-19t101243-0171792387000-0/untitled-design-2026-10-19t101243-0171792387000-0-640x480.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Pakistan Army officer killed in IED blast",
+      "url": "https://www.thehindu.com/news/international/pakistan-army-officer-killed-in-ied-blast/article71602199.ece",
+      "source_domain": "thehindu.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T07:00:00+00:00",
+      "language": "English",
+      "image_url": "https://th-i.thgim.com/public/incoming/kr5zt5/article71602228.ece/alternates/LANDSCAPE_1200/UN_General_Assembly_Pakistan__8655.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Pak army officer killed in IED blast",
+      "url": "https://www.hindustantimes.com/world-news/pak-army-officer-killed-in-ied-blast-101792389567022.html",
+      "source_domain": "hindustantimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T06:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Major martyred in Gwadar IED blast ; 4 terrorists killed in Kalat",
+      "url": "https://www.samaa.tv/2087358701-major-martyred-in-gwadar-ied-blast-4-terrorists-killed-in-kalat",
+      "source_domain": "samaa.tv",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-19T06:00:00+00:00",
+      "language": "English",
+      "image_url": "https://images.samaa.tv/images/Major-Martyred-in-Gwadar.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -602,6 +731,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 60,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T03:49:00.342615+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 77,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T03:48:58.754950+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 407,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T03:48:57.136554+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 35,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T03:48:55.477337+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1583,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T03:48:53.879056+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 762,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T03:48:52.261580+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 460,
+      "window_hours": 24,
+      "fetched_at": "2026-10-20T03:48:50.669882+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 55,
@@ -3177,71 +3362,15 @@
       "fetched_at": "2026-10-06T05:18:36.092792+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 49,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T23:52:53.861862+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 164,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T23:52:52.264180+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 398,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T23:52:50.616105+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 79,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T23:52:49.017105+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1532,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T23:52:47.392772+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 2013,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T23:52:45.774428+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 603,
-      "window_hours": 24,
-      "fetched_at": "2026-10-05T23:52:44.132032+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 449,
-    "biological": 723,
-    "nuclear": 1679,
-    "radiological": 40,
-    "explosives": 339,
-    "autonomous_weapons": 83,
-    "directed_energy": 55
+    "chemical": 460,
+    "biological": 762,
+    "nuclear": 1583,
+    "radiological": 35,
+    "explosives": 407,
+    "autonomous_weapons": 77,
+    "directed_energy": 60
   }
 }
