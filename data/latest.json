@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T16:47:43.064982+00:00",
+  "generated_at": "2026-10-21T21:22:20.047686+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 63,
+  "total_items": 64,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -17,7 +17,7 @@
     "biological": 5,
     "nuclear": 36,
     "radiological": 0,
-    "explosives": 11,
+    "explosives": 12,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
@@ -26,7 +26,7 @@
     "Ghana": 3,
     "Syria": 3,
     "Israel": 1,
-    "India": 16,
+    "India": 17,
     "Pakistan": 4,
     "Austria": 6,
     "Unknown": 1,
@@ -179,6 +179,22 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Suspected blast at Bengaluru under - construction building injures 2 ; police probe IED angle",
+      "url": "https://aninews.in/news/national/general-news/suspected-blast-at-bengalurus-under-construction-building-injures-2-police-probe-ied-angle20261021131040/",
+      "source_domain": "aninews.in",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T08:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -1039,6 +1055,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 44,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T21:22:20.023656+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 80,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T21:22:18.370042+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 297,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T21:22:16.711540+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T21:22:15.081723+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1336,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T21:22:13.454263+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 649,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T21:22:11.775705+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 525,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T21:22:10.136480+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 48,
@@ -3729,12 +3801,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 473,
-    "biological": 674,
-    "nuclear": 1415,
-    "radiological": 51,
-    "explosives": 300,
-    "autonomous_weapons": 76,
-    "directed_energy": 48
+    "chemical": 525,
+    "biological": 649,
+    "nuclear": 1336,
+    "radiological": 49,
+    "explosives": 297,
+    "autonomous_weapons": 80,
+    "directed_energy": 44
   }
 }
