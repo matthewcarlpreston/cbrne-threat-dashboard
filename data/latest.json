@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T21:24:25.002503+00:00",
+  "generated_at": "2026-10-21T03:40:53.875174+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 52,
+  "total_items": 51,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,18 +15,18 @@
   "category_counts": {
     "chemical": 5,
     "biological": 5,
-    "nuclear": 30,
+    "nuclear": 28,
     "radiological": 0,
-    "explosives": 10,
+    "explosives": 11,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "Pakistan": 4,
     "India": 15,
     "United States": 16,
-    "Austria": 8,
+    "Austria": 6,
     "Unknown": 1,
-    "Pakistan": 3,
     "Bulgaria": 1,
     "Syria": 2,
     "United Kingdom": 1,
@@ -35,6 +35,22 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Lahore Lays Major Wajahat Waheed to Rest After Pasni IED Martyrdom",
+      "url": "https://www.lhrtimes.com/2026/10/20/lahore-lays-major-wajahat-waheed-to-rest-after-pasni-ied-martyrdom/",
+      "source_domain": "lhrtimes.com",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-20T21:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.lhrtimes.com/wp-content/uploads/2026/10/Martyred-Major-Wajahat-Waheed-laid-to-rest-in-Lahore.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
     {
       "title": "Three CRPF Personnel Injured In IED Blast In Manipur",
       "url": "https://idrw.org/three-crpf-personnel-injured-in-ied-blast-in-manipur/",
@@ -826,39 +842,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "IAEA-led Team Samples ALPS-Treated Water at Fukushima Daiichi Nuclear Power Station under Additional Measures",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-led-team-samples-alps-treated-water-at-fukushima-daiichi-nuclear-power-station-under-additional-measures",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-07T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Helps Countries Mobilize Investment to Expand Radiotherapy Services",
-      "url": "http://www.iaea.org/newscenter/news/iaea-helps-countries-mobilize-investment-to-expand-radiotherapy-services",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-07T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 44,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T03:40:53.857987+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 56,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T03:40:52.249401+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 336,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T03:40:50.589357+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 44,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T03:40:48.981177+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1699,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T03:40:47.371839+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 777,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T03:40:45.746105+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 363,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T03:40:44.109599+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 50,
@@ -3490,71 +3532,15 @@
       "fetched_at": "2026-10-07T04:47:41.769163+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 56,
-      "window_hours": 24,
-      "fetched_at": "2026-10-06T22:29:18.594071+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 138,
-      "window_hours": 24,
-      "fetched_at": "2026-10-06T22:29:16.958851+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 253,
-      "window_hours": 24,
-      "fetched_at": "2026-10-06T22:29:15.310062+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 143,
-      "window_hours": 24,
-      "fetched_at": "2026-10-06T22:29:13.649523+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3053,
-      "window_hours": 24,
-      "fetched_at": "2026-10-06T22:29:11.969851+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1796,
-      "window_hours": 24,
-      "fetched_at": "2026-10-06T22:29:10.325767+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 466,
-      "window_hours": 24,
-      "fetched_at": "2026-10-06T22:29:08.633760+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 362,
-    "biological": 839,
-    "nuclear": 1695,
-    "radiological": 45,
-    "explosives": 403,
-    "autonomous_weapons": 60,
-    "directed_energy": 50
+    "chemical": 363,
+    "biological": 777,
+    "nuclear": 1699,
+    "radiological": 44,
+    "explosives": 336,
+    "autonomous_weapons": 56,
+    "directed_energy": 44
   }
 }
