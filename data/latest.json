@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T11:21:40.715561+00:00",
+  "generated_at": "2026-10-21T16:47:43.064982+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 51,
+  "total_items": 63,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,28 +13,222 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 5,
+    "chemical": 9,
     "biological": 5,
-    "nuclear": 28,
+    "nuclear": 36,
     "radiological": 0,
     "explosives": 11,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "United States": 22,
+    "Ghana": 3,
+    "Syria": 3,
+    "Israel": 1,
+    "India": 16,
     "Pakistan": 4,
-    "India": 15,
-    "United States": 16,
     "Austria": 6,
     "Unknown": 1,
     "Bulgaria": 1,
-    "Syria": 2,
     "United Kingdom": 1,
     "Netherlands": 2,
     "Azerbaijan": 2,
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Iran enriched uranium re - emerges as point of contention in US talks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "url": "https://dominicanrepublicpost.com/irans-enriched-uranium-re-emerges-as-point-of-contention-in-us-talks/",
+      "source_domain": "dominicanrepublicpost.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T14:45:00+00:00",
+      "language": "English",
+      "image_url": "https://dominicanrepublicpost.com/app/uploads/2026/10/getty_69f6fdf528-1777794549-CPytMY.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "DOE okays construction of the next home for the nation largest supply of new nuclear warhead triggers",
+      "url": "https://www.gpb.org/news/2026/10/20/doe-okays-construction-of-the-next-home-for-the-nations-largest-supply-of-new",
+      "source_domain": "gpb.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T14:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.gpb.org/sites/default/files/styles/three_two_702x468/public/2026-10/the_savannah_river_site_srs_is_opening_new_construction_work_fronts_to_accelerate_building_the_savannah_river_plutonium_processing_facility_srppf.png?h=ef5da701&itok=cXs1vRbb",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Zanetor Rawlings labels galamsey chemical warfare , demands fast courts – Ghanamma . com",
+      "url": "https://www.ghanamma.com/2026/10/21/zanetor-rawlings-labels-galamsey-chemical-warfare-demands-fast-courts/",
+      "source_domain": "ghanamma.com",
+      "source_country": "Ghana",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T13:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran enriched uranium re - emerges as point of contention in US talks | Explainer News",
+      "url": "https://www.aljazeera.com/news/2026/10/21/irans-enriched-uranium-re-emerges-as-point-of-contention-in-us-talks",
+      "source_domain": "aljazeera.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T13:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/05/getty_69f6fdf528-1777794549.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Illegal Mining Is a Form of Chemical Warfare â€  Zenator Agyeman - Rawlings – Ghanamma . com",
+      "url": "https://www.ghanamma.com/2026/10/21/illegal-mining-is-a-form-of-chemical-warfare-zenator-agyeman-rawlings/",
+      "source_domain": "ghanamma.com",
+      "source_country": "Ghana",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T12:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Zanetor Agyeman - Rawlings Describes Illegal Mining as a Form of Chemical Warfare – Ghanamma . com",
+      "url": "https://www.ghanamma.com/2026/10/21/zanetor-agyeman-rawlings-describes-illegal-mining-as-a-form-of-chemical-warfare/",
+      "source_domain": "ghanamma.com",
+      "source_country": "Ghana",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T12:00:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "JFC to Honor Julie Walsh and Sarin Bachmann at 2027 Facets",
+      "url": "https://www.jckonline.com/editorial-article/jfc-honors-bachmann-walsh/",
+      "source_domain": "jckonline.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T12:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.jckonline.com/wp-content/uploads/2026/10/JulieWalshSarinBachmann.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran tells Pakistani mediator it rejects moving enriched uranium out of country",
+      "url": "https://www.naharnet.com:443/stories/en/323228-iran-tells-pakistani-mediator-it-rejects-moving-enriched-uranium-out-of-country",
+      "source_domain": "naharnet.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T11:00:00+00:00",
+      "language": "English",
+      "image_url": "http://images2.naharnet.com/images/276991/w140.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "No Way ! China Wants to Visit U . S . Nuclear Weapons Labs",
+      "url": "https://www.gatestoneinstitute.org/22925/china-us-nuclear-weapons-labs",
+      "source_domain": "gatestoneinstitute.org",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T10:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.gatestoneinstitute.org/pics/5815.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran Security Chief Rejects Moving Enriched Uranium Out Of Country",
+      "url": "https://www.eurasiareview.com/21102026-iran-security-chief-rejects-moving-enriched-uranium-out-of-country/",
+      "source_domain": "eurasiareview.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.eurasiareview.com/wp-content/uploads/2026/08/a-240.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "DOE okays construction of the next home for the nation largest supply of nuclear warhead triggers",
+      "url": "https://www.gpb.org/news/2026/10/20/doe-okays-construction-of-the-next-home-for-the-nations-largest-supply-of-nuclear",
+      "source_domain": "gpb.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-20T23:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.gpb.org/sites/default/files/styles/three_two_702x468/public/2026-10/the_savannah_river_site_srs_is_opening_new_construction_work_fronts_to_accelerate_building_the_savannah_river_plutonium_processing_facility_srppf.png?h=ef5da701&itok=cXs1vRbb",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran security chief rejects moving enriched uranium out of country",
+      "url": "https://www.thehindu.com/news/international/iran-security-chief-rejects-moving-enriched-uranium-out-of-country/article71605648.ece",
+      "source_domain": "thehindu.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-20T22:45:00+00:00",
+      "language": "English",
+      "image_url": "https://th-i.thgim.com/public/incoming/s96w10/article71605649.ece/alternates/LANDSCAPE_1200/2026-08-10T075525Z_2037129379_RC2A6MAKWMCJ_RTRMADP_3_IRAN-CRISIS-REZAEI.JPG",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Lahore Lays Major Wajahat Waheed to Rest After Pasni IED Martyrdom",
       "url": "https://www.lhrtimes.com/2026/10/20/lahore-lays-major-wajahat-waheed-to-rest-after-pasni-ied-martyrdom/",
@@ -845,6 +1039,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 48,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T16:47:43.033115+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 76,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T16:47:41.316957+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 300,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T16:47:39.653761+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T16:47:37.901152+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1415,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T16:47:36.251922+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 674,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T16:47:34.590887+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 473,
+      "window_hours": 24,
+      "fetched_at": "2026-10-21T16:47:32.934158+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 49,
@@ -3476,71 +3726,15 @@
       "fetched_at": "2026-10-07T22:52:56.058854+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T12:52:20.306898+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 121,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T12:52:18.538996+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 260,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T12:52:16.866998+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 180,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T12:52:15.208991+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3447,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T12:52:13.567646+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1674,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T12:52:11.942115+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 485,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T12:52:10.208376+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 410,
-    "biological": 746,
-    "nuclear": 1692,
-    "radiological": 50,
-    "explosives": 304,
-    "autonomous_weapons": 66,
-    "directed_energy": 49
+    "chemical": 473,
+    "biological": 674,
+    "nuclear": 1415,
+    "radiological": 51,
+    "explosives": 300,
+    "autonomous_weapons": 76,
+    "directed_energy": 48
   }
 }
