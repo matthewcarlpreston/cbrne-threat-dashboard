@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T21:22:20.047686+00:00",
+  "generated_at": "2026-10-22T03:40:28.020769+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 64,
+  "total_items": 72,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,20 +13,22 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 9,
+    "chemical": 10,
     "biological": 5,
-    "nuclear": 36,
+    "nuclear": 43,
     "radiological": 0,
     "explosives": 12,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "United States": 22,
+    "India": 20,
+    "Iraq": 1,
+    "Kenya": 1,
+    "Syria": 4,
+    "Israel": 2,
+    "United States": 23,
     "Ghana": 3,
-    "Syria": 3,
-    "Israel": 1,
-    "India": 17,
     "Pakistan": 4,
     "Austria": 6,
     "Unknown": 1,
@@ -37,6 +39,134 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Trump Claims US Prevented Iran from Having Nuclear Weapon",
+      "url": "https://www.deccanchronicle.com/west-asia/trump-claims-us-prevented-iran-from-having-nuclear-weapon-1997776",
+      "source_domain": "deccanchronicle.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-22T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.deccanchronicle.com/h-upload/2026/10/22/2103357-aa-8439876.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
+      "url": "http://www.iraqsun.com/news/279391066/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon",
+      "source_domain": "iraqsun.com",
+      "source_country": "Iraq",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-22T03:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/de395a8/3dc460d9-f5fb-44d5-bff4-7e4505599de1/0/ANI-20261021235429-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
+      "url": "http://www.kenyastar.com/news/279391066/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon",
+      "source_domain": "kenyastar.com",
+      "source_country": "Kenya",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-22T02:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/de395a8/3dc460d9-f5fb-44d5-bff4-7e4505599de1/0/ANI-20261021235429-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
+      "url": "http://www.arabherald.com/news/279391066/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon",
+      "source_domain": "arabherald.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-22T02:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/de395a8/3dc460d9-f5fb-44d5-bff4-7e4505599de1/0/ANI-20261021235429-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon/articleshow/135103467.cms",
+      "source_domain": "economictimes.indiatimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-22T01:00:00+00:00",
+      "language": "English",
+      "image_url": "https://img.etimg.com/thumb/msid-135103466,width-1200,height-900,imgsize-279967,overlay-economictimes/articleshow.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
+      "url": "https://aninews.in/news/world/asia/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon20261022052442/",
+      "source_domain": "aninews.in",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-22T00:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran Refuses To Surrender Enriched Uranium , Demands U . S . Accept Tehran Terms For Negotiations",
+      "url": "https://www.worthynews.com/118356-iran-refuses-to-surrender-enriched-uranium-demands-u-s-accept-tehrans-terms-for-negotiations",
+      "source_domain": "worthynews.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T18:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.worthynews.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=111426&type=gif&hash=9bdf8b3858c3d58c20476599718befbb",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Locusts could help detect chemical weapons",
+      "url": "https://www.futurity.org/locusts-chemical-sensors-3349342/",
+      "source_domain": "futurity.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-21T17:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.futurity.org/wp/wp-content/uploads/2026/10/locust-chemical-sensors-1600.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Iran enriched uranium re - emerges as point of contention in US talks - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "url": "https://dominicanrepublicpost.com/irans-enriched-uranium-re-emerges-as-point-of-contention-in-us-talks/",
@@ -1055,6 +1185,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 47,
+      "window_hours": 24,
+      "fetched_at": "2026-10-22T03:40:28.001436+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 82,
+      "window_hours": 24,
+      "fetched_at": "2026-10-22T03:40:26.364285+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 285,
+      "window_hours": 24,
+      "fetched_at": "2026-10-22T03:40:24.576461+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 54,
+      "window_hours": 24,
+      "fetched_at": "2026-10-22T03:40:22.928084+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1403,
+      "window_hours": 24,
+      "fetched_at": "2026-10-22T03:40:21.234127+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 623,
+      "window_hours": 24,
+      "fetched_at": "2026-10-22T03:40:19.607039+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 536,
+      "window_hours": 24,
+      "fetched_at": "2026-10-22T03:40:17.960577+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 44,
@@ -3742,71 +3928,15 @@
       "fetched_at": "2026-10-08T04:57:31.834725+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 40,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T22:53:06.190992+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 115,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T22:53:04.499628+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 244,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T22:53:02.791383+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 153,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T22:53:01.139574+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2595,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T22:52:59.462267+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1736,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T22:52:57.782159+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 563,
-      "window_hours": 24,
-      "fetched_at": "2026-10-07T22:52:56.058854+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 525,
-    "biological": 649,
-    "nuclear": 1336,
-    "radiological": 49,
-    "explosives": 297,
-    "autonomous_weapons": 80,
-    "directed_energy": 44
+    "chemical": 536,
+    "biological": 623,
+    "nuclear": 1403,
+    "radiological": 54,
+    "explosives": 285,
+    "autonomous_weapons": 82,
+    "directed_energy": 47
   }
 }
