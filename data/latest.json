@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T16:40:15.346047+00:00",
+  "generated_at": "2026-10-23T21:08:51.294776+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 74,
+  "total_items": 76,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,20 +15,20 @@
   "category_counts": {
     "chemical": 11,
     "biological": 5,
-    "nuclear": 43,
+    "nuclear": 44,
     "radiological": 0,
-    "explosives": 13,
+    "explosives": 14,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "India": 22,
+    "Austria": 5,
     "Syria": 5,
     "Netherlands": 3,
-    "India": 21,
     "Iran": 1,
     "Iraq": 1,
     "Kenya": 1,
-    "Austria": 4,
     "Israel": 2,
     "United States": 23,
     "Ghana": 3,
@@ -40,6 +40,37 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Bengaluru IED blast : Police verify footage from over 100 CCTVs , form 5 special teams",
+      "url": "https://www.mangalorean.com/bengaluru-ied-blast-police-verify-footage-from-over-100-cctvs-form-5-special-teams/",
+      "source_domain": "mangalorean.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-23T09:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.mangalorean.com/wp-content/uploads/2026/10/202610233988689.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Update 372 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-372-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-23T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Statement on nuclear weapons to the UN General Assembly First Committee",
       "url": "https://www.icrc.org/en/statement/statement-nuclear-weapons-un-general-assemblys-first-committee",
@@ -1219,6 +1250,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 114,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T21:08:51.255754+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 80,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T21:08:49.627941+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 252,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T21:08:47.948255+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T21:08:46.321072+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1288,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T21:08:44.689044+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 857,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T21:08:43.085313+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 705,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T21:08:41.457886+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 105,
@@ -4021,12 +4108,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 659,
-    "biological": 885,
-    "nuclear": 1504,
-    "radiological": 63,
-    "explosives": 255,
-    "autonomous_weapons": 88,
-    "directed_energy": 105
+    "chemical": 705,
+    "biological": 857,
+    "nuclear": 1288,
+    "radiological": 49,
+    "explosives": 252,
+    "autonomous_weapons": 80,
+    "directed_energy": 114
   }
 }
