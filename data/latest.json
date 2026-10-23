@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T21:19:57.054484+00:00",
+  "generated_at": "2026-10-23T03:45:51.471184+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 76,
+  "total_items": 74,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,20 +15,20 @@
   "category_counts": {
     "chemical": 11,
     "biological": 5,
-    "nuclear": 45,
+    "nuclear": 43,
     "radiological": 0,
     "explosives": 13,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "Syria": 5,
     "Netherlands": 3,
     "India": 21,
     "Iran": 1,
     "Iraq": 1,
-    "Syria": 4,
     "Kenya": 1,
-    "Austria": 7,
+    "Austria": 4,
     "Israel": 2,
     "United States": 23,
     "Ghana": 3,
@@ -40,6 +40,22 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Statement on nuclear weapons to the UN General Assembly First Committee",
+      "url": "https://www.icrc.org/en/statement/statement-nuclear-weapons-un-general-assemblys-first-committee",
+      "source_domain": "icrc.org",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-22T21:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.icrc.org/sites/default/files/styles/meta_image/public/2026-10/Emblem-III_Press-release-1_3.jpg?h=afdc3185&itok=JOIEHfOk",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "OPCW Director-General on official visit to the United Kingdom",
       "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-official-visit-united-kingdom",
@@ -1200,54 +1216,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Update 370 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-370-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-09T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Concludes Long Term Operation Safety Review at Sweden’s Oskarshamn Nuclear Power Plant",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-long-term-operation-safety-review-at-swedens-oskarshamn-nuclear-power-plant-0",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-09T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Completes International Physical Protection Advisory Service Mission in Pakistan",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-completes-international-physical-protection-advisory-service-mission-in-pakistan",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-09T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 56,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T03:45:51.443721+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 85,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T03:45:49.798050+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 277,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T03:45:48.119220+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 63,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T03:45:46.471031+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1592,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T03:45:44.823630+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 769,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T03:45:43.177471+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 537,
+      "window_hours": 24,
+      "fetched_at": "2026-10-23T03:45:41.514059+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 44,
@@ -3991,71 +4018,15 @@
       "fetched_at": "2026-10-09T05:00:27.546831+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-10-08T23:05:30.480688+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 109,
-      "window_hours": 24,
-      "fetched_at": "2026-10-08T23:05:28.858699+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 209,
-      "window_hours": 24,
-      "fetched_at": "2026-10-08T23:05:27.242444+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 58,
-      "window_hours": 24,
-      "fetched_at": "2026-10-08T23:05:25.585537+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2079,
-      "window_hours": 24,
-      "fetched_at": "2026-10-08T23:05:23.471743+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1163,
-      "window_hours": 24,
-      "fetched_at": "2026-10-08T23:05:21.850300+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 590,
-      "window_hours": 24,
-      "fetched_at": "2026-10-08T23:05:20.168621+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 521,
-    "biological": 696,
-    "nuclear": 1614,
-    "radiological": 57,
-    "explosives": 269,
-    "autonomous_weapons": 80,
-    "directed_energy": 44
+    "chemical": 537,
+    "biological": 769,
+    "nuclear": 1592,
+    "radiological": 63,
+    "explosives": 277,
+    "autonomous_weapons": 85,
+    "directed_energy": 56
   }
 }
