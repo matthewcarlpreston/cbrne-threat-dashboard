@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-24T10:29:45.090217+00:00",
+  "generated_at": "2026-10-24T15:34:58.380151+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 76,
+  "total_items": 78,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,15 +14,16 @@
   },
   "category_counts": {
     "chemical": 11,
-    "biological": 5,
-    "nuclear": 44,
+    "biological": 6,
+    "nuclear": 45,
     "radiological": 0,
     "explosives": 14,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "India": 22,
+    "India": 23,
+    "United States": 24,
     "Austria": 5,
     "Syria": 5,
     "Netherlands": 3,
@@ -30,7 +31,6 @@
     "Iraq": 1,
     "Kenya": 1,
     "Israel": 2,
-    "United States": 23,
     "Ghana": 3,
     "Pakistan": 4,
     "Unknown": 1,
@@ -40,6 +40,38 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Kim Jong Un is making world  strongest  military : Nuclear weapons , AI - powered systems , hypersonic missiles & combat plan put North Korea in focus",
+      "url": "https://economictimes.indiatimes.com/news/defence/kim-jong-un-is-making-worlds-strongest-military-nuclear-weapons-ai-powered-systems-hypersonic-missiles-combat-plan-put-north-korea-in-focus/articleshow/135162192.cms",
+      "source_domain": "economictimes.indiatimes.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-24T05:30:00+00:00",
+      "language": "English",
+      "image_url": "https://img.etimg.com/thumb/msid-135162241,width-1200,height-900,imgsize-128662,overlay-etdefence/articleshow.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Biodefense , pandemics , bioterrorism , preparedness | Homeland Security Newswire",
+      "url": "https://www.homelandsecuritynewswire.com/dr20261023-reading-russia-s-silence-a-summary-of-the-atlantic-council-s-russia-s-bioweapons-legacy-and-the-plague-scare",
+      "source_domain": "homelandsecuritynewswire.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-24T00:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
     {
       "title": "Bengaluru IED blast : Police verify footage from over 100 CCTVs , form 5 special teams",
       "url": "https://www.mangalorean.com/bengaluru-ied-blast-police-verify-footage-from-over-100-cctvs-form-5-special-teams/",
@@ -1250,6 +1282,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 91,
+      "window_hours": 24,
+      "fetched_at": "2026-10-24T15:34:58.346053+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 77,
+      "window_hours": 24,
+      "fetched_at": "2026-10-24T15:34:56.733132+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 261,
+      "window_hours": 24,
+      "fetched_at": "2026-10-24T15:34:55.049040+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 40,
+      "window_hours": 24,
+      "fetched_at": "2026-10-24T15:34:53.403953+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1305,
+      "window_hours": 24,
+      "fetched_at": "2026-10-24T15:34:51.751087+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 802,
+      "window_hours": 24,
+      "fetched_at": "2026-10-24T15:34:50.106391+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 503,
+      "window_hours": 24,
+      "fetched_at": "2026-10-24T15:34:48.464556+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 97,
@@ -4049,71 +4137,15 @@
       "fetched_at": "2026-10-10T21:18:28.015605+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 34,
-      "window_hours": 24,
-      "fetched_at": "2026-10-10T12:05:48.596399+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 120,
-      "window_hours": 24,
-      "fetched_at": "2026-10-10T12:05:47.003771+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 254,
-      "window_hours": 24,
-      "fetched_at": "2026-10-10T12:05:45.400535+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 50,
-      "window_hours": 24,
-      "fetched_at": "2026-10-10T12:05:43.623546+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1707,
-      "window_hours": 24,
-      "fetched_at": "2026-10-10T12:05:41.915789+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 863,
-      "window_hours": 24,
-      "fetched_at": "2026-10-10T12:05:40.286151+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 397,
-      "window_hours": 24,
-      "fetched_at": "2026-10-10T12:05:38.681598+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 591,
-    "biological": 823,
-    "nuclear": 1289,
-    "radiological": 38,
-    "explosives": 224,
-    "autonomous_weapons": 75,
-    "directed_energy": 97
+    "chemical": 503,
+    "biological": 802,
+    "nuclear": 1305,
+    "radiological": 40,
+    "explosives": 261,
+    "autonomous_weapons": 77,
+    "directed_energy": 91
   }
 }
