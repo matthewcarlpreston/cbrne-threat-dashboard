@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T12:27:38.568152+00:00",
+  "generated_at": "2026-10-26T22:25:12.806168+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 78,
+  "total_items": 79,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,7 +13,7 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 11,
+    "chemical": 12,
     "biological": 6,
     "nuclear": 45,
     "radiological": 0,
@@ -22,11 +22,11 @@
     "directed_energy": 1
   },
   "country_counts": {
+    "Netherlands": 4,
     "India": 23,
     "United States": 24,
     "Austria": 5,
     "Syria": 5,
-    "Netherlands": 3,
     "Iran": 1,
     "Iraq": 1,
     "Kenya": 1,
@@ -40,6 +40,21 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Keynote Address by OPCW Deputy Director-General at the Annual OPCW-Asser Training Programme on Disarmament and Non-Proliferation of Weapons of Mass Destruction",
+      "url": "https://www.opcw.org/media-centre/speeches-statements/2026/10/keynote-address-opcw-deputy-director-general-annual-opcw",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Keynote Address by OPCW Deputy Director-General at the Annual OPCW-Asser Training Programme on Disarmament and Non-Proliferation of Weapons of Mass Destruction</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"lang\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\"><time class=\"datetime\" datetime=\"2026-10-26T14:41:14",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-26T13:41:14+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Kim Jong Un is making world  strongest  military : Nuclear weapons , AI - powered systems , hypersonic missiles & combat plan put North Korea in focus",
       "url": "https://economictimes.indiatimes.com/news/defence/kim-jong-un-is-making-worlds-strongest-military-nuclear-weapons-ai-powered-systems-hypersonic-missiles-combat-plan-put-north-korea-in-focus/articleshow/135162192.cms",
@@ -1282,6 +1297,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 393,
+      "window_hours": 24,
+      "fetched_at": "2026-10-26T22:25:12.798647+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 74,
+      "window_hours": 24,
+      "fetched_at": "2026-10-26T22:25:11.036911+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 258,
+      "window_hours": 24,
+      "fetched_at": "2026-10-26T22:25:09.317785+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 49,
+      "window_hours": 24,
+      "fetched_at": "2026-10-26T22:25:07.603986+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1560,
+      "window_hours": 24,
+      "fetched_at": "2026-10-26T22:25:05.954173+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 644,
+      "window_hours": 24,
+      "fetched_at": "2026-10-26T22:25:04.263731+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 488,
+      "window_hours": 24,
+      "fetched_at": "2026-10-26T22:25:02.570138+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 332,
@@ -4193,71 +4264,15 @@
       "fetched_at": "2026-10-13T00:17:27.804370+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 35,
-      "window_hours": 24,
-      "fetched_at": "2026-10-12T14:41:35.745136+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 94,
-      "window_hours": 24,
-      "fetched_at": "2026-10-12T14:41:33.961899+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 214,
-      "window_hours": 24,
-      "fetched_at": "2026-10-12T14:41:32.271327+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 58,
-      "window_hours": 24,
-      "fetched_at": "2026-10-12T14:41:30.548351+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1149,
-      "window_hours": 24,
-      "fetched_at": "2026-10-12T14:41:28.837276+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 715,
-      "window_hours": 24,
-      "fetched_at": "2026-10-12T14:41:27.054813+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 425,
-      "window_hours": 24,
-      "fetched_at": "2026-10-12T14:41:25.328796+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
     "chemical": 488,
-    "biological": 646,
-    "nuclear": 1843,
-    "radiological": 44,
-    "explosives": 203,
-    "autonomous_weapons": 63,
-    "directed_energy": 332
+    "biological": 644,
+    "nuclear": 1560,
+    "radiological": 49,
+    "explosives": 258,
+    "autonomous_weapons": 74,
+    "directed_energy": 393
   }
 }
