@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T04:05:10.738232+00:00",
+  "generated_at": "2026-10-27T11:46:36.254007+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 78,
+  "total_items": 79,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,17 +15,17 @@
   "category_counts": {
     "chemical": 12,
     "biological": 6,
-    "nuclear": 44,
+    "nuclear": 45,
     "radiological": 0,
     "explosives": 14,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
+    "Austria": 5,
     "Netherlands": 4,
     "India": 23,
     "United States": 24,
-    "Austria": 4,
     "Syria": 5,
     "Iran": 1,
     "Iraq": 1,
@@ -40,6 +40,21 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "Tritium Level Far Below Japan’s Operational Limit in 25th Batch of ALPS Treated Water, IAEA Confirms",
+      "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-25th-batch-of-alps-treated-water-iaea-confirms",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-27T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Keynote Address by OPCW Deputy Director-General at the Annual OPCW-Asser Training Programme on Disarmament and Non-Proliferation of Weapons of Mass Destruction",
       "url": "https://www.opcw.org/media-centre/speeches-statements/2026/10/keynote-address-opcw-deputy-director-general-annual-opcw",
@@ -1282,6 +1297,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 487,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T11:46:36.236149+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 75,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T11:46:34.613470+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 278,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T11:46:32.999839+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 51,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T11:46:31.381313+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1567,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T11:46:29.766413+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 674,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T11:46:28.158096+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 438,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T11:46:26.548674+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 486,
@@ -4252,12 +4323,12 @@
     }
   ],
   "twitter_category_latest": {
-    "chemical": 488,
-    "biological": 654,
-    "nuclear": 1489,
-    "radiological": 53,
-    "explosives": 274,
+    "chemical": 438,
+    "biological": 674,
+    "nuclear": 1567,
+    "radiological": 51,
+    "explosives": 278,
     "autonomous_weapons": 75,
-    "directed_energy": 486
+    "directed_energy": 487
   }
 }
