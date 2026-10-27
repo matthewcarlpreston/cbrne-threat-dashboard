@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:46:36.254007+00:00",
+  "generated_at": "2026-10-27T17:39:43.800120+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 79,
@@ -13,17 +13,17 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 12,
+    "chemical": 11,
     "biological": 6,
-    "nuclear": 45,
+    "nuclear": 46,
     "radiological": 0,
     "explosives": 14,
     "autonomous_weapons": 1,
     "directed_energy": 1
   },
   "country_counts": {
-    "Austria": 5,
-    "Netherlands": 4,
+    "Austria": 6,
+    "Netherlands": 3,
     "India": 23,
     "United States": 24,
     "Syria": 5,
@@ -40,6 +40,21 @@
     "Japan": 1
   },
   "items": [
+    {
+      "title": "IAEA’s Grossi Calls for Progress in Deploying Nuclear Power as Ministerial Conference Opens",
+      "url": "http://www.iaea.org/newscenter/news/iaeas-grossi-calls-for-progress-in-deploying-nuclear-power-as-ministerial-conference-opens",
+      "summary": "IAEA Director General Rafael Mariano Grossi called on countries to turn growing support for nuclear power into concrete results as the International Ministerial Conference on Nuclear Power opened in the Republic of Korea today, amid rising electricity demand and renewed efforts to strengthen ener",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-27T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Tritium Level Far Below Japan’s Operational Limit in 25th Batch of ALPS Treated Water, IAEA Confirms",
       "url": "http://www.iaea.org/newscenter/pressreleases/tritium-level-far-below-japans-operational-limit-in-25th-batch-of-alps-treated-water-iaea-confirms",
@@ -1279,24 +1294,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "OPCW Director-General visits Syria",
-      "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-visits-syria",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General visits Syria</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General Sabrina Dallafior (left) during a meeting with Syrian Minister of Foreign Affairs Asaad al-Shaibani in Damascus, Syria.\" height=\"417\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-13T15:48:21+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 253,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T17:39:43.785565+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 75,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T17:39:42.121003+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 251,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T17:39:40.389992+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 41,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T17:39:38.728819+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1588,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T17:39:36.921901+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 659,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T17:39:35.243602+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 434,
+      "window_hours": 24,
+      "fetched_at": "2026-10-27T17:39:33.585615+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 487,
@@ -4264,71 +4320,15 @@
       "fetched_at": "2026-10-13T22:26:21.451977+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 55,
-      "window_hours": 24,
-      "fetched_at": "2026-10-13T13:44:32.726627+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 115,
-      "window_hours": 24,
-      "fetched_at": "2026-10-13T13:44:31.023724+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 334,
-      "window_hours": 24,
-      "fetched_at": "2026-10-13T13:44:29.271545+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-10-13T13:44:27.587049+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 964,
-      "window_hours": 24,
-      "fetched_at": "2026-10-13T13:44:25.877962+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 772,
-      "window_hours": 24,
-      "fetched_at": "2026-10-13T13:44:24.169998+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 550,
-      "window_hours": 24,
-      "fetched_at": "2026-10-13T13:44:22.481321+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 438,
-    "biological": 674,
-    "nuclear": 1567,
-    "radiological": 51,
-    "explosives": 278,
+    "chemical": 434,
+    "biological": 659,
+    "nuclear": 1588,
+    "radiological": 41,
+    "explosives": 251,
     "autonomous_weapons": 75,
-    "directed_energy": 487
+    "directed_energy": 253
   }
 }
