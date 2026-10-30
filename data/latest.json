@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T04:47:19.557236+00:00",
+  "generated_at": "2026-10-30T12:19:49.327401+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 73,
+  "total_items": 68,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,9 +13,9 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 10,
+    "chemical": 9,
     "biological": 5,
-    "nuclear": 42,
+    "nuclear": 38,
     "radiological": 0,
     "explosives": 14,
     "autonomous_weapons": 1,
@@ -23,20 +23,19 @@
   },
   "country_counts": {
     "Austria": 6,
-    "Netherlands": 3,
+    "Netherlands": 2,
     "India": 23,
-    "United States": 21,
+    "United States": 19,
     "Syria": 4,
     "Iran": 1,
     "Iraq": 1,
     "Kenya": 1,
     "Israel": 2,
     "Ghana": 3,
-    "Pakistan": 4,
+    "Pakistan": 3,
     "Unknown": 1,
     "Bulgaria": 1,
-    "United Kingdom": 1,
-    "Azerbaijan": 1
+    "United Kingdom": 1
   },
   "items": [
     {
@@ -1118,88 +1117,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "OPCW Director-General Sabrina Dallafior meets Poland’s Deputy Prime Minister/Foreign Minister Radosław Sikorski",
-      "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-sabrina-dallafior-meets-polands-deputy-prime",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General Sabrina Dallafior meets Poland’s Deputy Prime Minister/Foreign Minister Radosław Sikorski </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General Sabrina Dallafior meets Poland’s Deputy Prime Minister/Foreign Minister Radosław Sikorski \" height=\"417\" src=\"https://www.opcw.",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-16T10:33:17+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Trump Rules Out Nuclear Weapons , Ground Troops in Iran",
-      "url": "https://politicalwire.com/2026/10/16/trump-rules-out-nuclear-weapons-ground-troops-in-iran/",
-      "source_domain": "politicalwire.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-16T10:15:00+00:00",
-      "language": "English",
-      "image_url": "https://politicalwire.com/wp-content/uploads/pw-social-cards/2018616-dc8375c5.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Trump rules out use of nuclear weapons against Iran",
-      "url": "https://tribune.com.pk/story/2635161/trump-rules-out-use-of-nuclear-weapons-against-iran",
-      "source_domain": "tribune.com.pk",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-16T09:00:00+00:00",
-      "language": "English",
-      "image_url": "https://i.tribune.com.pk/media/images/kkkk-131791739042-0/kkkk-131791739042-0-640x480.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Trump rules out nuclear weapons , ground troops in Iran",
-      "url": "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html",
-      "source_domain": "cnbc.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-16T08:45:00+00:00",
-      "language": "English",
-      "image_url": "https://image.cnbcfm.com/api/v1/image/108415213-1792084539459-gettyimages-2299789422-AFP_D3EV86B.jpeg?v=1792084636",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Trump says US will not use nuclear weapons against Iran",
-      "url": "https://en.apa.az/america/trump-says-us-will-not-use-nuclear-weapons-against-iran-530374",
-      "source_domain": "en.apa.az",
-      "source_country": "Azerbaijan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-16T06:15:00+00:00",
-      "language": "English",
-      "image_url": "https://en.apa.az/storage/news/2026/october/16/big/6ad190515f2ad6ad190515f2ae17921188656ad190515f2a96ad190515f2ab.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 240,
+      "window_hours": 24,
+      "fetched_at": "2026-10-30T12:19:49.308946+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 123,
+      "window_hours": 24,
+      "fetched_at": "2026-10-30T12:19:47.668349+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 297,
+      "window_hours": 24,
+      "fetched_at": "2026-10-30T12:19:46.057945+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 87,
+      "window_hours": 24,
+      "fetched_at": "2026-10-30T12:19:44.397792+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1593,
+      "window_hours": 24,
+      "fetched_at": "2026-10-30T12:19:42.782905+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 677,
+      "window_hours": 24,
+      "fetched_at": "2026-10-30T12:19:41.166897+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 375,
+      "window_hours": 24,
+      "fetched_at": "2026-10-30T12:19:39.415527+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 221,
@@ -4055,71 +4031,15 @@
       "fetched_at": "2026-10-16T16:16:02.579250+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-10-16T10:55:29.452681+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 92,
-      "window_hours": 24,
-      "fetched_at": "2026-10-16T10:55:27.808072+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 206,
-      "window_hours": 24,
-      "fetched_at": "2026-10-16T10:55:26.163223+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 80,
-      "window_hours": 24,
-      "fetched_at": "2026-10-16T10:55:24.481193+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1700,
-      "window_hours": 24,
-      "fetched_at": "2026-10-16T10:55:22.805386+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 849,
-      "window_hours": 24,
-      "fetched_at": "2026-10-16T10:55:21.161763+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 468,
-      "window_hours": 24,
-      "fetched_at": "2026-10-16T10:55:19.511187+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 403,
-    "biological": 645,
-    "nuclear": 1472,
-    "radiological": 99,
-    "explosives": 329,
-    "autonomous_weapons": 95,
-    "directed_energy": 221
+    "chemical": 375,
+    "biological": 677,
+    "nuclear": 1593,
+    "radiological": 87,
+    "explosives": 297,
+    "autonomous_weapons": 123,
+    "directed_energy": 240
   }
 }
