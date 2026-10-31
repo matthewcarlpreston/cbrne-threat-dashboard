@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T04:29:39.579189+00:00",
+  "generated_at": "2026-10-31T11:51:47.354534+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 63,
+  "total_items": 58,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,18 +14,18 @@
   },
   "category_counts": {
     "chemical": 9,
-    "biological": 3,
-    "nuclear": 38,
+    "biological": 2,
+    "nuclear": 36,
     "radiological": 0,
-    "explosives": 12,
+    "explosives": 10,
     "autonomous_weapons": 0,
     "directed_energy": 1
   },
   "country_counts": {
     "Netherlands": 3,
     "Austria": 7,
-    "India": 20,
-    "United States": 17,
+    "India": 17,
+    "United States": 15,
     "Syria": 3,
     "Iran": 1,
     "Iraq": 1,
@@ -954,89 +954,65 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "Bombspotting : US nuclear weapons in Europe",
-      "url": "https://www.armscontrolwonk.com/collections/nato-nukes-in-europe/",
-      "source_domain": "armscontrolwonk.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-17T11:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Dave Mustaine Reveals Tour w / Anthrax & Kerry King",
-      "url": "http://www.metalunderground.com/news/details.cfm?newsid=162313",
-      "source_domain": "metalunderground.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-17T09:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.metalunderground.com/images/bandphotos/Slayer_photo.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "NIA chargesheets 5 accused in 2024 IED recovery case planted by ULFA ( 1 ) in Assam",
-      "url": "http://www.indiagazette.com/news/279380371/nia-chargesheets-5-accused-in-2024-ied-recovery-case-planted-by-ulfa-1-in-assam",
-      "source_domain": "indiagazette.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-17T07:15:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa2f7c/f5322ca9-45f3-43e1-b8e5-53ac56c14d7e/0/ANI-20261017024424-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "NIA chargesheets 5 accused in 2024 IED recovery case planted by ULFA ( 1 ) in Assam",
-      "url": "http://www.calcuttanews.net/news/279380371/nia-chargesheets-5-accused-in-2024-ied-recovery-case-planted-by-ulfa-1-in-assam",
-      "source_domain": "calcuttanews.net",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-17T05:45:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/8fa2f7c/f5322ca9-45f3-43e1-b8e5-53ac56c14d7e/0/ANI-20261017024424-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Iran president denies seeking nuclear weapons , slams propaganda",
-      "url": "https://www.siasat.com/iran-president-denies-seeking-nuclear-weapons-slams-propaganda-3559832/",
-      "source_domain": "siasat.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-17T05:30:00+00:00",
-      "language": "English",
-      "image_url": "https://cdn.siasat.com/wp-content/uploads/2026/08/iran-president-masoud-pezeshkian.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 236,
+      "window_hours": 24,
+      "fetched_at": "2026-10-31T11:51:47.339041+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 109,
+      "window_hours": 24,
+      "fetched_at": "2026-10-31T11:51:45.642281+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 195,
+      "window_hours": 24,
+      "fetched_at": "2026-10-31T11:51:43.994956+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 52,
+      "window_hours": 24,
+      "fetched_at": "2026-10-31T11:51:42.329930+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1646,
+      "window_hours": 24,
+      "fetched_at": "2026-10-31T11:51:40.377947+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 752,
+      "window_hours": 24,
+      "fetched_at": "2026-10-31T11:51:38.730669+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 323,
+      "window_hours": 24,
+      "fetched_at": "2026-10-31T11:51:37.099928+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 211,
@@ -3836,71 +3812,15 @@
       "fetched_at": "2026-10-17T15:09:29.568050+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 32,
-      "window_hours": 24,
-      "fetched_at": "2026-10-17T10:18:36.116850+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 84,
-      "window_hours": 24,
-      "fetched_at": "2026-10-17T10:18:34.491024+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 250,
-      "window_hours": 24,
-      "fetched_at": "2026-10-17T10:18:32.849782+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 45,
-      "window_hours": 24,
-      "fetched_at": "2026-10-17T10:18:31.214960+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1112,
-      "window_hours": 24,
-      "fetched_at": "2026-10-17T10:18:29.590376+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 956,
-      "window_hours": 24,
-      "fetched_at": "2026-10-17T10:18:27.972487+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 393,
-      "window_hours": 24,
-      "fetched_at": "2026-10-17T10:18:26.339272+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 347,
+    "chemical": 323,
     "biological": 752,
-    "nuclear": 1552,
-    "radiological": 58,
-    "explosives": 229,
-    "autonomous_weapons": 141,
-    "directed_energy": 211
+    "nuclear": 1646,
+    "radiological": 52,
+    "explosives": 195,
+    "autonomous_weapons": 109,
+    "directed_energy": 236
   }
 }
