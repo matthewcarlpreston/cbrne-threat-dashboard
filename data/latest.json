@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01T04:49:43.959767+00:00",
+  "generated_at": "2026-11-01T12:51:45.872190+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 57,
+  "total_items": 55,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 8,
     "biological": 2,
-    "nuclear": 36,
+    "nuclear": 34,
     "radiological": 0,
     "explosives": 10,
     "autonomous_weapons": 0,
@@ -24,7 +24,7 @@
   "country_counts": {
     "Netherlands": 3,
     "Austria": 7,
-    "India": 17,
+    "India": 15,
     "United States": 15,
     "Syria": 3,
     "Iran": 1,
@@ -905,41 +905,65 @@
       "categories": [
         "explosives"
       ]
-    },
-    {
-      "title": "Trump vows Iran will never get nuclear weapon",
-      "url": "https://morungexpress.com/trump-vows-iran-will-never-get-nuclear-weapon",
-      "source_domain": "morungexpress.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-18T09:30:00+00:00",
-      "language": "English",
-      "image_url": "https://morungexpress.com/uploads/2026/07/94454107_1784045951_202607143864451.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Trump vows Iran will never get nuclear weapon",
-      "url": "https://www.mangalorean.com/trump-vows-iran-will-never-get-nuclear-weapon/",
-      "source_domain": "mangalorean.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-18T06:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.mangalorean.com/wp-content/uploads/2026/10/2026042127.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 104,
+      "window_hours": 24,
+      "fetched_at": "2026-11-01T12:51:45.855326+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 111,
+      "window_hours": 24,
+      "fetched_at": "2026-11-01T12:51:44.242182+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 136,
+      "window_hours": 24,
+      "fetched_at": "2026-11-01T12:51:42.645943+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 48,
+      "window_hours": 24,
+      "fetched_at": "2026-11-01T12:51:40.930465+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1635,
+      "window_hours": 24,
+      "fetched_at": "2026-11-01T12:51:39.324861+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 551,
+      "window_hours": 24,
+      "fetched_at": "2026-11-01T12:51:37.700907+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 324,
+      "window_hours": 24,
+      "fetched_at": "2026-11-01T12:51:36.103838+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 155,
@@ -3739,71 +3763,15 @@
       "fetched_at": "2026-10-18T15:33:45.107620+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 32,
-      "window_hours": 24,
-      "fetched_at": "2026-10-18T10:34:04.892702+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 89,
-      "window_hours": 24,
-      "fetched_at": "2026-10-18T10:34:03.228398+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 189,
-      "window_hours": 24,
-      "fetched_at": "2026-10-18T10:34:01.605002+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 63,
-      "window_hours": 24,
-      "fetched_at": "2026-10-18T10:33:59.967846+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 955,
-      "window_hours": 24,
-      "fetched_at": "2026-10-18T10:33:58.320567+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 1090,
-      "window_hours": 24,
-      "fetched_at": "2026-10-18T10:33:56.689995+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 416,
-      "window_hours": 24,
-      "fetched_at": "2026-10-18T10:33:55.045775+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 355,
-    "biological": 590,
-    "nuclear": 1606,
-    "radiological": 47,
-    "explosives": 157,
-    "autonomous_weapons": 98,
-    "directed_energy": 155
+    "chemical": 324,
+    "biological": 551,
+    "nuclear": 1635,
+    "radiological": 48,
+    "explosives": 136,
+    "autonomous_weapons": 111,
+    "directed_energy": 104
   }
 }
