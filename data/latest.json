@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02T04:51:56.709780+00:00",
+  "generated_at": "2026-11-02T15:00:46.007762+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 55,
+  "total_items": 49,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,27 +13,26 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 8,
+    "chemical": 9,
     "biological": 2,
-    "nuclear": 34,
+    "nuclear": 32,
     "radiological": 0,
-    "explosives": 10,
+    "explosives": 6,
     "autonomous_weapons": 0,
-    "directed_energy": 1
+    "directed_energy": 0
   },
   "country_counts": {
-    "Netherlands": 3,
+    "Netherlands": 4,
     "Austria": 7,
-    "India": 15,
-    "United States": 15,
+    "India": 12,
+    "United States": 14,
     "Syria": 3,
     "Iran": 1,
     "Iraq": 1,
     "Kenya": 1,
     "Israel": 2,
     "Ghana": 3,
-    "Pakistan": 3,
-    "Unknown": 1
+    "Pakistan": 1
   },
   "items": [
     {
@@ -45,6 +44,21 @@
       "tone": null,
       "themes": [],
       "published_date": "2026-10-30T12:58:56+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Denmark provides more than EUR 800,000 in voluntary funding to enhance OPCW’s work",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/denmark-provides-more-eur-800000-voluntary-funding-enhance-opcws-work",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Denmark provides more than EUR 800,000 in voluntary funding to enhance OPCW’s work&nbsp;</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Ulf Melgaard, Permanent Representative of the Kingdom of Denmark to the OPCW, and Sabrina Dallafior, OPCW Director-General. (Photo: OPCW)\" height=\"417\" src=\"https://",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-10-30T12:50:15+00:00",
       "source": "rss",
       "rss_feed_name": "OPCW",
       "categories": [
@@ -793,121 +807,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Armenia pledges peaceful nuclear energy cooperation with IAEA",
-      "url": "https://www.pan.am/en/626534",
-      "source_domain": "pan.am",
-      "source_country": "Unknown",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-19T13:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.pan.am/en/wp-content/uploads/2026/10/un-oon.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "DRDO working on laser weapon pod for helicopters ; development to be completed by 2029",
-      "url": "https://www.newindianexpress.com/india/2026/Oct/19/drdo-working-on-laser-weapon-pod-for-helicopters-development-to-be-completed-by-2029",
-      "source_domain": "newindianexpress.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-19T13:00:00+00:00",
-      "language": "English",
-      "image_url": "https://cf-images.assettype.com/newindianexpress%2F2026-10-19%2Fr1fpejt5%2FIMG4867.jpeg?&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-      "source": "gdelt",
-      "gdelt_query_tag": "directed_energy_keyword",
-      "categories": [
-        "directed_energy"
-      ]
-    },
-    {
-      "title": "The return of nuclear testing ?",
-      "url": "https://www.armscontrolwonk.com/collections/nuclear-testing/",
-      "source_domain": "armscontrolwonk.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-19T08:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Army major martyred in IED blast during Gwadar operation , four terrorists killed in Kalat : ISPR",
-      "url": "https://tribune.com.pk/story/2635666/army-major-martyred-in-ied-attack-four-terrorists-killed-in-balochistan-ibo-ispr",
-      "source_domain": "tribune.com.pk",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-19T07:15:00+00:00",
-      "language": "English",
-      "image_url": "https://i.tribune.com.pk/media/images/untitled-design-2026-10-19t101243-0171792387000-0/untitled-design-2026-10-19t101243-0171792387000-0-640x480.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Pakistan Army officer killed in IED blast",
-      "url": "https://www.thehindu.com/news/international/pakistan-army-officer-killed-in-ied-blast/article71602199.ece",
-      "source_domain": "thehindu.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-19T07:00:00+00:00",
-      "language": "English",
-      "image_url": "https://th-i.thgim.com/public/incoming/kr5zt5/article71602228.ece/alternates/LANDSCAPE_1200/UN_General_Assembly_Pakistan__8655.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Pak army officer killed in IED blast",
-      "url": "https://www.hindustantimes.com/world-news/pak-army-officer-killed-in-ied-blast-101792389567022.html",
-      "source_domain": "hindustantimes.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-19T06:30:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Major martyred in Gwadar IED blast ; 4 terrorists killed in Kalat",
-      "url": "https://www.samaa.tv/2087358701-major-martyred-in-gwadar-ied-blast-4-terrorists-killed-in-kalat",
-      "source_domain": "samaa.tv",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-19T06:00:00+00:00",
-      "language": "English",
-      "image_url": "https://images.samaa.tv/images/Major-Martyred-in-Gwadar.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 310,
+      "window_hours": 24,
+      "fetched_at": "2026-11-02T15:00:45.994744+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 65,
+      "window_hours": 24,
+      "fetched_at": "2026-11-02T15:00:44.384560+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 224,
+      "window_hours": 24,
+      "fetched_at": "2026-11-02T15:00:42.772677+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 114,
+      "window_hours": 24,
+      "fetched_at": "2026-11-02T15:00:41.131285+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2352,
+      "window_hours": 24,
+      "fetched_at": "2026-11-02T15:00:39.476769+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 631,
+      "window_hours": 24,
+      "fetched_at": "2026-11-02T15:00:37.843446+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 407,
+      "window_hours": 24,
+      "fetched_at": "2026-11-02T15:00:36.227866+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 158,
@@ -3651,71 +3609,15 @@
       "fetched_at": "2026-10-19T22:07:43.284831+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 46,
-      "window_hours": 24,
-      "fetched_at": "2026-10-19T12:25:56.801948+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 80,
-      "window_hours": 24,
-      "fetched_at": "2026-10-19T12:25:55.145781+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 307,
-      "window_hours": 24,
-      "fetched_at": "2026-10-19T12:25:53.474710+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 62,
-      "window_hours": 24,
-      "fetched_at": "2026-10-19T12:25:51.795139+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1517,
-      "window_hours": 24,
-      "fetched_at": "2026-10-19T12:25:50.090065+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 705,
-      "window_hours": 24,
-      "fetched_at": "2026-10-19T12:25:48.396062+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 419,
-      "window_hours": 24,
-      "fetched_at": "2026-10-19T12:25:46.742654+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 288,
-    "biological": 642,
-    "nuclear": 1669,
-    "radiological": 71,
-    "explosives": 197,
-    "autonomous_weapons": 74,
-    "directed_energy": 158
+    "chemical": 407,
+    "biological": 631,
+    "nuclear": 2352,
+    "radiological": 114,
+    "explosives": 224,
+    "autonomous_weapons": 65,
+    "directed_energy": 310
   }
 }
