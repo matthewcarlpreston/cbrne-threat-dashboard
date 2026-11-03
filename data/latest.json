@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T13:48:14.831222+00:00",
+  "generated_at": "2026-11-03T23:01:58.155667+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 42,
+  "total_items": 38,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,9 +15,9 @@
   "category_counts": {
     "chemical": 9,
     "biological": 2,
-    "nuclear": 26,
+    "nuclear": 24,
     "radiological": 0,
-    "explosives": 5,
+    "explosives": 3,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
@@ -25,15 +25,14 @@
     "Egypt": 1,
     "Austria": 7,
     "Netherlands": 4,
-    "India": 10,
+    "India": 7,
     "United States": 8,
     "Syria": 3,
     "Iran": 1,
     "Iraq": 1,
     "Kenya": 1,
     "Israel": 2,
-    "Ghana": 3,
-    "Pakistan": 1
+    "Ghana": 3
   },
   "items": [
     {
@@ -632,73 +631,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Iran security chief rejects moving enriched uranium out of country",
-      "url": "https://www.thehindu.com/news/international/iran-security-chief-rejects-moving-enriched-uranium-out-of-country/article71605648.ece",
-      "source_domain": "thehindu.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T22:45:00+00:00",
-      "language": "English",
-      "image_url": "https://th-i.thgim.com/public/incoming/s96w10/article71605649.ece/alternates/LANDSCAPE_1200/2026-08-10T075525Z_2037129379_RC2A6MAKWMCJ_RTRMADP_3_IRAN-CRISIS-REZAEI.JPG",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Lahore Lays Major Wajahat Waheed to Rest After Pasni IED Martyrdom",
-      "url": "https://www.lhrtimes.com/2026/10/20/lahore-lays-major-wajahat-waheed-to-rest-after-pasni-ied-martyrdom/",
-      "source_domain": "lhrtimes.com",
-      "source_country": "Pakistan",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T21:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.lhrtimes.com/wp-content/uploads/2026/10/Martyred-Major-Wajahat-Waheed-laid-to-rest-in-Lahore.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Three CRPF Personnel Injured In IED Blast In Manipur",
-      "url": "https://idrw.org/three-crpf-personnel-injured-in-ied-blast-in-manipur/",
-      "source_domain": "idrw.org",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T21:00:00+00:00",
-      "language": "English",
-      "image_url": "https://ommcomnews.com/wp-content/uploads/2026/10/New-Project-1-7.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "At UN , India says decision to use nuclear weapons must stay with humans , not AI",
-      "url": "https://www.tribuneindia.com/news/india/at-un-india-says-decision-to-use-nuclear-weapons-must-stay-with-humans-not-ai/",
-      "source_domain": "tribuneindia.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T15:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYWRjYmZlMGQwLWNjOTItMTFmMS05N2QyLTcxMzIwNTZiZTJjZS5wbmc=",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 238,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T23:01:58.142740+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 76,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T23:01:56.505084+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 185,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T23:01:54.876888+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 108,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T23:01:53.231409+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2628,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T23:01:51.594052+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 896,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T23:01:49.940943+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 659,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T23:01:48.299508+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 221,
@@ -3330,127 +3321,15 @@
       "fetched_at": "2026-10-21T03:40:44.109599+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 50,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T21:24:24.986883+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 60,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T21:24:23.358351+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 403,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T21:24:21.684676+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 45,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T21:24:20.036877+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1695,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T21:24:18.379090+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 839,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T21:24:16.744747+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 362,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T21:24:15.096184+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 53,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T16:31:49.306520+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 68,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T16:31:47.693428+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 401,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T16:31:45.987586+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 35,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T16:31:44.332728+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1807,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T16:31:42.723018+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 826,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T16:31:41.068882+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 395,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T16:31:39.437848+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 420,
-    "biological": 858,
-    "nuclear": 3138,
-    "radiological": 120,
-    "explosives": 181,
-    "autonomous_weapons": 78,
-    "directed_energy": 221
+    "chemical": 659,
+    "biological": 896,
+    "nuclear": 2628,
+    "radiological": 108,
+    "explosives": 185,
+    "autonomous_weapons": 76,
+    "directed_energy": 238
   }
 }
