@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T00:42:20.202519+00:00",
+  "generated_at": "2026-11-03T13:48:14.831222+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 47,
+  "total_items": 42,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,17 +15,18 @@
   "category_counts": {
     "chemical": 9,
     "biological": 2,
-    "nuclear": 30,
+    "nuclear": 26,
     "radiological": 0,
-    "explosives": 6,
+    "explosives": 5,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
+    "Egypt": 1,
+    "Austria": 7,
     "Netherlands": 4,
-    "Austria": 6,
-    "India": 12,
-    "United States": 13,
+    "India": 10,
+    "United States": 8,
     "Syria": 3,
     "Iran": 1,
     "Iraq": 1,
@@ -35,6 +36,37 @@
     "Pakistan": 1
   },
   "items": [
+    {
+      "title": "Virunga National Park Reports 28 Hippos Dead from Anthrax",
+      "url": "https://www.el-balad.com/17063415",
+      "source_domain": "el-balad.com",
+      "source_country": "Egypt",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-03T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.el-balad.com/uploads/2026/11/03/anthrax-8c953b70_1200w.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "IAEA Launches Global Network to Help Countries Monitor and Protect the World’s Lakes",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-launches-global-network-to-help-countries-monitor-and-protect-the-worlds-lakes",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-03T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Keynote Address by OPCW Deputy Director-General H.E. Mrs Mekondjo Kaapanda-Girnus at Annual OPCW-Asser Training Programme on Disarmament and Non-Proliferation of Weapons of Mass Destruction",
       "url": "https://www.opcw.org/media-centre/speeches-statements/2026/10/keynote-address-opcw-deputy-director-general-he-mrs",
@@ -664,121 +696,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Trump Backs Possible Meeting With Xi and Putin on Nuclear Weapons",
-      "url": "https://www.theepochtimes.com/world/trump-backs-possible-meeting-with-xi-and-putin-on-nuclear-weapons-6106262",
-      "source_domain": "theepochtimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T11:30:00+00:00",
-      "language": "English",
-      "image_url": "https://img.theepochtimes.com/assets/uploads/2026/10/19/id6105688-GettyImages-2299100478-vs-2-1080x720.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "MI5 Warns AI Could Change Biological Weapons Threat as united kingdom Assesses Risks",
-      "url": "https://econotimes.com/MI5-Warns-AI-Could-Change-Biological-Weapons-Threat-as-UK-Assesses-Risks-1757607",
-      "source_domain": "econotimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T11:30:00+00:00",
-      "language": "English",
-      "image_url": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/55f6380d6af4c6d40a48934caab3e020c598c39005bcabe3a7ce86e16b27d891.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
-    },
-    {
-      "title": "India Calls For Efforts To Prevent Terrorists From Gaining Access To Nuclear Weapons",
-      "url": "https://www.dailyexcelsior.com/india-calls-for-efforts-to-prevent-terrorists-from-gaining-access-to-nuclear-weapons/",
-      "source_domain": "dailyexcelsior.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYTQ1ZGE2MzcwLWNjNTYtMTFmMS05N2QyLTcxMzIwNTZiZTJjZS5wbmc=",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "DOE approves Savannah River plutonium project construction",
-      "url": "https://www.santafenewmexican.com/news/environment/doe-approves-savannah-river-plutonium-project-construction/article_1f644857-361a-4546-b313-d34ac8fd16c8.html",
-      "source_domain": "santafenewmexican.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.newyork1.vip.townnews.com/santafenewmexican.com/content/tncms/assets/v3/editorial/c/9b/c9b68edd-2a8d-5b05-885c-22990a7253ff/5af256679e82d.image.jpg?crop=666%2C350%2C0%2C325",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Nuclear Reactors Promoted as Climate Option Amid Cost and Safety Debate – NaturalNews . com",
-      "url": "https://www.naturalnews.com/2026-10-19-nuclear-reactors-promoted-climate-option-amid-cost.html",
-      "source_domain": "naturalnews.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T09:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/10/nuclear-reactors-climate-change-low-carbon-electricity-5319-8caa9534-original.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Three CRPF personnel injured in IED blast in Manipur",
-      "url": "https://www.orissapost.com/three-crpf-personnel-injured-in-ied-blast-in-manipur/",
-      "source_domain": "orissapost.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T04:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.orissapost.com/wp-content/uploads/2026/10/manipur.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "Armenia Pledges Peaceful Nuclear Energy Cooperation With IAEA",
-      "url": "https://www.eurasiareview.com/20102026-armenia-pledges-peaceful-nuclear-energy-cooperation-with-iaea/",
-      "source_domain": "eurasiareview.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T01:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.eurasiareview.com/wp-content/uploads/2026/09/a-116.jpeg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 221,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T13:48:14.815756+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 78,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T13:48:13.122710+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 181,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T13:48:11.466129+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 120,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T13:48:09.719498+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3138,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T13:48:08.017591+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 858,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T13:48:06.292037+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 420,
+      "window_hours": 24,
+      "fetched_at": "2026-11-03T13:48:04.575549+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 278,
@@ -3466,127 +3442,15 @@
       "fetched_at": "2026-10-20T16:31:39.437848+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 58,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T11:05:18.240419+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 67,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T11:05:16.641789+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 380,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T11:05:14.986561+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 36,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T11:05:13.351220+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1569,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T11:05:11.701257+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 775,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T11:05:10.087310+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 445,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T11:05:08.448267+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 60,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T03:49:00.342615+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 77,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T03:48:58.754950+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 407,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T03:48:57.136554+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 35,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T03:48:55.477337+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1583,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T03:48:53.879056+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 762,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T03:48:52.261580+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 460,
-      "window_hours": 24,
-      "fetched_at": "2026-10-20T03:48:50.669882+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 477,
-    "biological": 675,
-    "nuclear": 3509,
-    "radiological": 136,
-    "explosives": 201,
-    "autonomous_weapons": 71,
-    "directed_energy": 278
+    "chemical": 420,
+    "biological": 858,
+    "nuclear": 3138,
+    "radiological": 120,
+    "explosives": 181,
+    "autonomous_weapons": 78,
+    "directed_energy": 221
   }
 }
