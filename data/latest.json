@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T05:13:28.606154+00:00",
+  "generated_at": "2026-11-04T13:55:57.617730+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 36,
+  "total_items": 29,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,28 +13,42 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 9,
+    "chemical": 5,
     "biological": 2,
-    "nuclear": 22,
+    "nuclear": 20,
     "radiological": 0,
-    "explosives": 3,
+    "explosives": 2,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
+    "Austria": 8,
     "Egypt": 1,
-    "Austria": 7,
     "Netherlands": 4,
-    "India": 7,
-    "United States": 6,
-    "Syria": 3,
+    "India": 6,
+    "United States": 4,
+    "Syria": 2,
     "Iran": 1,
     "Iraq": 1,
     "Kenya": 1,
-    "Israel": 2,
-    "Ghana": 3
+    "Israel": 1
   },
   "items": [
+    {
+      "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-confirms-japanese-monitoring-data-of-alps-treated-water-prior-to-discharge-under-additional-measures",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-04T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Virunga National Park Reports 28 Hippos Dead from Anthrax",
       "url": "https://www.el-balad.com/17063415",
@@ -471,137 +485,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Zanetor Rawlings labels galamsey chemical warfare , demands fast courts – Ghanamma . com",
-      "url": "https://www.ghanamma.com/2026/10/21/zanetor-rawlings-labels-galamsey-chemical-warfare-demands-fast-courts/",
-      "source_domain": "ghanamma.com",
-      "source_country": "Ghana",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T13:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Iran enriched uranium re - emerges as point of contention in US talks | Explainer News",
-      "url": "https://www.aljazeera.com/news/2026/10/21/irans-enriched-uranium-re-emerges-as-point-of-contention-in-us-talks",
-      "source_domain": "aljazeera.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T13:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/05/getty_69f6fdf528-1777794549.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Illegal Mining Is a Form of Chemical Warfare â€  Zenator Agyeman - Rawlings – Ghanamma . com",
-      "url": "https://www.ghanamma.com/2026/10/21/illegal-mining-is-a-form-of-chemical-warfare-zenator-agyeman-rawlings/",
-      "source_domain": "ghanamma.com",
-      "source_country": "Ghana",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T12:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Zanetor Agyeman - Rawlings Describes Illegal Mining as a Form of Chemical Warfare – Ghanamma . com",
-      "url": "https://www.ghanamma.com/2026/10/21/zanetor-agyeman-rawlings-describes-illegal-mining-as-a-form-of-chemical-warfare/",
-      "source_domain": "ghanamma.com",
-      "source_country": "Ghana",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T12:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "JFC to Honor Julie Walsh and Sarin Bachmann at 2027 Facets",
-      "url": "https://www.jckonline.com/editorial-article/jfc-honors-bachmann-walsh/",
-      "source_domain": "jckonline.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T12:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.jckonline.com/wp-content/uploads/2026/10/JulieWalshSarinBachmann.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Iran tells Pakistani mediator it rejects moving enriched uranium out of country",
-      "url": "https://www.naharnet.com:443/stories/en/323228-iran-tells-pakistani-mediator-it-rejects-moving-enriched-uranium-out-of-country",
-      "source_domain": "naharnet.com",
-      "source_country": "Syria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T11:00:00+00:00",
-      "language": "English",
-      "image_url": "http://images2.naharnet.com/images/276991/w140.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "No Way ! China Wants to Visit U . S . Nuclear Weapons Labs",
-      "url": "https://www.gatestoneinstitute.org/22925/china-us-nuclear-weapons-labs",
-      "source_domain": "gatestoneinstitute.org",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T10:00:00+00:00",
-      "language": "English",
-      "image_url": "https://www.gatestoneinstitute.org/pics/5815.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Suspected blast at Bengaluru under - construction building injures 2 ; police probe IED angle",
-      "url": "https://aninews.in/news/national/general-news/suspected-blast-at-bengalurus-under-construction-building-injures-2-police-probe-ied-angle20261021131040/",
-      "source_domain": "aninews.in",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T08:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 132,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T13:55:57.607265+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 66,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T13:55:55.920061+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 228,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T13:55:54.241897+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 87,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T13:55:52.548124+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3521,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T13:55:50.884428+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 814,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T13:55:49.204450+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 834,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T13:55:47.495419+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 221,
@@ -3233,71 +3175,15 @@
       "fetched_at": "2026-10-21T16:47:32.934158+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 49,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T11:21:40.703778+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 66,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T11:21:39.061813+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 304,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T11:21:37.402137+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 50,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T11:21:35.755202+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1692,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T11:21:34.121027+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 746,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T11:21:32.454872+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 410,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T11:21:30.802112+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 771,
-    "biological": 804,
-    "nuclear": 3091,
-    "radiological": 115,
-    "explosives": 179,
-    "autonomous_weapons": 76,
-    "directed_energy": 221
+    "chemical": 834,
+    "biological": 814,
+    "nuclear": 3521,
+    "radiological": 87,
+    "explosives": 228,
+    "autonomous_weapons": 66,
+    "directed_energy": 132
   }
 }
