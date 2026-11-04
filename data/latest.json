@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T23:01:58.155667+00:00",
+  "generated_at": "2026-11-04T05:13:28.606154+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 38,
+  "total_items": 36,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 9,
     "biological": 2,
-    "nuclear": 24,
+    "nuclear": 22,
     "radiological": 0,
     "explosives": 3,
     "autonomous_weapons": 0,
@@ -26,7 +26,7 @@
     "Austria": 7,
     "Netherlands": 4,
     "India": 7,
-    "United States": 8,
+    "United States": 6,
     "Syria": 3,
     "Iran": 1,
     "Iraq": 1,
@@ -599,41 +599,65 @@
       "categories": [
         "explosives"
       ]
-    },
-    {
-      "title": "Iran Security Chief Rejects Moving Enriched Uranium Out Of Country",
-      "url": "https://www.eurasiareview.com/21102026-iran-security-chief-rejects-moving-enriched-uranium-out-of-country/",
-      "source_domain": "eurasiareview.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-21T02:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.eurasiareview.com/wp-content/uploads/2026/08/a-240.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "DOE okays construction of the next home for the nation largest supply of nuclear warhead triggers",
-      "url": "https://www.gpb.org/news/2026/10/20/doe-okays-construction-of-the-next-home-for-the-nations-largest-supply-of-nuclear",
-      "source_domain": "gpb.org",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-20T23:45:00+00:00",
-      "language": "English",
-      "image_url": "https://www.gpb.org/sites/default/files/styles/three_two_702x468/public/2026-10/the_savannah_river_site_srs_is_opening_new_construction_work_fronts_to_accelerate_building_the_savannah_river_plutonium_processing_facility_srppf.png?h=ef5da701&itok=cXs1vRbb",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 221,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T05:13:28.590409+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 76,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T05:13:26.924265+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 179,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T05:13:25.212548+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 115,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T05:13:23.514662+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3091,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T05:13:21.828185+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 804,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T05:13:20.154590+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 771,
+      "window_hours": 24,
+      "fetched_at": "2026-11-04T05:13:18.497310+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 238,
@@ -3265,71 +3289,15 @@
       "fetched_at": "2026-10-21T11:21:30.802112+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 44,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T03:40:53.857987+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 56,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T03:40:52.249401+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 336,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T03:40:50.589357+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 44,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T03:40:48.981177+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1699,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T03:40:47.371839+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 777,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T03:40:45.746105+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 363,
-      "window_hours": 24,
-      "fetched_at": "2026-10-21T03:40:44.109599+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 659,
-    "biological": 896,
-    "nuclear": 2628,
-    "radiological": 108,
-    "explosives": 185,
+    "chemical": 771,
+    "biological": 804,
+    "nuclear": 3091,
+    "radiological": 115,
+    "explosives": 179,
     "autonomous_weapons": 76,
-    "directed_energy": 238
+    "directed_energy": 221
   }
 }
