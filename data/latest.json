@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T05:34:21.813676+00:00",
+  "generated_at": "2026-11-05T14:12:39.189495+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 18,
+  "total_items": 16,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,19 +13,19 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 4,
+    "chemical": 3,
     "biological": 2,
     "nuclear": 10,
     "radiological": 0,
-    "explosives": 2,
+    "explosives": 1,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
     "Austria": 8,
     "Egypt": 1,
-    "Netherlands": 4,
-    "India": 3,
+    "Netherlands": 3,
+    "India": 2,
     "United States": 1,
     "Syria": 1
   },
@@ -274,40 +274,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "OPCW Director-General on official visit to the United Kingdom",
-      "url": "https://www.opcw.org/media-centre/news/2026/10/opcw-director-general-official-visit-united-kingdom",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW Director-General on official visit to the United Kingdom</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Director-General Sabrina Dallafior at the Royal Society of Chemistry in London, United Kingdom. (Photo: MOD)\" height=\"417\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T12:54:20+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
-      "title": "Pulakeshinagar Blast Case : NIA probes IED angle",
-      "url": "https://organiser.org/2026/10/22/419050/bharat/pulakeshinagar-blast-case-nia-may-join-probe-as-investigators-suspect-possible-ied-use/",
-      "source_domain": "organiser.org",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T09:30:00+00:00",
-      "language": "English",
-      "image_url": "https://organiser.org/wp-content/uploads/2026/10/untitled-118.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 217,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T14:12:39.174946+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 60,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T14:12:37.456089+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 222,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T14:12:35.840826+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 103,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T14:12:34.189848+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 4699,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T14:12:32.532872+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 543,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T14:12:30.913943+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 480,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T14:12:29.266587+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 172,
@@ -2883,71 +2908,15 @@
       "fetched_at": "2026-10-22T16:47:40.071412+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 39,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T11:22:28.150328+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 79,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T11:22:26.500352+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 263,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T11:22:24.865317+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 49,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T11:22:23.210354+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1360,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T11:22:21.536933+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 647,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T11:22:19.876064+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 573,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T11:22:18.219223+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 539,
-    "biological": 608,
-    "nuclear": 5030,
-    "radiological": 97,
-    "explosives": 256,
-    "autonomous_weapons": 63,
-    "directed_energy": 172
+    "chemical": 480,
+    "biological": 543,
+    "nuclear": 4699,
+    "radiological": 103,
+    "explosives": 222,
+    "autonomous_weapons": 60,
+    "directed_energy": 217
   }
 }
