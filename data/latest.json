@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T23:21:02.264271+00:00",
+  "generated_at": "2026-11-05T05:34:21.813676+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 26,
+  "total_items": 18,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,22 +15,19 @@
   "category_counts": {
     "chemical": 4,
     "biological": 2,
-    "nuclear": 18,
+    "nuclear": 10,
     "radiological": 0,
     "explosives": 2,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
-    "Austria": 9,
+    "Austria": 8,
     "Egypt": 1,
     "Netherlands": 4,
-    "India": 6,
+    "India": 3,
     "United States": 1,
-    "Syria": 2,
-    "Iran": 1,
-    "Iraq": 1,
-    "Kenya": 1
+    "Syria": 1
   },
   "items": [
     {
@@ -308,136 +305,65 @@
       "categories": [
         "explosives"
       ]
-    },
-    {
-      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
-      "url": "http://www.iranherald.com/news/279391066/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon",
-      "source_domain": "iranherald.com",
-      "source_country": "Iran",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T04:30:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/de395a8/3dc460d9-f5fb-44d5-bff4-7e4505599de1/0/ANI-20261021235429-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Trump Claims US Prevented Iran from Having Nuclear Weapon",
-      "url": "https://www.deccanchronicle.com/west-asia/trump-claims-us-prevented-iran-from-having-nuclear-weapon-1997776",
-      "source_domain": "deccanchronicle.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T03:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.deccanchronicle.com/h-upload/2026/10/22/2103357-aa-8439876.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
-      "url": "http://www.iraqsun.com/news/279391066/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon",
-      "source_domain": "iraqsun.com",
-      "source_country": "Iraq",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T03:00:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/de395a8/3dc460d9-f5fb-44d5-bff4-7e4505599de1/0/ANI-20261021235429-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
-      "url": "http://www.arabherald.com/news/279391066/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon",
-      "source_domain": "arabherald.com",
-      "source_country": "Syria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/de395a8/3dc460d9-f5fb-44d5-bff4-7e4505599de1/0/ANI-20261021235429-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
-      "url": "http://www.kenyastar.com/news/279391066/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon",
-      "source_domain": "kenyastar.com",
-      "source_country": "Kenya",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T02:00:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/de395a8/3dc460d9-f5fb-44d5-bff4-7e4505599de1/0/ANI-20261021235429-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon/articleshow/135103467.cms",
-      "source_domain": "economictimes.indiatimes.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T01:00:00+00:00",
-      "language": "English",
-      "image_url": "https://img.etimg.com/thumb/msid-135103466,width-1200,height-900,imgsize-279967,overlay-economictimes/articleshow.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "One of the greatest things weve done : Trump claims US prevented Iran from having nuclear weapon",
-      "url": "https://aninews.in/news/world/asia/one-of-the-greatest-things-weve-done-trump-claims-us-prevented-iran-from-having-nuclear-weapon20261022052442/",
-      "source_domain": "aninews.in",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T00:15:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Mission Finds Kenya Committed to Safe Management of Radioactive Waste as it Develops a Nuclear Power Programme",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-finds-kenya-committed-to-safe-management-of-radioactive-waste-as-it-develops-a-nuclear-power-programme",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-22T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 172,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T05:34:21.798929+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 63,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T05:34:20.171166+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 256,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T05:34:18.548974+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 97,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T05:34:16.929195+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 5030,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T05:34:15.269552+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 608,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T05:34:13.663397+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 539,
+      "window_hours": 24,
+      "fetched_at": "2026-11-05T05:34:12.041060+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 176,
@@ -3013,71 +2939,15 @@
       "fetched_at": "2026-10-22T11:22:18.219223+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T03:40:28.001436+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 82,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T03:40:26.364285+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 285,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T03:40:24.576461+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 54,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T03:40:22.928084+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1403,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T03:40:21.234127+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 623,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T03:40:19.607039+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 536,
-      "window_hours": 24,
-      "fetched_at": "2026-10-22T03:40:17.960577+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 587,
-    "biological": 721,
-    "nuclear": 5020,
-    "radiological": 105,
+    "chemical": 539,
+    "biological": 608,
+    "nuclear": 5030,
+    "radiological": 97,
     "explosives": 256,
-    "autonomous_weapons": 65,
-    "directed_energy": 176
+    "autonomous_weapons": 63,
+    "directed_energy": 172
   }
 }
