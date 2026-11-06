@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:32:07.590452+00:00",
+  "generated_at": "2026-11-06T13:54:31.395177+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 14,
@@ -15,20 +15,35 @@
   "category_counts": {
     "chemical": 3,
     "biological": 2,
-    "nuclear": 8,
+    "nuclear": 9,
     "radiological": 0,
-    "explosives": 1,
+    "explosives": 0,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
-    "Austria": 7,
+    "Austria": 8,
     "Egypt": 1,
     "Netherlands": 3,
-    "India": 2,
+    "India": 1,
     "United States": 1
   },
   "items": [
+    {
+      "title": "IAEA Mission Reviews the Russian Federation’s Regulatory Framework for Nuclear and Radiation Safety",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-reviews-the-russian-federations-regulatory-framework-for-nuclear-and-radiation-safety",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-06T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "IAEA Report Confirms Japanese Monitoring Data of ALPS-Treated Water Prior to Discharge under Additional Measures",
       "url": "http://www.iaea.org/newscenter/pressreleases/iaea-report-confirms-japanese-monitoring-data-of-alps-treated-water-prior-to-discharge-under-additional-measures",
@@ -226,25 +241,65 @@
       "categories": [
         "biological"
       ]
-    },
-    {
-      "title": "Bengaluru IED blast : Police verify footage from over 100 CCTVs , form 5 special teams",
-      "url": "https://www.mangalorean.com/bengaluru-ied-blast-police-verify-footage-from-over-100-cctvs-form-5-special-teams/",
-      "source_domain": "mangalorean.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-23T09:30:00+00:00",
-      "language": "English",
-      "image_url": "https://www.mangalorean.com/wp-content/uploads/2026/10/202610233988689.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 322,
+      "window_hours": 24,
+      "fetched_at": "2026-11-06T13:54:31.385727+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 70,
+      "window_hours": 24,
+      "fetched_at": "2026-11-06T13:54:29.710224+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 247,
+      "window_hours": 24,
+      "fetched_at": "2026-11-06T13:54:28.073978+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-11-06T13:54:26.423603+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3184,
+      "window_hours": 24,
+      "fetched_at": "2026-11-06T13:54:24.681460+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 687,
+      "window_hours": 24,
+      "fetched_at": "2026-11-06T13:54:23.016209+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 335,
+      "window_hours": 24,
+      "fetched_at": "2026-11-06T13:54:21.325075+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 299,
@@ -2708,71 +2763,15 @@
       "fetched_at": "2026-10-23T16:40:04.983369+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 97,
-      "window_hours": 24,
-      "fetched_at": "2026-10-23T11:12:10.933632+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 89,
-      "window_hours": 24,
-      "fetched_at": "2026-10-23T11:12:09.276734+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 277,
-      "window_hours": 24,
-      "fetched_at": "2026-10-23T11:12:07.549475+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 62,
-      "window_hours": 24,
-      "fetched_at": "2026-10-23T11:12:05.887644+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1592,
-      "window_hours": 24,
-      "fetched_at": "2026-10-23T11:12:04.257030+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 829,
-      "window_hours": 24,
-      "fetched_at": "2026-10-23T11:12:02.511100+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 563,
-      "window_hours": 24,
-      "fetched_at": "2026-10-23T11:12:00.844767+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 384,
-    "biological": 642,
-    "nuclear": 3421,
-    "radiological": 85,
-    "explosives": 228,
-    "autonomous_weapons": 54,
-    "directed_energy": 299
+    "chemical": 335,
+    "biological": 687,
+    "nuclear": 3184,
+    "radiological": 79,
+    "explosives": 247,
+    "autonomous_weapons": 70,
+    "directed_energy": 322
   }
 }
