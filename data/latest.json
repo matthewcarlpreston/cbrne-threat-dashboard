@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T22:51:27.468897+00:00",
+  "generated_at": "2026-11-07T05:00:26.525293+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 15,
+  "total_items": 17,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,21 +14,71 @@
   },
   "category_counts": {
     "chemical": 3,
-    "biological": 2,
-    "nuclear": 10,
+    "biological": 1,
+    "nuclear": 13,
     "radiological": 0,
     "explosives": 0,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
+    "Israel": 1,
+    "Iraq": 1,
+    "Greece": 1,
     "Austria": 9,
     "Egypt": 1,
     "Netherlands": 3,
-    "India": 1,
-    "United States": 1
+    "India": 1
   },
   "items": [
+    {
+      "title": "Trump says  there would be no Israel  if Iran was allowed nuclear weapon",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-there-would-be-no-israel-if-iran-was-allowed-nuclear-weapon",
+      "source_domain": "middleeasteye.net",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-07T02:00:00+00:00",
+      "language": "English",
+      "image_url": "https://www.middleeasteye.net/sites/default/files/2026-11/yemen-taiz-houthi-attack.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Israel , Middle East would not exist if I didnt stop Iran from having nuclear weapon : Trump",
+      "url": "http://www.iraqsun.com/news/279416619/israel-middle-east-would-not-exist-if-i-didnt-stop-iran-from-having-nuclear-weapon-trump",
+      "source_domain": "iraqsun.com",
+      "source_country": "Iraq",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-07T00:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d16feab/88e4745f-90bd-489e-a009-2c3f8bafeb1e/0/ANI-20261106192632-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Israel , Middle East would not exist if I didnt stop Iran from having nuclear weapon : Trump",
+      "url": "http://www.greekherald.com/news/279416619/israel-middle-east-would-not-exist-if-i-didnt-stop-iran-from-having-nuclear-weapon-trump",
+      "source_domain": "greekherald.com",
+      "source_country": "Greece",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-07T00:00:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d16feab/88e4745f-90bd-489e-a009-2c3f8bafeb1e/0/ANI-20261106192632-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Update 374 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-374-iaea-director-general-statement-on-situation-in-ukraine",
@@ -240,25 +290,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Biodefense , pandemics , bioterrorism , preparedness | Homeland Security Newswire",
-      "url": "https://www.homelandsecuritynewswire.com/dr20261023-reading-russia-s-silence-a-summary-of-the-atlantic-council-s-russia-s-bioweapons-legacy-and-the-plague-scare",
-      "source_domain": "homelandsecuritynewswire.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-24T00:45:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 616,
+      "window_hours": 24,
+      "fetched_at": "2026-11-07T05:00:26.507247+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 87,
+      "window_hours": 24,
+      "fetched_at": "2026-11-07T05:00:24.903422+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 230,
+      "window_hours": 24,
+      "fetched_at": "2026-11-07T05:00:23.269849+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 108,
+      "window_hours": 24,
+      "fetched_at": "2026-11-07T05:00:21.658681+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 3271,
+      "window_hours": 24,
+      "fetched_at": "2026-11-07T05:00:20.052346+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 673,
+      "window_hours": 24,
+      "fetched_at": "2026-11-07T05:00:18.406927+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 399,
+      "window_hours": 24,
+      "fetched_at": "2026-11-07T05:00:16.800610+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 477,
@@ -2666,71 +2756,15 @@
       "fetched_at": "2026-10-24T10:29:35.214909+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 134,
-      "window_hours": 24,
-      "fetched_at": "2026-10-24T03:40:35.035513+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 79,
-      "window_hours": 24,
-      "fetched_at": "2026-10-24T03:40:33.338973+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 241,
-      "window_hours": 24,
-      "fetched_at": "2026-10-24T03:40:31.602965+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 44,
-      "window_hours": 24,
-      "fetched_at": "2026-10-24T03:40:29.937516+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1232,
-      "window_hours": 24,
-      "fetched_at": "2026-10-24T03:40:28.325006+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 838,
-      "window_hours": 24,
-      "fetched_at": "2026-10-24T03:40:26.684408+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 643,
-      "window_hours": 24,
-      "fetched_at": "2026-10-24T03:40:25.038615+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 339,
-    "biological": 642,
-    "nuclear": 3262,
-    "radiological": 104,
-    "explosives": 233,
-    "autonomous_weapons": 85,
-    "directed_energy": 477
+    "chemical": 399,
+    "biological": 673,
+    "nuclear": 3271,
+    "radiological": 108,
+    "explosives": 230,
+    "autonomous_weapons": 87,
+    "directed_energy": 616
   }
 }
