@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:02:07.884663+00:00",
+  "generated_at": "2026-11-09T15:29:46.908301+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 18,
@@ -13,24 +13,39 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 3,
+    "chemical": 2,
     "biological": 1,
-    "nuclear": 14,
+    "nuclear": 15,
     "radiological": 0,
     "explosives": 0,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
+    "Austria": 10,
     "India": 1,
     "Egypt": 2,
     "Israel": 1,
     "Iraq": 1,
     "Greece": 1,
-    "Austria": 9,
-    "Netherlands": 3
+    "Netherlands": 2
   },
   "items": [
+    {
+      "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-slovakia-is-committed-to-strengthening-nuclear-and-radiation-safety-regulatory-framework",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-09T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons",
       "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
@@ -291,24 +306,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Keynote Address by OPCW Deputy Director-General at the Annual OPCW-Asser Training Programme on Disarmament and Non-Proliferation of Weapons of Mass Destruction",
-      "url": "https://www.opcw.org/media-centre/speeches-statements/2026/10/keynote-address-opcw-deputy-director-general-annual-opcw",
-      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Keynote Address by OPCW Deputy Director-General at the Annual OPCW-Asser Training Programme on Disarmament and Non-Proliferation of Weapons of Mass Destruction</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"lang\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\"><time class=\"datetime\" datetime=\"2026-10-26T14:41:14",
-      "source_domain": "OPCW",
-      "source_country": "Netherlands",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-26T13:41:14+00:00",
-      "source": "rss",
-      "rss_feed_name": "OPCW",
-      "categories": [
-        "chemical"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 375,
+      "window_hours": 24,
+      "fetched_at": "2026-11-09T15:29:46.891973+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 71,
+      "window_hours": 24,
+      "fetched_at": "2026-11-09T15:29:45.268864+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 246,
+      "window_hours": 24,
+      "fetched_at": "2026-11-09T15:29:43.667378+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 58,
+      "window_hours": 24,
+      "fetched_at": "2026-11-09T15:29:42.065472+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2343,
+      "window_hours": 24,
+      "fetched_at": "2026-11-09T15:29:40.471785+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 851,
+      "window_hours": 24,
+      "fetched_at": "2026-11-09T15:29:38.843064+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 385,
+      "window_hours": 24,
+      "fetched_at": "2026-11-09T15:29:37.218368+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 317,
@@ -2604,71 +2660,15 @@
       "fetched_at": "2026-10-26T22:25:02.570138+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 332,
-      "window_hours": 24,
-      "fetched_at": "2026-10-26T12:27:38.541031+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 63,
-      "window_hours": 24,
-      "fetched_at": "2026-10-26T12:27:36.869524+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 203,
-      "window_hours": 24,
-      "fetched_at": "2026-10-26T12:27:35.244791+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 44,
-      "window_hours": 24,
-      "fetched_at": "2026-10-26T12:27:33.602780+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1843,
-      "window_hours": 24,
-      "fetched_at": "2026-10-26T12:27:31.967513+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 646,
-      "window_hours": 24,
-      "fetched_at": "2026-10-26T12:27:30.270885+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 488,
-      "window_hours": 24,
-      "fetched_at": "2026-10-26T12:27:28.591872+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 386,
-    "biological": 774,
-    "nuclear": 2072,
-    "radiological": 67,
-    "explosives": 288,
-    "autonomous_weapons": 70,
-    "directed_energy": 317
+    "chemical": 385,
+    "biological": 851,
+    "nuclear": 2343,
+    "radiological": 58,
+    "explosives": 246,
+    "autonomous_weapons": 71,
+    "directed_energy": 375
   }
 }
