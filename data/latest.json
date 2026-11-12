@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T00:11:17.600268+00:00",
+  "generated_at": "2026-11-12T14:50:01.424436+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 20,
+  "total_items": 22,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,16 +15,16 @@
   "category_counts": {
     "chemical": 2,
     "biological": 1,
-    "nuclear": 17,
+    "nuclear": 18,
     "radiological": 0,
-    "explosives": 0,
+    "explosives": 1,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
-    "India": 2,
+    "India": 3,
+    "Austria": 11,
     "United States": 1,
-    "Austria": 10,
     "Egypt": 2,
     "Israel": 1,
     "Iraq": 1,
@@ -32,6 +32,37 @@
     "Netherlands": 2
   },
   "items": [
+    {
+      "title": "Suspected IED blast rocks Kohima ; Security stepped up",
+      "url": "https://organiser.org/2026/11/12/425774/bharat/nagaland/suspected-ied-blast-in-nagaland-capital-kohima-security-beefed-up/",
+      "source_domain": "organiser.org",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-12T01:30:00+00:00",
+      "language": "English",
+      "image_url": "https://organiser.org/wp-content/uploads/2026/11/1000699963-1.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "IAEA Sees Commitment to Operational Safety at Unit 2 of Kori Nuclear Power Plant in Republic of Korea",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-sees-commitment-to-operational-safety-at-unit-2-of-kori-nuclear-power-plant-in-republic-of-korea",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-12T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Tehran cannot have nuclear weapon because they would use it : Trump signals possibility of quick end to Iran war",
       "url": "https://aninews.in/news/world/us/tehran-cannot-have-nuclear-weapon-because-they-would-use-it-trump-signals-possibility-of-quick-end-to-iran-war20261110085748/",
@@ -342,6 +373,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 457,
+      "window_hours": 24,
+      "fetched_at": "2026-11-12T14:50:01.411716+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-11-12T14:49:59.693836+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 291,
+      "window_hours": 24,
+      "fetched_at": "2026-11-12T14:49:58.004294+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 45,
+      "window_hours": 24,
+      "fetched_at": "2026-11-12T14:49:56.281769+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1487,
+      "window_hours": 24,
+      "fetched_at": "2026-11-12T14:49:54.538345+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 780,
+      "window_hours": 24,
+      "fetched_at": "2026-11-12T14:49:52.860644+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 462,
+      "window_hours": 24,
+      "fetched_at": "2026-11-12T14:49:51.146462+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 364,
@@ -2469,127 +2556,15 @@
       "fetched_at": "2026-10-29T22:33:10.782300+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 176,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T12:28:37.404716+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 113,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T12:28:35.714236+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 280,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T12:28:33.927354+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 127,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T12:28:32.215659+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1506,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T12:28:30.495959+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 628,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T12:28:28.826954+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 426,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T12:28:27.171064+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 316,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T04:46:54.969620+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 95,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T04:46:53.350282+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 252,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T04:46:51.726434+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 118,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T04:46:50.089300+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1584,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T04:46:48.472039+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 620,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T04:46:46.851636+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 421,
-      "window_hours": 24,
-      "fetched_at": "2026-10-29T04:46:45.222418+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 499,
-    "biological": 808,
-    "nuclear": 1643,
-    "radiological": 39,
-    "explosives": 274,
-    "autonomous_weapons": 73,
-    "directed_energy": 364
+    "chemical": 462,
+    "biological": 780,
+    "nuclear": 1487,
+    "radiological": 45,
+    "explosives": 291,
+    "autonomous_weapons": 79,
+    "directed_energy": 457
   }
 }
