@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T23:17:46.518935+00:00",
+  "generated_at": "2026-11-13T05:31:49.344069+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 22,
+  "total_items": 21,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 2,
     "biological": 1,
-    "nuclear": 18,
+    "nuclear": 17,
     "radiological": 0,
     "explosives": 1,
     "autonomous_weapons": 0,
@@ -23,7 +23,7 @@
   },
   "country_counts": {
     "India": 3,
-    "Austria": 11,
+    "Austria": 10,
     "United States": 1,
     "Egypt": 2,
     "Israel": 1,
@@ -355,24 +355,65 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "Update 373 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-373-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-10-30T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 486,
+      "window_hours": 24,
+      "fetched_at": "2026-11-13T05:31:49.338424+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 85,
+      "window_hours": 24,
+      "fetched_at": "2026-11-13T05:31:47.695587+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 287,
+      "window_hours": 24,
+      "fetched_at": "2026-11-13T05:31:46.032115+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 52,
+      "window_hours": 24,
+      "fetched_at": "2026-11-13T05:31:44.339719+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1402,
+      "window_hours": 24,
+      "fetched_at": "2026-11-13T05:31:42.705164+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 632,
+      "window_hours": 24,
+      "fetched_at": "2026-11-13T05:31:41.039851+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 418,
+      "window_hours": 24,
+      "fetched_at": "2026-11-13T05:31:39.370928+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 452,
@@ -2500,71 +2541,15 @@
       "fetched_at": "2026-10-30T12:19:39.415527+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 221,
-      "window_hours": 24,
-      "fetched_at": "2026-10-30T04:47:19.546554+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 95,
-      "window_hours": 24,
-      "fetched_at": "2026-10-30T04:47:17.860180+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 329,
-      "window_hours": 24,
-      "fetched_at": "2026-10-30T04:47:16.234229+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 99,
-      "window_hours": 24,
-      "fetched_at": "2026-10-30T04:47:14.590500+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1472,
-      "window_hours": 24,
-      "fetched_at": "2026-10-30T04:47:12.928922+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 645,
-      "window_hours": 24,
-      "fetched_at": "2026-10-30T04:47:11.286758+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 403,
-      "window_hours": 24,
-      "fetched_at": "2026-10-30T04:47:09.642460+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 437,
-    "biological": 688,
-    "nuclear": 1383,
-    "radiological": 54,
-    "explosives": 304,
-    "autonomous_weapons": 81,
-    "directed_energy": 452
+    "chemical": 418,
+    "biological": 632,
+    "nuclear": 1402,
+    "radiological": 52,
+    "explosives": 287,
+    "autonomous_weapons": 85,
+    "directed_energy": 486
   }
 }
