@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T05:12:18.191320+00:00",
+  "generated_at": "2026-11-16T15:05:33.827379+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 21,
+  "total_items": 24,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,7 +13,7 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 0,
+    "chemical": 3,
     "biological": 1,
     "nuclear": 19,
     "radiological": 0,
@@ -22,6 +22,7 @@
     "directed_energy": 0
   },
   "country_counts": {
+    "Netherlands": 3,
     "Austria": 12,
     "India": 3,
     "United States": 1,
@@ -31,6 +32,51 @@
     "Greece": 1
   },
   "items": [
+    {
+      "title": "Finland provides EUR 50,000 in voluntary funding to enhance OPCW’s work",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/finland-provides-eur-50000-voluntary-funding-enhance-opcws-work",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Finland provides EUR 50,000 in voluntary funding to enhance OPCW’s work </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Mr Mikael Antell, Permanent Representative of the Republic of Finland to the OPCW, and Sabrina Dallafior, OPCW Director-General. (Photo: OPCW)\" height=\"417\" src=\"https://www.opcw.org/s",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-16T14:42:48+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Closing Remarks by Deputy Director-General Mekondjo Kaapanda-Girnus at Briefing for Non-Hague based Permanent Representations to the OPCW",
+      "url": "https://www.opcw.org/media-centre/speeches-statements/2026/11/closing-remarks-deputy-director-general-mekondjo-kaapanda",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Closing Remarks by Deputy Director-General Mekondjo Kaapanda-Girnus at Briefing for Non-Hague based Permanent Representations to the OPCW</span>\n<span class=\"field field--name-uid field--type-entity-reference field--label-hidden\"><span lang=\"lang\">kviray</span></span>\n<span class=\"field field--name-created field--type-created field--label-hidden\"><time class=\"datetime\" datetime=\"2026-11-16T12:49:59+01:00\" title=\"Monday ",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-16T11:49:59+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Spain provides EUR 350,000 in voluntary funding to support OPCW’s work",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/spain-provides-eur-350000-voluntary-funding-support-opcws-work",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Spain provides EUR 350,000 in voluntary funding to support OPCW’s work  </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"H.E. Ms Cecilia Robles Cartes, Permanent Representative of the Kingdom of Spain to the OPCW, and Sabrina Dallafior, OPCW Director-General. (Photo: OPCW)\" height=\"417\" src=\"https://www.opcw.",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-16T09:14:30+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
       "url": "http://www.iaea.org/newscenter/pressreleases/update-375-iaea-director-general-statement-on-situation-in-ukraine",
@@ -357,6 +403,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 128,
+      "window_hours": 24,
+      "fetched_at": "2026-11-16T15:05:33.818266+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 95,
+      "window_hours": 24,
+      "fetched_at": "2026-11-16T15:05:32.172547+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 274,
+      "window_hours": 24,
+      "fetched_at": "2026-11-16T15:05:30.543043+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 60,
+      "window_hours": 24,
+      "fetched_at": "2026-11-16T15:05:28.908839+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1236,
+      "window_hours": 24,
+      "fetched_at": "2026-11-16T15:05:27.305598+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 757,
+      "window_hours": 24,
+      "fetched_at": "2026-11-16T15:05:25.648646+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 516,
+      "window_hours": 24,
+      "fetched_at": "2026-11-16T15:05:24.044182+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 236,
@@ -2428,71 +2530,15 @@
       "fetched_at": "2026-11-03T00:42:10.183777+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 310,
-      "window_hours": 24,
-      "fetched_at": "2026-11-02T15:00:45.994744+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 65,
-      "window_hours": 24,
-      "fetched_at": "2026-11-02T15:00:44.384560+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 224,
-      "window_hours": 24,
-      "fetched_at": "2026-11-02T15:00:42.772677+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 114,
-      "window_hours": 24,
-      "fetched_at": "2026-11-02T15:00:41.131285+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2352,
-      "window_hours": 24,
-      "fetched_at": "2026-11-02T15:00:39.476769+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 631,
-      "window_hours": 24,
-      "fetched_at": "2026-11-02T15:00:37.843446+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 407,
-      "window_hours": 24,
-      "fetched_at": "2026-11-02T15:00:36.227866+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 341,
-    "biological": 648,
-    "nuclear": 1247,
-    "radiological": 54,
-    "explosives": 269,
-    "autonomous_weapons": 79,
-    "directed_energy": 236
+    "chemical": 516,
+    "biological": 757,
+    "nuclear": 1236,
+    "radiological": 60,
+    "explosives": 274,
+    "autonomous_weapons": 95,
+    "directed_energy": 128
   }
 }
