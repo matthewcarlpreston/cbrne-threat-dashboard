@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T01:43:00.508989+00:00",
+  "generated_at": "2026-11-17T15:40:03.449426+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 23,
+  "total_items": 22,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -14,7 +14,7 @@
   },
   "category_counts": {
     "chemical": 3,
-    "biological": 1,
+    "biological": 0,
     "nuclear": 18,
     "radiological": 0,
     "explosives": 1,
@@ -26,7 +26,7 @@
     "Austria": 11,
     "India": 3,
     "United States": 1,
-    "Egypt": 2,
+    "Egypt": 1,
     "Israel": 1,
     "Iraq": 1,
     "Greece": 1
@@ -369,25 +369,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Virunga National Park Reports 28 Hippos Dead from Anthrax",
-      "url": "https://www.el-balad.com/17063415",
-      "source_domain": "el-balad.com",
-      "source_country": "Egypt",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-03T02:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.el-balad.com/uploads/2026/11/03/anthrax-8c953b70_1200w.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "biological"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 510,
+      "window_hours": 24,
+      "fetched_at": "2026-11-17T15:40:03.436763+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 179,
+      "window_hours": 24,
+      "fetched_at": "2026-11-17T15:40:01.828406+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 686,
+      "window_hours": 24,
+      "fetched_at": "2026-11-17T15:40:00.211161+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 8092,
+      "window_hours": 24,
+      "fetched_at": "2026-11-17T15:39:58.558832+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1600,
+      "window_hours": 24,
+      "fetched_at": "2026-11-17T15:39:56.869601+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 1051,
+      "window_hours": 24,
+      "fetched_at": "2026-11-17T15:39:55.196466+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 2061,
+      "window_hours": 24,
+      "fetched_at": "2026-11-17T15:39:53.589550+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 338,
@@ -2459,71 +2499,15 @@
       "fetched_at": "2026-11-03T23:01:48.299508+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 221,
-      "window_hours": 24,
-      "fetched_at": "2026-11-03T13:48:14.815756+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 78,
-      "window_hours": 24,
-      "fetched_at": "2026-11-03T13:48:13.122710+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 181,
-      "window_hours": 24,
-      "fetched_at": "2026-11-03T13:48:11.466129+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 120,
-      "window_hours": 24,
-      "fetched_at": "2026-11-03T13:48:09.719498+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3138,
-      "window_hours": 24,
-      "fetched_at": "2026-11-03T13:48:08.017591+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 858,
-      "window_hours": 24,
-      "fetched_at": "2026-11-03T13:48:06.292037+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 420,
-      "window_hours": 24,
-      "fetched_at": "2026-11-03T13:48:04.575549+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 1251,
-    "biological": 1078,
-    "nuclear": 1450,
-    "radiological": 2814,
-    "explosives": 345,
-    "autonomous_weapons": 137,
-    "directed_energy": 338
+    "chemical": 2061,
+    "biological": 1051,
+    "nuclear": 1600,
+    "radiological": 8092,
+    "explosives": 686,
+    "autonomous_weapons": 179,
+    "directed_energy": 510
   }
 }
