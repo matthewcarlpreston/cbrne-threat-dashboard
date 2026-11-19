@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T07:00:14.721584+00:00",
+  "generated_at": "2026-11-19T20:07:39.420469+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 22,
+  "total_items": 28,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,17 +13,17 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 4,
+    "chemical": 5,
     "biological": 0,
-    "nuclear": 17,
-    "radiological": 0,
+    "nuclear": 22,
+    "radiological": 1,
     "explosives": 1,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
-    "Netherlands": 4,
-    "Austria": 10,
+    "Netherlands": 5,
+    "Austria": 15,
     "India": 3,
     "United States": 1,
     "Egypt": 1,
@@ -32,6 +32,51 @@
     "Greece": 1
   },
   "items": [
+    {
+      "title": "OPCW fosters young scientists committed to chemical safety, security and the peaceful uses of chemistry",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/opcw-fosters-young-scientists-committed-chemical-safety-security-and",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW fosters young scientists committed to chemical safety, security and the peaceful uses of chemistry </span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"Participants and instructors of the OPCW Education and Training Programme on the Peaceful Uses of Chemistry for Youth,\" height=\"417\" src=\"https://www.opcw.or",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-19T10:23:49+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Update 376 – IAEA Director General Statement on Situation in Ukraine",
+      "url": "http://www.iaea.org/newscenter/pressreleases/update-376-iaea-director-general-statement-on-situation-in-ukraine",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-19T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA and Global Partnership of Nuclear Communities Strengthen Cooperation on Local Engagement",
+      "url": "http://www.iaea.org/newscenter/news/iaea-and-global-partnership-of-nuclear-communities-strengthen-cooperation-on-local-engagement",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-19T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Monaco provides EUR 40,000 in voluntary funding to enhance OPCW’s work",
       "url": "https://www.opcw.org/media-centre/news/2026/11/monaco-provides-eur-40000-voluntary-funding-enhance-opcws-work",
@@ -45,6 +90,52 @@
       "rss_feed_name": "OPCW",
       "categories": [
         "chemical"
+      ]
+    },
+    {
+      "title": "IAEA Reviews Bangladesh’s Nuclear and Radiological Emergency Preparedness and Response",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-reviews-bangladeshs-nuclear-and-radiological-emergency-preparedness-and-response",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-18T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear",
+        "radiological"
+      ]
+    },
+    {
+      "title": "IAEA Director General's Introductory Statement to the Board of Governors",
+      "url": "http://www.iaea.org/newscenter/statements/iaea-director-generals-introductory-statement-to-the-board-of-governors-18-november-2026",
+      "summary": "(As prepared for delivery)\nJust a few weeks ago, I was in New York presenting the IAEA’s annual report – your annual report – to the United Nations General Assembly.",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-18T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Mission to United Republic of Tanzania Finds Commitment to Strengthening Nuclear Security",
+      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-to-united-republic-of-tanzania-finds-commitment-to-strengthening-nuclear-security",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-18T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
+      "categories": [
+        "nuclear"
       ]
     },
     {
@@ -372,6 +463,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 139,
+      "window_hours": 24,
+      "fetched_at": "2026-11-19T20:07:39.406184+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 121,
+      "window_hours": 24,
+      "fetched_at": "2026-11-19T20:07:37.706121+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 411,
+      "window_hours": 24,
+      "fetched_at": "2026-11-19T20:07:36.120350+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 1470,
+      "window_hours": 24,
+      "fetched_at": "2026-11-19T20:07:34.521854+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 2041,
+      "window_hours": 24,
+      "fetched_at": "2026-11-19T20:07:32.939668+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 709,
+      "window_hours": 24,
+      "fetched_at": "2026-11-19T20:07:31.342327+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 1947,
+      "window_hours": 24,
+      "fetched_at": "2026-11-19T20:07:29.748574+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 316,
@@ -2387,71 +2534,15 @@
       "fetched_at": "2026-11-06T05:31:57.930115+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 217,
-      "window_hours": 24,
-      "fetched_at": "2026-11-05T14:12:39.174946+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 60,
-      "window_hours": 24,
-      "fetched_at": "2026-11-05T14:12:37.456089+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 222,
-      "window_hours": 24,
-      "fetched_at": "2026-11-05T14:12:35.840826+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 103,
-      "window_hours": 24,
-      "fetched_at": "2026-11-05T14:12:34.189848+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 4699,
-      "window_hours": 24,
-      "fetched_at": "2026-11-05T14:12:32.532872+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 543,
-      "window_hours": 24,
-      "fetched_at": "2026-11-05T14:12:30.913943+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 480,
-      "window_hours": 24,
-      "fetched_at": "2026-11-05T14:12:29.266587+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 1668,
-    "biological": 739,
-    "nuclear": 1596,
-    "radiological": 2226,
-    "explosives": 554,
-    "autonomous_weapons": 201,
-    "directed_energy": 316
+    "chemical": 1947,
+    "biological": 709,
+    "nuclear": 2041,
+    "radiological": 1470,
+    "explosives": 411,
+    "autonomous_weapons": 121,
+    "directed_energy": 139
   }
 }
