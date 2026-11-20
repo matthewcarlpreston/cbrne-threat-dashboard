@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T06:04:15.036563+00:00",
+  "generated_at": "2026-11-20T19:43:58.187649+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 26,
+  "total_items": 54,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,25 +13,483 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 5,
-    "biological": 0,
-    "nuclear": 20,
+    "chemical": 21,
+    "biological": 2,
+    "nuclear": 25,
     "radiological": 1,
-    "explosives": 1,
+    "explosives": 6,
     "autonomous_weapons": 0,
     "directed_energy": 0
   },
   "country_counts": {
-    "Netherlands": 5,
+    "Netherlands": 6,
+    "Pakistan": 1,
+    "Denmark": 1,
+    "United States": 9,
+    "China": 2,
+    "India": 6,
+    "Russia": 1,
+    "Iraq": 2,
+    "Syria": 2,
+    "Iran": 1,
+    "Cambodia": 1,
+    "Israel": 3,
+    "Estonia": 1,
+    "South Africa": 1,
+    "Australia": 1,
+    "Unknown": 1,
     "Austria": 13,
-    "India": 3,
-    "United States": 1,
     "Egypt": 1,
-    "Israel": 1,
-    "Iraq": 1,
     "Greece": 1
   },
   "items": [
+    {
+      "title": "Germany provides EUR 1.4 million in voluntary funding to enhance OPCW’s work",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/germany-provides-eur-14-million-voluntary-funding-enhance-opcws-work",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Germany provides EUR 1.4 million in voluntary funding to enhance OPCW’s work</span>\n    <div class=\"paragraph paragraph--type--text paragraph--view-mode--default\">\n          \n  <p><a href=\"https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.opcw.org%2Fabout-us%2Fmember-states%2Fgermany&amp;data=05%7C02%7Ckrizia.viray%40opcw.org%7C809d3b9d099d489debf408df461539b1%7C45a0f6282a9f4a47984940b3869e797a%7C1%7",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T12:39:53+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects Trump bioweapons claims , warns against repeat of disproved allegations that Iraq had WMD",
+      "url": "https://tribune.com.pk/story/2641331/iran-rejects-trumps-bioweapons-claims-warns-against-repeat-of-disproved-allegations",
+      "source_domain": "tribune.com.pk",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T06:45:00+00:00",
+      "language": "English",
+      "image_url": "https://i.tribune.com.pk/media/images/iran1790561369-0/iran1790561369-0-640x480.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Trump , Xi and Putin agree on UN reform , energy supplies , international courts and nuclear weapons in joint peace declaration",
+      "url": "https://cphpost.dk/2026-11-20/global/trump-xi-and-putin-agree-on-un-reform-energy-supplies-international-courts-and-nuclear-weapons-in-joint-peace-declaration/",
+      "source_domain": "cphpost.dk",
+      "source_country": "Denmark",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T06:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Sydney man charged with car bomb plot and downloading Islamic State group material",
+      "url": "http://www.dailyadvance.com/news/world/sydney-man-charged-with-car-bomb-plot-and-downloading-islamic-state-group-material/article_05d52865-b18d-56ae-99d9-de8752910ee9.html",
+      "source_domain": "dailyadvance.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T06:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.newyork1.vip.townnews.com/dailyadvance.com/content/tncms/assets/v3/editorial/b/7f/b7ff4fe7-426b-5e01-8e5f-8edf4a9e7eb7/6affdc4402607.image.jpg?crop=1763%2C926%2C0%2C124",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Sydney man charged with car bomb plot and downloading Islamic State group material",
+      "url": "http://www.thegazette.com/news/world/sydney-man-charged-with-car-bomb-plot-and-downloading-islamic-state-group-material/article_63b982b4-9d2f-55aa-bfc1-7a046177e381.html",
+      "source_domain": "thegazette.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T06:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/thegazette.com/content/tncms/assets/v3/editorial/4/fb/4fbc8fdc-5117-5c39-91ac-2fd4548290b5/6affdcb28ef59.image.jpg?crop=5121%2C2689%2C0%2C362",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Sydney man charged with car bomb plot and downloading Islamic State group material",
+      "url": "https://www.winknews.com/news/international/sydney-man-charged-with-car-bomb-plot-and-downloading-islamic-state-group-material/article_802e60ae-dbc0-5c58-ad60-49292bc94157.html",
+      "source_domain": "winknews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T06:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/winknews.com/content/tncms/custom/image/2c126f9c-bedd-11ef-8535-37037507a88a.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Sydney man charged with car bomb plot and downloading Islamic State group material",
+      "url": "http://www.cecildaily.com/ap/world/sydney-man-charged-with-car-bomb-plot-and-downloading-islamic-state-group-material/article_c262d06f-68d4-5dbc-917b-9b93a49a04c8.html",
+      "source_domain": "cecildaily.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T06:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/d/e3/de33b1e8-d7f1-59b4-a8f0-8d9ce35aa6a5/6affdef63c4ef.image.jpg?crop=1763%2C926%2C0%2C124",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.shanghaisun.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "shanghaisun.com",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T05:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Netanyahu calls Iran strike  unavoidable  as Trump rallies Xi and Putin on nuclear proliferation",
+      "url": "https://aninews.in/news/world/middle-east/netanyahu-calls-iran-strike-unavoidable-as-trump-rallies-xi-and-putin-on-nuclear-proliferation20261120093339/",
+      "source_domain": "aninews.in",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T05:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.europesun.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "europesun.com",
+      "source_country": "Russia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T05:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.iraqsun.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "iraqsun.com",
+      "source_country": "Iraq",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.arabherald.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "arabherald.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran Rejects US Claims Of Developing Biological , Chemical Weapons ; Recalls Iraq WMD Controversy",
+      "url": "https://www.deccanchronicle.com/world/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy-2006118",
+      "source_domain": "deccanchronicle.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.deccanchronicle.com/h-upload/2026/11/20/2115718-iran.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran Rejects US Chemical Weapons Allegations , Cites 2003 Iraq WMD Controversy",
+      "url": "https://openthemagazine.com/world/is-iran-the-new-iraq-tehran-rejects-us-chemical-weapons-claims-invokes-2003-wmd-controversy",
+      "source_domain": "openthemagazine.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://media.openthemagazine.com/openthemagazine/2026-08-17/judzpcs3/ok.jpg?&ar=40:21&auto=format,compress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.middleeaststar.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "middleeaststar.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Pennsylvania man gets 46 months for Delran car bombing",
+      "url": "https://nj1015.com/delran-car-bombing-sentence/",
+      "source_domain": "nj1015.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://townsquare.media/site/385/files/2026/11/attachment-social-image-385-2026-11-19-18-16-09.jpg?&q=75&format=natural",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.batonrougepost.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "batonrougepost.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T02:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.heraldglobe.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "heraldglobe.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T02:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.iranherald.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "iranherald.com",
+      "source_country": "Iran",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T01:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.cambodiantimes.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "cambodiantimes.com",
+      "source_country": "Cambodia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.asiabulletin.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "asiabulletin.com",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran denies chemical weapons allegations : US repeating Iraq war deception",
+      "url": "https://www.israelnationalnews.com/news/436678",
+      "source_domain": "israelnationalnews.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://2.a7.org/files/pictures/000/1215322.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.bignewsnetwork.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "bignewsnetwork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T00:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Trump Warns Iran Pursuing Biological Weapons as Netanyahu Calls New Military Operation  Unavoidable",
+      "url": "https://www.algemeiner.com/2026/11/19/trump-warns-iran-pursuing-biological-weapons-netanyahu-calls-new-military-operation-unavoidable/",
+      "source_domain": "algemeiner.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T00:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.algemeiner.com/wp-content/uploads/2026/11/2026-11-19T121326Z_2_LYNXNPEMAI1B8_RTROPTP_4_APEC-SUMMIT-1.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "Nerve agent affair had connection with Estonia",
+      "url": "https://news.postimees.ee/4452469/nerve-agent-affair-had-connection-with-estonia",
+      "source_domain": "news.postimees.ee",
+      "source_country": "Estonia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T00:15:00+00:00",
+      "language": "English",
+      "image_url": "https://f9.pmo.ee/uuwHfVQXCckBNiq_QNZbchfSfR8=/1200x630/filters:focal(361x47:1065x713):format(webp)/nginx/o/2018/03/12/7680179t1h9d7d.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Why Africa needs nuclear weapons to achieve true agency",
+      "url": "https://mg.co.za/thought-leader/2026-11-19-africa-needs-nuclear-weapons/",
+      "source_domain": "mg.co.za",
+      "source_country": "South Africa",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T00:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.newsteam.io/image/400/GbSdY1y2zcjbQBgPuxSnhniRU3JwbHRX3uH7LkVk6Yv9iEiSjyUcWQJVV3itFdAb39SFDc5MGqfHRqNNQLh9GH6sJKS1FqcwbsMYuoMGSan5fQgR6qoMd1BMRJyxLLXbwPWuLaVebCCK3CND5NhtQ",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Expert says leader pledge on nuclear weapons is a start , but results remain to be seen",
+      "url": "https://www.abc.net.au/news/2026-11-20/trump-putin-xi-joint-declaration-peace-shenzhen-nuclear-risks/107407540",
+      "source_domain": "abc.net.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-19T23:45:00+00:00",
+      "language": "English",
+      "image_url": "https://live-production.wcms.abc-cdn.net.au/b24387753e76e1469a7bc376ab342a64?impolicy=wcms_watermark_news&cropH=1688&cropW=3000&xPos=0&yPos=656&imformat=generic",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran reaffirms stance against weapons of mass destruction , including nuclear weapons",
+      "url": "https://www.presstv.co.uk/Detail/2025/06/30/750303/FM-Iran-victim-chemical-weapons-advocate-WMD-",
+      "source_domain": "presstv.co.uk",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-19T23:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "OPCW fosters young scientists committed to chemical safety, security and the peaceful uses of chemistry",
       "url": "https://www.opcw.org/media-centre/news/2026/11/opcw-fosters-young-scientists-committed-chemical-safety-security-and",
@@ -433,6 +891,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 42,
+      "window_hours": 24,
+      "fetched_at": "2026-11-20T19:43:58.166632+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 99,
+      "window_hours": 24,
+      "fetched_at": "2026-11-20T19:43:56.555161+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 339,
+      "window_hours": 24,
+      "fetched_at": "2026-11-20T19:43:54.936031+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 1510,
+      "window_hours": 24,
+      "fetched_at": "2026-11-20T19:43:53.344948+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1466,
+      "window_hours": 24,
+      "fetched_at": "2026-11-20T19:43:51.723051+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 664,
+      "window_hours": 24,
+      "fetched_at": "2026-11-20T19:43:50.070987+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 233,
+      "window_hours": 24,
+      "fetched_at": "2026-11-20T19:43:48.473006+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 48,
@@ -2448,71 +2962,15 @@
       "fetched_at": "2026-11-06T22:51:17.419523+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 322,
-      "window_hours": 24,
-      "fetched_at": "2026-11-06T13:54:31.385727+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 70,
-      "window_hours": 24,
-      "fetched_at": "2026-11-06T13:54:29.710224+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 247,
-      "window_hours": 24,
-      "fetched_at": "2026-11-06T13:54:28.073978+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 79,
-      "window_hours": 24,
-      "fetched_at": "2026-11-06T13:54:26.423603+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3184,
-      "window_hours": 24,
-      "fetched_at": "2026-11-06T13:54:24.681460+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 687,
-      "window_hours": 24,
-      "fetched_at": "2026-11-06T13:54:23.016209+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 335,
-      "window_hours": 24,
-      "fetched_at": "2026-11-06T13:54:21.325075+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 261,
-    "biological": 694,
-    "nuclear": 1920,
-    "radiological": 1394,
-    "explosives": 292,
-    "autonomous_weapons": 81,
-    "directed_energy": 48
+    "chemical": 233,
+    "biological": 664,
+    "nuclear": 1466,
+    "radiological": 1510,
+    "explosives": 339,
+    "autonomous_weapons": 99,
+    "directed_energy": 42
   }
 }
