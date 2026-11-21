@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T05:58:52.324463+00:00",
+  "generated_at": "2026-11-21T14:23:58.356554+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 53,
+  "total_items": 52,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 21,
     "biological": 2,
-    "nuclear": 22,
+    "nuclear": 21,
     "radiological": 2,
     "explosives": 6,
     "autonomous_weapons": 1,
@@ -39,8 +39,7 @@
     "South Africa": 1,
     "Australia": 1,
     "Unknown": 1,
-    "Austria": 13,
-    "Egypt": 1
+    "Austria": 13
   },
   "items": [
     {
@@ -299,22 +298,6 @@
       ]
     },
     {
-      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
-      "url": "http://www.middleeaststar.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
-      "source_domain": "middleeaststar.com",
-      "source_country": "Syria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-20T02:45:00+00:00",
-      "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "chemical"
-      ]
-    },
-    {
       "title": "Pennsylvania man gets 46 months for Delran car bombing",
       "url": "https://nj1015.com/delran-car-bombing-sentence/",
       "source_domain": "nj1015.com",
@@ -328,6 +311,22 @@
       "gdelt_query_tag": "explosives_keyword",
       "categories": [
         "explosives"
+      ]
+    },
+    {
+      "title": "Iran rejects US claims of developing biological , chemical weapons ; recalls Iraq WMD controversy",
+      "url": "http://www.middleeaststar.com/news/279444073/iran-rejects-us-claims-of-developing-biological-chemical-weapons-recalls-iraq-wmd-controversy",
+      "source_domain": "middleeaststar.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-20T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ac67bf8/3a5f66d6-71c1-452f-b5ef-e75f19ade16a/0/ANI-20261119232501-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
       ]
     },
     {
@@ -856,25 +855,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "60 years of denial about Israel nuclear weapons program confronts a new reality",
-      "url": "https://www.egyptindependent.com/60-years-of-denial-about-israels-nuclear-weapons-program-confronts-a-new-reality/",
-      "source_domain": "egyptindependent.com",
-      "source_country": "Egypt",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-07T10:00:00+00:00",
-      "language": "English",
-      "image_url": "https://amayei.nyc3.digitaloceanspaces.com/2026/11/israel-nuclearweapons_jpg.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 30,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T14:23:58.344278+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 92,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T14:23:56.693821+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 258,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T14:23:55.064621+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 1133,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T14:23:53.435559+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1503,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T14:23:51.790598+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 587,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T14:23:50.160785+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 197,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T14:23:48.530777+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 36,
@@ -2834,71 +2873,15 @@
       "fetched_at": "2026-11-07T21:34:59.033804+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 657,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T12:38:43.083360+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 87,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T12:38:41.223567+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 268,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T12:38:39.543256+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 112,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T12:38:37.834101+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3440,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T12:38:36.142634+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 649,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T12:38:34.462678+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 405,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T12:38:32.773627+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 218,
-    "biological": 614,
-    "nuclear": 1549,
-    "radiological": 1304,
-    "explosives": 309,
-    "autonomous_weapons": 97,
-    "directed_energy": 36
+    "chemical": 197,
+    "biological": 587,
+    "nuclear": 1503,
+    "radiological": 1133,
+    "explosives": 258,
+    "autonomous_weapons": 92,
+    "directed_energy": 30
   }
 }
