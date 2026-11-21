@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-21T14:23:58.356554+00:00",
+  "generated_at": "2026-11-21T22:54:51.922674+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 52,
+  "total_items": 73,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -18,17 +18,20 @@
     "nuclear": 21,
     "radiological": 2,
     "explosives": 6,
-    "autonomous_weapons": 1,
+    "autonomous_weapons": 22,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 10,
+    "United States": 26,
+    "Turkey": 1,
+    "India": 8,
+    "Philippines": 1,
+    "Japan": 1,
     "Nigeria": 1,
     "Netherlands": 6,
     "Pakistan": 1,
     "Denmark": 1,
     "China": 2,
-    "India": 6,
     "Russia": 1,
     "Iraq": 1,
     "Syria": 2,
@@ -43,6 +46,342 @@
   },
   "items": [
     {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.northcountrypublicradio.org/news/npr/nx-s1-6047916/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "northcountrypublicradio.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations agree to extend talks on AI killer robots but no firm commitment to rein them in",
+      "url": "http://www.rockymounttelegram.com/news/world/nations-agree-to-extend-talks-on-ai-killer-robots-but-no-firm-commitment-to-rein/article_9e134606-6514-5d0c-b98c-4919624b4921.html",
+      "source_domain": "rockymounttelegram.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.newyork1.vip.townnews.com/rockymounttelegram.com/content/tncms/assets/v3/editorial/e/fa/efadb8e2-aee3-5604-8b27-7134948c1695/6afac81b983e1.image.jpg?crop=1763%2C926%2C0%2C124",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.ketr.org/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "ketr.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.kcbx.org/npr-top-news/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "kcbx.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.krcu.org/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "krcu.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.wglt.org/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "wglt.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.wemu.org/npr-national-news/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "wemu.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "UN sees progress on autonomous weapons regulation despite lack of binding treaty mandate",
+      "url": "https://aa.com.tr/en/world/un-sees-progress-on-autonomous-weapons-regulation-despite-lack-of-binding-treaty-mandate/4133032",
+      "source_domain": "aa.com.tr",
+      "source_country": "Turkey",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/21/thumbs_b_c_d35447d894e0876d0fa765841d863d48.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations agree to extend talks on AI killer robots but no firm commitment to rein them in",
+      "url": "https://www.livemint.com/technology/nations-agree-to-extend-talks-on-ai-killer-robots-but-no-firm-commitment-to-rein-them-in-11795274385521.html",
+      "source_domain": "livemint.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.livemint.com/lm-img/img/2024/12/18/600x338/tech4_1734536476058_1734536482186.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.delawarepublic.org/npr-headlines/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "delawarepublic.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.clickondetroit.com/tech/2026/11/21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in/",
+      "source_domain": "clickondetroit.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T14:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/SMRWMQES4ZCVHMYWWGDLZN4RKM.jpg?api_key=clickondetroit_06f87fefb2123598",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.wyso.org/npr-news/2026-11-21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+      "source_domain": "wyso.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T12:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/47/dc/be428cfe43728dcf909ce499cadf/gettyimages-2273123489.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree  to more talks but no firm commitment to rein them in",
+      "url": "https://www.dailyexcelsior.com/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in/",
+      "source_domain": "dailyexcelsior.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T12:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.dailyexcelsior.com/sortd-service/imaginary/v22-01/jpg/large/high?url=cHVibGlzaC1kYWlseWV4Y2Vsc2lvci1jb20tcHJvZC1zb3J0ZC9tZWRpYWNmNGUyNjYwLWU1OTEtMTFmMS05NjM3LTViY2YwYzFjMTk4YS5qcGc=",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.wfae.org/world/2026-11-21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+      "source_domain": "wfae.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T12:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/47/dc/be428cfe43728dcf909ce499cadf/gettyimages-2273123489.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.wvtf.org/2026-11-21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+      "source_domain": "wvtf.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T12:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/47/dc/be428cfe43728dcf909ce499cadf/gettyimages-2273123489.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.capeandislands.org/2026-11-21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+      "source_domain": "capeandislands.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T12:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/47/dc/be428cfe43728dcf909ce499cadf/gettyimages-2273123489.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.ksfr.org/npr-news/2026-11-21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+      "source_domain": "ksfr.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T12:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/47/dc/be428cfe43728dcf909ce499cadf/gettyimages-2273123489.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.clickorlando.com/tech/2026/11/21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in/",
+      "source_domain": "clickorlando.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T11:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/SMRWMQES4ZCVHMYWWGDLZN4RKM.jpg?api_key=clickorlando_488cff2bcc157b2e",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+      "url": "https://www.wglt.org/2026-11-21/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+      "source_domain": "wglt.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T11:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/47/dc/be428cfe43728dcf909ce499cadf/gettyimages-2273123489.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Autonomous weapons : ICRC warns that states must act now to preserve meaningful human control over the use of force",
+      "url": "https://www.manilatimes.net/2026/11/21/tmt-newswire/autonomous-weapons-icrc-warns-that-states-must-act-now-to-preserve-meaningful-human-control-over-the-use-of-force/2475408",
+      "source_domain": "manilatimes.net",
+      "source_country": "Philippines",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T06:45:00+00:00",
+      "language": "English",
+      "image_url": "https://manilatimes.net/manilatimes/uploads/images/2026/11/21/1319347.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Countries agree to UN talks aiming to regulate  killer robot by 2028",
+      "url": "https://asia.nikkei.com/politics/international-relations/countries-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028",
+      "source_domain": "asia.nikkei.com",
+      "source_country": "Japan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T06:45:00+00:00",
+      "language": "English",
+      "image_url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F7%2F0%2F5%2F13475077-2-eng-GB%2F8c511bedee23-2026-03-12T071231Z_341651439_RC2IGJALZB7C_RTRMADP_3_TECH-ROBOTS-CONFLICT-ZONES.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
       "title": "Killer robots must have no place in our future : UN Chief – The Moderate Voice",
       "url": "https://themoderatevoice.com/killer-robots-must-have-no-place-in-our-future-un-chief/",
       "source_domain": "themoderatevoice.com",
@@ -53,7 +392,7 @@
       "language": "English",
       "image_url": "",
       "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
       "categories": [
         "autonomous_weapons"
       ]
@@ -858,6 +1197,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 31,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T22:54:51.913879+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T22:54:50.307607+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 218,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T22:54:48.693045+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 820,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T22:54:47.069787+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1379,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T22:54:45.431809+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 555,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T22:54:43.817898+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 160,
+      "window_hours": 24,
+      "fetched_at": "2026-11-21T22:54:42.185994+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 30,
@@ -2817,71 +3212,15 @@
       "fetched_at": "2026-11-08T04:54:06.754171+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 565,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T21:35:09.197257+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 70,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T21:35:07.534488+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 271,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T21:35:05.783275+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 93,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T21:35:04.075343+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 3213,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T21:35:02.402023+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 680,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T21:35:00.729967+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 370,
-      "window_hours": 24,
-      "fetched_at": "2026-11-07T21:34:59.033804+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 197,
-    "biological": 587,
-    "nuclear": 1503,
-    "radiological": 1133,
-    "explosives": 258,
-    "autonomous_weapons": 92,
-    "directed_energy": 30
+    "chemical": 160,
+    "biological": 555,
+    "nuclear": 1379,
+    "radiological": 820,
+    "explosives": 218,
+    "autonomous_weapons": 79,
+    "directed_energy": 31
   }
 }
