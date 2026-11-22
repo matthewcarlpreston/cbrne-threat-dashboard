@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T05:33:33.542309+00:00",
+  "generated_at": "2026-11-22T14:15:00.915172+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 73,
@@ -15,19 +15,19 @@
   "category_counts": {
     "chemical": 21,
     "biological": 2,
-    "nuclear": 21,
+    "nuclear": 20,
     "radiological": 2,
     "explosives": 6,
-    "autonomous_weapons": 22,
+    "autonomous_weapons": 23,
     "directed_energy": 0
   },
   "country_counts": {
+    "Nigeria": 2,
     "United States": 26,
     "Turkey": 1,
-    "India": 8,
+    "India": 7,
     "Philippines": 1,
     "Japan": 1,
-    "Nigeria": 1,
     "Netherlands": 6,
     "Pakistan": 1,
     "Denmark": 1,
@@ -45,6 +45,22 @@
     "Austria": 13
   },
   "items": [
+    {
+      "title": "Nations agree to further talks on regulating AI  killer robots and drones",
+      "url": "https://www.africanews.com/2026/11/22/nations-agree-to-further-talks-on-regulating-ai-killer-robots-and-drones/",
+      "source_domain": "africanews.com",
+      "source_country": "Nigeria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-22T10:30:00+00:00",
+      "language": "English",
+      "image_url": "https://images.euronews.com/articles/stories/10/00/31/68/1024x538_cmsv2_2a3df977-65bc-5375-b7b4-5b4f13f74cbc-10003168.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
     {
       "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
       "url": "https://www.northcountrypublicradio.org/news/npr/nx-s1-6047916/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
@@ -1178,25 +1194,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Israel says Iran mission  not complete :  Theyre trying to get nuclear weapons",
-      "url": "https://www.hindustantimes.com/world-news/israel-says-iran-mission-not-complete-they-re-trying-to-get-nuclear-weapons-101794142030671.html",
-      "source_domain": "hindustantimes.com",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-08T13:30:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 44,
+      "window_hours": 24,
+      "fetched_at": "2026-11-22T14:15:00.900104+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 92,
+      "window_hours": 24,
+      "fetched_at": "2026-11-22T14:14:59.320272+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 185,
+      "window_hours": 24,
+      "fetched_at": "2026-11-22T14:14:57.695095+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 654,
+      "window_hours": 24,
+      "fetched_at": "2026-11-22T14:14:56.080745+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1296,
+      "window_hours": 24,
+      "fetched_at": "2026-11-22T14:14:54.462013+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 541,
+      "window_hours": 24,
+      "fetched_at": "2026-11-22T14:14:52.872754+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 179,
+      "window_hours": 24,
+      "fetched_at": "2026-11-22T14:14:51.287833+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 35,
@@ -3156,71 +3212,15 @@
       "fetched_at": "2026-11-08T21:47:38.466143+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 186,
-      "window_hours": 24,
-      "fetched_at": "2026-11-08T12:54:17.666232+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 47,
-      "window_hours": 24,
-      "fetched_at": "2026-11-08T12:54:16.022664+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 287,
-      "window_hours": 24,
-      "fetched_at": "2026-11-08T12:54:14.419357+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 88,
-      "window_hours": 24,
-      "fetched_at": "2026-11-08T12:54:12.758930+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2645,
-      "window_hours": 24,
-      "fetched_at": "2026-11-08T12:54:11.143247+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 638,
-      "window_hours": 24,
-      "fetched_at": "2026-11-08T12:54:09.527484+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 295,
-      "window_hours": 24,
-      "fetched_at": "2026-11-08T12:54:07.867050+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 145,
-    "biological": 528,
-    "nuclear": 1324,
-    "radiological": 689,
-    "explosives": 201,
-    "autonomous_weapons": 83,
-    "directed_energy": 35
+    "chemical": 179,
+    "biological": 541,
+    "nuclear": 1296,
+    "radiological": 654,
+    "explosives": 185,
+    "autonomous_weapons": 92,
+    "directed_energy": 44
   }
 }
