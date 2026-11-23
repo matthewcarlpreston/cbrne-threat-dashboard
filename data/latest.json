@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T23:23:18.499338+00:00",
+  "generated_at": "2026-11-23T06:10:50.741220+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 73,
+  "total_items": 71,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -15,7 +15,7 @@
   "category_counts": {
     "chemical": 21,
     "biological": 2,
-    "nuclear": 20,
+    "nuclear": 18,
     "radiological": 2,
     "explosives": 6,
     "autonomous_weapons": 23,
@@ -42,7 +42,7 @@
     "South Africa": 1,
     "Australia": 1,
     "Unknown": 1,
-    "Austria": 13
+    "Austria": 11
   },
   "items": [
     {
@@ -72,23 +72,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
-      "title": "Nations agree to extend talks on AI killer robots but no firm commitment to rein them in",
-      "url": "http://www.rockymounttelegram.com/news/world/nations-agree-to-extend-talks-on-ai-killer-robots-but-no-firm-commitment-to-rein/article_9e134606-6514-5d0c-b98c-4919624b4921.html",
-      "source_domain": "rockymounttelegram.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-21T16:30:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.newyork1.vip.townnews.com/rockymounttelegram.com/content/tncms/assets/v3/editorial/e/fa/efadb8e2-aee3-5604-8b27-7134948c1695/6afac81b983e1.image.jpg?crop=1763%2C926%2C0%2C124",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -104,7 +88,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -120,7 +104,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -136,7 +120,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -152,7 +136,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -167,6 +151,38 @@
       "published_date": "2026-11-21T16:30:00+00:00",
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.delawarepublic.org/npr-headlines/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "delawarepublic.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations agree to extend talks on AI killer robots but no firm commitment to rein them in",
+      "url": "http://www.rockymounttelegram.com/news/world/nations-agree-to-extend-talks-on-ai-killer-robots-but-no-firm-commitment-to-rein/article_9e134606-6514-5d0c-b98c-4919624b4921.html",
+      "source_domain": "rockymounttelegram.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.newyork1.vip.townnews.com/rockymounttelegram.com/content/tncms/assets/v3/editorial/e/fa/efadb8e2-aee3-5604-8b27-7134948c1695/6afac81b983e1.image.jpg?crop=1763%2C926%2C0%2C124",
       "source": "gdelt",
       "gdelt_query_tag": "autonomous_weapon_keyword",
       "categories": [
@@ -199,22 +215,6 @@
       "published_date": "2026-11-21T16:30:00+00:00",
       "language": "English",
       "image_url": "https://www.livemint.com/lm-img/img/2024/12/18/600x338/tech4_1734536476058_1734536482186.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
-      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
-      "url": "https://www.delawarepublic.org/npr-headlines/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
-      "source_domain": "delawarepublic.org",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-21T16:30:00+00:00",
-      "language": "English",
-      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
       "gdelt_query_tag": "autonomous_weapon_keyword",
       "categories": [
@@ -408,7 +408,7 @@
       "language": "English",
       "image_url": "",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -1164,39 +1164,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna",
-      "url": "http://www.iaea.org/newscenter/news/nuclear-safeguards-in-a-changing-world-15th-symposium-on-international-safeguards-opens-in-vienna",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-09T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Mission says Slovakia is Committed to Strengthening Nuclear and Radiation Safety Regulatory Framework",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-slovakia-is-committed-to-strengthening-nuclear-and-radiation-safety-regulatory-framework",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-09T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 35,
+      "window_hours": 24,
+      "fetched_at": "2026-11-23T06:10:50.720962+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 89,
+      "window_hours": 24,
+      "fetched_at": "2026-11-23T06:10:49.077436+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 164,
+      "window_hours": 24,
+      "fetched_at": "2026-11-23T06:10:47.439105+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 1321,
+      "window_hours": 24,
+      "fetched_at": "2026-11-23T06:10:45.817173+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1058,
+      "window_hours": 24,
+      "fetched_at": "2026-11-23T06:10:44.195672+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 518,
+      "window_hours": 24,
+      "fetched_at": "2026-11-23T06:10:42.560980+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 210,
+      "window_hours": 24,
+      "fetched_at": "2026-11-23T06:10:40.900685+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 40,
@@ -3156,71 +3182,15 @@
       "fetched_at": "2026-11-09T15:29:37.218368+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 317,
-      "window_hours": 24,
-      "fetched_at": "2026-11-09T05:02:07.867045+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 70,
-      "window_hours": 24,
-      "fetched_at": "2026-11-09T05:02:06.174074+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 288,
-      "window_hours": 24,
-      "fetched_at": "2026-11-09T05:02:04.537607+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 67,
-      "window_hours": 24,
-      "fetched_at": "2026-11-09T05:02:02.885119+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2072,
-      "window_hours": 24,
-      "fetched_at": "2026-11-09T05:02:01.214017+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 774,
-      "window_hours": 24,
-      "fetched_at": "2026-11-09T05:01:59.569697+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 386,
-      "window_hours": 24,
-      "fetched_at": "2026-11-09T05:01:57.943458+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 183,
-    "biological": 522,
-    "nuclear": 1132,
-    "radiological": 764,
-    "explosives": 158,
-    "autonomous_weapons": 86,
-    "directed_energy": 40
+    "chemical": 210,
+    "biological": 518,
+    "nuclear": 1058,
+    "radiological": 1321,
+    "explosives": 164,
+    "autonomous_weapons": 89,
+    "directed_energy": 35
   }
 }
