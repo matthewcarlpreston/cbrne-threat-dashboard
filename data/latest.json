@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T23:33:50.791973+00:00",
+  "generated_at": "2026-11-24T08:50:44.853835+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 73,
+  "total_items": 74,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,7 +13,7 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 22,
+    "chemical": 23,
     "biological": 2,
     "nuclear": 18,
     "radiological": 2,
@@ -22,17 +22,19 @@
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 27,
-    "Netherlands": 7,
+    "Netherlands": 8,
+    "Russia": 2,
+    "Kenya": 1,
+    "India": 7,
+    "United Kingdom": 1,
+    "United States": 26,
     "Nigeria": 2,
     "Turkey": 1,
-    "India": 7,
     "Philippines": 1,
     "Japan": 1,
     "Pakistan": 1,
     "Denmark": 1,
     "China": 2,
-    "Russia": 1,
     "Iraq": 1,
     "Syria": 2,
     "Iran": 1,
@@ -42,9 +44,88 @@
     "South Africa": 1,
     "Australia": 1,
     "Unknown": 1,
-    "Austria": 11
+    "Austria": 9
   },
   "items": [
+    {
+      "title": "Opening Statement by the Director-General to the Thirty-First Session of the Conference of the States Parties",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/opening-statement-director-general-thirty-first-session-conference-states",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Opening Statement by the Director-General to the Thirty-First Session of the Conference of the States Parties</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"Opening Statement by the Director-General \" height=\"417\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/5",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T08:38:30+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "German intelligence assessments warn Russia could place a nuclear weapon in orbit by year - end",
+      "url": "http://www.russiaherald.com/news/279451455/german-intelligence-assessments-warn-russia-could-place-a-nuclear-weapon-in-orbit-by-year-end",
+      "source_domain": "russiaherald.com",
+      "source_country": "Russia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T06:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/855c96c/04df0268-5a7d-4f2f-811d-855047a35365/0/ANI-20261124031441-600x315.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "German intelligence assessments warn Russia could place a nuclear weapon in orbit by year - end",
+      "url": "http://www.kenyastar.com/news/279451455/german-intelligence-assessments-warn-russia-could-place-a-nuclear-weapon-in-orbit-by-year-end",
+      "source_domain": "kenyastar.com",
+      "source_country": "Kenya",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T06:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/855c96c/04df0268-5a7d-4f2f-811d-855047a35365/0/ANI-20261124031441-600x315.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "German intelligence assessments warn Russia could place a nuclear weapon in orbit by year - end",
+      "url": "https://news.webindia123.com/news/Articles/World/20261124/4523728.html",
+      "source_domain": "news.webindia123.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T04:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Zack Polanski backs report endorsing Nato membership and maintaining nuclear weapons",
+      "url": "https://www.theguardian.com/politics/2026/nov/24/zack-polanski-backs-report-endorsing-nato-membership-maintaining-nuclear-weapons",
+      "source_domain": "theguardian.com",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T01:30:00+00:00",
+      "language": "English",
+      "image_url": "https://i.guim.co.uk/img/media/631070f63a2fb9a39634bf065f768197aa90271b/519_0_4025_3220/master/4025.jpg?&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=230a70d736581c407bcd9ea1f4f18e06",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "AUTONOMOUS WEAPONS : UN Fails To Reach Deal On Limits For Machines That Can Make Lethal Decisions",
       "url": "https://www.theyeshivaworld.com/news/general/2626954/autonomous-weapons-un-fails-to-reach-deal-on-limits-for-machines-that-can-make-lethal-decisions.html",
@@ -103,23 +184,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
-      "title": "Nations agree to extend talks on AI killer robots but no firm commitment to rein them in",
-      "url": "http://www.rockymounttelegram.com/news/world/nations-agree-to-extend-talks-on-ai-killer-robots-but-no-firm-commitment-to-rein/article_9e134606-6514-5d0c-b98c-4919624b4921.html",
-      "source_domain": "rockymounttelegram.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-21T16:30:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.newyork1.vip.townnews.com/rockymounttelegram.com/content/tncms/assets/v3/editorial/e/fa/efadb8e2-aee3-5604-8b27-7134948c1695/6afac81b983e1.image.jpg?crop=1763%2C926%2C0%2C124",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -135,7 +200,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -151,7 +216,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -167,7 +232,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -183,7 +248,7 @@
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "gdelt_query_tag": "wmd_theme",
       "categories": [
         "autonomous_weapons"
       ]
@@ -198,6 +263,38 @@
       "published_date": "2026-11-21T16:30:00+00:00",
       "language": "English",
       "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
+      "url": "https://www.delawarepublic.org/npr-headlines/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
+      "source_domain": "delawarepublic.org",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
+    {
+      "title": "Nations agree to extend talks on AI killer robots but no firm commitment to rein them in",
+      "url": "http://www.rockymounttelegram.com/news/world/nations-agree-to-extend-talks-on-ai-killer-robots-but-no-firm-commitment-to-rein/article_9e134606-6514-5d0c-b98c-4919624b4921.html",
+      "source_domain": "rockymounttelegram.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-21T16:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.newyork1.vip.townnews.com/rockymounttelegram.com/content/tncms/assets/v3/editorial/e/fa/efadb8e2-aee3-5604-8b27-7134948c1695/6afac81b983e1.image.jpg?crop=1763%2C926%2C0%2C124",
       "source": "gdelt",
       "gdelt_query_tag": "autonomous_weapon_keyword",
       "categories": [
@@ -230,22 +327,6 @@
       "published_date": "2026-11-21T16:30:00+00:00",
       "language": "English",
       "image_url": "https://www.livemint.com/lm-img/img/2024/12/18/600x338/tech4_1734536476058_1734536482186.png",
-      "source": "gdelt",
-      "gdelt_query_tag": "autonomous_weapon_keyword",
-      "categories": [
-        "autonomous_weapons"
-      ]
-    },
-    {
-      "title": "Killer robots : U . N . talks fall short of hopes for legally binding rules",
-      "url": "https://www.delawarepublic.org/npr-headlines/2026-11-21/killer-robots-u-n-talks-fall-short-of-hopes-for-legally-binding-rules",
-      "source_domain": "delawarepublic.org",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-21T16:30:00+00:00",
-      "language": "English",
-      "image_url": "https://npr-production-npr.s3.us-east-1.amazonaws.com/brightspot/77/65/ec3be56f4a8caadcaf913863094e/ap26320313350560.jpg",
       "source": "gdelt",
       "gdelt_query_tag": "autonomous_weapon_keyword",
       "categories": [
@@ -1133,71 +1214,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Tehran cannot have nuclear weapon because they would use it : Trump signals possibility of quick end to Iran war",
-      "url": "https://aninews.in/news/world/us/tehran-cannot-have-nuclear-weapon-because-they-would-use-it-trump-signals-possibility-of-quick-end-to-iran-war20261110085748/",
-      "source_domain": "aninews.in",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-10T05:00:00+00:00",
-      "language": "English",
-      "image_url": "",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "Bill Gates Warns AI Could Be a Greater Danger Than Nuclear Weapons",
-      "url": "https://econotimes.com/Bill-Gates-Warns-AI-Could-Be-a-Greater-Danger-Than-Nuclear-Weapons-1774134",
-      "source_domain": "econotimes.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-10T02:30:00+00:00",
-      "language": "English",
-      "image_url": "https://wfuxxvxhdynkhcrlavdu.supabase.co/storage/v1/object/public/article-media/articles/08338eef6651d69946d455395f0d938947364a190a43766ead702fb3224775ee.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA at COP31: Nuclear for Energy Security",
-      "url": "http://www.iaea.org/newscenter/news/iaea-at-cop31-nuclear-for-energy-security",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-10T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "IAEA Mission says Jordan is Committed to Strengthening Radiation and Nuclear Safety Oversight",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-mission-says-jordan-is-committed-to-strengthening-radiation-and-nuclear-safety-oversight",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-10T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 39,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T08:50:44.839620+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 85,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T08:50:43.226524+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 223,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T08:50:41.617808+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 1859,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T08:50:39.976247+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1194,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T08:50:38.333388+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 462,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T08:50:36.699489+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 225,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T08:50:35.061546+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 37,
@@ -3157,71 +3232,15 @@
       "fetched_at": "2026-11-10T14:31:52.673993+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 381,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T01:18:39.010127+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 76,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T01:18:37.355473+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 298,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T01:18:35.649218+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 72,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T01:18:33.980704+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2664,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T01:18:32.309774+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 804,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T01:18:30.664125+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 374,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T01:18:29.019009+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 243,
-    "biological": 494,
-    "nuclear": 1149,
-    "radiological": 2172,
-    "explosives": 217,
-    "autonomous_weapons": 84,
-    "directed_energy": 37
+    "chemical": 225,
+    "biological": 462,
+    "nuclear": 1194,
+    "radiological": 1859,
+    "explosives": 223,
+    "autonomous_weapons": 85,
+    "directed_energy": 39
   }
 }
