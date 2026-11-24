@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T08:50:44.853835+00:00",
+  "generated_at": "2026-11-24T22:03:48.666266+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 74,
+  "total_items": 76,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -17,15 +17,15 @@
     "biological": 2,
     "nuclear": 18,
     "radiological": 2,
-    "explosives": 6,
+    "explosives": 8,
     "autonomous_weapons": 24,
     "directed_energy": 0
   },
   "country_counts": {
     "Netherlands": 8,
+    "India": 9,
     "Russia": 2,
     "Kenya": 1,
-    "India": 7,
     "United Kingdom": 1,
     "United States": 26,
     "Nigeria": 2,
@@ -60,6 +60,38 @@
       "rss_feed_name": "OPCW",
       "categories": [
         "chemical"
+      ]
+    },
+    {
+      "title": "Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+      "url": "https://news.webindia123.com/news/Articles/World/20261124/4523794.html",
+      "source_domain": "news.webindia123.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T07:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
+      ]
+    },
+    {
+      "title": "Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+      "url": "https://aninews.in/news/world/asia/indian-and-malaysian-armies-hold-joint-counter-ied-drill-during-exercise-harimau-shakti-202620261124115206/",
+      "source_domain": "aninews.in",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T07:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "explosives_keyword",
+      "categories": [
+        "explosives"
       ]
     },
     {
@@ -1067,7 +1099,7 @@
     {
       "title": "IAEA Director General's Introductory Statement to the Board of Governors",
       "url": "http://www.iaea.org/newscenter/statements/iaea-director-generals-introductory-statement-to-the-board-of-governors-18-november-2026",
-      "summary": "(As prepared for delivery)\nJust a few weeks ago, I was in New York presenting the IAEA’s annual report – your annual report – to the United Nations General Assembly.",
+      "summary": "(As prepared for delivery)\nJust a few weeks ago, I was in New York presenting the IAEA’s annual report – your annual report – to the United Nations General Assembly.&nbsp;",
       "source_domain": "IAEA",
       "source_country": "Austria",
       "tone": null,
@@ -1217,6 +1249,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 29,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T22:03:48.656314+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 89,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T22:03:47.002452+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 220,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T22:03:45.389890+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 2608,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T22:03:43.721551+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1217,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T22:03:42.101100+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 521,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T22:03:40.403354+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 240,
+      "window_hours": 24,
+      "fetched_at": "2026-11-24T22:03:38.768868+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 39,
@@ -3176,71 +3264,15 @@
       "fetched_at": "2026-11-10T22:58:37.914760+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 381,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T14:32:02.621840+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 66,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T14:32:00.952155+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 368,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T14:31:59.280496+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 67,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T14:31:57.636704+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2615,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T14:31:55.992116+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 771,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T14:31:54.354223+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 449,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T14:31:52.673993+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 225,
-    "biological": 462,
-    "nuclear": 1194,
-    "radiological": 1859,
-    "explosives": 223,
-    "autonomous_weapons": 85,
-    "directed_energy": 39
+    "chemical": 240,
+    "biological": 521,
+    "nuclear": 1217,
+    "radiological": 2608,
+    "explosives": 220,
+    "autonomous_weapons": 89,
+    "directed_energy": 29
   }
 }
