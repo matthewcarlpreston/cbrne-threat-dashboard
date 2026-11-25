@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T22:03:48.666266+00:00",
+  "generated_at": "2026-11-25T07:24:24.981058+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 76,
+  "total_items": 121,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,40 +13,763 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 23,
-    "biological": 2,
-    "nuclear": 18,
+    "chemical": 40,
+    "biological": 3,
+    "nuclear": 44,
     "radiological": 2,
     "explosives": 8,
-    "autonomous_weapons": 24,
+    "autonomous_weapons": 25,
     "directed_energy": 0
   },
   "country_counts": {
+    "Syria": 7,
+    "India": 13,
+    "United States": 48,
+    "Iran": 3,
+    "Australia": 6,
+    "United Kingdom": 2,
+    "Malaysia": 1,
+    "Lebanon": 1,
+    "Kuwait": 1,
+    "Kenya": 2,
+    "Israel": 3,
+    "Pakistan": 2,
     "Netherlands": 8,
-    "India": 9,
     "Russia": 2,
-    "Kenya": 1,
-    "United Kingdom": 1,
-    "United States": 26,
     "Nigeria": 2,
     "Turkey": 1,
     "Philippines": 1,
     "Japan": 1,
-    "Pakistan": 1,
     "Denmark": 1,
     "China": 2,
     "Iraq": 1,
-    "Syria": 2,
-    "Iran": 1,
     "Cambodia": 1,
-    "Israel": 2,
     "Estonia": 1,
     "South Africa": 1,
-    "Australia": 1,
     "Unknown": 1,
     "Austria": 9
   },
   "items": [
+    {
+      "title": "Iran War Updates : Iran developing chemical weapons , Israeli defense minister claims – Ya Libnan",
+      "url": "https://yalibnan.com/2026/11/25/iran-war-updates-iran-developing-chemical-weapons-israeli-defense-minister-claims/",
+      "source_domain": "yalibnan.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T05:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Israeli Defense Minister Warns Iran Developing Chemical Weapons – Chennaionline",
+      "url": "https://www.chennaionline.com/news/israeli-defense-minister-warns-iran-developing-chemical-weapons/",
+      "source_domain": "chennaionline.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T05:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Israel Defence Minister claims Iran developing Chemical Weapons , Tehran warns  US bases within strike range",
+      "url": "http://www.batonrougepost.com/news/279452993/israel-defence-minister-claims-iran-developing-chemical-weapons-tehran-warns-us-bases-within-strike-range",
+      "source_domain": "batonrougepost.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T05:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/1511214/15977e0d-0305-49ca-bab2-b267d7eca13d/0/ANI-20261125024743-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Israel Defence Minister claims Iran developing Chemical Weapons , Tehran warns  US bases within strike range",
+      "url": "http://www.iranherald.com/news/279452993/israel-defence-minister-claims-iran-developing-chemical-weapons-tehran-warns-us-bases-within-strike-range",
+      "source_domain": "iranherald.com",
+      "source_country": "Iran",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/1511214/15977e0d-0305-49ca-bab2-b267d7eca13d/0/ANI-20261125024743-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Israeli Defence Minister says Iran is developing chemical weapons",
+      "url": "https://www.thehindu.com/news/international/israeli-defence-minister-says-iran-is-developing-chemical-weapons/article71740979.ece",
+      "source_domain": "thehindu.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T03:45:00+00:00",
+      "language": "English",
+      "image_url": "https://th-i.thgim.com/public/incoming/fatf8h/article71740986.ece/alternates/LANDSCAPE_1200/2026-09-01T132701Z_1549969438_RC2DANARHEL6_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-KATZ.JPG",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://13wham.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "13wham.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://13wham.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran slams US over unpaid OPCW dues , warns of threat to global security",
+      "url": "https://www.business-standard.com/world-news/iran-slams-us-over-unpaid-opcw-dues-warns-of-threat-to-global-security-126112500022_1.html",
+      "source_domain": "business-standard.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/21/thumb/fitandfill/1200X628/1774059011-6316.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Israel Defence Minister claims Iran developing Chemical Weapons , Tehran warns  US bases within strike range",
+      "url": "http://www.bignewsnetwork.com/news/279452993/israel-defence-minister-claims-iran-developing-chemical-weapons-tehran-warns-us-bases-within-strike-range",
+      "source_domain": "bignewsnetwork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/1511214/15977e0d-0305-49ca-bab2-b267d7eca13d/0/ANI-20261125024743-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Israel Defence Minister claims Iran developing Chemical Weapons , Tehran warns  US bases within strike range",
+      "url": "https://aninews.in/news/world/middle-east/israel-defence-minister-claims-iran-developing-chemical-weapons-tehran-warns-us-bases-within-strike-range20261125081751/",
+      "source_domain": "aninews.in",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T03:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Britain launches inquiry into impact of nuclear tests",
+      "url": "https://www.easternriverinachronicle.com.au/story/9397933/britain-launches-inquiry-into-impact-of-nuclear-tests/",
+      "source_domain": "easternriverinachronicle.com.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.easternriverinachronicle.com.au/images/transform/v1/crop/frm/silverstone-feed-data/4952594f-b462-4453-bb8a-2e9c372315f4.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Israel Warns Iran Developing Chemical Weapons , Vows to Block Program",
+      "url": "https://www.breitbart.com/politics/2026/11/24/israeli-defense-minister-warns-iran-developing-chemical-weapons-as-game-changer-israel-wont-allow-it/",
+      "source_domain": "breitbart.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://media.breitbart.com/media/2026/11/Iran-Chemical-Weapons-640x335.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran FM Abbas Araghchi accuses Washington of hypocrisy as OPCW faces budget crisis over US arrears",
+      "url": "http://www.iranherald.com/news/279452694/iran-fm-abbas-araghchi-accuses-washington-of-hypocrisy-as-opcw-faces-budget-crisis-over-us-arrears",
+      "source_domain": "iranherald.com",
+      "source_country": "Iran",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/836876e/4f39290c-70f3-4edb-9c82-ad95ba05d99f/0/ANI-20261124182549-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Britain launches inquiry into impact of nuclear tests",
+      "url": "https://www.canberratimes.com.au/story/9397933/britain-launches-inquiry-into-impact-of-nuclear-tests/",
+      "source_domain": "canberratimes.com.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T01:30:00+00:00",
+      "language": "English",
+      "image_url": "https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-feed-data/4952594f-b462-4453-bb8a-2e9c372315f4.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Britain launches inquiry into impact of nuclear tests",
+      "url": "https://www.cessnockadvertiser.com.au/story/9397933/britain-launches-inquiry-into-impact-of-nuclear-tests/",
+      "source_domain": "cessnockadvertiser.com.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.cessnockadvertiser.com.au/images/transform/v1/crop/frm/silverstone-feed-data/4952594f-b462-4453-bb8a-2e9c372315f4.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Britain launches inquiry into impact of nuclear tests",
+      "url": "https://www.theadvocate.com.au/story/9397933/britain-launches-inquiry-into-impact-of-nuclear-tests/",
+      "source_domain": "theadvocate.com.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.theadvocate.com.au/images/transform/v1/crop/frm/silverstone-feed-data/4952594f-b462-4453-bb8a-2e9c372315f4.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Andy Burnham announces Hillsborough - style independent panel for nuclear test veterans in landmark move",
+      "url": "https://www.liverpoolecho.co.uk/news/liverpool-news/andy-burnham-announces-hillsborough-style-34960096",
+      "source_domain": "liverpoolecho.co.uk",
+      "source_country": "United Kingdom",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://i2-prod.liverpoolecho.co.uk/article30129428.ece/ALTERNATES/s1200d/0_StePurse1.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "UK govt launches probe into decades - long nuclear tests",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/11/25/uk-govt-launches-probe-into-decades-long-nuclear-tests",
+      "source_domain": "freemalaysiatoday.com",
+      "source_country": "Malaysia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/11/96d39f48-66c1-4938-9099-df721a50bf65-Nuclear-UK-wiki.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Britain launches inquiry into impact of nuclear tests",
+      "url": "https://www.greatlakesadvocate.com.au/story/9397933/britain-launches-inquiry-into-impact-of-nuclear-tests/",
+      "source_domain": "greatlakesadvocate.com.au",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T00:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.greatlakesadvocate.com.au/images/transform/v1/crop/frm/silverstone-feed-data/4952594f-b462-4453-bb8a-2e9c372315f4.jpg/r0_90_800_510_w1200_h630_fmax.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Biodefense , pandemics , bioterrorism , preparedness , border security , AI",
+      "url": "https://www.homelandsecuritynewswire.com/dr20261124-enhancing-border-biosecurity-in-the-age-of-aienabled-biology",
+      "source_domain": "homelandsecuritynewswire.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T00:45:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "biological"
+      ]
+    },
+    {
+      "title": "China space diplomacy belied by Russia nuclear weapon satellite",
+      "url": "http://www.washingtonexaminer.com/opinion/beltway-confidential/4814104/china-space-diplomacy-russia-nuclear-weapon-satellite/",
+      "source_domain": "washingtonexaminer.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T00:30:00+00:00",
+      "language": "English",
+      "image_url": "http://www.washingtonexaminer.com/wp-content/uploads/2026/11/AP26328299860896-e1795554570685.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Independent panel Confirmed by Nuclear test veterans will get full truth , says Burnham , as he",
+      "url": "https://cedarnews.net/newstasks/1191752/independent-panel-confirmed-nuclear-test-veterans-will/",
+      "source_domain": "cedarnews.net",
+      "source_country": "Lebanon",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T00:30:00+00:00",
+      "language": "English",
+      "image_url": "https://cedarnews.net/wp-content/uploads/2026/09/cedarnews-1.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "University of Tennessee , nuclear weapons complex team up on prototype center",
+      "url": "https://www.timesfreepress.com/news/2026/nov/23/university-of-tennessee-nuclear-weapons-complex-team-up-on-prototype-center/",
+      "source_domain": "timesfreepress.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T00:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.timesfreepress.com/wp-content/uploads/2026/11/YPH-27-1291736.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "PM Announces Independent Panel on Nuclear Test Legacy",
+      "url": "https://www.miragenews.com/pm-announces-independent-panel-on-nuclear-test-1783160/",
+      "source_domain": "miragenews.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T23:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "TOBIAS ELLWOOD : I lied to MPs about our nuclear test veterans - now I know they were victims of a scandal as big as the Post Office",
+      "url": "https://www.dailymail.com/opinion/uk/article-16319423/nuclear-test-victims-scandal-Post-Office-TOBIAS-ELLWOOD.html",
+      "source_domain": "dailymail.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T23:30:00+00:00",
+      "language": "English",
+      "image_url": "https://i.dailymail.com/1s/2026/11/24/21/112706967-0-image-m-14_1795555528405.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://foxreno.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "foxreno.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:30:00+00:00",
+      "language": "English",
+      "image_url": "https://foxreno.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://news3lv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "news3lv.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:30:00+00:00",
+      "language": "English",
+      "image_url": "https://news3lv.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://kfdm.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "kfdm.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:30:00+00:00",
+      "language": "English",
+      "image_url": "https://kfdm.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://wach.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "wach.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:30:00+00:00",
+      "language": "English",
+      "image_url": "https://wach.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://kfoxtv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "kfoxtv.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:30:00+00:00",
+      "language": "English",
+      "image_url": "https://kfoxtv.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://wsbt.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "wsbt.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:30:00+00:00",
+      "language": "English",
+      "image_url": "https://wsbt.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran developing chemical weapons ; Trump and family face threats",
+      "url": "https://www.arabtimesonline.com/news/iran-developing-chemical-weapons-trump-and-family-face-threats/",
+      "source_domain": "arabtimesonline.com",
+      "source_country": "Kuwait",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.arabtimesonline.com/arabtimes/uploads/images/2026/11/24/thumbs/400x400/151660.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://fox23maine.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "fox23maine.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T22:15:00+00:00",
+      "language": "English",
+      "image_url": "https://fox23maine.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran FM Abbas Araghchi accuses Washington of hypocrisy as OPCW faces budget crisis over US arrears",
+      "url": "http://www.middleeaststar.com/news/279452694/iran-fm-abbas-araghchi-accuses-washington-of-hypocrisy-as-opcw-faces-budget-crisis-over-us-arrears",
+      "source_domain": "middleeaststar.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/836876e/4f39290c-70f3-4edb-9c82-ad95ba05d99f/0/ANI-20261124182549-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://weartv.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "weartv.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:45:00+00:00",
+      "language": "English",
+      "image_url": "https://weartv.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://wgxa.tv/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "wgxa.tv",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:45:00+00:00",
+      "language": "English",
+      "image_url": "https://wgxa.tv/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Syria discusses addressing ousted regime chemical weapons legacy at OPCW event",
+      "url": "https://sana.sy/en/politics/2361573/",
+      "source_domain": "sana.sy",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:45:00+00:00",
+      "language": "English",
+      "image_url": "https://cdn.sananews.sy/2026/11/photo_2026-11-24_19-28-32.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "OPCW commends Syria cooperation in destroying chemical weapons from ousted regime",
+      "url": "https://sana.sy/en/syria/2361611/",
+      "source_domain": "sana.sy",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:45:00+00:00",
+      "language": "English",
+      "image_url": "https://cdn.sananews.sy/2026/11/XrnSkhF6-1-45.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://foxsanantonio.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "foxsanantonio.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://foxsanantonio.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Iran FM Abbas Araghchi accuses Washington of hypocrisy as OPCW faces budget crisis over US arrears",
+      "url": "http://www.kenyastar.com/news/279452694/iran-fm-abbas-araghchi-accuses-washington-of-hypocrisy-as-opcw-faces-budget-crisis-over-us-arrears",
+      "source_domain": "kenyastar.com",
+      "source_country": "Kenya",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/836876e/4f39290c-70f3-4edb-9c82-ad95ba05d99f/0/ANI-20261124182549-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://ktxs.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "ktxs.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://ktxs.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://nbcmontana.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "nbcmontana.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://nbcmontana.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Western intelligence warns Russia could launch nuclear weapon into space soon",
+      "url": "https://wcti12.com/news/nation-world/western-intelligence-warns-russia-could-launch-nuclear-weapon-into-space-soon-nato-russia",
+      "source_domain": "wcti12.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T21:30:00+00:00",
+      "language": "English",
+      "image_url": "https://wcti12.com/resources/media2/16x9/3302/1320/0x1/90/c67421af-c69c-4fd4-95f3-cd3a5912b35d-GettyImages2305138742.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Israel defense minister accuses Iran of developing chemical weapons : What to know",
+      "url": "https://www.al-monitor.com/originals/2026/11/israels-defense-minister-accuses-iran-developing-chemical-weapons-what-know",
+      "source_domain": "al-monitor.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T20:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Israeli Defense Minister Says Iran Developing Chemical Weapons",
+      "url": "https://english.aawsat.com/world/5345216-israeli-defense-minister-says-iran-developing-chemical-weapons",
+      "source_domain": "english.aawsat.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T20:15:00+00:00",
+      "language": "English",
+      "image_url": "https://static.srpcdigital.com/styles/1200x600/public/2026-11/1891027.jpeg.webp?VersionId=ESoDaCjvbJZ0Nc1.TqGJdqhXyyF7pPuk",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "UN chief warns AI could fuel conflict , calls for urgent action on autonomous weapons",
+      "url": "https://tribune.com.pk/story/2642120/un-chief-warns-ai-could-fuel-conflict-calls-for-urgent-action-on-autonomous-weapons",
+      "source_domain": "tribune.com.pk",
+      "source_country": "Pakistan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-24T20:15:00+00:00",
+      "language": "English",
+      "image_url": "https://i.tribune.com.pk/media/images/antonio1795098811-0/antonio1795098811-0-640x480.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "autonomous_weapon_keyword",
+      "categories": [
+        "autonomous_weapons"
+      ]
+    },
     {
       "title": "Opening Statement by the Director-General to the Thirty-First Session of the Conference of the States Parties",
       "url": "https://www.opcw.org/media-centre/news/2026/11/opening-statement-director-general-thirty-first-session-conference-states",
@@ -1249,6 +1972,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 35,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T07:24:24.954623+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 95,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T07:24:23.300931+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 222,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T07:24:21.685653+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 4391,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T07:24:20.050750+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1401,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T07:24:18.403654+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 576,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T07:24:16.772865+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 300,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T07:24:15.147667+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 29,
@@ -3152,127 +3931,15 @@
       "fetched_at": "2026-11-11T13:44:41.825839+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 336,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T05:05:03.867534+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 86,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T05:05:02.223934+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 321,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T05:05:00.523660+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 53,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T05:04:58.920410+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2240,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T05:04:57.313631+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 769,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T05:04:55.661623+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 458,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T05:04:54.055256+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 368,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T22:58:47.578820+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 77,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T22:58:45.982653+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 329,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T22:58:44.355177+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 63,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T22:58:42.744602+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2375,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T22:58:41.151421+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 750,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T22:58:39.536995+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 459,
-      "window_hours": 24,
-      "fetched_at": "2026-11-10T22:58:37.914760+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 240,
-    "biological": 521,
-    "nuclear": 1217,
-    "radiological": 2608,
-    "explosives": 220,
-    "autonomous_weapons": 89,
-    "directed_energy": 29
+    "chemical": 300,
+    "biological": 576,
+    "nuclear": 1401,
+    "radiological": 4391,
+    "explosives": 222,
+    "autonomous_weapons": 95,
+    "directed_energy": 35
   }
 }
