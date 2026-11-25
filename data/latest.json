@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T07:24:24.981058+00:00",
+  "generated_at": "2026-11-25T21:14:11.549798+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 121,
+  "total_items": 128,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,28 +13,30 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 40,
+    "chemical": 45,
     "biological": 3,
-    "nuclear": 44,
+    "nuclear": 46,
     "radiological": 2,
     "explosives": 8,
     "autonomous_weapons": 25,
     "directed_energy": 0
   },
   "country_counts": {
-    "Syria": 7,
+    "United States": 50,
+    "Netherlands": 10,
+    "Syria": 8,
+    "Armenia": 1,
     "India": 13,
-    "United States": 48,
     "Iran": 3,
     "Australia": 6,
     "United Kingdom": 2,
     "Malaysia": 1,
     "Lebanon": 1,
+    "Austria": 10,
     "Kuwait": 1,
     "Kenya": 2,
     "Israel": 3,
     "Pakistan": 2,
-    "Netherlands": 8,
     "Russia": 2,
     "Nigeria": 2,
     "Turkey": 1,
@@ -46,10 +48,103 @@
     "Cambodia": 1,
     "Estonia": 1,
     "South Africa": 1,
-    "Unknown": 1,
-    "Austria": 9
+    "Unknown": 1
   },
   "items": [
+    {
+      "title": "Katz Calls for Iran Strike , Cites Chemical Weapons Threat ; Eisenkot Government Reportedly Near",
+      "url": "https://cbn.com/news/israel/katz-calls-iran-strike-cites-chemical-weapons-threat-eisenkot-government-reportedly",
+      "source_domain": "cbn.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T14:15:00+00:00",
+      "language": "English",
+      "image_url": "https://cbn.com/sites/default/files/media/slider/images/ap26328726314915.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "UK nuclear test veterans win 40 - year battle for inquiry into Cold War tests they say damaged health",
+      "url": "http://www.cecildaily.com/ap/world/uk-nuclear-test-veterans-win-40-year-battle-for-inquiry-into-cold-war-tests-they/article_0ee809e8-219f-58df-9b8d-5f1477a87068.html",
+      "source_domain": "cecildaily.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T14:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/7/51/751e5173-1f46-510e-9fb5-5d4f5570988e/6b06d2fd9324b.image.jpg?crop=1763%2C926%2C0%2C124",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "OPCW takes key step towards designation of laboratories for biotoxin analysis",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/opcw-takes-key-step-towards-designation-laboratories-biotoxin-analysis",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW takes key step towards designation of laboratories for biotoxin analysis</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW takes key step towards designation of laboratories for biotoxin analysis\" height=\"417\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/conten",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T11:27:15+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Eisenkot Ally Says Israel Need Not Strike Iran Now Over Chemical Weapons",
+      "url": "https://english.aawsat.com/world/5345440-eisenkot-ally-says-israel-need-not-strike-iran-now-over-chemical-weapons",
+      "source_domain": "english.aawsat.com",
+      "source_country": "Syria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T10:30:00+00:00",
+      "language": "English",
+      "image_url": "https://static.srpcdigital.com/styles/1200x600/public/2026-11/1891461.jpeg.webp?VersionId=W1sIawDVcwciENUnmcZSVpb3dpvsQDSq",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Iran is developing chemical weapons , Israel and the US are preparing for a possible attack : Katz",
+      "url": "https://nt.am/en/news/363785/",
+      "source_domain": "nt.am",
+      "source_country": "Armenia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T10:30:00+00:00",
+      "language": "English",
+      "image_url": "https://nt.am/files/data/news/2026/11/25/pics/large/b008df4c1a.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "OPCW honours victims of chemical weapons at Conference of the States Parties",
+      "url": "https://www.opcw.org/media-centre/news/2026/11/opcw-honours-victims-chemical-weapons-conference-states-parties",
+      "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">OPCW honours victims of chemical weapons at Conference of the States Parties</span>\n  \n\n\n  <div class=\"paragraph paragraph--type--image-with-caption paragraph--view-mode--default opcw-single-image\">\n          <figure>\n          <img alt=\"OPCW Honours Victims of Chemical Weapons at Conference of the States Parties\" height=\"417\" src=\"https://www.opcw.org/sites/default/files/styles/column_width_image/public/images/content/",
+      "source_domain": "OPCW",
+      "source_country": "Netherlands",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T10:22:14+00:00",
+      "source": "rss",
+      "rss_feed_name": "OPCW",
+      "categories": [
+        "chemical"
+      ]
+    },
     {
       "title": "Iran War Updates : Iran developing chemical weapons , Israeli defense minister claims – Ya Libnan",
       "url": "https://yalibnan.com/2026/11/25/iran-war-updates-iran-developing-chemical-weapons-israeli-defense-minister-claims/",
@@ -398,6 +493,21 @@
       "image_url": "https://www.timesfreepress.com/wp-content/uploads/2026/11/YPH-27-1291736.jpg",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "IAEA Publications: Nuclear Knowledge at Your Fingertips",
+      "url": "http://www.iaea.org/newscenter/news/iaea-publications-nuclear-knowledge-at-your-fingertips",
+      "summary": "",
+      "source_domain": "IAEA",
+      "source_country": "Austria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T00:00:00+00:00",
+      "source": "rss",
+      "rss_feed_name": "IAEA",
       "categories": [
         "nuclear"
       ]
@@ -1972,6 +2082,62 @@
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 56,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T21:14:11.523029+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 72,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T21:14:09.943130+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 198,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T21:14:08.354992+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 6087,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T21:14:06.755779+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1416,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T21:14:05.165168+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 659,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T21:14:03.579315+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 352,
+      "window_hours": 24,
+      "fetched_at": "2026-11-25T21:14:01.967790+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 35,
@@ -3875,71 +4041,15 @@
       "fetched_at": "2026-11-12T00:11:07.632758+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 224,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T13:44:51.759584+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 74,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T13:44:50.123268+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 290,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T13:44:48.443202+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 49,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T13:44:46.800563+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1892,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T13:44:45.144194+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 710,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T13:44:43.500391+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 456,
-      "window_hours": 24,
-      "fetched_at": "2026-11-11T13:44:41.825839+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 300,
-    "biological": 576,
-    "nuclear": 1401,
-    "radiological": 4391,
-    "explosives": 222,
-    "autonomous_weapons": 95,
-    "directed_energy": 35
+    "chemical": 352,
+    "biological": 659,
+    "nuclear": 1416,
+    "radiological": 6087,
+    "explosives": 198,
+    "autonomous_weapons": 72,
+    "directed_energy": 56
   }
 }
