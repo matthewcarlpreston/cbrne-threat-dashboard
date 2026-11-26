@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T21:14:11.549798+00:00",
+  "generated_at": "2026-11-26T07:12:45.343645+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 128,
+  "total_items": 163,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,54 +13,635 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 45,
+    "chemical": 51,
     "biological": 3,
-    "nuclear": 46,
+    "nuclear": 76,
     "radiological": 2,
-    "explosives": 8,
+    "explosives": 7,
     "autonomous_weapons": 25,
     "directed_energy": 0
   },
   "country_counts": {
-    "United States": 50,
+    "United States": 66,
+    "Canada": 2,
+    "Azerbaijan": 1,
+    "Japan": 2,
+    "China": 6,
+    "India": 15,
+    "Malaysia": 3,
+    "Singapore": 1,
+    "Italy": 1,
+    "Unknown": 2,
+    "Philippines": 2,
+    "New Zealand": 1,
+    "Russia": 3,
+    "Israel": 4,
+    "Australia": 7,
     "Netherlands": 10,
     "Syria": 8,
     "Armenia": 1,
-    "India": 13,
     "Iran": 3,
-    "Australia": 6,
     "United Kingdom": 2,
-    "Malaysia": 1,
     "Lebanon": 1,
-    "Austria": 10,
+    "Austria": 9,
     "Kuwait": 1,
     "Kenya": 2,
-    "Israel": 3,
     "Pakistan": 2,
-    "Russia": 2,
     "Nigeria": 2,
     "Turkey": 1,
-    "Philippines": 1,
-    "Japan": 1,
     "Denmark": 1,
-    "China": 2,
     "Iraq": 1,
     "Cambodia": 1,
     "Estonia": 1,
-    "South Africa": 1,
-    "Unknown": 1
+    "South Africa": 1
   },
   "items": [
     {
-      "title": "Katz Calls for Iran Strike , Cites Chemical Weapons Threat ; Eisenkot Government Reportedly Near",
-      "url": "https://cbn.com/news/israel/katz-calls-iran-strike-cites-chemical-weapons-threat-eisenkot-government-reportedly",
-      "source_domain": "cbn.com",
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "http://www.leadertelegram.com/news/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article_b45b4b3c-12d4-5300-98b9-c56d5e2abac5.html",
+      "source_domain": "leadertelegram.com",
       "source_country": "United States",
       "tone": null,
       "themes": [],
-      "published_date": "2026-11-25T14:15:00+00:00",
+      "published_date": "2026-11-26T05:45:00+00:00",
       "language": "English",
-      "image_url": "https://cbn.com/sites/default/files/media/slider/images/ap26328726314915.jpg",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/leadertelegram.com/content/tncms/assets/v3/editorial/2/f3/2f347f1e-a6eb-5cc3-a12b-71131d5fa06a/6b00739169797.image.jpg?crop=1763%2C926%2C0%2C124",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim Jong Un vows to build more nuclear weapons",
+      "url": "https://www.cp24.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "cp24.com",
+      "source_country": "Canada",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T05:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.cp24.com/resizer/v2/6R5QBTQ25TIWJMFQGVBTWHFKUI.jpg?smart=true&auth=e42da5afcc36d1f3d62aee1e08b35ff32f3f7595519bb3524fae50c7151ce9ce",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
+      "url": "http://www.azerbaijannews.net/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
+      "source_domain": "azerbaijannews.net",
+      "source_country": "Azerbaijan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T05:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong - un urges wider tactical nuclear weapons use",
+      "url": "https://www.inquisitr.com/kim-jong-un-nuclear-weapons-use/",
+      "source_domain": "inquisitr.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:45:00+00:00",
+      "language": "English",
+      "image_url": "https://media.inquisitr.com/wp-content/uploads/2026/11/kim-jong-un-0021e03e77-1600.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://www.wsls.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "wsls.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/QRL34IVHQZCXRADIU6EDYR3VLU.jpg?api_key=wsls_8c3a4bc35af7684e",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
+      "url": "http://www.japanherald.com/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
+      "source_domain": "japanherald.com",
+      "source_country": "Japan",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "http://www.cecildaily.com/ap/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article_6c5ee50f-439b-5aa7-b9ff-c73c0afc0771.html",
+      "source_domain": "cecildaily.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/8/96/896d9ef7-def1-5b77-af25-07885677a8a9/6aea8c1d28421.image.jpg?crop=1786%2C938%2C0%2C111",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://www.news4jax.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "news4jax.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/QRL34IVHQZCXRADIU6EDYR3VLU.jpg?api_key=news4jax_3f10b25586458189",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "UK veterans win 40 - year battle for inquiry into Cold War nuclear tests they say damaged health",
+      "url": "https://www.rutlandherald.com/news/world/uk-veterans-win-40-year-battle-for-inquiry-into-cold-war-nuclear-tests-they-say/article_e63e1cd1-d065-5300-9a24-28e7a5443d2a.html",
+      "source_domain": "rutlandherald.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/rutlandherald.com/content/tncms/assets/v3/editorial/e/49/e496fab8-7989-59f5-804a-3973ae18fb6c/6b06d20d6661c.image.jpg?crop=1763%2C926%2C0%2C124",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://www.ksat.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "ksat.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/QRL34IVHQZCXRADIU6EDYR3VLU.jpg?api_key=ksat_9a37fc89631abedf",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
+      "url": "http://www.asiabulletin.com/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
+      "source_domain": "asiabulletin.com",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "http://www.goskagit.com/news/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article_98164981-d0b4-58fb-9e38-5f48955db447.html",
+      "source_domain": "goskagit.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/goskagit.com/content/tncms/assets/v3/editorial/c/2d/c2dfb04c-0fbf-5361-a645-7dc516866b87/6b0789d83e39f.image.jpg?crop=1762%2C925%2C0%2C125",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://kashmirreader.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "kashmirreader.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
+      "url": "http://www.taiwansun.com/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
+      "source_domain": "taiwansun.com",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "UK veterans win 40 - year battle for inquiry into Cold War nuclear tests they say damaged health",
+      "url": "http://www.goskagit.com/news/world/uk-veterans-win-40-year-battle-for-inquiry-into-cold-war-nuclear-tests-they-say/article_61df2c22-dc5e-5c70-b4b4-2f4821e6d3fc.html",
+      "source_domain": "goskagit.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/goskagit.com/content/tncms/assets/v3/editorial/f/cc/fcc07153-d18b-57e1-9548-e0d040fb4708/6b06d2577a928.image.jpg?crop=1763%2C926%2C0%2C124",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://isp.netscape.com:443/news/world/story/0001/20261126/78d6642ea055e8257518c3d695a58cd4",
+      "source_domain": "isp.netscape.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
+      "url": "http://www.bignewsnetwork.com/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
+      "source_domain": "bignewsnetwork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim calls for more ways to fire nuclear weapons",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/11/26/north-korea-s-kim-calls-for-more-ways-to-fire-nuclear-weapons",
+      "source_domain": "freemalaysiatoday.com",
+      "source_country": "Malaysia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/v3/2026/08/ca87dd5e-cccb-461a-857b-2369b7e076a3-North-Korea.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "http://www.thegazette.com/news/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article_c904c97b-6145-5f0c-bc23-f5311d02a12d.html",
+      "source_domain": "thegazette.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/thegazette.com/content/tncms/assets/v3/editorial/b/2d/b2da7821-d938-5c9f-a4b2-46dce649ec8c/6b0788af53011.image.jpg?crop=7051%2C3702%2C0%2C501",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "THE NETHERLANDS - THE HAGUE - CHINA - JAPAN - CHEMICAL WEAPONS",
+      "url": "http://www.beijingbulletin.com/news/279454600/the-netherlands-the-hague-china-japan-chemical-weapons",
+      "source_domain": "beijingbulletin.com",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d6d310c/b7a5af5e-80c9-43f9-b487-3fdd7416afef/0/CmxztpE000054-20261126-PEPFN0A001-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains  urgent ; vows to expand nuclear arsenal",
+      "url": "https://news.webindia123.com/news/Articles/World/20261126/4524598.html",
+      "source_domain": "news.webindia123.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:15:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un Calls For Diversified Use Of Tactical Nuclear Weapons",
+      "url": "https://www.cinaradio.com/2026/11/25/kim-jong-un-calls-for-diversified-use-of-tactical-nuclear-weapons/",
+      "source_domain": "cinaradio.com",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:15:00+00:00",
+      "language": "English",
+      "image_url": "https://c.ndtvimg.com/2026-10/87gu0ia8_kim-jong-un-_625x300_24_October_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "http://www.sitkasentinel.com/stories/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture,189022",
+      "source_domain": "sitkasentinel.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T03:00:00+00:00",
+      "language": "English",
+      "image_url": "https://mapi.associatedpress.com/v2/items/694762ef60d74daa8abb285a5c3cd56d.0/preview/preview.jpg?nfe=true&s=512&wm=false&app=MPK&tag=iid~694762ef60d74daa8abb285a5c3cd56d!rsn~0!cid~cb67cb3351ed4b83b93a6feac389a0b7!orgId~48830!qt~xT2InBIxUeI!orgNm~DAILY%20SITKA%20SENTINEL!role~Preview!mt~photo!fmt~JPEG%20Baseline",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim urges wider tactical nuclear weapons deployment on facility tour , KCNA says",
+      "url": "https://www.asiaone.com:443/asia/north-koreas-kim-urges-wider-tactical-nuclear-weapons-deployment-facility-tour-kcna-says",
+      "source_domain": "asiaone.com",
+      "source_country": "Singapore",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.asiaone.com/sites/default/files/styles/article_top_image/public/original_images/Nov2026/kim-jong-un-visits-academy-of-defence-sciences-north-korea-reuters%20%282%29.jpg?itok=oNsesRfq",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://www.clickondetroit.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "clickondetroit.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/QRL34IVHQZCXRADIU6EDYR3VLU.jpg?api_key=clickondetroit_06f87fefb2123598",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://www.therecord.com/news/world/asia/north-korea-s-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trump-s-overture/article_538fa2fe-06c8-547f-bd3e-5d7347daf573.html",
+      "source_domain": "therecord.com",
+      "source_country": "Canada",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:45:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/therecord.com/content/tncms/assets/v3/editorial/9/3e/93e8081e-e0a1-57e7-bbef-a682890b9e50/6aea8e7c77c95.image.jpg?crop=1661%2C872%2C0%2C103",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim urges wider tactical nuclear weapons deployment on facility tour , KCNA says",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/north-korea-s-kim-visits-nuclear-facilities-calls-for-wider-tactical-nuclear-weapons-deployment",
+      "source_domain": "internazionale.it",
+      "source_country": "Italy",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:30:00+00:00",
+      "language": "English",
+      "image_url": "https://media.internazionale.it/images/2026/11/25/364781-hd.jpeg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "China urges Japan to accelerate destruction of abandoned chemical weapons _ Guangming Online",
+      "url": "https://en.gmw.cn/2026-11/26/content_39122292.htm",
+      "source_domain": "en.gmw.cn",
+      "source_country": "Unknown",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:30:00+00:00",
+      "language": "English",
+      "image_url": "",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "North Korea Kim calls for diversified use of tactical nuclear weapons",
+      "url": "https://www.manilatimes.net/2026/11/26/world/asia-oceania/north-koreas-kim-calls-for-diversified-use-of-tactical-nuclear-weapons/2478393",
+      "source_domain": "manilatimes.net",
+      "source_country": "Philippines",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://manilatimes.net/manilatimes/uploads/images/2026/11/26/1325599.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons",
+      "url": "https://www.wgauradio.com/news/world/north-koreas-kim/7SXMBO5LT4YBDLVSBE4YKXW5YU/",
+      "source_domain": "wgauradio.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://cmg-cmg-rd-20015-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FAUJALI2F7Q3N3JAERWJJVNK7G4.jpg?auth=5d3bccdf885239d19dc15902745fdc3a424f24fd8742f38e52c8e4f5cbbb3c81&smart=true",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "https://www.wral.com/news/ap/78d66-north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "wral.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T01:45:00+00:00",
+      "language": "English",
+      "image_url": "https://images.wral.com/065d30bb-47f7-5e82-933d-f9c7a0cbb1e5",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "THE NETHERLANDS - THE HAGUE - CHINA - JAPAN - CHEMICAL WEAPONS",
+      "url": "http://www.newzealandstar.com/news/279454600/the-netherlands-the-hague-china-japan-chemical-weapons",
+      "source_domain": "newzealandstar.com",
+      "source_country": "New Zealand",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T01:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d6d310c/b7a5af5e-80c9-43f9-b487-3fdd7416afef/0/CmxztpE000054-20261126-PEPFN0A001-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "North Korea Kim calls for wider deployment of tactical nuclear weapons",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/11/26/north-korea-s-kim-calls-for-wider-deployment-of-tactical-nuclear-weapons",
+      "source_domain": "freemalaysiatoday.com",
+      "source_country": "Malaysia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.freemalaysiatoday.com/cdn-cgi/image/quality=80,format=auto,fit=cover,dpr=1,width=1200,height=630,gravity=center/https://media.freemalaysiatoday.com/wp-content/uploads/2026/01/607785e5-kim-jong-un-1.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "With Israel , every accusation confession : Araghchi hits back over Iran chemical weapons claims",
+      "url": "http://www.europesun.com/news/279454369/with-israel-every-accusation-confession-araghchi-hits-back-over-iran-chemical-weapons-claims",
+      "source_domain": "europesun.com",
+      "source_country": "Russia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/ed51895/416d2061-e50f-4f32-a2fa-6ea922bcdcd1/0/ANI-20261125170336-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "North Korea Kim calls for wider deployment of tactical nuclear weapons",
+      "url": "http://www.jpost.com/international/article-916163",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/719032",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "THE NETHERLANDS - THE HAGUE - CHINA - JAPAN - CHEMICAL WEAPONS",
+      "url": "http://www.australiannews.net/news/279454600/the-netherlands-the-hague-china-japan-chemical-weapons",
+      "source_domain": "australiannews.net",
+      "source_country": "Australia",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T00:45:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d6d310c/b7a5af5e-80c9-43f9-b487-3fdd7416afef/0/CmxztpE000054-20261126-PEPFN0A001-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "THE NETHERLANDS - THE HAGUE - CHINA - JAPAN - CHEMICAL WEAPONS",
+      "url": "http://www.chinanationalnews.com/news/279454600/the-netherlands-the-hague-china-japan-chemical-weapons",
+      "source_domain": "chinanationalnews.com",
+      "source_country": "China",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T00:15:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d6d310c/b7a5af5e-80c9-43f9-b487-3fdd7416afef/0/CmxztpE000054-20261126-PEPFN0A001-600x315.jpg",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -81,6 +662,22 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "Katz Calls for Iran Strike , Cites Chemical Weapons Threat ; Eisenkot Government Reportedly Near",
+      "url": "https://cbn.com/news/israel/katz-calls-iran-strike-cites-chemical-weapons-threat-eisenkot-government-reportedly",
+      "source_domain": "cbn.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-25T14:15:00+00:00",
+      "language": "English",
+      "image_url": "https://cbn.com/sites/default/files/media/slider/images/ap26328726314915.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
       ]
     },
     {
@@ -2048,40 +2645,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "Suspected IED blast rocks Kohima ; Security stepped up",
-      "url": "https://organiser.org/2026/11/12/425774/bharat/nagaland/suspected-ied-blast-in-nagaland-capital-kohima-security-beefed-up/",
-      "source_domain": "organiser.org",
-      "source_country": "India",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-12T01:30:00+00:00",
-      "language": "English",
-      "image_url": "https://organiser.org/wp-content/uploads/2026/11/1000699963-1.webp",
-      "source": "gdelt",
-      "gdelt_query_tag": "explosives_keyword",
-      "categories": [
-        "explosives"
-      ]
-    },
-    {
-      "title": "IAEA Sees Commitment to Operational Safety at Unit 2 of Kori Nuclear Power Plant in Republic of Korea",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-sees-commitment-to-operational-safety-at-unit-2-of-kori-nuclear-power-plant-in-republic-of-korea",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-12T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 64,
+      "window_hours": 24,
+      "fetched_at": "2026-11-26T07:12:45.311151+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 66,
+      "window_hours": 24,
+      "fetched_at": "2026-11-26T07:12:43.687729+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 179,
+      "window_hours": 24,
+      "fetched_at": "2026-11-26T07:12:42.075810+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 4433,
+      "window_hours": 24,
+      "fetched_at": "2026-11-26T07:12:40.433093+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 1182,
+      "window_hours": 24,
+      "fetched_at": "2026-11-26T07:12:38.767179+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 624,
+      "window_hours": 24,
+      "fetched_at": "2026-11-26T07:12:37.098760+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 287,
+      "window_hours": 24,
+      "fetched_at": "2026-11-26T07:12:35.460285+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 56,
@@ -3985,71 +4607,15 @@
       "fetched_at": "2026-11-12T14:49:51.146462+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 364,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T00:11:17.587215+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 73,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T00:11:15.949039+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 274,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T00:11:14.298135+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 39,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T00:11:12.615452+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1643,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T00:11:10.954414+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 808,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T00:11:09.310180+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 499,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T00:11:07.632758+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 352,
-    "biological": 659,
-    "nuclear": 1416,
-    "radiological": 6087,
-    "explosives": 198,
-    "autonomous_weapons": 72,
-    "directed_energy": 56
+    "chemical": 287,
+    "biological": 624,
+    "nuclear": 1182,
+    "radiological": 4433,
+    "explosives": 179,
+    "autonomous_weapons": 66,
+    "directed_energy": 64
   }
 }
