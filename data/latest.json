@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T21:04:31.943596+00:00",
+  "generated_at": "2026-11-27T07:08:58.946207+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 166,
+  "total_items": 180,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,21 +13,25 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 52,
+    "chemical": 57,
     "biological": 3,
-    "nuclear": 78,
+    "nuclear": 87,
     "radiological": 2,
     "explosives": 7,
     "autonomous_weapons": 25,
     "directed_energy": 0
   },
   "country_counts": {
+    "Greece": 1,
+    "Kenya": 3,
+    "Nigeria": 3,
+    "Zimbabwe": 1,
+    "India": 16,
+    "United States": 76,
     "China": 7,
-    "United States": 66,
-    "Canada": 2,
     "Azerbaijan": 1,
+    "Canada": 2,
     "Japan": 2,
-    "India": 15,
     "Malaysia": 3,
     "Singapore": 1,
     "Italy": 1,
@@ -37,7 +41,7 @@
     "Russia": 3,
     "Israel": 4,
     "Australia": 7,
-    "Austria": 11,
+    "Austria": 10,
     "Netherlands": 10,
     "Syria": 8,
     "Armenia": 1,
@@ -45,9 +49,7 @@
     "United Kingdom": 2,
     "Lebanon": 1,
     "Kuwait": 1,
-    "Kenya": 2,
     "Pakistan": 2,
-    "Nigeria": 2,
     "Turkey": 1,
     "Denmark": 1,
     "Iraq": 1,
@@ -56,6 +58,246 @@
     "South Africa": 1
   },
   "items": [
+    {
+      "title": "Jared Kushner : Putin showed  restraint  by not using nuclear weapons",
+      "url": "https://cyprusnews.eu/cnn-kosmos/jared-kushner-putin-showed-restraint-by-not-using-nuclear-weapons/",
+      "source_domain": "cyprusnews.eu",
+      "source_country": "Greece",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T06:30:00+00:00",
+      "language": "English",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2305938807.jpg?c=16x9&q=w_800,c_fill",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "India hands over GC - MS system to Kenya under OPCW mentorship programme",
+      "url": "http://www.kenyastar.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
+      "source_domain": "kenyastar.com",
+      "source_country": "Kenya",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T06:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/da95b2d/2b2b5724-febf-4c04-acc5-e160fb6885ae/0/ANI-20261127025844-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "India hands over GC - MS system to Kenya under OPCW mentorship programme",
+      "url": "http://www.nigeriasun.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
+      "source_domain": "nigeriasun.com",
+      "source_country": "Nigeria",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T05:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/da95b2d/2b2b5724-febf-4c04-acc5-e160fb6885ae/0/ANI-20261127025844-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "India hands over GC - MS system to Kenya under OPCW mentorship programme",
+      "url": "http://www.zimbabwestar.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
+      "source_domain": "zimbabwestar.com",
+      "source_country": "Zimbabwe",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T05:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/da95b2d/2b2b5724-febf-4c04-acc5-e160fb6885ae/0/ANI-20261127025844-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "India hands over GC - MS system to Kenya under OPCW mentorship programme",
+      "url": "http://www.calcuttanews.net/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
+      "source_domain": "calcuttanews.net",
+      "source_country": "India",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/da95b2d/2b2b5724-febf-4c04-acc5-e160fb6885ae/0/ANI-20261127025844-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "India hands over GC - MS system to Kenya under OPCW mentorship programme",
+      "url": "http://www.bignewsnetwork.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
+      "source_domain": "bignewsnetwork.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/da95b2d/2b2b5724-febf-4c04-acc5-e160fb6885ae/0/ANI-20261127025844-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
+      ]
+    },
+    {
+      "title": "Putin showed  restraint  by not using nuclear weapons , Kushner says",
+      "url": "https://www.wdsu.com/article/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says/74540220",
+      "source_domain": "wdsu.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T00:15:00+00:00",
+      "language": "English",
+      "image_url": "https://kubrick.htvapps.com/htv-prod/images/416833f5-2628-41be-87ca-81b327cc2844.jpg?crop=1.00xw%3A0.777xh%3B0%2C0",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un makes rare show of nuclear warheads after snubbing Trump talks",
+      "url": "https://www.spokesman.com/stories/2026/nov/25/kim-jong-un-makes-rare-show-of-nuclear-warheads-af/",
+      "source_domain": "spokesman.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T23:45:00+00:00",
+      "language": "English",
+      "image_url": "https://thumb.spokesman.com/VfUqpj_xiKISG1gyh0Z8UsiVK0Y=/2400x1260/smart/media.spokesman.com/photos/2026/11/26/6b088dff142c5.hires.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Putin showed  restraint  by not using nuclear weapons , Kushner says",
+      "url": "https://www.wjcl.com/article/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says/74540220",
+      "source_domain": "wjcl.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T22:45:00+00:00",
+      "language": "English",
+      "image_url": "https://kubrick.htvapps.com/htv-prod/images/416833f5-2628-41be-87ca-81b327cc2844.jpg?crop=1.00xw%3A0.777xh%3B0%2C0",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Putin showed  restraint  by not using nuclear weapons , Kushner says",
+      "url": "https://www.wisn.com/article/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says/74540220",
+      "source_domain": "wisn.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T22:30:00+00:00",
+      "language": "English",
+      "image_url": "https://kubrick.htvapps.com/htv-prod/images/416833f5-2628-41be-87ca-81b327cc2844.jpg?crop=1.00xw%3A0.777xh%3B0%2C0",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Putin showed  restraint  by not using nuclear weapons , Kushner says",
+      "url": "https://www.wcvb.com/article/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says/74540220",
+      "source_domain": "wcvb.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T22:15:00+00:00",
+      "language": "English",
+      "image_url": "https://kubrick.htvapps.com/htv-prod/images/416833f5-2628-41be-87ca-81b327cc2844.jpg?crop=1.00xw%3A0.777xh%3B0%2C0",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Putin showed  restraint  by not using nuclear weapons , Kushner says",
+      "url": "https://www.4029tv.com/article/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says/74540220",
+      "source_domain": "4029tv.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T22:15:00+00:00",
+      "language": "English",
+      "image_url": "https://kubrick.htvapps.com/htv-prod/images/416833f5-2628-41be-87ca-81b327cc2844.jpg?crop=1.00xw%3A0.777xh%3B0%2C0",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Putin showed  restraint  by not using nuclear weapons , Kushner says",
+      "url": "https://www.wvtm13.com/article/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says/74540220",
+      "source_domain": "wvtm13.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T22:15:00+00:00",
+      "language": "English",
+      "image_url": "https://kubrick.htvapps.com/htv-prod/images/416833f5-2628-41be-87ca-81b327cc2844.jpg?crop=1.00xw%3A0.777xh%3B0%2C0",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Kim Jong Un makes rare show of nuclear warheads after snubbing Trump talks",
+      "url": "https://www.stripes.com/theaters/asia_pacific/2026-11-26/kim-jong-un-nuclear-warheads-23584962.html",
+      "source_domain": "stripes.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T20:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.stripes.com/incoming/b395fj-north-korea-koreas-tensions/alternates/LANDSCAPE_480/North%20Korea%20Koreas%20Tensions",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Putin showed  restraint  by not using nuclear weapons , Kushner says",
+      "url": "https://krdo.com/news/national-world/cnn-world/2026/11/26/putin-showed-restraint-by-not-using-nuclear-weapons-kushner-says/",
+      "source_domain": "krdo.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T20:45:00+00:00",
+      "language": "English",
+      "image_url": "https://krdo.com/wp-content/uploads/2026/11/Kushner-interview-860x484.png",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
     {
       "title": "Japan should accelerate disposal process of its abandoned chemical weapons : Defense Spokesperson",
       "url": "http://eng.chinamil.com.cn/2025xb/V_251452/16502193.html",
@@ -89,22 +331,6 @@
       ]
     },
     {
-      "title": "North Korea Kim Jong Un vows to build more nuclear weapons",
-      "url": "https://www.cp24.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
-      "source_domain": "cp24.com",
-      "source_country": "Canada",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-26T05:15:00+00:00",
-      "language": "English",
-      "image_url": "https://www.cp24.com/resizer/v2/6R5QBTQ25TIWJMFQGVBTWHFKUI.jpg?smart=true&auth=e42da5afcc36d1f3d62aee1e08b35ff32f3f7595519bb3524fae50c7151ce9ce",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
       "url": "http://www.azerbaijannews.net/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
       "source_domain": "azerbaijannews.net",
@@ -114,6 +340,22 @@
       "published_date": "2026-11-26T05:15:00+00:00",
       "language": "English",
       "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim Jong Un vows to build more nuclear weapons",
+      "url": "https://www.cp24.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
+      "source_domain": "cp24.com",
+      "source_country": "Canada",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T05:15:00+00:00",
+      "language": "English",
+      "image_url": "https://www.cp24.com/resizer/v2/6R5QBTQ25TIWJMFQGVBTWHFKUI.jpg?smart=true&auth=e42da5afcc36d1f3d62aee1e08b35ff32f3f7595519bb3524fae50c7151ce9ce",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -2676,24 +2918,65 @@
       "categories": [
         "nuclear"
       ]
-    },
-    {
-      "title": "IAEA Concludes Long Term Operation Safety Review at Japan’s Mihama Nuclear Power Plant",
-      "url": "http://www.iaea.org/newscenter/pressreleases/iaea-concludes-long-term-operation-safety-review-at-japans-mihama-nuclear-power-plant",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-13T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 70,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T07:08:58.901486+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 76,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T07:08:57.219814+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 164,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T07:08:55.562614+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 828,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T07:08:53.885028+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 896,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T07:08:52.232687+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 420,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T07:08:50.578244+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 174,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T07:08:48.898760+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 77,
@@ -4541,127 +4824,15 @@
       "fetched_at": "2026-11-13T14:04:03.019102+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 486,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T05:31:49.338424+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 85,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T05:31:47.695587+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 287,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T05:31:46.032115+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 52,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T05:31:44.339719+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1402,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T05:31:42.705164+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 632,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T05:31:41.039851+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 418,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T05:31:39.370928+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 452,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T23:17:46.491485+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 81,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T23:17:44.840522+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 304,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T23:17:43.231252+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 54,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T23:17:41.597235+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1383,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T23:17:39.968564+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 688,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T23:17:38.354188+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 437,
-      "window_hours": 24,
-      "fetched_at": "2026-11-12T23:17:36.654655+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 195,
-    "biological": 478,
-    "nuclear": 892,
-    "radiological": 1503,
-    "explosives": 156,
-    "autonomous_weapons": 73,
-    "directed_energy": 77
+    "chemical": 174,
+    "biological": 420,
+    "nuclear": 896,
+    "radiological": 828,
+    "explosives": 164,
+    "autonomous_weapons": 76,
+    "directed_energy": 70
   }
 }
