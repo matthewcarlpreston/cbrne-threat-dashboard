@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T07:08:58.946207+00:00",
+  "generated_at": "2026-11-27T20:49:55.935877+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
   "total_items": 180,
@@ -2923,6 +2923,62 @@
   "twitter_signal": [
     {
       "category": "directed_energy",
+      "result_count": 48,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T20:49:55.914483+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 79,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T20:49:54.305828+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 165,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T20:49:52.688749+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 465,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T20:49:51.051408+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 813,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T20:49:49.372493+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 458,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T20:49:47.702094+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 128,
+      "window_hours": 24,
+      "fetched_at": "2026-11-27T20:49:46.075385+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "directed_energy",
       "result_count": 70,
       "window_hours": 24,
       "fetched_at": "2026-11-27T07:08:58.901486+00:00",
@@ -4768,71 +4824,15 @@
       "fetched_at": "2026-11-13T23:22:50.429275+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 425,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T14:04:12.834319+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 95,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T14:04:11.206881+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 251,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T14:04:09.608187+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 51,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T14:04:08.007075+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1728,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T14:04:06.301295+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 675,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T14:04:04.653213+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 426,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T14:04:03.019102+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 174,
-    "biological": 420,
-    "nuclear": 896,
-    "radiological": 828,
-    "explosives": 164,
-    "autonomous_weapons": 76,
-    "directed_energy": 70
+    "chemical": 128,
+    "biological": 458,
+    "nuclear": 813,
+    "radiological": 465,
+    "explosives": 165,
+    "autonomous_weapons": 79,
+    "directed_energy": 48
   }
 }
