@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T20:49:55.935877+00:00",
+  "generated_at": "2026-11-28T06:42:20.006751+00:00",
   "retention_days": 14,
   "lookback_hours": 72,
-  "total_items": 180,
+  "total_items": 182,
   "category_labels": {
     "chemical": "Chemical",
     "biological": "Biological",
@@ -13,35 +13,35 @@
     "directed_energy": "Directed Energy Weapons"
   },
   "category_counts": {
-    "chemical": 57,
+    "chemical": 58,
     "biological": 3,
-    "nuclear": 87,
+    "nuclear": 88,
     "radiological": 2,
     "explosives": 7,
     "autonomous_weapons": 25,
     "directed_energy": 0
   },
   "country_counts": {
-    "Greece": 1,
+    "India": 17,
+    "United States": 78,
     "Kenya": 3,
-    "Nigeria": 3,
+    "Greece": 1,
     "Zimbabwe": 1,
-    "India": 16,
-    "United States": 76,
+    "Nigeria": 3,
     "China": 7,
     "Azerbaijan": 1,
     "Canada": 2,
     "Japan": 2,
     "Malaysia": 3,
     "Singapore": 1,
-    "Italy": 1,
     "Unknown": 2,
+    "Italy": 1,
     "Philippines": 2,
     "New Zealand": 1,
-    "Russia": 3,
     "Israel": 4,
+    "Russia": 3,
     "Australia": 7,
-    "Austria": 10,
+    "Austria": 9,
     "Netherlands": 10,
     "Syria": 8,
     "Armenia": 1,
@@ -59,19 +59,51 @@
   },
   "items": [
     {
-      "title": "Jared Kushner : Putin showed  restraint  by not using nuclear weapons",
-      "url": "https://cyprusnews.eu/cnn-kosmos/jared-kushner-putin-showed-restraint-by-not-using-nuclear-weapons/",
-      "source_domain": "cyprusnews.eu",
-      "source_country": "Greece",
+      "title": "Is Russia about to launch a nuclear weapon into Earth orbit ? A space law expert explains the threat",
+      "url": "https://www.hindustantimes.com/world-news/us-news/is-russia-about-to-launch-a-nuclear-weapon-into-earth-s-orbit-a-space-law-expert-explains-the-threat-101795839972656.html",
+      "source_domain": "hindustantimes.com",
+      "source_country": "India",
       "tone": null,
       "themes": [],
-      "published_date": "2026-11-27T06:30:00+00:00",
+      "published_date": "2026-11-28T05:15:00+00:00",
       "language": "English",
-      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2305938807.jpg?c=16x9&q=w_800,c_fill",
+      "image_url": "",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "nuclear"
+      ]
+    },
+    {
+      "title": "The World Knows Nuclear Weapons Are Dangerous . Now What ?",
+      "url": "https://www.pressenza.com/2026/11/the-world-knows-nuclear-weapons-are-dangerous-now-what/",
+      "source_domain": "pressenza.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T23:45:00+00:00",
+      "language": "English",
+      "image_url": "https://www.pressenza.com/wp-content/uploads/2026/11/Building-the-Question-Together.webp",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "Theyve been building chemical weapons since  83 . Stop pretending Iran is bluffing",
+      "url": "http://www.washingtonexaminer.com/op-eds/4816371/iran-chemical-weapons-program-threat/",
+      "source_domain": "washingtonexaminer.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T22:30:00+00:00",
+      "language": "English",
+      "image_url": "http://www.washingtonexaminer.com/wp-content/uploads/2026/11/tehran-missile-billboard.jpg",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "chemical"
       ]
     },
     {
@@ -91,10 +123,26 @@
       ]
     },
     {
+      "title": "Jared Kushner : Putin showed  restraint  by not using nuclear weapons",
+      "url": "https://cyprusnews.eu/cnn-kosmos/jared-kushner-putin-showed-restraint-by-not-using-nuclear-weapons/",
+      "source_domain": "cyprusnews.eu",
+      "source_country": "Greece",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-27T06:30:00+00:00",
+      "language": "English",
+      "image_url": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2305938807.jpg?c=16x9&q=w_800,c_fill",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
       "title": "India hands over GC - MS system to Kenya under OPCW mentorship programme",
-      "url": "http://www.nigeriasun.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
-      "source_domain": "nigeriasun.com",
-      "source_country": "Nigeria",
+      "url": "http://www.zimbabwestar.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
+      "source_domain": "zimbabwestar.com",
+      "source_country": "Zimbabwe",
       "tone": null,
       "themes": [],
       "published_date": "2026-11-27T05:30:00+00:00",
@@ -108,9 +156,9 @@
     },
     {
       "title": "India hands over GC - MS system to Kenya under OPCW mentorship programme",
-      "url": "http://www.zimbabwestar.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
-      "source_domain": "zimbabwestar.com",
-      "source_country": "Zimbabwe",
+      "url": "http://www.nigeriasun.com/news/279464178/india-hands-over-gc-ms-system-to-kenya-under-opcw-mentorship-programme",
+      "source_domain": "nigeriasun.com",
+      "source_country": "Nigeria",
       "tone": null,
       "themes": [],
       "published_date": "2026-11-27T05:30:00+00:00",
@@ -380,6 +428,22 @@
     },
     {
       "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
+      "url": "http://www.cecildaily.com/ap/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article_6c5ee50f-439b-5aa7-b9ff-c73c0afc0771.html",
+      "source_domain": "cecildaily.com",
+      "source_country": "United States",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T04:30:00+00:00",
+      "language": "English",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/8/96/896d9ef7-def1-5b77-af25-07885677a8a9/6aea8c1d28421.image.jpg?crop=1786%2C938%2C0%2C111",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
       "url": "https://www.wsls.com/news/world/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/",
       "source_domain": "wsls.com",
       "source_country": "United States",
@@ -411,15 +475,15 @@
       ]
     },
     {
-      "title": "North Korea Kim vows to build more nuclear weapons after ignoring Trump overture",
-      "url": "http://www.cecildaily.com/ap/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article_6c5ee50f-439b-5aa7-b9ff-c73c0afc0771.html",
-      "source_domain": "cecildaily.com",
-      "source_country": "United States",
+      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
+      "url": "http://www.asiabulletin.com/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
+      "source_domain": "asiabulletin.com",
+      "source_country": "China",
       "tone": null,
       "themes": [],
-      "published_date": "2026-11-26T04:30:00+00:00",
+      "published_date": "2026-11-26T04:15:00+00:00",
       "language": "English",
-      "image_url": "https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/8/96/896d9ef7-def1-5b77-af25-07885677a8a9/6aea8c1d28421.image.jpg?crop=1786%2C938%2C0%2C111",
+      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -475,15 +539,15 @@
       ]
     },
     {
-      "title": "Kim Jong Un calls tactical nuclear weapons deployment across multiple domains",
-      "url": "http://www.asiabulletin.com/news/279454709/kim-jong-un-calls-tactical-nuclear-weapons-deployment-across-multiple-domains-urgent-vows-to-expand-nuclear-arsenal",
-      "source_domain": "asiabulletin.com",
-      "source_country": "China",
+      "title": "UK veterans win 40 - year battle for inquiry into Cold War nuclear tests they say damaged health",
+      "url": "http://www.goskagit.com/news/world/uk-veterans-win-40-year-battle-for-inquiry-into-cold-war-nuclear-tests-they-say/article_61df2c22-dc5e-5c70-b4b4-2f4821e6d3fc.html",
+      "source_domain": "goskagit.com",
+      "source_country": "United States",
       "tone": null,
       "themes": [],
-      "published_date": "2026-11-26T04:15:00+00:00",
+      "published_date": "2026-11-26T03:30:00+00:00",
       "language": "English",
-      "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
+      "image_url": "https://bloximages.chicago2.vip.townnews.com/goskagit.com/content/tncms/assets/v3/editorial/f/cc/fcc07153-d18b-57e1-9548-e0d040fb4708/6b06d2577a928.image.jpg?crop=1763%2C926%2C0%2C124",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -532,22 +596,6 @@
       "published_date": "2026-11-26T03:30:00+00:00",
       "language": "English",
       "image_url": "https://chitra-api.kreatio.com/api/v1/wps/d34d66c/d7f41e94-c4bb-4c88-8422-422a7f2292f7/0/ANI-20261126021515-600x315.jpg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
-      "title": "UK veterans win 40 - year battle for inquiry into Cold War nuclear tests they say damaged health",
-      "url": "http://www.goskagit.com/news/world/uk-veterans-win-40-year-battle-for-inquiry-into-cold-war-nuclear-tests-they-say/article_61df2c22-dc5e-5c70-b4b4-2f4821e6d3fc.html",
-      "source_domain": "goskagit.com",
-      "source_country": "United States",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-26T03:30:00+00:00",
-      "language": "English",
-      "image_url": "https://bloximages.chicago2.vip.townnews.com/goskagit.com/content/tncms/assets/v3/editorial/f/cc/fcc07153-d18b-57e1-9548-e0d040fb4708/6b06d2577a928.image.jpg?crop=1763%2C926%2C0%2C124",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -731,22 +779,6 @@
       ]
     },
     {
-      "title": "North Korea Kim urges wider tactical nuclear weapons deployment on facility tour , KCNA says",
-      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/north-korea-s-kim-visits-nuclear-facilities-calls-for-wider-tactical-nuclear-weapons-deployment",
-      "source_domain": "internazionale.it",
-      "source_country": "Italy",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-26T02:30:00+00:00",
-      "language": "English",
-      "image_url": "https://media.internazionale.it/images/2026/11/25/364781-hd.jpeg",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
-      ]
-    },
-    {
       "title": "China urges Japan to accelerate destruction of abandoned chemical weapons _ Guangming Online",
       "url": "https://en.gmw.cn/2026-11/26/content_39122292.htm",
       "source_domain": "en.gmw.cn",
@@ -763,15 +795,15 @@
       ]
     },
     {
-      "title": "North Korea Kim calls for diversified use of tactical nuclear weapons",
-      "url": "https://www.manilatimes.net/2026/11/26/world/asia-oceania/north-koreas-kim-calls-for-diversified-use-of-tactical-nuclear-weapons/2478393",
-      "source_domain": "manilatimes.net",
-      "source_country": "Philippines",
+      "title": "North Korea Kim urges wider tactical nuclear weapons deployment on facility tour , KCNA says",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/26/north-korea-s-kim-visits-nuclear-facilities-calls-for-wider-tactical-nuclear-weapons-deployment",
+      "source_domain": "internazionale.it",
+      "source_country": "Italy",
       "tone": null,
       "themes": [],
-      "published_date": "2026-11-26T02:15:00+00:00",
+      "published_date": "2026-11-26T02:30:00+00:00",
       "language": "English",
-      "image_url": "https://manilatimes.net/manilatimes/uploads/images/2026/11/26/1325599.jpg",
+      "image_url": "https://media.internazionale.it/images/2026/11/25/364781-hd.jpeg",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -788,6 +820,22 @@
       "published_date": "2026-11-26T02:15:00+00:00",
       "language": "English",
       "image_url": "https://cmg-cmg-rd-20015-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FAUJALI2F7Q3N3JAERWJJVNK7G4.jpg?auth=5d3bccdf885239d19dc15902745fdc3a424f24fd8742f38e52c8e4f5cbbb3c81&smart=true",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim calls for diversified use of tactical nuclear weapons",
+      "url": "https://www.manilatimes.net/2026/11/26/world/asia-oceania/north-koreas-kim-calls-for-diversified-use-of-tactical-nuclear-weapons/2478393",
+      "source_domain": "manilatimes.net",
+      "source_country": "Philippines",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T02:15:00+00:00",
+      "language": "English",
+      "image_url": "https://manilatimes.net/manilatimes/uploads/images/2026/11/26/1325599.jpg",
       "source": "gdelt",
       "gdelt_query_tag": "wmd_theme",
       "categories": [
@@ -828,6 +876,22 @@
     },
     {
       "title": "North Korea Kim calls for wider deployment of tactical nuclear weapons",
+      "url": "http://www.jpost.com/international/article-916163",
+      "source_domain": "jpost.com",
+      "source_country": "Israel",
+      "tone": null,
+      "themes": [],
+      "published_date": "2026-11-26T01:15:00+00:00",
+      "language": "English",
+      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/719032",
+      "source": "gdelt",
+      "gdelt_query_tag": "wmd_theme",
+      "categories": [
+        "nuclear"
+      ]
+    },
+    {
+      "title": "North Korea Kim calls for wider deployment of tactical nuclear weapons",
       "url": "https://www.freemalaysiatoday.com/category/world/2026/11/26/north-korea-s-kim-calls-for-wider-deployment-of-tactical-nuclear-weapons",
       "source_domain": "freemalaysiatoday.com",
       "source_country": "Malaysia",
@@ -856,22 +920,6 @@
       "gdelt_query_tag": "wmd_theme",
       "categories": [
         "chemical"
-      ]
-    },
-    {
-      "title": "North Korea Kim calls for wider deployment of tactical nuclear weapons",
-      "url": "http://www.jpost.com/international/article-916163",
-      "source_domain": "jpost.com",
-      "source_country": "Israel",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-26T01:15:00+00:00",
-      "language": "English",
-      "image_url": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/719032",
-      "source": "gdelt",
-      "gdelt_query_tag": "wmd_theme",
-      "categories": [
-        "nuclear"
       ]
     },
     {
@@ -2903,24 +2951,65 @@
       "categories": [
         "chemical"
       ]
-    },
-    {
-      "title": "Update 375 – IAEA Director General Statement on Situation in Ukraine",
-      "url": "http://www.iaea.org/newscenter/pressreleases/update-375-iaea-director-general-statement-on-situation-in-ukraine",
-      "summary": "",
-      "source_domain": "IAEA",
-      "source_country": "Austria",
-      "tone": null,
-      "themes": [],
-      "published_date": "2026-11-14T00:00:00+00:00",
-      "source": "rss",
-      "rss_feed_name": "IAEA",
-      "categories": [
-        "nuclear"
-      ]
     }
   ],
   "twitter_signal": [
+    {
+      "category": "directed_energy",
+      "result_count": 89,
+      "window_hours": 24,
+      "fetched_at": "2026-11-28T06:42:19.985960+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "autonomous_weapons",
+      "result_count": 63,
+      "window_hours": 24,
+      "fetched_at": "2026-11-28T06:42:18.372917+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "explosives",
+      "result_count": 144,
+      "window_hours": 24,
+      "fetched_at": "2026-11-28T06:42:16.745638+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "radiological",
+      "result_count": 364,
+      "window_hours": 24,
+      "fetched_at": "2026-11-28T06:42:15.130106+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "nuclear",
+      "result_count": 740,
+      "window_hours": 24,
+      "fetched_at": "2026-11-28T06:42:13.486153+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "biological",
+      "result_count": 541,
+      "window_hours": 24,
+      "fetched_at": "2026-11-28T06:42:11.863463+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
+    {
+      "category": "chemical",
+      "result_count": 107,
+      "window_hours": 24,
+      "fetched_at": "2026-11-28T06:42:10.217104+00:00",
+      "source": "twitter",
+      "metric": "counts_recent_v1"
+    },
     {
       "category": "directed_energy",
       "result_count": 48,
@@ -4712,127 +4801,15 @@
       "fetched_at": "2026-11-14T13:08:35.644383+00:00",
       "source": "twitter",
       "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 268,
-      "window_hours": 24,
-      "fetched_at": "2026-11-14T05:19:37.747425+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 87,
-      "window_hours": 24,
-      "fetched_at": "2026-11-14T05:19:36.121217+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 223,
-      "window_hours": 24,
-      "fetched_at": "2026-11-14T05:19:34.528457+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 51,
-      "window_hours": 24,
-      "fetched_at": "2026-11-14T05:19:32.931688+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 2002,
-      "window_hours": 24,
-      "fetched_at": "2026-11-14T05:19:31.267306+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 640,
-      "window_hours": 24,
-      "fetched_at": "2026-11-14T05:19:29.659020+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 481,
-      "window_hours": 24,
-      "fetched_at": "2026-11-14T05:19:28.061052+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "directed_energy",
-      "result_count": 317,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T23:23:00.048912+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "autonomous_weapons",
-      "result_count": 89,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T23:22:58.455145+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "explosives",
-      "result_count": 233,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T23:22:56.848898+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "radiological",
-      "result_count": 39,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T23:22:55.260307+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "nuclear",
-      "result_count": 1929,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T23:22:53.644052+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "biological",
-      "result_count": 651,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T23:22:52.029513+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
-    },
-    {
-      "category": "chemical",
-      "result_count": 422,
-      "window_hours": 24,
-      "fetched_at": "2026-11-13T23:22:50.429275+00:00",
-      "source": "twitter",
-      "metric": "counts_recent_v1"
     }
   ],
   "twitter_category_latest": {
-    "chemical": 128,
-    "biological": 458,
-    "nuclear": 813,
-    "radiological": 465,
-    "explosives": 165,
-    "autonomous_weapons": 79,
-    "directed_energy": 48
+    "chemical": 107,
+    "biological": 541,
+    "nuclear": 740,
+    "radiological": 364,
+    "explosives": 144,
+    "autonomous_weapons": 63,
+    "directed_energy": 89
   }
 }
